@@ -18,7 +18,7 @@ const confs = {
     'newYearConference': {
         imageUrl :'https://d1vpzb8ccuu79x.cloudfront.net/wp-content/uploads/stockholm-750x450.jpg',
         confType : 'New Year Conference',
-        country: 'Sweeden',
+        country: 'Sweden',
         city: 'Stockholm',
         confStart: { 
             date: '28',
