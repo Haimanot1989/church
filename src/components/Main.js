@@ -1,14 +1,13 @@
 import React from 'react'
-
+import Cards from './Cards'
 const Main = function(){
     return <>
-        <main role="main">
+        <main role="main" className="container">
             <section className="jumbotron text-center">
-                <div className="container">
-                    <h1 className="jumbotron-heading">Apostolic Church International</h1>
-                    <p className="lead text-muted">Then Peter said unto them, Repent, and be baptized every one of you in the name of Jesus Christ for the remission of sins, and ye shall receive the gift of the Holy Ghost.</p>
-                </div>
+                <h1 className="jumbotron-heading">Apostolic Church International Fellowship</h1>
+                <p className="lead text-muted">We have serveal conferences in different parts of Europe. You are very welcome to join us!</p>
             </section>
+            <Cards></Cards>
         </main>
     </>
 }
