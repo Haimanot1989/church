@@ -4,8 +4,8 @@ import { IoIosCalendar } from 'react-icons/io';
 import { GoLocation } from 'react-icons/go';
 
 function Cards() {
-    let newYearConference = confs['newYearConference']
-    let theLordsSupperNorway = confs['theLordsSupperNorway']
+    let newYearConference = conferences['newYearConference']
+    let theLordsSupperNorway = conferences['theLordsSupperNorway']
     return <>
     <div className="card-deck">
         <Card {...newYearConference}/>
@@ -14,7 +14,7 @@ function Cards() {
     </>
 }
 
-const confs = {
+const conferences = {
     'newYearConference': {
         imageUrl :'https://d1vpzb8ccuu79x.cloudfront.net/wp-content/uploads/stockholm-750x450.jpg',
         confType : 'New Year Conference',
@@ -79,7 +79,7 @@ const confs = {
                     },
                     {
                         'date': { 
-                            day:'Thuesday',
+                            day:'Tuesday',
                             date: '31',
                             sup: 'st',
                             month: 'December'
@@ -108,7 +108,7 @@ const confs = {
                     },
                     {
                         'date': { 
-                            day:'Thuesday',
+                            day:'Tuesday',
                             date: '31',
                             sup: 'st',
                             month: 'December'
@@ -123,7 +123,7 @@ const confs = {
     'februaryConferenceUK': {
         imageUrl :'https://d1vpzb8ccuu79x.cloudfront.net/wp-content/uploads/stockholm-750x450.jpg',
         confType : 'New Year Conference',
-        country: 'Sweeden',
+        country: 'Sweden',
         city: 'Stockholm',
         confStart: { 
             date: '28',
@@ -184,7 +184,7 @@ const confs = {
                     },
                     {
                         'date': { 
-                            day:'Thuesday',
+                            day:'Tuesday',
                             date: '31',
                             sup: 'st',
                             month: 'December'
@@ -213,7 +213,7 @@ const confs = {
                     },
                     {
                         'date': { 
-                            day:'Thuesday',
+                            day:'Tuesday',
                             date: '31',
                             sup: 'st',
                             month: 'December'
@@ -293,7 +293,7 @@ const confs = {
     },
     'theLordsSupperCanada' : {},
     'mayConference' : {},
-    'anualConference' : {},
+    'annualConference' : {},
     'octoberConference' : {},
 
 }
