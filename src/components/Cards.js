@@ -61,6 +61,35 @@ const confs = {
                 ]
             },
             {
+                'title': 'Youth program',
+                'location': {
+                    'address': 'Borgenvägen 16, 182 38 Danderyd',
+                    'map': 'https://www.google.com/maps/place/Borgenv%C3%A4gen+16,+182+38+Danderyd,+Sweden/@59.4050446,18.0018831,17z/data=!3m1!4b1!4m5!3m4!1s0x465f9c22477dcc5b:0x43856619d855d1ad!8m2!3d59.4050446!4d18.0040718',
+                },
+                'time': [
+                    {
+                        'date': { 
+                            day:'Monday',
+                            date: '30',
+                            sup: 'th',
+                            month: 'December'
+                        },
+                        'startTime': '13:00',
+                        'finishTime': '16:00'
+                    },
+                    {
+                        'date': { 
+                            day:'Thuesday',
+                            date: '31',
+                            sup: 'st',
+                            month: 'December'
+                        },
+                        'startTime': '13:00',
+                        'finishTime': '16:00'
+                    }
+                ]
+            },
+            {
                 'title': 'Evening program',
                 'location': {
                     'address': 'KISTA TORG 7, 164 42 Kista',
@@ -86,35 +115,6 @@ const confs = {
                         },
                         'startTime': '18:00',
                         'finishTime': '22:00'
-                    }
-                ]
-            },
-            {
-                'title': 'Evening program',
-                'location': {
-                    'address': 'Borgenvägen 16, 182 38 Danderyd',
-                    'map': 'https://www.google.com/maps/place/Borgenv%C3%A4gen+16,+182+38+Danderyd,+Sweden/@59.4050446,18.0018831,17z/data=!3m1!4b1!4m5!3m4!1s0x465f9c22477dcc5b:0x43856619d855d1ad!8m2!3d59.4050446!4d18.0040718',
-                },
-                'time': [
-                    {
-                        'date': { 
-                            day:'Monday',
-                            date: '30',
-                            sup: 'th',
-                            month: 'December'
-                        },
-                        'startTime': '13:00',
-                        'finishTime': '16:00'
-                    },
-                    {
-                        'date': { 
-                            day:'Thuesday',
-                            date: '31',
-                            sup: 'st',
-                            month: 'December'
-                        },
-                        'startTime': '13:00',
-                        'finishTime': '16:00'
                     }
                 ]
             }
@@ -226,7 +226,7 @@ const confs = {
         ]
     },
     'theLordsSupperNorway' : {
-        imageUrl :'https://d1vpzb8ccuu79x.cloudfront.net/wp-content/uploads/stockholm-750x450.jpg',
+        imageUrl :'https://www.acprail.com/wp-content/uploads/2018/07/Trondheim-Oslo.jpg',
         confType : "The Lord's Supper",
         country: 'Norway',
         city: 'Oslo',

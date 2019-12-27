@@ -12,13 +12,13 @@ function Header() {
                     <li className="nav-item active">
                         <a className="nav-link" href="#">Conferences <span className="sr-only">(current)</span></a>
                     </li>
-                    <li className="nav-item">
+{/*                    <li className="nav-item">
                         <a className="nav-link" href="#">Article Of Faith <span className="sr-only">(current)</span></a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#">Teachings</a>
                     </li>
-{/*                     <li className="nav-item dropdown">
+                     <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Programs
                         </a>
