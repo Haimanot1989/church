@@ -2,6 +2,12 @@ import React from "react";
 import { IoMdTime } from "react-icons/io";
 import { IoIosCalendar } from "react-icons/io";
 import { GoLocation } from "react-icons/go";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faUtensils,
+  faPhoneSquare,
+  faEnvelope
+} from "@fortawesome/free-solid-svg-icons";
 
 function Cards() {
   let januaryConferenceGermany = conferences["januaryConferenceGermany"];
@@ -139,24 +145,71 @@ const conferences = {
     ]
   },
   januaryConferenceGermany: {
+    mainLocation: {
+      map:
+        "https://www.google.com/maps/place/Holiday+Inn+Express+Frankfurt+-+Messe/@50.0975321,8.6462587,14z/data=!4m8!3m7!1s0x47bd0bef6d3cc4bf:0x684a0c55ab9dc5bf!5m2!4m1!1i2!8m2!3d50.0975321!4d8.6462587",
+      placeName: "Holiday Inn Express Frankfurt Messe"
+    },
     imageUrl:
       "https://images.unsplash.com/photo-1566506631331-a578cfba9cac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
     confType: "January conference",
     country: "Germany",
     city: "Frankfurt",
     confStart: {
-      date: "24",
-      sup: "th",
-      month: "January"
-    },
-    confEnd: {
       date: "25",
       sup: "th",
       month: "January"
     },
-    confSubtypes: []
+    confEnd: {
+      date: "26",
+      sup: "th",
+      month: "January"
+    },
+    contactInformation: {
+      emails: ["gefremgo@gmail.com"],
+      phoneNumbers: ["+447838870288"]
+    },
+    confSubtypes: [
+      {
+        title: "Whole day program",
+        location: {
+          address: "Gutleutstraße 296, 60327 Frankfurt am Main, Germany",
+          map:
+            "https://www.google.com/maps/place/Holiday+Inn+Express+Frankfurt+-+Messe/@50.0975321,8.6462587,14z/data=!4m8!3m7!1s0x47bd0bef6d3cc4bf:0x684a0c55ab9dc5bf!5m2!4m1!1i2!8m2!3d50.0975321!4d8.6462587"
+        },
+        time: [
+          {
+            date: {
+              day: "Saturday",
+              date: "25",
+              sup: "th",
+              month: "January"
+            },
+            startTime: "10:00",
+            finishTime: "17:30",
+            lunchBreak: "13:00 - 14:30"
+          },
+          {
+            date: {
+              day: "Sunday",
+              date: "26",
+              sup: "th",
+              month: "December"
+            },
+            startTime: "10:00",
+            finishTime: "17:30",
+            lunchBreak: "13:00 - 14:30"
+          }
+        ]
+      }
+    ]
   },
   februaryConferenceUK: {
+    mainLocation: {
+      map:
+        "https://www.google.com/maps/place/St+Philip's+Church/@51.4958397,-0.1962186,15z/data=!4m5!3m4!1s0x0:0xd5ca01bfae74dc33!8m2!3d51.4958397!4d-0.1962186",
+      placeName: "St Philip's Church"
+    },
     imageUrl:
       "https://images.unsplash.com/photo-1512734099960-65a682cbfe2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
     confType: "February conference",
@@ -172,9 +225,18 @@ const conferences = {
       sup: "th",
       month: "February"
     },
-    confSubtypes: []
+    confSubtypes: [],
+    contactInformation: {
+      emails: ["gefremgo@gmail.com"],
+      phoneNumbers: ["+447838870288"]
+    }
   },
   theLordsSupperNorway: {
+    mainLocation: {
+      map:
+        "https://www.google.com/maps/place/Sk%C3%B8yer'n+fritidsklubb/@59.8997986,10.8407608,17z/data=!3m1!4b1!4m5!3m4!1s0x46416f63edefaf97:0x8273d57b2f979b8!8m2!3d59.8997986!4d10.8429495",
+      placeName: "Skøyer'n fritidsklubb"
+    },
     imageUrl:
       "https://images.unsplash.com/photo-1433757741270-94a3bcadc2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
     confType: "The Lord's Supper",
@@ -295,7 +357,11 @@ const conferences = {
       sup: "nd",
       month: "August"
     },
-    confSubtypes: []
+    confSubtypes: [],
+    contactInformation: {
+      emails: ["gefremgo@gmail.com"],
+      phoneNumbers: ["+447838870288, +33625149110, +33618802830"]
+    }
   },
   octoberConference: {}
 };
@@ -306,7 +372,9 @@ const Card = ({
   country,
   confStart,
   confEnd,
-  confSubtypes
+  confSubtypes,
+  contactInformation,
+  mainLocation
 }) => {
   return (
     <div className="card">
@@ -323,6 +391,8 @@ const Card = ({
             <sup>{confStart.sup}</sup> {confStart.month} - {confEnd.date}
             <sup>{confEnd.sup}</sup> {confEnd.month}
           </h6>
+          {mainLocation && <MainLocation {...mainLocation} />}
+          {contactInformation && <ContactInfo {...contactInformation} />}
         </li>
         {confSubtypes.length > 0 ? (
           confSubtypes.map(item => {
@@ -339,9 +409,7 @@ const ConfSubTypeItemDetailComingSoon = () => {
   return (
     <li key="detail" className="list-group-item">
       <div className="card-body">
-        <p className="card-text">
-          Program and address details will be coming soon!
-        </p>
+        <p className="card-text">More details will be coming soon!</p>
       </div>
     </li>
   );
@@ -366,7 +434,41 @@ const ConfSubTypeItem = ({ id, title, location, time }) => {
   );
 };
 
-const ConfSubTypeTimeItem = ({ id, date, startTime, finishTime }) => {
+const ContactInfo = ({ phoneNumbers, emails }) => {
+  return (
+    <div>
+      {phoneNumbers.length > 0 && (
+        <p>
+          <FontAwesomeIcon icon={faPhoneSquare} /> {phoneNumbers}
+        </p>
+      )}
+      {emails.length > 0 && (
+        <p>
+          <FontAwesomeIcon icon={faEnvelope} /> {emails}
+        </p>
+      )}
+    </div>
+  );
+};
+
+const MainLocation = ({ placeName, map }) => {
+  return (
+    <div>
+      <p>
+        <a href={map}>
+          <GoLocation /> {placeName}
+        </a>
+      </p>
+    </div>
+  );
+};
+const ConfSubTypeTimeItem = ({
+  id,
+  date,
+  startTime,
+  finishTime,
+  lunchBreak
+}) => {
   return (
     <li style={{ border: "px solid rgba(0,0,0,.125)" }} key={id}>
       <p>
@@ -376,6 +478,12 @@ const ConfSubTypeTimeItem = ({ id, date, startTime, finishTime }) => {
       <p>
         <IoMdTime /> {startTime} - {finishTime}{" "}
       </p>
+      {lunchBreak && (
+        <p>
+          <FontAwesomeIcon icon={faUtensils} /> {lunchBreak}
+        </p>
+      )}
+      <hr className="w-50 clearfix"></hr>
     </li>
   );
 };

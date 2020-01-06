@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
 const Footer = function() {
   return (
     <>
@@ -29,11 +30,8 @@ const Footer = function() {
                 <FontAwesomeIcon icon={faEnvelope} /> haimif@yahoo.com
               </p>
             </div>
-            {/* <!-- Grid column --> */}
           </div>
-          {/* <!-- Footer links --> */}
         </div>
-        {/* <!-- Footer Links --> */}
       </footer>
     </>
   );
