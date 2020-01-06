@@ -166,7 +166,7 @@ const conferences = {
       month: "January"
     },
     contactInformation: {
-      emails: ["gefremgo@gmail.com"],
+      emails: ["gefrem60@gmail.com"],
       phoneNumbers: ["+447838870288"]
     },
     confSubtypes: [
@@ -227,7 +227,7 @@ const conferences = {
     },
     confSubtypes: [],
     contactInformation: {
-      emails: ["gefremgo@gmail.com"],
+      emails: ["gefrem60@gmail.com"],
       phoneNumbers: ["+447838870288"]
     }
   },
@@ -359,7 +359,7 @@ const conferences = {
     },
     confSubtypes: [],
     contactInformation: {
-      emails: ["gefremgo@gmail.com"],
+      emails: ["gefrem60@gmail.com"],
       phoneNumbers: ["+447838870288, +33625149110, +33618802830"]
     }
   },
