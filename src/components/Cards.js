@@ -400,7 +400,7 @@ const conferences = {
         location: {
           address: "Weigelia 22, 2262 AB Leidschendam, Netherlands",
           map:
-            "https://www.google.com/maps/place/Holiday+Inn+Express+Frankfurt+-+Messe/@50.0975321,8.6462587,14z/data=!4m8!3m7!1s0x47bd0bef6d3cc4bf:0x684a0c55ab9dc5bf!5m2!4m1!1i2!8m2!3d50.0975321!4d8.6462587"
+            "https://www.google.com/maps/place/Fletcher+Hotel-Restaurant+Leidschendam-Den+Haag/@52.0885474,4.3793037,17z/data=!3m1!4b1!4m8!3m7!1s0x47c5b7e9fc9b1d57:0x1fa95717f3aa2d23!5m2!4m1!1i2!8m2!3d52.0885474!4d4.3814924"
         },
         time: [
           {
@@ -420,7 +420,7 @@ const conferences = {
         location: {
           address: "Weigelia 22, 2262 AB Leidschendam, Netherlands",
           map:
-            "https://www.google.com/maps/place/Holiday+Inn+Express+Frankfurt+-+Messe/@50.0975321,8.6462587,14z/data=!4m8!3m7!1s0x47bd0bef6d3cc4bf:0x684a0c55ab9dc5bf!5m2!4m1!1i2!8m2!3d50.0975321!4d8.6462587"
+            "https://www.google.com/maps/place/Fletcher+Hotel-Restaurant+Leidschendam-Den+Haag/@52.0885474,4.3793037,17z/data=!3m1!4b1!4m8!3m7!1s0x47c5b7e9fc9b1d57:0x1fa95717f3aa2d23!5m2!4m1!1i2!8m2!3d52.0885474!4d4.3814924"
         },
         time: [
           {
