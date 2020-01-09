@@ -17,6 +17,8 @@ function Cards() {
 
   let theLordsSupperAustralia = conferences["theLordsSupperAustralia"];
   let annualConference = conferences["annualConference"];
+  let octoberConference = conferences["octoberConference"];
+  let placeholder = {};
   return (
     <>
       <div className="card-deck mb-2">
@@ -30,6 +32,10 @@ function Cards() {
       <div className="card-deck mb-2">
         <Card {...theLordsSupperAustralia} />
         <Card {...annualConference} />
+      </div>
+      <div className="card-deck mb-2">
+        <Card {...octoberConference} />
+        <Card {...placeholder} />
       </div>
     </>
   );
@@ -363,7 +369,86 @@ const conferences = {
       phoneNumbers: ["+447838870288, +33625149110, +33618802830"]
     }
   },
-  octoberConference: {}
+  octoberConference: {
+    mainLocation: {
+      map:
+        "https://www.google.com/maps/place/Fletcher+Hotel-Restaurant+Leidschendam-Den+Haag/@52.0885474,4.3793037,17z/data=!3m1!4b1!4m8!3m7!1s0x47c5b7e9fc9b1d57:0x1fa95717f3aa2d23!5m2!4m1!1i2!8m2!3d52.0885474!4d4.3814924",
+      placeName: "Fletcher Hotel-Restaurant Leidschendam-Den Haag"
+    },
+    imageUrl:
+      "https://images.unsplash.com/photo-1551040938-85f1272a29c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80",
+    confType: "October conference",
+    country: "Netherlands",
+    city: "The Hague",
+    confStart: {
+      date: "2",
+      sup: "nd",
+      month: "October"
+    },
+    confEnd: {
+      date: "4",
+      sup: "th",
+      month: "October"
+    },
+    contactInformation: {
+      emails: ["lhoberink@hotmail.com"],
+      phoneNumbers: ["+31640912152"]
+    },
+    confSubtypes: [
+      {
+        title: "Evening program",
+        location: {
+          address: "Weigelia 22, 2262 AB Leidschendam, Netherlands",
+          map:
+            "https://www.google.com/maps/place/Holiday+Inn+Express+Frankfurt+-+Messe/@50.0975321,8.6462587,14z/data=!4m8!3m7!1s0x47bd0bef6d3cc4bf:0x684a0c55ab9dc5bf!5m2!4m1!1i2!8m2!3d50.0975321!4d8.6462587"
+        },
+        time: [
+          {
+            date: {
+              day: "Friday",
+              date: "2",
+              sup: "nd",
+              month: "October"
+            },
+            startTime: "19:00",
+            finishTime: "21:00"
+          }
+        ]
+      },
+      {
+        title: "Whole day program",
+        location: {
+          address: "Weigelia 22, 2262 AB Leidschendam, Netherlands",
+          map:
+            "https://www.google.com/maps/place/Holiday+Inn+Express+Frankfurt+-+Messe/@50.0975321,8.6462587,14z/data=!4m8!3m7!1s0x47bd0bef6d3cc4bf:0x684a0c55ab9dc5bf!5m2!4m1!1i2!8m2!3d50.0975321!4d8.6462587"
+        },
+        time: [
+          {
+            date: {
+              day: "Saturday",
+              date: "3",
+              sup: "rd",
+              month: "October"
+            },
+            startTime: "10:00",
+            finishTime: "18:30",
+            lunchBreak: "12:00 - 13:30"
+          },
+          {
+            date: {
+              day: "Sunday",
+              date: "4",
+              sup: "th",
+              month: "October"
+            },
+            startTime: "10:00",
+            finishTime: "18:30",
+            lunchBreak: "12:00 - 13:30"
+          }
+        ]
+      }
+    ]
+  }
 };
 const Card = ({
   imageUrl,
@@ -376,6 +461,9 @@ const Card = ({
   contactInformation,
   mainLocation
 }) => {
+  if (!imageUrl) {
+    return <div className="card" style={{ border: "none" }}></div>;
+  }
   return (
     <div className="card">
       <img className="card-img-top" src={imageUrl} alt="Card image cap" />
