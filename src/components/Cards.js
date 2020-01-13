@@ -348,6 +348,11 @@ const conferences = {
     confSubtypes: []
   },
   annualConference: {
+    mainLocation: {
+      map:
+        "https://www.google.com/maps/place/La+Maison+des+Associations+de+Solidarit%C3%A9/@48.8242435,2.3703446,17z/data=!4m5!3m4!1s0x47e6722f75279975:0x3c717e5ea9a592b7!8m2!3d48.8242435!4d2.3725333",
+      placeName: "La Maison des Associations de Solidarité"
+    },
     imageUrl:
       "https://images.unsplash.com/photo-1431274172761-fca41d930114?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
     confType: "Annual European Conference",
