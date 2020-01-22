@@ -312,9 +312,14 @@ const conferences = {
     ]
   },
   theLordsSupperCanada: {
+    mainLocation: {
+      map:
+        "https://www.google.com/maps/place/Estonian+House/@43.6818166,-79.3600938,17z/data=!3m1!4b1!4m5!3m4!1s0x89d4cc989d0ae9c1:0xba8968d8d1f45e52!8m2!3d43.6818166!4d-79.3579051",
+      placeName: "Estonian House"
+    },
     imageUrl:
       "https://images.unsplash.com/photo-1490623970972-ae8bb3da443e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
-    confType: "The Lord's Supper",
+    confType: "Youth conference",
     country: "Canada",
     city: "Toronto",
     confStart: {
@@ -327,7 +332,64 @@ const conferences = {
       sup: "th",
       month: "April"
     },
-    confSubtypes: []
+    contactInformation: {
+      phoneNumbers: ["+16138167441"]
+    },
+    confSubtypes: [
+      {
+        title: "The Lord's Supper",
+        location: {
+          address: "958 Broadview Ave, East York, ON M4K 2R6",
+          map:
+            "https://www.google.com/maps/place/Estonian+House/@43.6818166,-79.3600938,17z/data=!3m1!4b1!4m5!3m4!1s0x89d4cc989d0ae9c1:0xba8968d8d1f45e52!8m2!3d43.6818166!4d-79.3579051"
+        },
+        time: [
+          {
+            date: {
+              day: "Friday",
+              date: "10",
+              sup: "th",
+              month: "April"
+            },
+            startTime: "10:00",
+            finishTime: "17:30",
+            lunchBreak: "12:30 - 14:30"
+          }
+        ]
+      },
+      {
+        title: "Youth program",
+        location: {
+          address: "958 Broadview Ave, East York, ON M4K 2R6",
+          map:
+            "https://www.google.com/maps/place/Estonian+House/@43.6818166,-79.3600938,17z/data=!3m1!4b1!4m5!3m4!1s0x89d4cc989d0ae9c1:0xba8968d8d1f45e52!8m2!3d43.6818166!4d-79.3579051"
+        },
+        time: [
+          {
+            date: {
+              day: "Saturday",
+              date: "11",
+              sup: "th",
+              month: "April"
+            },
+            startTime: "10:00",
+            finishTime: "17:30",
+            lunchBreak: "12:30 - 14:30"
+          },
+          {
+            date: {
+              day: "Sunday",
+              date: "12",
+              sup: "th",
+              month: "April"
+            },
+            startTime: "10:00",
+            finishTime: "17:30",
+            lunchBreak: "12:30 - 14:30"
+          }
+        ]
+      }
+    ]
   },
   theLordsSupperAustralia: {
     imageUrl:
@@ -471,7 +533,7 @@ const Card = ({
   }
   return (
     <div className="card">
-      <img className="card-img-top" src={imageUrl} alt="Card image cap" />
+      <img className="card-img-top" src={imageUrl} alt="City" />
       <ul className="list-group list-group-flush">
         <li key="mainBody" className="list-group-item">
           {/* confType, city, country */}
@@ -489,6 +551,9 @@ const Card = ({
         </li>
         {confSubtypes.length > 0 ? (
           confSubtypes.map(item => {
+            let i = 0;
+            console.log(item.title.replace(" ", "").toLowerCase() + i);
+            i++;
             return <ConfSubTypeItem {...item} />;
           })
         ) : (
@@ -535,7 +600,7 @@ const ContactInfo = ({ phoneNumbers, emails }) => {
           <FontAwesomeIcon icon={faPhoneSquare} /> {phoneNumbers}
         </p>
       )}
-      {emails.length > 0 && (
+      {emails && emails.length > 0 && (
         <p>
           <FontAwesomeIcon icon={faEnvelope} /> {emails}
         </p>

@@ -9,8 +9,8 @@ const Main = function() {
             Apostolic Church International Fellowship
           </h1>
           <p className="lead text-muted">
-            We have several conferences in different parts of Europe. You are
-            very welcome to join us!
+            We have several conferences in different parts of Europe and
+            worldwide. You are very welcome to join us!
           </p>
         </section>
         <Cards></Cards>
