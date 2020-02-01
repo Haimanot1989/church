@@ -10,7 +10,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 function Cards() {
-  let januaryConferenceGermany = conferences["januaryConferenceGermany"];
   let februaryConferenceUK = conferences["februaryConferenceUK"];
   let theLordsSupperNorway = conferences["theLordsSupperNorway"];
   let theLordsSupperCanada = conferences["theLordsSupperCanada"];
@@ -18,24 +17,19 @@ function Cards() {
   let theLordsSupperAustralia = conferences["theLordsSupperAustralia"];
   let annualConference = conferences["annualConference"];
   let octoberConference = conferences["octoberConference"];
-  let placeholder = {};
   return (
     <>
       <div className="card-deck mb-2">
-        <Card {...januaryConferenceGermany} />
         <Card {...februaryConferenceUK} />
-      </div>
-      <div className="card-deck mb-2">
         <Card {...theLordsSupperNorway} />
+      </div>
+      <div className="card-deck mb-2">
         <Card {...theLordsSupperCanada} />
-      </div>
-      <div className="card-deck mb-2">
         <Card {...theLordsSupperAustralia} />
-        <Card {...annualConference} />
       </div>
       <div className="card-deck mb-2">
+        <Card {...annualConference} />
         <Card {...octoberConference} />
-        <Card {...placeholder} />
       </div>
     </>
   );
@@ -231,7 +225,49 @@ const conferences = {
       sup: "th",
       month: "February"
     },
-    confSubtypes: [],
+    confSubtypes: [
+      {
+        title: "Whole day program",
+        location: {
+          address: "Earls Ct Rd, Kensington, London W8 6QH",
+          map:
+            "https://www.google.com/maps/place/St+Philip's+Church/@51.4958397,-0.1962186,15z/data=!4m5!3m4!1s0x0:0xd5ca01bfae74dc33!8m2!3d51.4958397!4d-0.1962186"
+        },
+        time: [
+          {
+            date: {
+              day: "Saturday",
+              date: "15",
+              sup: "th",
+              month: "January"
+            },
+            startTime: "11:00",
+            finishTime: "19:00",
+            lunchBreak: "15:00 - 16:00"
+          }
+        ]
+      },
+      {
+        title: "Afternoon program",
+        location: {
+          address: "Earls Ct Rd, Kensington, London W8 6QH",
+          map:
+            "https://www.google.com/maps/place/St+Philip's+Church/@51.4958397,-0.1962186,15z/data=!4m5!3m4!1s0x0:0xd5ca01bfae74dc33!8m2!3d51.4958397!4d-0.1962186"
+        },
+        time: [
+          {
+            date: {
+              day: "Sunday",
+              date: "16",
+              sup: "th",
+              month: "January"
+            },
+            startTime: "14:30",
+            finishTime: "20:00"
+          }
+        ]
+      }
+    ],
     contactInformation: {
       emails: ["gefrem60@gmail.com"],
       phoneNumbers: ["+447838870288"]
