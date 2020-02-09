@@ -3,11 +3,9 @@ import { IoMdTime } from "react-icons/io";
 import { IoIosCalendar } from "react-icons/io";
 import { GoLocation } from "react-icons/go";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faUtensils,
-  faPhoneSquare,
-  faEnvelope
-} from "@fortawesome/free-solid-svg-icons";
+import { faUtensils } from "@fortawesome/free-solid-svg-icons";
+import { MainLocation } from "./MainLocation";
+import { ContactInfo } from "./ContactInfo";
 
 function Cards() {
   let februaryConferenceUK = conferences["februaryConferenceUK"];
@@ -586,11 +584,8 @@ const Card = ({
           {contactInformation && <ContactInfo {...contactInformation} />}
         </li>
         {confSubtypes.length > 0 ? (
-          confSubtypes.map(item => {
-            let i = 0;
-            console.log(item.title.replace(" ", "").toLowerCase() + i);
-            i++;
-            return <ConfSubTypeItem {...item} />;
+          confSubtypes.map((value, key) => {
+            return <ConfSubTypeItem {...value} key={key} />;
           })
         ) : (
           <ConfSubTypeItemDetailComingSoon />
@@ -619,8 +614,8 @@ const ConfSubTypeItem = ({ id, title, location, time }) => {
           </a>
         </h6>
         <ul style={{ listStyle: "none" }}>
-          {time.map(item => (
-            <ConfSubTypeTimeItem {...item} />
+          {time.map((item, key) => (
+            <ConfSubTypeTimeItem {...item} key={key} />
           ))}
         </ul>
       </div>
@@ -628,34 +623,6 @@ const ConfSubTypeItem = ({ id, title, location, time }) => {
   );
 };
 
-const ContactInfo = ({ phoneNumbers, emails }) => {
-  return (
-    <div>
-      {phoneNumbers.length > 0 && (
-        <p>
-          <FontAwesomeIcon icon={faPhoneSquare} /> {phoneNumbers}
-        </p>
-      )}
-      {emails && emails.length > 0 && (
-        <p>
-          <FontAwesomeIcon icon={faEnvelope} /> {emails}
-        </p>
-      )}
-    </div>
-  );
-};
-
-const MainLocation = ({ placeName, map }) => {
-  return (
-    <div>
-      <p>
-        <a href={map}>
-          <GoLocation /> {placeName}
-        </a>
-      </p>
-    </div>
-  );
-};
 const ConfSubTypeTimeItem = ({
   id,
   date,

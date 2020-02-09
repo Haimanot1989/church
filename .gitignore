@@ -23,3 +23,9 @@ yarn-debug.log*
 yarn-error.log*
 
 *.~lock*
+
+.cache/
+dist/
+coverage
+.vscode/
+.env
