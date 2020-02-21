@@ -55,7 +55,33 @@ footer {
 }
 
 footer p {
-  margin-bottom: .25rem;
+  margin-bottom: 0.25rem;
 }
 
-.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+.new-card-section {
+  background-color: #e9ecef;
+  text-align: center;
+}
+.small-text {
+  font-size: 1rem !important;
+}
+
+.custom-li-style {
+  border: "px solid rgba(0,0,0,.125)";
+}
+.li-label {
+  font-weight: bolder;
+}
+@media (min-width: 768px) {
+  .img-height-equalizer {
+    height: 400px;
+    object-fit: cover;
+  }
+  .service-card {
+    width: 500px;
+    margin: auto;
+  }
+}

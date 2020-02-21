@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { IoMdTime } from "react-icons/io";
 import { IoIosCalendar } from "react-icons/io";
 import { GoLocation } from "react-icons/go";
@@ -7,550 +7,49 @@ import { faUtensils } from "@fortawesome/free-solid-svg-icons";
 import { MainLocation } from "./MainLocation";
 import { ContactInfo } from "./ContactInfo";
 
-function Cards() {
-  let februaryConferenceUK = conferences["februaryConferenceUK"];
+function fetchConfData(setConferences) {
+  fetch("./conferences.json")
+    .then(response => {
+      return response.json();
+    })
+    .then(data => {
+      setConferences(data);
+    });
+}
+const Cards = () => {
+  const [conferences, setConferences] = useState({});
+  useEffect(() => fetchConfData(setConferences), []);
+  let mayConferenceGermany = conferences["mayConferenceGermany"];
   let theLordsSupperNorway = conferences["theLordsSupperNorway"];
   let theLordsSupperCanada = conferences["theLordsSupperCanada"];
 
   let theLordsSupperAustralia = conferences["theLordsSupperAustralia"];
   let annualConference = conferences["annualConference"];
   let octoberConference = conferences["octoberConference"];
+  let newYearConference2021 = conferences["newYearConference2021"];
+  let placeholder = {};
   return (
     <>
       <div className="card-deck mb-2">
-        <Card {...februaryConferenceUK} />
         <Card {...theLordsSupperNorway} />
+        <Card {...theLordsSupperCanada} />
       </div>
       <div className="card-deck mb-2">
-        <Card {...theLordsSupperCanada} />
         <Card {...theLordsSupperAustralia} />
+        <Card {...mayConferenceGermany} />
       </div>
       <div className="card-deck mb-2">
         <Card {...annualConference} />
         <Card {...octoberConference} />
       </div>
+      <div className="card-deck mb-2">
+        <Card {...newYearConference2021} />
+        <Card {...placeholder} />
+      </div>
     </>
   );
-}
-
-const conferences = {
-  newYearConference: {
-    imageUrl: "/stockholm.png",
-    confType: "New Year Conference",
-    country: "Sweden",
-    city: "Stockholm",
-    confStart: {
-      date: "28",
-      sup: "th",
-      month: "December"
-    },
-    confEnd: {
-      date: "31",
-      sup: "st",
-      month: "December"
-    },
-    confSubtypes: [
-      {
-        title: "Whole day program",
-        location: {
-          address: "KISTA TORG 7, 164 42 Kista",
-          map:
-            "https://www.google.com/maps/place/Kista+Tr%C3%A4ff/@59.4022735,17.9397174,17z/data=!3m1!4b1!4m5!3m4!1s0x465f9ef25f64e0cd:0x66aab4a9f9ddf527!8m2!3d59.4022735!4d17.9419061"
-        },
-        time: [
-          {
-            date: {
-              day: "Saturday",
-              date: "28",
-              sup: "th",
-              month: "December"
-            },
-            startTime: "14:00",
-            finishTime: "20:00"
-          },
-          {
-            date: {
-              day: "Sunday",
-              date: "29",
-              sup: "th",
-              month: "December"
-            },
-            startTime: "15:00",
-            finishTime: "21:00"
-          }
-        ]
-      },
-      {
-        title: "Youth program",
-        location: {
-          address: "Borgenvägen 16, 182 38 Danderyd",
-          map:
-            "https://www.google.com/maps/place/Borgenv%C3%A4gen+16,+182+38+Danderyd,+Sweden/@59.4050446,18.0018831,17z/data=!3m1!4b1!4m5!3m4!1s0x465f9c22477dcc5b:0x43856619d855d1ad!8m2!3d59.4050446!4d18.0040718"
-        },
-        time: [
-          {
-            date: {
-              day: "Monday",
-              date: "30",
-              sup: "th",
-              month: "December"
-            },
-            startTime: "13:00",
-            finishTime: "16:00"
-          },
-          {
-            date: {
-              day: "Tuesday",
-              date: "31",
-              sup: "st",
-              month: "December"
-            },
-            startTime: "13:00",
-            finishTime: "16:00"
-          }
-        ]
-      },
-      {
-        title: "Evening program",
-        location: {
-          address: "KISTA TORG 7, 164 42 Kista",
-          map:
-            "https://www.google.com/maps/place/Kista+Tr%C3%A4ff/@59.4022735,17.9397174,17z/data=!3m1!4b1!4m5!3m4!1s0x465f9ef25f64e0cd:0x66aab4a9f9ddf527!8m2!3d59.4022735!4d17.9419061"
-        },
-        time: [
-          {
-            date: {
-              day: "Monday",
-              date: "30",
-              sup: "th",
-              month: "December"
-            },
-            startTime: "18:00",
-            finishTime: "22:00"
-          },
-          {
-            date: {
-              day: "Tuesday",
-              date: "31",
-              sup: "st",
-              month: "December"
-            },
-            startTime: "18:00",
-            finishTime: "22:00"
-          }
-        ]
-      }
-    ]
-  },
-  januaryConferenceGermany: {
-    mainLocation: {
-      map:
-        "https://www.google.com/maps/place/Holiday+Inn+Express+Frankfurt+-+Messe/@50.0975321,8.6462587,14z/data=!4m8!3m7!1s0x47bd0bef6d3cc4bf:0x684a0c55ab9dc5bf!5m2!4m1!1i2!8m2!3d50.0975321!4d8.6462587",
-      placeName: "Holiday Inn Express Frankfurt Messe"
-    },
-    imageUrl:
-      "https://images.unsplash.com/photo-1566506631331-a578cfba9cac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
-    confType: "January conference",
-    country: "Germany",
-    city: "Frankfurt",
-    confStart: {
-      date: "25",
-      sup: "th",
-      month: "January"
-    },
-    confEnd: {
-      date: "26",
-      sup: "th",
-      month: "January"
-    },
-    contactInformation: {
-      emails: ["gefrem60@gmail.com"],
-      phoneNumbers: ["+447838870288"]
-    },
-    confSubtypes: [
-      {
-        title: "Whole day program",
-        location: {
-          address: "Gutleutstraße 296, 60327 Frankfurt am Main, Germany",
-          map:
-            "https://www.google.com/maps/place/Holiday+Inn+Express+Frankfurt+-+Messe/@50.0975321,8.6462587,14z/data=!4m8!3m7!1s0x47bd0bef6d3cc4bf:0x684a0c55ab9dc5bf!5m2!4m1!1i2!8m2!3d50.0975321!4d8.6462587"
-        },
-        time: [
-          {
-            date: {
-              day: "Saturday",
-              date: "25",
-              sup: "th",
-              month: "January"
-            },
-            startTime: "10:00",
-            finishTime: "17:30",
-            lunchBreak: "13:00 - 14:30"
-          },
-          {
-            date: {
-              day: "Sunday",
-              date: "26",
-              sup: "th",
-              month: "December"
-            },
-            startTime: "10:00",
-            finishTime: "17:30",
-            lunchBreak: "13:00 - 14:30"
-          }
-        ]
-      }
-    ]
-  },
-  februaryConferenceUK: {
-    mainLocation: {
-      map:
-        "https://www.google.com/maps/place/St+Philip's+Church/@51.4958397,-0.1962186,15z/data=!4m5!3m4!1s0x0:0xd5ca01bfae74dc33!8m2!3d51.4958397!4d-0.1962186",
-      placeName: "St Philip's Church"
-    },
-    imageUrl:
-      "https://images.unsplash.com/photo-1512734099960-65a682cbfe2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
-    confType: "February conference",
-    country: "UK",
-    city: "London",
-    confStart: {
-      date: "15",
-      sup: "th",
-      month: "February"
-    },
-    confEnd: {
-      date: "16",
-      sup: "th",
-      month: "February"
-    },
-    confSubtypes: [
-      {
-        title: "Whole day program",
-        location: {
-          address: "Earls Ct Rd, Kensington, London W8 6QH",
-          map:
-            "https://www.google.com/maps/place/St+Philip's+Church/@51.4958397,-0.1962186,15z/data=!4m5!3m4!1s0x0:0xd5ca01bfae74dc33!8m2!3d51.4958397!4d-0.1962186"
-        },
-        time: [
-          {
-            date: {
-              day: "Saturday",
-              date: "15",
-              sup: "th",
-              month: "January"
-            },
-            startTime: "11:00",
-            finishTime: "19:00",
-            lunchBreak: "15:00 - 16:00"
-          }
-        ]
-      },
-      {
-        title: "Afternoon program",
-        location: {
-          address: "Earls Ct Rd, Kensington, London W8 6QH",
-          map:
-            "https://www.google.com/maps/place/St+Philip's+Church/@51.4958397,-0.1962186,15z/data=!4m5!3m4!1s0x0:0xd5ca01bfae74dc33!8m2!3d51.4958397!4d-0.1962186"
-        },
-        time: [
-          {
-            date: {
-              day: "Sunday",
-              date: "16",
-              sup: "th",
-              month: "January"
-            },
-            startTime: "14:30",
-            finishTime: "20:00"
-          }
-        ]
-      }
-    ],
-    contactInformation: {
-      emails: ["gefrem60@gmail.com"],
-      phoneNumbers: ["+447838870288"]
-    }
-  },
-  theLordsSupperNorway: {
-    mainLocation: {
-      map:
-        "https://www.google.com/maps/place/Sk%C3%B8yer'n+fritidsklubb/@59.8997986,10.8407608,17z/data=!3m1!4b1!4m5!3m4!1s0x46416f63edefaf97:0x8273d57b2f979b8!8m2!3d59.8997986!4d10.8429495",
-      placeName: "Skøyer'n fritidsklubb"
-    },
-    imageUrl:
-      "https://images.unsplash.com/photo-1433757741270-94a3bcadc2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
-    confType: "The Lord's Supper",
-    country: "Norway",
-    city: "Oslo",
-    confStart: {
-      date: "3",
-      sup: "rd",
-      month: "April"
-    },
-    confEnd: {
-      date: "5",
-      sup: "th",
-      month: "April"
-    },
-    confSubtypes: [
-      {
-        title: "Evening program",
-        location: {
-          address: "Solbergliveien 85, 0683 Oslo",
-          map:
-            "https://www.google.com/maps/place/Sk%C3%B8yer'n+fritidsklubb/@59.8997986,10.8407608,17z/data=!3m1!4b1!4m5!3m4!1s0x46416f63edefaf97:0x8273d57b2f979b8!8m2!3d59.8997986!4d10.8429495"
-        },
-        time: [
-          {
-            date: {
-              day: "Friday",
-              date: "3",
-              sup: "rd",
-              month: "April"
-            },
-            startTime: "17:00",
-            finishTime: "20:00"
-          }
-        ]
-      },
-      {
-        title: "Whole day program",
-        location: {
-          address: "Solbergliveien 85, 0683 Oslo",
-          map:
-            "https://www.google.com/maps/place/Sk%C3%B8yer'n+fritidsklubb/@59.8997986,10.8407608,17z/data=!3m1!4b1!4m5!3m4!1s0x46416f63edefaf97:0x8273d57b2f979b8!8m2!3d59.8997986!4d10.8429495"
-        },
-        time: [
-          {
-            date: {
-              day: "Saturday",
-              date: "4",
-              sup: "th",
-              month: "April"
-            },
-            startTime: "11:00",
-            finishTime: "20:00"
-          },
-          {
-            date: {
-              day: "Sunday",
-              date: "5",
-              sup: "th",
-              month: "April"
-            },
-            startTime: "11:00",
-            finishTime: "20:00"
-          }
-        ]
-      }
-    ]
-  },
-  theLordsSupperCanada: {
-    mainLocation: {
-      map:
-        "https://www.google.com/maps/place/Estonian+House/@43.6818166,-79.3600938,17z/data=!3m1!4b1!4m5!3m4!1s0x89d4cc989d0ae9c1:0xba8968d8d1f45e52!8m2!3d43.6818166!4d-79.3579051",
-      placeName: "Estonian House"
-    },
-    imageUrl:
-      "https://images.unsplash.com/photo-1490623970972-ae8bb3da443e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
-    confType: "Youth conference",
-    country: "Canada",
-    city: "Toronto",
-    confStart: {
-      date: "10",
-      sup: "th",
-      month: "April"
-    },
-    confEnd: {
-      date: "12",
-      sup: "th",
-      month: "April"
-    },
-    contactInformation: {
-      phoneNumbers: ["+16138167441"]
-    },
-    confSubtypes: [
-      {
-        title: "The Lord's Supper",
-        location: {
-          address: "958 Broadview Ave, East York, ON M4K 2R6",
-          map:
-            "https://www.google.com/maps/place/Estonian+House/@43.6818166,-79.3600938,17z/data=!3m1!4b1!4m5!3m4!1s0x89d4cc989d0ae9c1:0xba8968d8d1f45e52!8m2!3d43.6818166!4d-79.3579051"
-        },
-        time: [
-          {
-            date: {
-              day: "Friday",
-              date: "10",
-              sup: "th",
-              month: "April"
-            },
-            startTime: "10:00",
-            finishTime: "17:30",
-            lunchBreak: "12:30 - 14:30"
-          }
-        ]
-      },
-      {
-        title: "Youth program",
-        location: {
-          address: "958 Broadview Ave, East York, ON M4K 2R6",
-          map:
-            "https://www.google.com/maps/place/Estonian+House/@43.6818166,-79.3600938,17z/data=!3m1!4b1!4m5!3m4!1s0x89d4cc989d0ae9c1:0xba8968d8d1f45e52!8m2!3d43.6818166!4d-79.3579051"
-        },
-        time: [
-          {
-            date: {
-              day: "Saturday",
-              date: "11",
-              sup: "th",
-              month: "April"
-            },
-            startTime: "10:00",
-            finishTime: "17:30",
-            lunchBreak: "12:30 - 14:30"
-          },
-          {
-            date: {
-              day: "Sunday",
-              date: "12",
-              sup: "th",
-              month: "April"
-            },
-            startTime: "10:00",
-            finishTime: "17:30",
-            lunchBreak: "12:30 - 14:30"
-          }
-        ]
-      }
-    ]
-  },
-  theLordsSupperAustralia: {
-    imageUrl:
-      "https://images.unsplash.com/photo-1538385838701-51d6b218a676?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
-    confType: "The Lord's Supper",
-    country: "Australia",
-    city: "Perth",
-    confStart: {
-      date: "17",
-      sup: "th",
-      month: "April"
-    },
-    confEnd: {
-      date: "19",
-      sup: "th",
-      month: "April"
-    },
-    confSubtypes: []
-  },
-  annualConference: {
-    mainLocation: {
-      map:
-        "https://www.google.com/maps/place/La+Maison+des+Associations+de+Solidarit%C3%A9/@48.8242435,2.3703446,17z/data=!4m5!3m4!1s0x47e6722f75279975:0x3c717e5ea9a592b7!8m2!3d48.8242435!4d2.3725333",
-      placeName: "La Maison des Associations de Solidarité"
-    },
-    imageUrl:
-      "https://images.unsplash.com/photo-1431274172761-fca41d930114?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-    confType: "Annual European Conference",
-    country: "France",
-    city: "Paris",
-    confStart: {
-      date: "31",
-      sup: "st",
-      month: "July"
-    },
-    confEnd: {
-      date: "2",
-      sup: "nd",
-      month: "August"
-    },
-    confSubtypes: [],
-    contactInformation: {
-      emails: ["gefrem60@gmail.com"],
-      phoneNumbers: ["+447838870288, +33625149110, +33618802830"]
-    }
-  },
-  octoberConference: {
-    mainLocation: {
-      map:
-        "https://www.google.com/maps/place/Fletcher+Hotel-Restaurant+Leidschendam-Den+Haag/@52.0885474,4.3793037,17z/data=!3m1!4b1!4m8!3m7!1s0x47c5b7e9fc9b1d57:0x1fa95717f3aa2d23!5m2!4m1!1i2!8m2!3d52.0885474!4d4.3814924",
-      placeName: "Fletcher Hotel-Restaurant Leidschendam-Den Haag"
-    },
-    imageUrl:
-      "https://images.unsplash.com/photo-1551040938-85f1272a29c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80",
-    confType: "October conference",
-    country: "Netherlands",
-    city: "The Hague",
-    confStart: {
-      date: "2",
-      sup: "nd",
-      month: "October"
-    },
-    confEnd: {
-      date: "4",
-      sup: "th",
-      month: "October"
-    },
-    contactInformation: {
-      emails: ["lhoberink@hotmail.com"],
-      phoneNumbers: ["+31640912152"]
-    },
-    confSubtypes: [
-      {
-        title: "Evening program",
-        location: {
-          address: "Weigelia 22, 2262 AB Leidschendam, Netherlands",
-          map:
-            "https://www.google.com/maps/place/Fletcher+Hotel-Restaurant+Leidschendam-Den+Haag/@52.0885474,4.3793037,17z/data=!3m1!4b1!4m8!3m7!1s0x47c5b7e9fc9b1d57:0x1fa95717f3aa2d23!5m2!4m1!1i2!8m2!3d52.0885474!4d4.3814924"
-        },
-        time: [
-          {
-            date: {
-              day: "Friday",
-              date: "2",
-              sup: "nd",
-              month: "October"
-            },
-            startTime: "19:00",
-            finishTime: "21:00"
-          }
-        ]
-      },
-      {
-        title: "Whole day program",
-        location: {
-          address: "Weigelia 22, 2262 AB Leidschendam, Netherlands",
-          map:
-            "https://www.google.com/maps/place/Fletcher+Hotel-Restaurant+Leidschendam-Den+Haag/@52.0885474,4.3793037,17z/data=!3m1!4b1!4m8!3m7!1s0x47c5b7e9fc9b1d57:0x1fa95717f3aa2d23!5m2!4m1!1i2!8m2!3d52.0885474!4d4.3814924"
-        },
-        time: [
-          {
-            date: {
-              day: "Saturday",
-              date: "3",
-              sup: "rd",
-              month: "October"
-            },
-            startTime: "10:00",
-            finishTime: "18:30",
-            lunchBreak: "12:00 - 13:30"
-          },
-          {
-            date: {
-              day: "Sunday",
-              date: "4",
-              sup: "th",
-              month: "October"
-            },
-            startTime: "10:00",
-            finishTime: "18:30",
-            lunchBreak: "12:00 - 13:30"
-          }
-        ]
-      }
-    ]
-  }
 };
+
 const Card = ({
   imageUrl,
   confType,
@@ -560,14 +59,19 @@ const Card = ({
   confEnd,
   confSubtypes,
   contactInformation,
-  mainLocation
+  mainLocation,
+  hotelsNearBy
 }) => {
   if (!imageUrl) {
     return <div className="card" style={{ border: "none" }}></div>;
   }
   return (
     <div className="card">
-      <img className="card-img-top" src={imageUrl} alt="City" />
+      <img
+        className="card-img-top img-height-equalizer "
+        src={imageUrl}
+        alt="City"
+      />
       <ul className="list-group list-group-flush">
         <li key="mainBody" className="list-group-item">
           {/* confType, city, country */}
@@ -583,6 +87,9 @@ const Card = ({
           {mainLocation && <MainLocation {...mainLocation} />}
           {contactInformation && <ContactInfo {...contactInformation} />}
         </li>
+        {confSubtypes.length > 0 && (
+          <CardSectionTitle sectionTitle="Programs" />
+        )}
         {confSubtypes.length > 0 ? (
           confSubtypes.map((value, key) => {
             return <ConfSubTypeItem {...value} key={key} />;
@@ -590,8 +97,24 @@ const Card = ({
         ) : (
           <ConfSubTypeItemDetailComingSoon />
         )}
+        {hotelsNearBy && hotelsNearBy.length > 0 && (
+          <CardSectionTitle sectionTitle="Hotels nearby" />
+        )}
+        {hotelsNearBy &&
+          hotelsNearBy.length > 0 &&
+          hotelsNearBy.map((value, key) => {
+            return <Hotel {...value} key={key} />;
+          })}
       </ul>
     </div>
+  );
+};
+
+const CardSectionTitle = ({ sectionTitle }) => {
+  return (
+    <li className="list-group-item new-card-section">
+      <h5>{sectionTitle}</h5>
+    </li>
   );
 };
 const ConfSubTypeItemDetailComingSoon = () => {
@@ -608,10 +131,7 @@ const ConfSubTypeItem = ({ id, title, location, time }) => {
     <li key={id} className="list-group-item">
       <div className="card-body">
         <h6 className="card-subtitle mb-2 text-muted">
-          {title} at{" "}
-          <a href={location.map}>
-            <GoLocation /> {location.address}
-          </a>
+          {title} {location && <ConfSubTypeItemLocation {...location} />}
         </h6>
         <ul style={{ listStyle: "none" }}>
           {time.map((item, key) => (
@@ -623,6 +143,17 @@ const ConfSubTypeItem = ({ id, title, location, time }) => {
   );
 };
 
+const ConfSubTypeItemLocation = location => {
+  return (
+    <>
+      at{" "}
+      <a href={location.map}>
+        <GoLocation /> {location.address}
+      </a>
+      )
+    </>
+  );
+};
 const ConfSubTypeTimeItem = ({
   id,
   date,
@@ -631,13 +162,18 @@ const ConfSubTypeTimeItem = ({
   lunchBreak
 }) => {
   return (
-    <li style={{ border: "px solid rgba(0,0,0,.125)" }} key={id}>
+    <li className="custom-li-style" key={id}>
       <p>
         <IoIosCalendar /> {date.day} {date.date}
         <sup>{date.sup}</sup> {date.month}
       </p>
       <p>
-        <IoMdTime /> {startTime} - {finishTime}{" "}
+        {startTime && finishTime && (
+          <ConfSubTypeStartAndFinishTime
+            startTime={startTime}
+            finishTime={finishTime}
+          />
+        )}
       </p>
       {lunchBreak && (
         <p>
@@ -645,6 +181,46 @@ const ConfSubTypeTimeItem = ({
         </p>
       )}
       <hr className="w-50 clearfix"></hr>
+    </li>
+  );
+};
+
+const ConfSubTypeStartAndFinishTime = ({ startTime, finishTime }) => {
+  return (
+    <>
+      <IoMdTime /> {startTime} - {finishTime}{" "}
+    </>
+  );
+};
+
+const Hotel = ({
+  name,
+  address,
+  distance,
+  webSite,
+  phoneNumber,
+  mapLocation
+}) => {
+  let id = name.replace(/\s/g, "");
+  return (
+    <li key={id} className="list-group-item">
+      <div className="card-body">
+        <a href={webSite}>
+          <h5 className="card-subtitle mb-2 text-dark">
+            {name}
+            <span className="text-muted small-text"> ({distance})</span>
+          </h5>
+        </a>
+        <ul className="list-group">
+          <li className="custom-li-style list-group-item" key={id}>
+            <span className="li-label">Address:</span>{" "}
+            <a href={mapLocation}>{address}</a>
+          </li>
+          <li className="custom-li-style list-group-item" key={id}>
+            <span className="li-label">Phone:</span> {phoneNumber}
+          </li>
+        </ul>
+      </div>
     </li>
   );
 };
