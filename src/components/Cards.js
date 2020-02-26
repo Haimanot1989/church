@@ -73,7 +73,7 @@ const Card = ({
         alt="City"
       />
       <ul className="list-group list-group-flush">
-        <li key="mainBody" className="list-group-item">
+        <li key="mainBody" className="list-group-item li-first">
           {/* confType, city, country */}
           <h5 className="card-title">
             {confType} - {city}, {country}
