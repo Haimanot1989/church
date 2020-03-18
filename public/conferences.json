@@ -1,5 +1,9 @@
 {
   "mayConferenceGermany": {
+    "mainLocation": {
+      "map": "https://www.google.com/maps/place/Mainzer+Landstra%C3%9Fe+226-230,+60327+Frankfurt+am+Main,+Germany/@50.1038376,8.643439,17z/data=!4m5!3m4!1s0x47bd0be3ff963e07:0x4aedcad7be4a40e4!8m2!3d50.1038376!4d8.6456277",
+      "placeName": "Mainzer Landstraße 226-230"
+    },
     "imageUrl": "https://images.unsplash.com/photo-1566506631331-a578cfba9cac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
     "confType": "May conference",
     "country": "Germany",
@@ -21,6 +25,10 @@
     "confSubtypes": [
       {
         "title": "Whole day program",
+        "location": {
+          "address": "Mainzer Landstraße 226-230, 60327 Frankfurt am Main",
+          "map": "https://www.google.com/maps/place/Mainzer+Landstra%C3%9Fe+226-230,+60327+Frankfurt+am+Main,+Germany/@50.1038376,8.643439,17z/data=!4m5!3m4!1s0x47bd0be3ff963e07:0x4aedcad7be4a40e4!8m2!3d50.1038376!4d8.6456277"
+        },
         "time": [
           {
             "date": {
@@ -47,10 +55,6 @@
     ]
   },
   "theLordsSupperNorway": {
-    "mainLocation": {
-      "map": "https://www.google.com/maps/place/Sk%C3%B8yer'n+fritidsklubb/@59.8997986,10.8407608,17z/data=!3m1!4b1!4m5!3m4!1s0x46416f63edefaf97:0x8273d57b2f979b8!8m2!3d59.8997986!4d10.8429495",
-      "placeName": "Skøyer'n fritidsklubb"
-    },
     "imageUrl": "https://images.unsplash.com/photo-1433757741270-94a3bcadc2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
     "confType": "The Lord's Supper",
     "country": "Norway",
@@ -65,12 +69,16 @@
       "sup": "th",
       "month": "April"
     },
+    "contactInformation": {
+      "emails": ["haimif@yahoo.com"],
+      "phoneNumbers": ["+4746377592"]
+    },
     "confSubtypes": [
       {
         "title": "Evening program",
         "location": {
-          "address": "Solbergliveien 85, 0683 Oslo",
-          "map": "https://www.google.com/maps/place/Sk%C3%B8yer'n+fritidsklubb/@59.8997986,10.8407608,17z/data=!3m1!4b1!4m5!3m4!1s0x46416f63edefaf97:0x8273d57b2f979b8!8m2!3d59.8997986!4d10.8429495"
+          "address": "Trondheimsvegen - Kløfta 1, 2040 Kløfta",
+          "map": "https://www.google.com/maps/place/Trondheimsvegen+-+Kl%C3%B8fta+1,+2040+Kl%C3%B8fta/@60.0577077,11.1174609,17z/data=!3m1!4b1!4m5!3m4!1s0x46417edca6aa3d91:0x29b38e287039f34!8m2!3d60.0577077!4d11.1196496"
         },
         "time": [
           {
@@ -88,7 +96,7 @@
       {
         "title": "Whole day program",
         "location": {
-          "address": "Solbergliveien 85, 0683 Oslo",
+          "address": "Skøyer'n fritidsklubb, Solbergliveien 85, 0683 Oslo",
           "map": "https://www.google.com/maps/place/Sk%C3%B8yer'n+fritidsklubb/@59.8997986,10.8407608,17z/data=!3m1!4b1!4m5!3m4!1s0x46416f63edefaf97:0x8273d57b2f979b8!8m2!3d59.8997986!4d10.8429495"
         },
         "time": [

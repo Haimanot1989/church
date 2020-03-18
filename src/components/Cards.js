@@ -150,7 +150,6 @@ const ConfSubTypeItemLocation = location => {
       <a href={location.map}>
         <GoLocation /> {location.address}
       </a>
-      )
     </>
   );
 };
