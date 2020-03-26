@@ -60,13 +60,15 @@ const Card = ({
   confSubtypes,
   contactInformation,
   mainLocation,
-  hotelsNearBy
+  hotelsNearBy,
+  isCancelled
 }) => {
   if (!imageUrl) {
     return <div className="card" style={{ border: "none" }}></div>;
   }
   return (
-    <div className="card">
+    <div className="card overlay-container">
+      {isCancelled && <Overlay />}
       <img
         className="card-img-top img-height-equalizer "
         src={imageUrl}
@@ -106,6 +108,14 @@ const Card = ({
             return <Hotel {...value} key={key} />;
           })}
       </ul>
+    </div>
+  );
+};
+
+const Overlay = () => {
+  return (
+    <div id="overlay">
+      <span className="o-text">Cancelled due to coronavirus pandemic.</span>
     </div>
   );
 };
