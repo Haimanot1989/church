@@ -216,7 +216,8 @@
       "sup": "th",
       "month": "April"
     },
-    "confSubtypes": []
+    "confSubtypes": [],
+    "isCancelled": true
   },
   "annualConference": {
     "mainLocation": {
