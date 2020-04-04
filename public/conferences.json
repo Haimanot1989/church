@@ -219,6 +219,60 @@
     "confSubtypes": [],
     "isCancelled": true
   },
+  "theLordsSupperOnZoom": {
+    "mainLocation": {
+      "map": "https://us04web.zoom.us/j/888139700?pwd=bHFWTktaMmhuUmhLekYzZGxZZmNTZz09",
+      "placeName": "Click on this link to join. Use chrome or download the Zoom app"
+    },
+    "imageUrl": "./zoom_img.png",
+    "confType": "Passover conference",
+    "city": "Online on Zoom",
+    "confStart": {
+      "date": "11",
+      "sup": "th",
+      "month": "April"
+    },
+    "confEnd": {
+      "date": "12",
+      "sup": "th",
+      "month": "April"
+    },
+    "confSubtypes": [
+      {
+        "title": "Online program",
+        "location": {
+          "address": " this zoom link",
+          "map": "https://us04web.zoom.us/j/888139700?pwd=bHFWTktaMmhuUmhLekYzZGxZZmNTZz09"
+        },
+        "time": [
+          {
+            "date": {
+              "day": "Saturday",
+              "date": "11",
+              "sup": "th",
+              "month": "April"
+            },
+            "startTime": "12:00 CEST",
+            "finishTime": "15:00 CEST"
+          },
+          {
+            "date": {
+              "day": "Sunday",
+              "date": "12",
+              "sup": "th",
+              "month": "April"
+            },
+            "startTime": "12:00 CEST",
+            "finishTime": "15:00 CEST"
+          }
+        ]
+      }
+    ],
+    "contactInformation": {
+      "emails": ["haimif@yahoo.com"],
+      "phoneNumbers": ["+4746377592"]
+    }
+  },
   "annualConference": {
     "mainLocation": {
       "map": "https://www.google.com/maps/place/La+Maison+des+Associations+de+Solidarit%C3%A9/@48.8242435,2.3703446,17z/data=!4m5!3m4!1s0x47e6722f75279975:0x3c717e5ea9a592b7!8m2!3d48.8242435!4d2.3725333",

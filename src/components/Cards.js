@@ -20,7 +20,7 @@ const Cards = () => {
   const [conferences, setConferences] = useState({});
   useEffect(() => fetchConfData(setConferences), []);
   let mayConferenceGermany = conferences["mayConferenceGermany"];
-  let theLordsSupperNorway = conferences["theLordsSupperNorway"];
+  let theLordsSupperOnZoom = conferences["theLordsSupperOnZoom"];
   let theLordsSupperCanada = conferences["theLordsSupperCanada"];
 
   let theLordsSupperAustralia = conferences["theLordsSupperAustralia"];
@@ -31,7 +31,7 @@ const Cards = () => {
   return (
     <>
       <div className="card-deck mb-2">
-        <Card {...theLordsSupperNorway} />
+        <Card {...theLordsSupperOnZoom} />
         <Card {...theLordsSupperCanada} />
       </div>
       <div className="card-deck mb-2">
