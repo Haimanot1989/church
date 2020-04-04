@@ -235,7 +235,7 @@
     "confEnd": {
       "date": "12",
       "sup": "th",
-      "month": "April"
+      "month": "April at 12:00 PM - 15:00 PM CEST"
     },
     "confSubtypes": [
       {
@@ -252,8 +252,8 @@
               "sup": "th",
               "month": "April"
             },
-            "startTime": "12:00 CEST",
-            "finishTime": "15:00 CEST"
+            "startTime": "12:00 PM CEST",
+            "finishTime": "15:00 PM CEST"
           },
           {
             "date": {
@@ -262,8 +262,8 @@
               "sup": "th",
               "month": "April"
             },
-            "startTime": "12:00 CEST",
-            "finishTime": "15:00 CEST"
+            "startTime": "12:00 PM CEST",
+            "finishTime": "15:00 PM CEST"
           }
         ]
       }
