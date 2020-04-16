@@ -20,32 +20,24 @@ const Cards = () => {
   const [conferences, setConferences] = useState({});
   useEffect(() => fetchConfData(setConferences), []);
   let mayConferenceGermany = conferences["mayConferenceGermany"];
-  let theLordsSupperOnZoom = conferences["theLordsSupperOnZoom"];
-  let theLordsSupperCanada = conferences["theLordsSupperCanada"];
-
-  let theLordsSupperAustralia = conferences["theLordsSupperAustralia"];
   let annualConference = conferences["annualConference"];
   let octoberConference = conferences["octoberConference"];
   let newYearConference2021 = conferences["newYearConference2021"];
-  let placeholder = {};
+  /*   let placeholder = {}; */
   return (
     <>
       <div className="card-deck mb-2">
-        <Card {...theLordsSupperOnZoom} />
-        <Card {...theLordsSupperCanada} />
-      </div>
-      <div className="card-deck mb-2">
-        <Card {...theLordsSupperAustralia} />
         <Card {...mayConferenceGermany} />
-      </div>
-      <div className="card-deck mb-2">
         <Card {...annualConference} />
-        <Card {...octoberConference} />
       </div>
       <div className="card-deck mb-2">
+        <Card {...octoberConference} />
         <Card {...newYearConference2021} />
+      </div>
+      {/*       <div className="card-deck mb-2">
         <Card {...placeholder} />
       </div>
+ */}{" "}
     </>
   );
 };

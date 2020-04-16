@@ -225,5 +225,224 @@
       "emails": ["gefrem60@gmail.com"],
       "phoneNumbers": ["+447838870288"]
     }
+  },
+  "theLordsSupperNorway": {
+    "imageUrl": "https://images.unsplash.com/photo-1433757741270-94a3bcadc2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+    "confType": "The Lord's Supper",
+    "country": "Norway",
+    "city": "Oslo",
+    "confStart": {
+      "date": "3",
+      "sup": "rd",
+      "month": "April"
+    },
+    "confEnd": {
+      "date": "5",
+      "sup": "th",
+      "month": "April"
+    },
+    "contactInformation": {
+      "emails": ["haimif@yahoo.com"],
+      "phoneNumbers": ["+4746377592"]
+    },
+    "confSubtypes": [
+      {
+        "title": "Evening program",
+        "location": {
+          "address": "Trondheimsvegen - Kløfta 1, 2040 Kløfta",
+          "map": "https://www.google.com/maps/place/Trondheimsvegen+-+Kl%C3%B8fta+1,+2040+Kl%C3%B8fta/@60.0577077,11.1174609,17z/data=!3m1!4b1!4m5!3m4!1s0x46417edca6aa3d91:0x29b38e287039f34!8m2!3d60.0577077!4d11.1196496"
+        },
+        "time": [
+          {
+            "date": {
+              "day": "Friday",
+              "date": "3",
+              "sup": "rd",
+              "month": "April"
+            },
+            "startTime": "17:00",
+            "finishTime": "20:00"
+          }
+        ]
+      },
+      {
+        "title": "Whole day program",
+        "location": {
+          "address": "Skøyer'n fritidsklubb, Solbergliveien 85, 0683 Oslo",
+          "map": "https://www.google.com/maps/place/Sk%C3%B8yer'n+fritidsklubb/@59.8997986,10.8407608,17z/data=!3m1!4b1!4m5!3m4!1s0x46416f63edefaf97:0x8273d57b2f979b8!8m2!3d59.8997986!4d10.8429495"
+        },
+        "time": [
+          {
+            "date": {
+              "day": "Saturday",
+              "date": "4",
+              "sup": "th",
+              "month": "April"
+            },
+            "startTime": "11:00",
+            "finishTime": "20:00"
+          },
+          {
+            "date": {
+              "day": "Sunday",
+              "date": "5",
+              "sup": "th",
+              "month": "April"
+            },
+            "startTime": "11:00",
+            "finishTime": "20:00"
+          }
+        ]
+      }
+    ],
+    "isCancelled": true
+  },
+  "theLordsSupperCanada": {
+    "mainLocation": {
+      "map": "https://www.google.com/maps/place/Estonian+House/@43.6818166,-79.3600938,17z/data=!3m1!4b1!4m5!3m4!1s0x89d4cc989d0ae9c1:0xba8968d8d1f45e52!8m2!3d43.6818166!4d-79.3579051",
+      "placeName": "Estonian House"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1490623970972-ae8bb3da443e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+    "confType": "Youth conference",
+    "country": "Canada",
+    "city": "Toronto",
+    "confStart": {
+      "date": "10",
+      "sup": "th",
+      "month": "April"
+    },
+    "confEnd": {
+      "date": "12",
+      "sup": "th",
+      "month": "April"
+    },
+    "contactInformation": {
+      "phoneNumbers": ["+16138167441"]
+    },
+    "confSubtypes": [
+      {
+        "title": "The Lord's Supper",
+        "location": {
+          "address": "958 Broadview Ave, East York, ON M4K 2R6",
+          "map": "https://www.google.com/maps/place/Estonian+House/@43.6818166,-79.3600938,17z/data=!3m1!4b1!4m5!3m4!1s0x89d4cc989d0ae9c1:0xba8968d8d1f45e52!8m2!3d43.6818166!4d-79.3579051"
+        },
+        "time": [
+          {
+            "date": {
+              "day": "Friday",
+              "date": "10",
+              "sup": "th",
+              "month": "April"
+            },
+            "startTime": "10:00",
+            "finishTime": "17:30",
+            "lunchBreak": "12:30 - 14:30"
+          }
+        ]
+      },
+      {
+        "title": "Youth program",
+        "location": {
+          "address": "958 Broadview Ave, East York, ON M4K 2R6",
+          "map": "https://www.google.com/maps/place/Estonian+House/@43.6818166,-79.3600938,17z/data=!3m1!4b1!4m5!3m4!1s0x89d4cc989d0ae9c1:0xba8968d8d1f45e52!8m2!3d43.6818166!4d-79.3579051"
+        },
+        "time": [
+          {
+            "date": {
+              "day": "Saturday",
+              "date": "11",
+              "sup": "th",
+              "month": "April"
+            },
+            "startTime": "10:00",
+            "finishTime": "17:30",
+            "lunchBreak": "12:30 - 14:30"
+          },
+          {
+            "date": {
+              "day": "Sunday",
+              "date": "12",
+              "sup": "th",
+              "month": "April"
+            },
+            "startTime": "10:00",
+            "finishTime": "17:30",
+            "lunchBreak": "12:30 - 14:30"
+          }
+        ]
+      }
+    ]
+  },
+  "theLordsSupperAustralia": {
+    "imageUrl": "https://images.unsplash.com/photo-1538385838701-51d6b218a676?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+    "confType": "The Lord's Supper",
+    "country": "Australia",
+    "city": "Perth",
+    "confStart": {
+      "date": "17",
+      "sup": "th",
+      "month": "April"
+    },
+    "confEnd": {
+      "date": "19",
+      "sup": "th",
+      "month": "April"
+    },
+    "confSubtypes": [],
+    "isCancelled": true
+  },
+  "theLordsSupperOnZoom": {
+    "mainLocation": {
+      "map": "https://us04web.zoom.us/j/888139700?pwd=bHFWTktaMmhuUmhLekYzZGxZZmNTZz09",
+      "placeName": "Click on this link to join. Use chrome or download the Zoom app"
+    },
+    "imageUrl": "./zoom_img.png",
+    "confType": "Passover conference",
+    "city": "Online on Zoom",
+    "confStart": {
+      "date": "11",
+      "sup": "th",
+      "month": "April"
+    },
+    "confEnd": {
+      "date": "12",
+      "sup": "th",
+      "month": "April at 12:00 PM - 15:00 PM CEST"
+    },
+    "confSubtypes": [
+      {
+        "title": "Online program",
+        "location": {
+          "address": " this zoom link",
+          "map": "https://us04web.zoom.us/j/888139700?pwd=bHFWTktaMmhuUmhLekYzZGxZZmNTZz09"
+        },
+        "time": [
+          {
+            "date": {
+              "day": "Saturday",
+              "date": "11",
+              "sup": "th",
+              "month": "April"
+            },
+            "startTime": "12:00 PM CEST",
+            "finishTime": "15:00 PM CEST"
+          },
+          {
+            "date": {
+              "day": "Sunday",
+              "date": "12",
+              "sup": "th",
+              "month": "April"
+            },
+            "startTime": "12:00 PM CEST",
+            "finishTime": "15:00 PM CEST"
+          }
+        ]
+      }
+    ],
+    "contactInformation": {
+      "emails": ["haimif@yahoo.com"],
+      "phoneNumbers": ["+4746377592"]
+    }
   }
 }
