@@ -19,25 +19,26 @@ function fetchConfData(setConferences) {
 const Cards = () => {
   const [conferences, setConferences] = useState({});
   useEffect(() => fetchConfData(setConferences), []);
+  let bibleStudy = conferences["bibleStudyOnZoom"];
   let mayConferenceGermany = conferences["mayConferenceGermany"];
   let annualConference = conferences["annualConference"];
   let octoberConference = conferences["octoberConference"];
   let newYearConference2021 = conferences["newYearConference2021"];
-  /*   let placeholder = {}; */
+  let placeholder = {};
   return (
     <>
       <div className="card-deck mb-2">
+        <Card {...bibleStudy} />
         <Card {...mayConferenceGermany} />
-        <Card {...annualConference} />
       </div>
       <div className="card-deck mb-2">
+        <Card {...annualConference} />
         <Card {...octoberConference} />
-        <Card {...newYearConference2021} />
       </div>
-      {/*       <div className="card-deck mb-2">
+      <div className="card-deck mb-2">
+        <Card {...newYearConference2021} />
         <Card {...placeholder} />
       </div>
- */}{" "}
     </>
   );
 };
@@ -75,8 +76,9 @@ const Card = ({
           {/* conStart, confEnd */}
           <h6 className="card-subtitle mb-2 text-muted">
             {confStart.date}
-            <sup>{confStart.sup}</sup> {confStart.month} - {confEnd.date}
-            <sup>{confEnd.sup}</sup> {confEnd.month}
+            <sup>{confStart.sup}</sup> {confStart.month} -{" "}
+            {confEnd && confEnd.date}
+            <sup>{confEnd && confEnd.sup}</sup> {confEnd && confEnd.month}
           </h6>
           {mainLocation && <MainLocation {...mainLocation} />}
           {contactInformation && <ContactInfo {...contactInformation} />}
