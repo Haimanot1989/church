@@ -1,49 +1,10 @@
 {
-  "bibleStudyOnZoom": {
-    "mainLocation": {
-      "map": "https://us02web.zoom.us/j/6398070890?pwd=MlZxZWcwR3I0d3R1MmhDN0syaUx0Zz09",
-      "placeName": "Click on this link to join. Use chrome or download the Zoom app"
-    },
-    "imageUrl": "./zoom_img.png",
-    "confType": "Bible Study on the name of Jesus",
-    "city": "Online on Zoom",
-    "confStart": {
-      "date": "25",
-      "sup": "th",
-      "month": "April at 15:45 - 18:45 PM CEST"
-    },
-    "confSubtypes": [
-      {
-        "title": "Online program",
-        "location": {
-          "address": " this zoom link",
-          "map": "https://us02web.zoom.us/j/6398070890?pwd=MlZxZWcwR3I0d3R1MmhDN0syaUx0Zz09"
-        },
-        "time": [
-          {
-            "date": {
-              "day": "Saturday",
-              "date": "25",
-              "sup": "th",
-              "month": "April"
-            },
-            "startTime": "15:45 CEST",
-            "finishTime": "18:45 CEST"
-          }
-        ]
-      }
-    ],
-    "contactInformation": {
-      "emails": ["frezer26@gmail.com, haimif@yahoo.com"],
-      "phoneNumbers": ["+16138167441, +4746377592"]
-    }
-  },
   "mayConferenceGermany": {
     "mainLocation": {
       "map": "https://www.google.com/maps/place/Mainzer+Landstra%C3%9Fe+226-230,+60327+Frankfurt+am+Main,+Germany/@50.1038376,8.643439,17z/data=!4m5!3m4!1s0x47bd0be3ff963e07:0x4aedcad7be4a40e4!8m2!3d50.1038376!4d8.6456277",
       "placeName": "Mainzer Landstraße 226-230"
     },
-    "imageUrl": "https://images.unsplash.com/photo-1566506631331-a578cfba9cac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
+    "imageUrl": "./frankfurt.png",
     "confType": "May conference",
     "country": "Germany",
     "city": "Frankfurt",
@@ -98,7 +59,7 @@
       "map": "https://www.google.com/maps/place/La+Maison+des+Associations+de+Solidarit%C3%A9/@48.8242435,2.3703446,17z/data=!4m5!3m4!1s0x47e6722f75279975:0x3c717e5ea9a592b7!8m2!3d48.8242435!4d2.3725333",
       "placeName": "La Maison des Associations de Solidarité"
     },
-    "imageUrl": "https://images.unsplash.com/photo-1431274172761-fca41d930114?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    "imageUrl": "./paris.png",
     "confType": "2020 Annual European Conference",
     "country": "France",
     "city": "Paris",
@@ -230,7 +191,7 @@
       "map": "https://www.google.com/maps/place/Fletcher+Hotel-Restaurant+Leidschendam-Den+Haag/@52.0885474,4.3793037,17z/data=!3m1!4b1!4m8!3m7!1s0x47c5b7e9fc9b1d57:0x1fa95717f3aa2d23!5m2!4m1!1i2!8m2!3d52.0885474!4d4.3814924",
       "placeName": "Fletcher Hotel-Restaurant Leidschendam-Den Haag"
     },
-    "imageUrl": "https://images.unsplash.com/photo-1551040938-85f1272a29c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80",
+    "imageUrl": "./theHague.png",
     "confType": "October conference",
     "country": "Netherlands",
     "city": "The Hague",
@@ -302,7 +263,7 @@
     ]
   },
   "newYearConference2021": {
-    "imageUrl": "https://images.unsplash.com/photo-1508189860359-777d945909ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80",
+    "imageUrl": "./stockholm.png",
     "confType": "New Year Conference",
     "country": "Sweden",
     "city": "Stockholm",

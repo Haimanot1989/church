@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { IoMdTime } from "react-icons/io";
-import { IoIosCalendar } from "react-icons/io";
 import { GoLocation } from "react-icons/go";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUtensils } from "@fortawesome/free-solid-svg-icons";
 import { MainLocation } from "./MainLocation";
 import { ContactInfo } from "./ContactInfo";
+import { ConfSubTypeTimeItem } from "./ConfSubTypeTimeItem";
+import { OnlineMeetingCard } from "./OnlineMeetingCard";
 
 function fetchConfData(setConferences) {
   fetch("./conferences.json")
@@ -16,28 +14,48 @@ function fetchConfData(setConferences) {
       setConferences(data);
     });
 }
+
+function fetchOnlineMeetingData(setOnlineMeetings) {
+  console.log("Here");
+  fetch("./onlineMeetings.json")
+    .then(response => {
+      return response.json();
+    })
+    .then(data => {
+      setOnlineMeetings(data);
+    });
+}
+
 const Cards = () => {
   const [conferences, setConferences] = useState({});
-  useEffect(() => fetchConfData(setConferences), []);
-  let bibleStudy = conferences["bibleStudyOnZoom"];
+  const [onlineMeetings, setOnlineMeetings] = useState({});
+
+  useEffect(() => {
+    fetchConfData(setConferences);
+    fetchOnlineMeetingData(setOnlineMeetings);
+  }, []);
+
+  let saturdayBibleStudy = onlineMeetings["saturdayBibleStudyOnZoom"];
+  let thursdayBibleStudy = onlineMeetings["thursdayBibleStudyOnZoom"];
   let mayConferenceGermany = conferences["mayConferenceGermany"];
   let annualConference = conferences["annualConference"];
   let octoberConference = conferences["octoberConference"];
   let newYearConference2021 = conferences["newYearConference2021"];
-  let placeholder = {};
+
+  // let placeholder = {};
   return (
     <>
       <div className="card-deck mb-2">
-        <Card {...bibleStudy} />
+        <OnlineMeetingCard {...thursdayBibleStudy} />
+        <OnlineMeetingCard {...saturdayBibleStudy} />
+      </div>
+      <div className="card-deck mb-2">
         <Card {...mayConferenceGermany} />
-      </div>
-      <div className="card-deck mb-2">
         <Card {...annualConference} />
-        <Card {...octoberConference} />
       </div>
       <div className="card-deck mb-2">
+        <Card {...octoberConference} />
         <Card {...newYearConference2021} />
-        <Card {...placeholder} />
       </div>
     </>
   );
@@ -154,44 +172,6 @@ const ConfSubTypeItemLocation = location => {
       <a href={location.map}>
         <GoLocation /> {location.address}
       </a>
-    </>
-  );
-};
-const ConfSubTypeTimeItem = ({
-  id,
-  date,
-  startTime,
-  finishTime,
-  lunchBreak
-}) => {
-  return (
-    <li className="custom-li-style" key={id}>
-      <p>
-        <IoIosCalendar /> {date.day} {date.date}
-        <sup>{date.sup}</sup> {date.month}
-      </p>
-      <p>
-        {startTime && finishTime && (
-          <ConfSubTypeStartAndFinishTime
-            startTime={startTime}
-            finishTime={finishTime}
-          />
-        )}
-      </p>
-      {lunchBreak && (
-        <p>
-          <FontAwesomeIcon icon={faUtensils} /> {lunchBreak}
-        </p>
-      )}
-      <hr className="w-50 clearfix"></hr>
-    </li>
-  );
-};
-
-const ConfSubTypeStartAndFinishTime = ({ startTime, finishTime }) => {
-  return (
-    <>
-      <IoMdTime /> {startTime} - {finishTime}{" "}
     </>
   );
 };
