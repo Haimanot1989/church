@@ -8,15 +8,15 @@
         "placeName": "Join the meeting by click on this link or use the id and password above in the zoom app"
       }
     },
-    "imageUrl": "./q_and_a.png",
-    "title": "Online Q&A on the name of Jesus",
+    "imageUrl": "./bible-study.png",
+    "title": "Online Bible study on holiness",
     "time": [
       {
         "id": 1,
         "date": {
           "day": "Saturday",
-          "date": "2",
-          "sup": "nd",
+          "date": "23",
+          "sup": "rd",
           "month": "May"
         },
         "startTime": "16:00 CEST",
@@ -43,10 +43,10 @@
       {
         "id": 1,
         "date": {
-          "day": "Starting on Thursday",
-          "date": "30",
+          "day": "Next meeting on Thursday",
+          "date": "28",
           "sup": "th",
-          "month": "April"
+          "month": "May"
         },
         "startTime": "20:00 CEST",
         "finishTime": "22:00 CEST"
