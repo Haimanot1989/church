@@ -35,9 +35,7 @@ const Cards = () => {
     fetchOnlineMeetingData(setOnlineMeetings);
   }, []);
 
-  let saturdayBibleStudy = onlineMeetings["saturdayBibleStudyOnZoom"];
   let thursdayBibleStudy = onlineMeetings["thursdayBibleStudyOnZoom"];
-  let mayConferenceGermany = conferences["mayConferenceGermany"];
   let annualConference = conferences["annualConference"];
   let octoberConference = conferences["octoberConference"];
   let newYearConference2021 = conferences["newYearConference2021"];
@@ -46,11 +44,7 @@ const Cards = () => {
   return (
     <>
       <div className="card-deck mb-2">
-        <OnlineMeetingCard {...saturdayBibleStudy} />
         <OnlineMeetingCard {...thursdayBibleStudy} />
-      </div>
-      <div className="card-deck mb-2">
-        <Card {...mayConferenceGermany} />
         <Card {...annualConference} />
       </div>
       <div className="card-deck mb-2">

@@ -5,6 +5,7 @@ import { MainLocation } from "./MainLocation";
 
 export const OnlineMeetingCard = ({
   zoomInfo,
+  zoomInfoAmharic,
   imageUrl,
   title,
   time,
@@ -20,15 +21,8 @@ export const OnlineMeetingCard = ({
       <ul className="list-group list-group-flush" style={{ listStyle: "none" }}>
         <li key="mainBody" className="list-group-item">
           <h5 className="card-title">{title} - via Zoom</h5>
-          <h6 className="card-subtitle mb-2 text-muted">
-            Meeting ID: {zoomInfo && zoomInfo.meetingId}
-          </h6>
-          <h6 className="card-subtitle mb-2 text-muted">
-            Password: {zoomInfo && zoomInfo.meetingPassword}
-          </h6>
-          {zoomInfo && zoomInfo.meetingLink && (
-            <MainLocation {...zoomInfo.meetingLink} />
-          )}
+          {zoomInfo && <MeetingInfo {...zoomInfo} />}
+          {zoomInfoAmharic && <MeetingInfo {...zoomInfoAmharic} />}
         </li>
         <span style={{ padding: ".75rem 1.25rem" }}>
           {time &&
@@ -41,5 +35,19 @@ export const OnlineMeetingCard = ({
         </li>
       </ul>
     </div>
+  );
+};
+
+const MeetingInfo = zoomInfo => {
+  return (
+    <>
+      <h6 className="card-subtitle mb-2 text-muted">
+        {zoomInfo.language} Meeting ID: {zoomInfo.meetingId}
+      </h6>
+      <h6 className="card-subtitle mb-2 text-muted">
+        {zoomInfo.language} Password: {zoomInfo.meetingPassword}
+      </h6>
+      {zoomInfo.meetingLink && <MainLocation {...zoomInfo.meetingLink} />}
+    </>
   );
 };
