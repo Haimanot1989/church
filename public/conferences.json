@@ -184,7 +184,8 @@
         "webSite": "https://www.hotel-bb.com/fr/hotel/paris-italie-porte-de-choisy",
         "mapLocation": "https://www.google.com/maps/place/B%26B+HOTEL/@48.8168759,2.3665113,15z/data=!4m2!3m1!1s0x0:0xbd13cf92eac1c83a?sa=X&ved=2ahUKEwjY-eqjxuPnAhVHtIsKHejGAEYQ_BIwCHoECAwQCA"
       }
-    ]
+    ],
+    "isCancelled": true
   },
   "octoberConference": {
     "mainLocation": {
