@@ -1,40 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { GoLocation } from "react-icons/go";
 import { MainLocation } from "./MainLocation";
 import { ContactInfo } from "./ContactInfo";
 import { ConfSubTypeTimeItem } from "./ConfSubTypeTimeItem";
 import { OnlineMeetingCard } from "./OnlineMeetingCard";
-
-function fetchConfData(setConferences) {
-  fetch("./conferences.json")
-    .then(response => {
-      return response.json();
-    })
-    .then(data => {
-      setConferences(data);
-    });
-}
-
-function fetchOnlineMeetingData(setOnlineMeetings) {
-  console.log("Here");
-  fetch("./onlineMeetings.json")
-    .then(response => {
-      return response.json();
-    })
-    .then(data => {
-      setOnlineMeetings(data);
-    });
-}
+import conferences from "./data/conferences.json";
+import onlineMeetings from "./data/onlineMeetings.json";
 
 const Cards = () => {
-  const [conferences, setConferences] = useState({});
-  const [onlineMeetings, setOnlineMeetings] = useState({});
-
-  useEffect(() => {
-    fetchConfData(setConferences);
-    fetchOnlineMeetingData(setOnlineMeetings);
-  }, []);
-
   let thursdayBibleStudy = onlineMeetings["thursdayBibleStudyOnZoom"];
   let annualConference = conferences["annualConference"];
   let octoberConference = conferences["octoberConference"];

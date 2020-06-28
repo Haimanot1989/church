@@ -90,6 +90,12 @@ footer p {
   .li-first {
     height: 190px;
   }
+
+  .books-description-box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
 }
 
 .overlay-container {
@@ -116,4 +122,15 @@ footer p {
   top: 20%;
   left: 0;
   width: 100%;
+}
+
+.fixed-header {
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.position-main {
+  top: 50px;
+  position: relative;
 }

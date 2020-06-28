@@ -1,39 +1,42 @@
 import React from "react";
+import { Link } from "@reach/router";
 
 function Header() {
   return (
     <>
-      <header>
-        <nav className="navbar navbar-expand-md navbar-dark  bg-dark">
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav mr-auto">
-              <li className="nav-item">
-                <a className="nav-link" href="/conferences">
-                  Conferences <span className="sr-only">(current)</span>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/place-of-worship">
-                  Place of worship
-                </a>
-              </li>
-            </ul>
-          </div>
+      <header className="fixed-header">
+        <nav className="nav justify-content-center  py-1 mb-2 text-white bg-dark">
+          {NAV_LINKS.map(navlink => (
+            <NavLink to={`${navlink.url}`} key={`${navlink.title}`}>
+              {navlink.title}
+            </NavLink>
+          ))}
         </nav>
       </header>
     </>
   );
 }
+
+const NAV_LINKS = [
+  { title: "Conferences", url: "/conferences" },
+  { title: "Place of worship", url: "/place-of-worship" },
+  { title: "Books", url: "/books" }
+];
+
+const NavLink = props => (
+  <Link
+    {...props}
+    getProps={({ isCurrent }) => {
+      // the object returned here is passed to the
+      // anchor element's props
+      return {
+        className: "nav-link",
+        style: {
+          color: isCurrent ? "white" : "#ffffff80"
+        }
+      };
+    }}
+  />
+);
 
 export default Header;

@@ -1,18 +1,20 @@
 import React from "react";
 import Header from "./components/Header";
-import Main from "./components/Main";
 import Footer from "./components/Footer";
 import { Router } from "@reach/router";
 import PlaceOfWorship from "./components/PlaceOfWorship";
+import Conferences from "./components/Conferences";
+import Books from "./components/Books";
 
 function App() {
   return (
     <>
       <Header />
       <Router>
-        <Main path="/" />
-        <Main path="/conferences" />
-        <PlaceOfWorship path="place-of-worship" />
+        <Conferences path="/" />
+        <Conferences path="/conferences" />
+        <PlaceOfWorship path="/place-of-worship" />
+        <Books path="books" />
       </Router>
       <Footer />
     </>
