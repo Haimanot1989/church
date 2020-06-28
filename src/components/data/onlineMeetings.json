@@ -1,0 +1,70 @@
+{
+  "saturdayBibleStudyOnZoom": {
+    "zoomInfo": {
+      "meetingId": "639 807 0890",
+      "meetingPassword": "OneGod",
+      "meetingLink": {
+        "map": "https://us02web.zoom.us/j/6398070890?pwd=MlZxZWcwR3I0d3R1MmhDN0syaUx0Zz09",
+        "placeName": "Join the meeting by click on this link or use the id and password above in the zoom app"
+      }
+    },
+    "imageUrl": "./bible-study.png",
+    "title": "Online Bible study on holiness",
+    "time": [
+      {
+        "id": 1,
+        "date": {
+          "day": "Saturday",
+          "date": "23",
+          "sup": "rd",
+          "month": "May"
+        },
+        "startTime": "16:00 CEST",
+        "finishTime": "19:00 CEST"
+      }
+    ],
+    "contactInformation": {
+      "emails": ["frezer26@gmail.com"],
+      "phoneNumbers": ["+16 13 816 74 41"]
+    }
+  },
+  "thursdayBibleStudyOnZoom": {
+    "zoomInfo": {
+      "language": "English",
+      "meetingId": "664 477 0183",
+      "meetingPassword": "7",
+      "meetingLink": {
+        "map": "https://us02web.zoom.us/j/6644770183?pwd=SHAzL1kwTmcyYm1PdkdzNVNLNUZ6dz09",
+        "placeName": "Join the ENGLISH meeting by clicking on this link or using the details above in the zoom app"
+      }
+    },
+    "zoomInfoAmharic": {
+      "language": "Amharic",
+      "meetingId": "639 807 0890",
+      "meetingPassword": "OneGod",
+      "meetingLink": {
+        "map": "https://us02web.zoom.us/j/6398070890?pwd=MlZxZWcwR3I0d3R1MmhDN0syaUx0Zz09",
+        "placeName": "Join the AMHARIC meeting by clicking on this link or using the details above in the zoom app"
+      }
+    },
+    "imageUrl": "./bible-study.png",
+    "title": "Online Bible study series on the identity of Jesus on Thursdays once every two weeks",
+    "time": [
+      {
+        "id": 1,
+        "date": {
+          "day": "Next meeting on Thursday",
+          "date": "9th",
+          "sup": "th",
+          "month": "July"
+        },
+        "startTime": "20:00 CEST",
+        "finishTime": "22:00 CEST"
+      }
+    ],
+    "contactInformation": {
+      "emails": ["m.feyisa@gmx.net"],
+      "phoneNumbers": ["+41 78 771 83 17"]
+    }
+  }
+}
