@@ -1,5 +1,5 @@
 import React from "react";
-import { GoLocation } from "react-icons/go";
+import { GoLocation, GoAlert } from "react-icons/go";
 import { MainLocation } from "./MainLocation";
 import { ContactInfo } from "./ContactInfo";
 import { ConfSubTypeTimeItem } from "./ConfSubTypeTimeItem";
@@ -9,20 +9,19 @@ import onlineMeetings from "./data/onlineMeetings.json";
 
 const Cards = () => {
   let thursdayBibleStudy = onlineMeetings["thursdayBibleStudyOnZoom"];
-  let annualConference = conferences["annualConference"];
   let octoberConference = conferences["octoberConference"];
   let newYearConference2021 = conferences["newYearConference2021"];
+  let placeholder = {};
 
-  // let placeholder = {};
   return (
     <>
       <div className="card-deck mb-2">
         <OnlineMeetingCard {...thursdayBibleStudy} />
-        <Card {...annualConference} />
+        <Card {...octoberConference} />
       </div>
       <div className="card-deck mb-2">
-        <Card {...octoberConference} />
         <Card {...newYearConference2021} />
+        <Card {...placeholder} />
       </div>
     </>
   );
@@ -39,7 +38,8 @@ const Card = ({
   contactInformation,
   mainLocation,
   hotelsNearBy,
-  isCancelled
+  isCancelled,
+  importantMessage
 }) => {
   if (!imageUrl) {
     return <div className="card" style={{ border: "none" }}></div>;
@@ -67,6 +67,9 @@ const Card = ({
           </h6>
           {mainLocation && <MainLocation {...mainLocation} />}
           {contactInformation && <ContactInfo {...contactInformation} />}
+        </li>
+        <li className="list-group-item">
+          {importantMessage && <AdditionalMessage {...importantMessage} />}
         </li>
         {confSubtypes.length > 0 && (
           <CardSectionTitle sectionTitle="Programs" />
@@ -99,6 +102,13 @@ const Overlay = () => {
   );
 };
 
+const AdditionalMessage = ({ content }) => {
+  return (
+    <p className="text-danger">
+      <GoAlert /> {content}
+    </p>
+  );
+};
 const CardSectionTitle = ({ sectionTitle }) => {
   return (
     <li className="list-group-item new-card-section">

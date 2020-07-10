@@ -192,6 +192,9 @@
       "map": "https://www.google.com/maps/place/Fletcher+Hotel-Restaurant+Leidschendam-Den+Haag/@52.0885474,4.3793037,17z/data=!3m1!4b1!4m8!3m7!1s0x47c5b7e9fc9b1d57:0x1fa95717f3aa2d23!5m2!4m1!1i2!8m2!3d52.0885474!4d4.3814924",
       "placeName": "Fletcher Hotel-Restaurant Leidschendam-Den Haag"
     },
+    "importantMessage": {
+      "content": "Due to the requirement for social distancing, we can only host a maximum of 38 people, not including children under 14 years old. It is therefore very important that you register your coming by sending an email to lhoberink@hotmail.com before 7th of September. The Lord Jesus bless you for your cooperation. We look forward to fellowship with you."
+    },
     "imageUrl": "./theHague.png",
     "confType": "October conference",
     "country": "Netherlands",
@@ -212,7 +215,7 @@
     },
     "confSubtypes": [
       {
-        "title": "Evening program",
+        "title": "Whole day program",
         "location": {
           "address": "Weigelia 22, 2262 AB Leidschendam, Netherlands",
           "map": "https://www.google.com/maps/place/Fletcher+Hotel-Restaurant+Leidschendam-Den+Haag/@52.0885474,4.3793037,17z/data=!3m1!4b1!4m8!3m7!1s0x47c5b7e9fc9b1d57:0x1fa95717f3aa2d23!5m2!4m1!1i2!8m2!3d52.0885474!4d4.3814924"
@@ -225,18 +228,10 @@
               "sup": "nd",
               "month": "October"
             },
-            "startTime": "19:00",
-            "finishTime": "21:00"
-          }
-        ]
-      },
-      {
-        "title": "Whole day program",
-        "location": {
-          "address": "Weigelia 22, 2262 AB Leidschendam, Netherlands",
-          "map": "https://www.google.com/maps/place/Fletcher+Hotel-Restaurant+Leidschendam-Den+Haag/@52.0885474,4.3793037,17z/data=!3m1!4b1!4m8!3m7!1s0x47c5b7e9fc9b1d57:0x1fa95717f3aa2d23!5m2!4m1!1i2!8m2!3d52.0885474!4d4.3814924"
-        },
-        "time": [
+            "startTime": "10:00",
+            "finishTime": "18:00",
+            "lunchBreak": "12:00 - 13:30"
+          },
           {
             "date": {
               "day": "Saturday",
@@ -247,7 +242,16 @@
             "startTime": "10:00",
             "finishTime": "18:30",
             "lunchBreak": "12:00 - 13:30"
-          },
+          }
+        ]
+      },
+      {
+        "title": "Morning program",
+        "location": {
+          "address": "Weigelia 22, 2262 AB Leidschendam, Netherlands",
+          "map": "https://www.google.com/maps/place/Fletcher+Hotel-Restaurant+Leidschendam-Den+Haag/@52.0885474,4.3793037,17z/data=!3m1!4b1!4m8!3m7!1s0x47c5b7e9fc9b1d57:0x1fa95717f3aa2d23!5m2!4m1!1i2!8m2!3d52.0885474!4d4.3814924"
+        },
+        "time": [
           {
             "date": {
               "day": "Sunday",
@@ -255,9 +259,8 @@
               "sup": "th",
               "month": "October"
             },
-            "startTime": "10:00",
-            "finishTime": "18:30",
-            "lunchBreak": "12:00 - 13:30"
+            "startTime": "9:00",
+            "finishTime": "13:00"
           }
         ]
       }

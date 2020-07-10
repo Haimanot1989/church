@@ -54,12 +54,12 @@
         "id": 1,
         "date": {
           "day": "Next meeting on Thursday",
-          "date": "9th",
-          "sup": "th",
+          "date": "23",
+          "sup": "rd",
           "month": "July"
         },
         "startTime": "20:00 CEST",
-        "finishTime": "22:00 CEST"
+        "finishTime": "23:00 CEST"
       }
     ],
     "contactInformation": {
