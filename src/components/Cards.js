@@ -9,6 +9,7 @@ import onlineMeetings from "./data/onlineMeetings.json";
 
 const Cards = () => {
   let thursdayBibleStudy = onlineMeetings["thursdayBibleStudyOnZoom"];
+  let augustConferenceGermany = conferences["augustConferenceGermany"];
   let octoberConference = conferences["octoberConference"];
   let newYearConference2021 = conferences["newYearConference2021"];
   let placeholder = {};
@@ -17,11 +18,12 @@ const Cards = () => {
     <>
       <div className="card-deck mb-2">
         <OnlineMeetingCard {...thursdayBibleStudy} />
-        <Card {...octoberConference} />
+        <Card {...augustConferenceGermany} />
       </div>
       <div className="card-deck mb-2">
+        <Card {...octoberConference} />
         <Card {...newYearConference2021} />
-        <Card {...placeholder} />
+        {/* <Card {...placeholder} /> */}
       </div>
     </>
   );

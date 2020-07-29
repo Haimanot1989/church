@@ -1,22 +1,22 @@
 {
-  "mayConferenceGermany": {
+  "augustConferenceGermany": {
     "mainLocation": {
       "map": "https://www.google.com/maps/place/Mainzer+Landstra%C3%9Fe+226-230,+60327+Frankfurt+am+Main,+Germany/@50.1038376,8.643439,17z/data=!4m5!3m4!1s0x47bd0be3ff963e07:0x4aedcad7be4a40e4!8m2!3d50.1038376!4d8.6456277",
-      "placeName": "Mainzer Landstraße 226-230"
+      "placeName": "A&O Frankfurt Galluswarte‎"
     },
     "imageUrl": "./frankfurt.png",
-    "confType": "May conference",
+    "confType": "Conference",
     "country": "Germany",
     "city": "Frankfurt",
     "confStart": {
-      "date": "23",
-      "sup": "rd",
-      "month": "May"
+      "date": "15",
+      "sup": "th",
+      "month": "August"
     },
     "confEnd": {
-      "date": "24",
+      "date": "16",
       "sup": "th",
-      "month": "May"
+      "month": "August"
     },
     "contactInformation": {
       "emails": ["gefrem60@gmail.com"],
@@ -33,22 +33,22 @@
           {
             "date": {
               "day": "Saturday",
-              "date": "23",
-              "sup": "rd",
-              "month": "May"
+              "date": "15",
+              "sup": "th",
+              "month": "August"
             },
-            "startTime": "10:00",
-            "finishTime": "19:00"
+            "startTime": "11:00",
+            "finishTime": "17:30"
           },
           {
             "date": {
               "day": "Sunday",
-              "date": "24",
+              "date": "16",
               "sup": "th",
-              "month": "May"
+              "month": "August"
             },
-            "startTime": "10:00",
-            "finishTime": "19:00"
+            "startTime": "11:00",
+            "finishTime": "17:30"
           }
         ]
       }

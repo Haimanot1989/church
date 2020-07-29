@@ -54,9 +54,9 @@
         "id": 1,
         "date": {
           "day": "Next meeting on Thursday",
-          "date": "23",
-          "sup": "rd",
-          "month": "July"
+          "date": "6",
+          "sup": "th",
+          "month": "August"
         },
         "startTime": "20:00 CEST",
         "finishTime": "23:00 CEST"
