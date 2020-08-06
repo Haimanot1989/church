@@ -20,7 +20,8 @@ function Header() {
 const NAV_LINKS = [
   { title: "Conferences", url: "/conferences" },
   { title: "Place of worship", url: "/place-of-worship" },
-  { title: "Books", url: "/books" }
+  { title: "Books", url: "/books" },
+  { title: "Sermons", url: "/sermons" }
 ];
 
 const NavLink = props => (

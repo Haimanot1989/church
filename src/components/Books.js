@@ -9,7 +9,6 @@ const Books = () => {
         <div className="row">
           {books["books"] &&
             books["books"].map((book, index) => {
-              console.log("itemNR", index);
               return <BookCard {...book} key={book.title} />;
             })}
         </div>

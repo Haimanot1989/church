@@ -5,6 +5,7 @@ import { Router } from "@reach/router";
 import PlaceOfWorship from "./components/PlaceOfWorship";
 import Conferences from "./components/Conferences";
 import Books from "./components/Books";
+import Sermons from "./components/Sermons";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Conferences path="/conferences" />
         <PlaceOfWorship path="/place-of-worship" />
         <Books path="books" />
+        <Sermons path="sermons" />
       </Router>
       <Footer />
     </>
