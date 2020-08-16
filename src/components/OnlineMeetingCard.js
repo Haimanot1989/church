@@ -7,6 +7,7 @@ export const OnlineMeetingCard = ({
   zoomInfo,
   zoomInfoAmharic,
   imageUrl,
+  importantMessage,
   title,
   time,
   contactInformation
@@ -24,6 +25,9 @@ export const OnlineMeetingCard = ({
           {zoomInfo && <MeetingInfo {...zoomInfo} />}
           {zoomInfoAmharic && <MeetingInfo {...zoomInfoAmharic} />}
         </li>
+        <li className="list-group-item">
+          {importantMessage && <AdditionalMessage {...importantMessage} />}
+        </li>
         <span style={{ padding: ".75rem 1.25rem" }}>
           {time &&
             time.map((item, key) => (
@@ -36,6 +40,12 @@ export const OnlineMeetingCard = ({
       </ul>
     </div>
   );
+};
+
+const AdditionalMessage = ({ content }) => {
+  return content.map((item, key) => {
+    return <p key={key}>{item}</p>;
+  });
 };
 
 const MeetingInfo = zoomInfo => {
