@@ -54,10 +54,19 @@ const MeetingInfo = zoomInfo => {
       <h6 className="card-subtitle mb-2 text-muted">
         {zoomInfo.language} Meeting ID: {zoomInfo.meetingId}
       </h6>
+      {zoomInfo.meetingPassword && <MeetingPassword {...zoomInfo} />}
+      {zoomInfo.meetingLink && <MainLocation {...zoomInfo.meetingLink} />}
+    </>
+  );
+};
+
+const MeetingPassword = zoomInfo => {
+  return (
+    <>
+      {" "}
       <h6 className="card-subtitle mb-2 text-muted">
         {zoomInfo.language} Password: {zoomInfo.meetingPassword}
       </h6>
-      {zoomInfo.meetingLink && <MainLocation {...zoomInfo.meetingLink} />}
     </>
   );
 };

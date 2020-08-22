@@ -8,9 +8,7 @@ import conferences from "./data/conferences.json";
 import onlineMeetings from "./data/onlineMeetings.json";
 
 const Cards = () => {
-  let thursdayBibleStudy = onlineMeetings["thursdayBibleStudyOnZoom"];
-  let annualEuropeanConference = onlineMeetings["annualEuropeanConference"];
-  let augustConferenceGermany = conferences["augustConferenceGermany"];
+  let ACIFNAYouth = onlineMeetings["ACIFNAYouth"];
   let octoberConference = conferences["octoberConference"];
   let newYearConference2021 = conferences["newYearConference2021"];
   let placeholder = {};
@@ -18,11 +16,7 @@ const Cards = () => {
   return (
     <>
       <div className="card-deck mb-2">
-        <OnlineMeetingCard {...annualEuropeanConference} />
-        <OnlineMeetingCard {...thursdayBibleStudy} />
-      </div>
-      <div className="card-deck mb-2">
-        <Card {...augustConferenceGermany} />
+        <OnlineMeetingCard {...ACIFNAYouth} />
         <Card {...octoberConference} />
       </div>
       <div className="card-deck mb-2">

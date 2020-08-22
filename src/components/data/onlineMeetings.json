@@ -1,4 +1,29 @@
 {
+  "ACIFNAYouth": {
+    "zoomInfo": {
+      "language": "",
+      "meetingId": "848 2692 3348",
+      "meetingLink": {
+        "map": "https://us02web.zoom.us/j/84826923348",
+        "placeName": "Join the meeting by clicking on this link or using the meeting id above in the zoom app"
+      }
+    },
+    "imageUrl": "./acifna_youth.png",
+    "title": "Digital ACIFNA Annual Youth Conference",
+    "time": [
+      {
+        "id": 1,
+        "date": {
+          "day": "Sunday",
+          "date": "23",
+          "sup": "rd",
+          "month": "August"
+        },
+        "startTime": "18:30 CEST",
+        "finishTime": "23:00 CEST"
+      }
+    ]
+  },
   "annualEuropeanConference": {
     "zoomInfo": {
       "language": "English",
