@@ -8,20 +8,15 @@ import conferences from "./data/conferences.json";
 import onlineMeetings from "./data/onlineMeetings.json";
 
 const Cards = () => {
-  let ACIFNAYouth = onlineMeetings["ACIFNAYouth"];
-  let octoberConference = conferences["octoberConference"];
+  let harvestConference = onlineMeetings["harvestConference"];
   let newYearConference2021 = conferences["newYearConference2021"];
   let placeholder = {};
 
   return (
     <>
       <div className="card-deck mb-2">
-        <OnlineMeetingCard {...ACIFNAYouth} />
-        <Card {...octoberConference} />
-      </div>
-      <div className="card-deck mb-2">
+        <OnlineMeetingCard {...harvestConference} />
         <Card {...newYearConference2021} />
-        {<Card {...placeholder} />}
       </div>
     </>
   );

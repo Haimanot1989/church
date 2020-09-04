@@ -1,4 +1,52 @@
 {
+  "harvestConference": {
+    "platformName": "Microsoft Teams",
+    "zoomInfo": {
+      "language": "",
+      "meetingLink": {
+        "map": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NWRjMzViYWEtYzk1ZS00ZDg2LWEyNTMtZDg0OGMyMTAwMTMy%40thread.v2/0?context=%7b%22Tid%22%3a%22949777ff-1672-4524-999a-d9e55465738d%22%2c%22Oid%22%3a%22f8251435-47f8-4f0d-9999-8fcccb6bac68%22%7d",
+        "placeName": "Install the free Microsoft Teams app on your phone or laptop and join the meeting by clicking on this link."
+      }
+    },
+    "importantMessage": {
+      "content": [
+        "Dear all,",
+        "Our October conference 2020, Netherlands, will be held online this year. The conference will commence at 12:00 CET. Please use the respective links above to join the meeting.",
+        "Please join us in prayer and share the link with others who may wish to participate.",
+        "God bless!"
+      ]
+    },
+    "imageUrl": "./theHague.png",
+    "title": "Apostolic Church Harvest Conference - The Hague, Netherlands",
+    "time": [
+      {
+        "id": 1,
+        "date": {
+          "day": "Saturday",
+          "date": "3",
+          "sup": "rd",
+          "month": "October"
+        },
+        "startTime": "12:00 CET",
+        "finishTime": "18:00 CET"
+      },
+      {
+        "id": 1,
+        "date": {
+          "day": "Sunday",
+          "date": "4",
+          "sup": "th",
+          "month": "October"
+        },
+        "startTime": "12:00 CET",
+        "finishTime": "18:00 CET"
+      }
+    ],
+    "contactInformation": {
+      "emails": ["lhoberink@hotmail.com"],
+      "phoneNumbers": ["+31640912152"]
+    }
+  },
   "ACIFNAYouth": {
     "zoomInfo": {
       "language": "",

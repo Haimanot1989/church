@@ -10,7 +10,8 @@ export const OnlineMeetingCard = ({
   importantMessage,
   title,
   time,
-  contactInformation
+  contactInformation,
+  platformName
 }) => {
   return (
     <div className="card">
@@ -21,9 +22,12 @@ export const OnlineMeetingCard = ({
       />
       <ul className="list-group list-group-flush" style={{ listStyle: "none" }}>
         <li key="mainBody" className="list-group-item">
-          <h5 className="card-title">{title} - via Zoom</h5>
+          <h5 className="card-title">
+            {title} - via {platformName}
+          </h5>
           {zoomInfo && <MeetingInfo {...zoomInfo} />}
           {zoomInfoAmharic && <MeetingInfo {...zoomInfoAmharic} />}
+          {contactInformation && <ContactInfo {...contactInformation} />}
         </li>
         <li className="list-group-item">
           {importantMessage && <AdditionalMessage {...importantMessage} />}
@@ -34,9 +38,6 @@ export const OnlineMeetingCard = ({
               <ConfSubTypeTimeItem {...item} key={key} />
             ))}
         </span>
-        <li className="list-group-item">
-          {contactInformation && <ContactInfo {...contactInformation} />}
-        </li>
       </ul>
     </div>
   );
@@ -51,15 +52,23 @@ const AdditionalMessage = ({ content }) => {
 const MeetingInfo = zoomInfo => {
   return (
     <>
-      <h6 className="card-subtitle mb-2 text-muted">
-        {zoomInfo.language} Meeting ID: {zoomInfo.meetingId}
-      </h6>
+      {zoomInfo.meetingId && <MeetingId {...zoomInfo} />}
       {zoomInfo.meetingPassword && <MeetingPassword {...zoomInfo} />}
       {zoomInfo.meetingLink && <MainLocation {...zoomInfo.meetingLink} />}
     </>
   );
 };
 
+const MeetingId = zoomInfo => {
+  return (
+    <>
+      {" "}
+      <h6 className="card-subtitle mb-2 text-muted">
+        {zoomInfo.language} Meeting ID: {zoomInfo.meetingId}
+      </h6>
+    </>
+  );
+};
 const MeetingPassword = zoomInfo => {
   return (
     <>
