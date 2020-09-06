@@ -19,6 +19,16 @@ const PlaceOfWorship = () => {
     bodyText:
       "We meet every Sunday, apart from the Sunday after the last Saturday in the month. You are most welcome to join us."
   };
+  let digitalLocation = {
+    meetingId: "639 807 0890",
+    meetingPassword: "OneGod",
+    meetingLink: {
+      map:
+        "https://us02web.zoom.us/j/6398070890?pwd=MlZxZWcwR3I0d3R1MmhDN0syaUx0Zz09",
+      placeName:
+        "Join the digital meeting by click on this link or use the id and password above in the zoom app"
+    }
+  };
   return (
     <>
       <main role="main" className="container mb-2 position-main">
@@ -48,6 +58,13 @@ const PlaceOfWorship = () => {
                 <GoLocation /> {mainLocation.placeName}
               </a>
               <hr className="w-50 clearfix"></hr>
+              <p>Zoom Meeting ID: {digitalLocation.meetingId}</p>
+              <p>Zoom Meeting Password: {digitalLocation.meetingPassword}</p>
+              <p>
+                <a href={digitalLocation.meetingLink.map}>
+                  <GoLocation /> {digitalLocation.meetingLink.placeName}
+                </a>
+              </p>
             </li>
           </ul>
         </div>
