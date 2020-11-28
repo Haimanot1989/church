@@ -4,16 +4,18 @@ import { MainLocation } from "./MainLocation";
 import { ContactInfo } from "./ContactInfo";
 import { ConfSubTypeTimeItem } from "./ConfSubTypeTimeItem";
 import conferences from "./data/conferences.json";
+import onlineMeetings from "./data/onlineMeetings.json";
+import { OnlineMeetingCard } from "./OnlineMeetingCard";
 
 const Cards = () => {
   let newYearConference2021 = conferences["newYearConference2021"];
-  let placeholder = {};
+  let europeBibleStudy = onlineMeetings["europeBibleStudyOnZoom"];
 
   return (
     <>
       <div className="card-deck mb-2">
+        <OnlineMeetingCard {...europeBibleStudy} />
         <Card {...newYearConference2021} />
-        <Card {...placeholder} />
       </div>
     </>
   );

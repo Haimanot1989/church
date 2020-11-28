@@ -150,7 +150,8 @@
       "phoneNumbers": ["+16 13 816 74 41"]
     }
   },
-  "thursdayBibleStudyOnZoom": {
+  "europeBibleStudyOnZoom": {
+    "platformName": "Zoom",
     "zoomInfo": {
       "language": "English",
       "meetingId": "664 477 0183",
@@ -170,18 +171,18 @@
       }
     },
     "imageUrl": "./bible-study.png",
-    "title": "Online Bible study series on the identity of Jesus on Thursdays once every two weeks",
+    "title": "Bible study every Saturday at 19:00 - 21:00 CET",
     "time": [
       {
         "id": 1,
         "date": {
-          "day": "Next meeting on Thursday",
-          "date": "20",
+          "day": "Starts on Saturday",
+          "date": "5",
           "sup": "th",
-          "month": "August"
+          "month": "December"
         },
-        "startTime": "20:00 CEST",
-        "finishTime": "23:00 CEST"
+        "startTime": "19:00 CET",
+        "finishTime": "21:00 CET"
       }
     ],
     "contactInformation": {
