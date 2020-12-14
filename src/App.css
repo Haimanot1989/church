@@ -134,3 +134,18 @@ footer p {
   top: 50px;
   position: relative;
 }
+
+.card-title {
+  font-family: "Oswald";
+  font-size: 22px;
+}
+
+.card-sub-title {
+  font-family: "Lato";
+  font-size: 16px;
+}
+
+.card-text {
+  font-family: "Lato";
+  letter-spacing: 0.05em;
+}

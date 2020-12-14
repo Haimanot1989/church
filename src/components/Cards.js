@@ -39,7 +39,7 @@ const Card = ({
     return <div className="card" style={{ border: "none" }}></div>;
   }
   return (
-    <div className="card overlay-container">
+    <div className="card overlay-container card-font-style">
       {isCancelled && <Overlay />}
       <img
         className="card-img-top img-height-equalizer "

@@ -6,7 +6,7 @@ const BookCard = ({ title, subTitle, summary, pdfLink, image, pages }) => {
       <div className="card mb-4 box-shadow">
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
-          <h6 className="card-title text-muted">{subTitle}</h6>
+          <h6 className="card-sub-title">{subTitle}</h6>
         </div>
         <div className="card-body">
           <img
