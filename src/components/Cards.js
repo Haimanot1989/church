@@ -8,14 +8,13 @@ import onlineMeetings from "./data/onlineMeetings.json";
 import { OnlineMeetingCard } from "./OnlineMeetingCard";
 
 const Cards = () => {
-  let newYearConference2021 = conferences["newYearConference2021"];
+  let decemberConference2020 = onlineMeetings["decemberConference2020"];
   let europeBibleStudy = onlineMeetings["europeBibleStudyOnZoom"];
 
   return (
     <>
       <div className="card-deck mb-2">
-        <OnlineMeetingCard {...europeBibleStudy} />
-        <Card {...newYearConference2021} />
+        <OnlineMeetingCard {...decemberConference2020} />
       </div>
     </>
   );

@@ -189,5 +189,134 @@
       "emails": ["m.feyisa@gmx.net"],
       "phoneNumbers": ["+41 78 771 83 17"]
     }
+  },
+  "decemberConference2020": {
+    "platformName": "Zoom",
+    "zoomInfo": {
+      "meetingId": "664 477 0183",
+      "meetingPassword": "7",
+      "meetingLink": {
+        "map": "https://us02web.zoom.us/j/6644770183?pwd=SHAzL1kwTmcyYm1PdkdzNVNLNUZ6dz09",
+        "placeName": "Join the meeting by clicking on this link or using the details above in the zoom app"
+      }
+    },
+    "imageUrl": "./stockholm.png",
+    "title": "Online New Year Conference, 25th Dec - 3rd Jan",
+    "time": [
+      {
+        "id": 1,
+        "date": {
+          "day": "Friday",
+          "date": "25",
+          "sup": "th",
+          "month": "December"
+        },
+        "startTime": "18:00 CET",
+        "finishTime": "20:00 CET"
+      },
+      {
+        "id": 2,
+        "date": {
+          "day": "Saturday",
+          "date": "26",
+          "sup": "th",
+          "month": "December"
+        },
+        "startTime": "18:00 CET",
+        "finishTime": "20:00 CET"
+      },
+      {
+        "id": 3,
+        "date": {
+          "day": "Sunday",
+          "date": "27",
+          "sup": "th",
+          "month": "December"
+        },
+        "startTime": "13:00 CET",
+        "finishTime": "16:00 CET"
+      },
+      {
+        "id": 4,
+        "date": {
+          "day": "Monday",
+          "date": "28",
+          "sup": "th",
+          "month": "December"
+        },
+        "startTime": "18:00 CET",
+        "finishTime": "20:00 CET"
+      },
+      {
+        "id": 5,
+        "date": {
+          "day": "Tuesday",
+          "date": "29",
+          "sup": "th",
+          "month": "December"
+        },
+        "startTime": "18:00 CET",
+        "finishTime": "20:00 CET"
+      },
+      {
+        "id": 6,
+        "date": {
+          "day": "Wednesday",
+          "date": "30",
+          "sup": "th",
+          "month": "December"
+        },
+        "startTime": "18:00 CET",
+        "finishTime": "20:00 CET"
+      },
+      {
+        "id": 7,
+        "date": {
+          "day": "Thursday",
+          "date": "31",
+          "sup": "st",
+          "month": "December"
+        },
+        "startTime": "18:00 CET",
+        "finishTime": "24:00 CET"
+      },
+      {
+        "id": 8,
+        "date": {
+          "day": "Friday",
+          "date": "1",
+          "sup": "st",
+          "month": "January"
+        },
+        "startTime": "18:00 CET",
+        "finishTime": "20:00 CET"
+      },
+      {
+        "id": 9,
+        "date": {
+          "day": "Saturday",
+          "date": "2",
+          "sup": "nd",
+          "month": "January"
+        },
+        "startTime": "18:00 CET",
+        "finishTime": "20:00 CET"
+      },
+      {
+        "id": 10,
+        "date": {
+          "day": "Sunday",
+          "date": "3",
+          "sup": "rd",
+          "month": "January"
+        },
+        "startTime": "13:00 CET",
+        "finishTime": "16:00 CET"
+      }
+    ],
+    "contactInformation": {
+      "emails": ["antenehmoges1978@yahoo.com"],
+      "phoneNumbers": ["+46 73 700 52 26"]
+    }
   }
 }
