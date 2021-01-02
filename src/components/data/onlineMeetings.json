@@ -48,27 +48,40 @@
     }
   },
   "ACIFNAYouth": {
+    "platformName": "Zoom",
     "zoomInfo": {
       "language": "",
       "meetingId": "848 2692 3348",
+      "meetingPassword": "acts02:38",
       "meetingLink": {
-        "map": "https://us02web.zoom.us/j/84826923348",
+        "map": "https://us02web.zoom.us/j/84826923348?pwd=VmZHbzlpRGhLUXVNVXdyYm9BVThVUT09",
         "placeName": "Join the meeting by clicking on this link or using the meeting id above in the zoom app"
       }
     },
-    "imageUrl": "./acifna_youth.png",
-    "title": "Digital ACIFNA Annual Youth Conference",
+    "imageUrl": "./acifna_youth_thanksgiving.png",
+    "title": "Digital ACIFNA Annual Youth Thanksgiving Conference",
     "time": [
       {
         "id": 1,
         "date": {
-          "day": "Sunday",
-          "date": "23",
+          "day": "Part 1 - Sunday",
+          "date": "3",
           "sup": "rd",
-          "month": "August"
+          "month": "January"
         },
-        "startTime": "18:30 CEST",
-        "finishTime": "23:00 CEST"
+        "startTime": "16:00 CET",
+        "finishTime": "20:00 CET"
+      },
+      {
+        "id": 2,
+        "date": {
+          "day": "Part 2 - Sunday",
+          "date": "3",
+          "sup": "rd",
+          "month": "January"
+        },
+        "startTime": "21:30 CET",
+        "finishTime": "24:00 CET"
       }
     ]
   },
