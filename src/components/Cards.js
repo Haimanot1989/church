@@ -3,19 +3,16 @@ import { GoLocation, GoAlert } from "react-icons/go";
 import { MainLocation } from "./MainLocation";
 import { ContactInfo } from "./ContactInfo";
 import { ConfSubTypeTimeItem } from "./ConfSubTypeTimeItem";
-import conferences from "./data/conferences.json";
 import onlineMeetings from "./data/onlineMeetings.json";
 import { OnlineMeetingCard } from "./OnlineMeetingCard";
 
 const Cards = () => {
-  let decemberConference2020 = onlineMeetings["decemberConference2020"];
-  let ACIFNAYouth = onlineMeetings["ACIFNAYouth"];
+  let europeBibleStudyOnZoom = onlineMeetings["europeBibleStudyOnZoom"];
 
   return (
     <>
       <div className="card-deck mb-2">
-        <OnlineMeetingCard {...decemberConference2020} />
-        <OnlineMeetingCard {...ACIFNAYouth} />
+        <OnlineMeetingCard {...europeBibleStudyOnZoom} />
       </div>
     </>
   );

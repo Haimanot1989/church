@@ -190,9 +190,9 @@
         "id": 1,
         "date": {
           "day": "Starts on Saturday",
-          "date": "5",
+          "date": "9",
           "sup": "th",
-          "month": "December"
+          "month": "January"
         },
         "startTime": "19:00 CET",
         "finishTime": "21:00 CET"
