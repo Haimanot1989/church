@@ -184,15 +184,36 @@
       }
     },
     "imageUrl": "./bible-study.png",
-    "title": "Bible study every Saturday at 19:00 - 21:00 CET",
+    "importantMessage": {
+      "content": [
+        "Dear all,",
+        "going forward, we will be having two part program.",
+        "Part 1: Starts at 18:00 CET and is meant for youth in the 12-16 years age group.",
+        "Part 2: Starts at 19:00 CET and is for every body",
+        "God bless!"
+      ]
+    },
+
+    "title": "Bible study every Saturday at 18:00 - 21:00 CET",
     "time": [
       {
         "id": 1,
         "date": {
-          "day": "Starts on Saturday",
-          "date": "9",
+          "day": "Youth program starting from Saturday",
+          "date": "6",
           "sup": "th",
-          "month": "January"
+          "month": "February"
+        },
+        "startTime": "18:00 CET",
+        "finishTime": "19:00 CET"
+      },
+      {
+        "id": 2,
+        "date": {
+          "day": "Main program starting from Saturday",
+          "date": "6",
+          "sup": "th",
+          "month": "February"
         },
         "startTime": "19:00 CET",
         "finishTime": "21:00 CET"
