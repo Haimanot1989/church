@@ -184,41 +184,7 @@
       }
     },
     "imageUrl": "./bible-study.png",
-    "importantMessage": {
-      "content": [
-        "Dear all,",
-        "going forward, we will be having two part program.",
-        "Part 1: Starts at 18:00 CET and is meant for youth",
-        "Part 2: Starts at 19:00 CET and is for every body",
-        "God bless!"
-      ]
-    },
-
-    "title": "Bible study every Saturday at 18:00 - 21:00 CET",
-    "time": [
-      {
-        "id": 1,
-        "date": {
-          "day": "Youth program starting from Saturday",
-          "date": "6",
-          "sup": "th",
-          "month": "February"
-        },
-        "startTime": "18:00 CET",
-        "finishTime": "19:00 CET"
-      },
-      {
-        "id": 2,
-        "date": {
-          "day": "Main program starting from Saturday",
-          "date": "6",
-          "sup": "th",
-          "month": "February"
-        },
-        "startTime": "19:00 CET",
-        "finishTime": "21:00 CET"
-      }
-    ],
+    "title": "Bible study every Saturday at 19:00 - 21:00 CET",
     "contactInformation": {
       "emails": ["m.feyisa@gmx.net"],
       "phoneNumbers": ["+41 78 771 83 17"]
@@ -352,5 +318,43 @@
       "emails": ["antenehmoges1978@yahoo.com"],
       "phoneNumbers": ["+46 73 700 52 26"]
     }
+  },
+  "ACIFNAYouthLordsSupper": {
+    "platformName": "Zoom",
+    "zoomInfo": {
+      "language": "",
+      "meetingId": "6477022625",
+      "meetingPassword": "2625",
+      "meetingLink": {
+        "map": "https://zoom.us/join",
+        "placeName": "Join the meeting by using the meeting id above in the zoom app"
+      }
+    },
+    "imageUrl": "./acimaca_2021.png",
+    "title": "ACIMCA 2021 - Virtual Youth Conference",
+    "time": [
+      {
+        "id": 1,
+        "date": {
+          "day": "Friday",
+          "date": "2",
+          "sup": "nd",
+          "month": "April"
+        },
+        "startTime": "16:00 CET",
+        "finishTime": " "
+      },
+      {
+        "id": 1,
+        "date": {
+          "day": "Saturday",
+          "date": "3",
+          "sup": "rd",
+          "month": "April"
+        },
+        "startTime": "16:00 CET",
+        "finishTime": " "
+      }
+    ]
   }
 }
