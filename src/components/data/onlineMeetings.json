@@ -326,8 +326,8 @@
       "meetingId": "6477022625",
       "meetingPassword": "2625",
       "meetingLink": {
-        "map": "https://zoom.us/join",
-        "placeName": "Join the meeting by using the meeting id above in the zoom app"
+        "map": "https://us02web.zoom.us/j/F6477022625?pwd=bjVYMDh2ZUQwNTZzd1F0VVdmNldPZz09",
+        "placeName": "Join the meeting by clicking on this link or using the details above in the zoom app"
       }
     },
     "imageUrl": "./acimaca_2021.png",
