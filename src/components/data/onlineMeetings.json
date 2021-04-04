@@ -374,6 +374,17 @@
         },
         "startTime": "16:00 CEST",
         "finishTime": " "
+      },
+      {
+        "id": 1,
+        "date": {
+          "day": "Sunday",
+          "date": "4",
+          "sup": "th",
+          "month": "April"
+        },
+        "startTime": "17:00 CEST",
+        "finishTime": " "
       }
     ]
   }
