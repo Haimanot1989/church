@@ -47,6 +47,26 @@
       "phoneNumbers": ["+31640912152"]
     }
   },
+  "Netherlands2021": {
+    "importantMessage": {
+      "content": ["Meeting details will be coming soon"]
+    },
+    "imageUrl": "./theHague.png",
+    "title": "Digital Passover Program - The Hague, Netherlands",
+    "time": [
+      {
+        "id": 1,
+        "date": {
+          "day": "Friday",
+          "date": "9",
+          "sup": "th",
+          "month": "April"
+        },
+        "startTime": "20:00 CEST",
+        "finishTime": " "
+      }
+    ]
+  },
   "ACIFNAYouth": {
     "platformName": "Zoom",
     "zoomInfo": {

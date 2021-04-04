@@ -23,7 +23,7 @@ export const OnlineMeetingCard = ({
       <ul className="list-group list-group-flush" style={{ listStyle: "none" }}>
         <li key="mainBody" className="list-group-item">
           <h5 className="card-title">
-            {title} - via {platformName}
+            {title} {`${platformName ? `- via ${platformName}` : ""}`}
           </h5>
           {zoomInfo && <MeetingInfo {...zoomInfo} />}
           {zoomInfoAmharic && <MeetingInfo {...zoomInfoAmharic} />}

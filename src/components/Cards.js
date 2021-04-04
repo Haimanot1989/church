@@ -8,12 +8,12 @@ import { OnlineMeetingCard } from "./OnlineMeetingCard";
 
 const Cards = () => {
   let europeBibleStudyOnZoom = onlineMeetings["europeBibleStudyOnZoom"];
-  let ACIFNAYouthLordsSupper = onlineMeetings["ACIFNAYouthLordsSupper"];
+  let Netherlands2021 = onlineMeetings["Netherlands2021"];
 
   return (
     <>
       <div className="card-deck mb-2">
-        <OnlineMeetingCard {...ACIFNAYouthLordsSupper} />
+        <OnlineMeetingCard {...Netherlands2021} />
         <OnlineMeetingCard {...europeBibleStudyOnZoom} />
       </div>
     </>
