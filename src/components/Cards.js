@@ -15,12 +15,8 @@ const Cards = () => {
   return (
     <>
       <div className="card-deck mb-2">
-        <OnlineMeetingCard {...ACIFNAYouthLordsSupper} />
-        <OnlineMeetingCard {...europeBibleStudyOnZoom} />
-      </div>
-      <div className="card-deck mb-2">
         <OnlineMeetingCard {...Netherlands2021} />
-        <OnlineMeetingCard {...placeHolder} />
+        <OnlineMeetingCard {...europeBibleStudyOnZoom} />
       </div>
     </>
   );
