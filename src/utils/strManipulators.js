@@ -11,3 +11,10 @@ function convertTitleToFileName(title) {
     .split(" ")
     .join("_");
 }
+
+let title = "";
+console.log(
+  `capitalizeTitle: ${capitalizeTitle(
+    title
+  )}\n convertTitleToFileName: ${convertTitleToFileName(title)}`
+);
