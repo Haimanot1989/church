@@ -1,7 +1,7 @@
 function capitalizeTitle(title) {
   return title
     .split(" ")
-    .map(s => _.capitalize(s))
+    .map(str => `${str.charAt(0).toUpperCase()}${str.slice(1).toLowerCase()}`)
     .join(" ");
 }
 
@@ -12,7 +12,7 @@ function convertTitleToFileName(title) {
     .join("_");
 }
 
-let title = "";
+let title = "Parenting Girls for Christ";
 console.log(
   `capitalizeTitle: ${capitalizeTitle(
     title
