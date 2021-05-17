@@ -1,11 +1,12 @@
 import React from "react";
 
-const SermonCard = ({ title, summary, pdfLink, image, pages }) => {
+const SermonCard = ({ title, subTitle, summary, pdfLink, image, pages }) => {
   return (
     <div className="col-md-4">
       <div className="card mb-4 box-shadow">
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
+          <h6 className="card-sub-title">{subTitle}</h6>
         </div>
         <div className="card-body">
           <img
