@@ -12,7 +12,7 @@ function convertTitleToFileName(title) {
     .join("_");
 }
 
-let title = "BEWARE THE CURIOSITY OF THE KING OF BABYLON";
+let title = "The Covid Vaccine  - A Christian Response";
 console.log(
   `capitalizeTitle: ${capitalizeTitle(
     title
