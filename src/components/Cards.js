@@ -4,16 +4,19 @@ import { MainLocation } from "./MainLocation";
 import { ContactInfo } from "./ContactInfo";
 import { ConfSubTypeTimeItem } from "./ConfSubTypeTimeItem";
 import onlineMeetings from "./data/onlineMeetings.json";
+import conferences from "./data/conferences.json";
 import { OnlineMeetingCard } from "./OnlineMeetingCard";
 
 const Cards = () => {
   let europeBibleStudyOnZoom = onlineMeetings["europeBibleStudyOnZoom"];
+  let theLordsSupperNorway = conferences["theLordsSupperNorway"];
   let placeHolder = {};
 
   return (
     <>
       <div className="card-deck mb-2">
         <OnlineMeetingCard {...europeBibleStudyOnZoom} />
+        <Card {...theLordsSupperNorway} />
       </div>
     </>
   );
