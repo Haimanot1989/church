@@ -73,19 +73,19 @@
       }
     ]
   },
-  "julyConferenceGermany2021": {
+  "augustConferenceGermany2021": {
     "imageUrl": "./frankfurt.png",
-    "confType": "July conference",
+    "confType": "August conference",
     "country": "Germany",
     "city": "Frankfurt",
     "confStart": {
-      "date": "31",
-      "sup": "st",
-      "month": "July"
+      "date": "14",
+      "sup": "th",
+      "month": "August"
     },
     "confEnd": {
-      "date": "1",
-      "sup": "st",
+      "date": "15",
+      "sup": "th",
       "month": "August"
     },
     "contactInformation": {
