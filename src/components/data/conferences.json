@@ -1,4 +1,177 @@
 {
+  "augustConferenceUK2021": {
+    "mainLocation": {
+      "map": "https://www.google.com/maps/dir//High+Leigh+Conference+Centre,+Lord+St,+Hoddesdon+EN11+8SG,+Storbritannia/@51.7614256,-0.0259873,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x487620c96e56d15b:0x8ae2c858dfecd72!2m2!1d-0.0259873!2d51.7614256!3e0",
+      "placeName": "High Leigh Conference Centre, Lord St, Hoddesdon EN11 8SG"
+    },
+    "imageUrl": "./high-leigh-conference.png",
+    "confType": "August conference",
+    "country": "UK",
+    "city": " Hoddesdon Hertfordshire",
+    "confStart": {
+      "date": "20",
+      "sup": "th",
+      "month": "August"
+    },
+    "confEnd": {
+      "date": "22",
+      "sup": "nd",
+      "month": "August"
+    },
+    "contactInformation": {
+      "emails": ["gefrem60@gmail.com"],
+      "phoneNumbers": ["+447838870288"]
+    },
+    "confSubtypes": [
+      {
+        "title": "Afternoon program",
+        "location": {
+          "address": "High Leigh Conference Centre, Lord St, Hoddesdon EN11 8SG",
+          "map": "https://www.google.com/maps/dir//High+Leigh+Conference+Centre,+Lord+St,+Hoddesdon+EN11+8SG,+Storbritannia/@51.7614256,-0.0259873,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x487620c96e56d15b:0x8ae2c858dfecd72!2m2!1d-0.0259873!2d51.7614256!3e0"
+        },
+        "time": [
+          {
+            "date": {
+              "day": "Friday",
+              "date": "20",
+              "sup": "th",
+              "month": "August"
+            },
+            "startTime": "16:00",
+            "finishTime": "20:00"
+          }
+        ]
+      },
+      {
+        "title": "Whole day program",
+        "location": {
+          "address": "High Leigh Conference Centre, Lord St, Hoddesdon EN11 8SG",
+          "map": "https://www.google.com/maps/dir//High+Leigh+Conference+Centre,+Lord+St,+Hoddesdon+EN11+8SG,+Storbritannia/@51.7614256,-0.0259873,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x487620c96e56d15b:0x8ae2c858dfecd72!2m2!1d-0.0259873!2d51.7614256!3e0"
+        },
+        "time": [
+          {
+            "date": {
+              "day": "Saturday",
+              "date": "21",
+              "sup": "st",
+              "month": "August"
+            },
+            "startTime": "10:00",
+            "finishTime": "19:00"
+          },
+          {
+            "date": {
+              "day": "Sunday",
+              "date": "22",
+              "sup": "nd",
+              "month": "August"
+            },
+            "startTime": "10:00",
+            "finishTime": "19:00"
+          }
+        ]
+      }
+    ]
+  },
+  "julyConferenceGermany2021": {
+    "imageUrl": "./frankfurt.png",
+    "confType": "July conference",
+    "country": "Germany",
+    "city": "Frankfurt",
+    "confStart": {
+      "date": "31",
+      "sup": "st",
+      "month": "July"
+    },
+    "confEnd": {
+      "date": "1",
+      "sup": "st",
+      "month": "August"
+    },
+    "contactInformation": {
+      "emails": ["gefrem60@gmail.com"],
+      "phoneNumbers": ["+447838870288"]
+    },
+    "confSubtypes": []
+  },
+
+  "julyConferenceGermany2021WithDetails": {
+    "mainLocation": {
+      "map": "https://www.google.com/maps/place/Mainzer+Landstra%C3%9Fe+226-230,+60327+Frankfurt+am+Main,+Germany/@50.1038376,8.643439,17z/data=!4m5!3m4!1s0x47bd0be3ff963e07:0x4aedcad7be4a40e4!8m2!3d50.1038376!4d8.6456277",
+      "placeName": "Mainzer Landstraße 226-230"
+    },
+    "imageUrl": "./frankfurt.png",
+    "confType": "July conference",
+    "country": "Germany",
+    "city": "Frankfurt",
+    "confStart": {
+      "date": "31",
+      "sup": "st",
+      "month": "July"
+    },
+    "confEnd": {
+      "date": "1",
+      "sup": "st",
+      "month": "August"
+    },
+    "contactInformation": {
+      "emails": ["gefrem60@gmail.com"],
+      "phoneNumbers": ["+447838870288"]
+    },
+    "confSubtypes": [
+      {
+        "title": "Whole day program",
+        "location": {
+          "address": "Mainzer Landstraße 226-230, 60327 Frankfurt am Main",
+          "map": "https://www.google.com/maps/place/Mainzer+Landstra%C3%9Fe+226-230,+60327+Frankfurt+am+Main,+Germany/@50.1038376,8.643439,17z/data=!4m5!3m4!1s0x47bd0be3ff963e07:0x4aedcad7be4a40e4!8m2!3d50.1038376!4d8.6456277"
+        },
+        "time": [
+          {
+            "date": {
+              "day": "Saturday",
+              "date": "31",
+              "sup": "st",
+              "month": "July"
+            },
+            "startTime": "10:00",
+            "finishTime": "19:00"
+          },
+          {
+            "date": {
+              "day": "Sunday",
+              "date": "1",
+              "sup": "st",
+              "month": "August"
+            },
+            "startTime": "10:00",
+            "finishTime": "19:00"
+          }
+        ]
+      }
+    ]
+  },
+
+  "octoberConference2021": {
+    "imageUrl": "./theHague.png",
+    "confType": "October conference",
+    "country": "Netherlands",
+    "city": "The Hague",
+    "confStart": {
+      "date": "16",
+      "sup": "th",
+      "month": "October"
+    },
+    "confEnd": {
+      "date": "17",
+      "sup": "th",
+      "month": "October"
+    },
+    "contactInformation": {
+      "emails": ["lhoberink@hotmail.com"],
+      "phoneNumbers": ["+31640912152"]
+    },
+    "confSubtypes": []
+  },
   "theLordsSupperNorway": {
     "imageUrl": "https://images.unsplash.com/photo-1433757741270-94a3bcadc2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
     "confType": "The Lord's Supper",
