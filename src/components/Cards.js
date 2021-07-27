@@ -11,7 +11,8 @@ const Cards = () => {
   let europeBibleStudyOnZoom = onlineMeetings["europeBibleStudyOnZoom"];
   let theLordsSupperNorway = conferences["theLordsSupperNorway"];
   let octoberConference2021 = conferences["octoberConference2021"];
-  let augustConferenceGermany2021 = conferences["augustConferenceGermany2021"];
+  let augustConferenceGermany2021WithDetails =
+    conferences["augustConferenceGermany2021WithDetails"];
   let augustConferenceUK2021 = conferences["augustConferenceUK2021"];
   let placeHolder = {};
 
@@ -22,7 +23,7 @@ const Cards = () => {
         <Card {...theLordsSupperNorway} />
       </div>
       <div className="card-deck mb-2">
-        <Card {...augustConferenceGermany2021} />
+        <Card {...augustConferenceGermany2021WithDetails} />
         <Card {...augustConferenceUK2021} />
       </div>
       <div className="card-deck mb-2">

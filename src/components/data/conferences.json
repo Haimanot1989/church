@@ -95,23 +95,23 @@
     "confSubtypes": []
   },
 
-  "julyConferenceGermany2021WithDetails": {
+  "augustConferenceGermany2021WithDetails": {
     "mainLocation": {
-      "map": "https://www.google.com/maps/place/Mainzer+Landstra%C3%9Fe+226-230,+60327+Frankfurt+am+Main,+Germany/@50.1038376,8.643439,17z/data=!4m5!3m4!1s0x47bd0be3ff963e07:0x4aedcad7be4a40e4!8m2!3d50.1038376!4d8.6456277",
-      "placeName": "Mainzer Landstraße 226-230"
+      "map": "https://www.google.com/maps/place/Siegener+Str.+22,+65936+Frankfurt+am+Main,+Tyskland/@50.1229916,8.5658883,17.85z/data=!4m5!3m4!1s0x47bd09fd6356ea25:0x61e96280ca151304!8m2!3d50.1228794!4d8.5663794",
+      "placeName": "Siegener Str. 22"
     },
     "imageUrl": "./frankfurt.png",
-    "confType": "July conference",
+    "confType": "August conference",
     "country": "Germany",
     "city": "Frankfurt",
     "confStart": {
-      "date": "31",
-      "sup": "st",
-      "month": "July"
+      "date": "14",
+      "sup": "th",
+      "month": "August"
     },
     "confEnd": {
-      "date": "1",
-      "sup": "st",
+      "date": "15",
+      "sup": "th",
       "month": "August"
     },
     "contactInformation": {
@@ -122,29 +122,29 @@
       {
         "title": "Whole day program",
         "location": {
-          "address": "Mainzer Landstraße 226-230, 60327 Frankfurt am Main",
-          "map": "https://www.google.com/maps/place/Mainzer+Landstra%C3%9Fe+226-230,+60327+Frankfurt+am+Main,+Germany/@50.1038376,8.643439,17z/data=!4m5!3m4!1s0x47bd0be3ff963e07:0x4aedcad7be4a40e4!8m2!3d50.1038376!4d8.6456277"
+          "address": "Siegener Str. 22, 65936 Frankfurt am Main",
+          "map": "https://www.google.com/maps/place/Siegener+Str.+22,+65936+Frankfurt+am+Main,+Tyskland/@50.1229916,8.5658883,17.85z/data=!4m5!3m4!1s0x47bd09fd6356ea25:0x61e96280ca151304!8m2!3d50.1228794!4d8.5663794"
         },
         "time": [
           {
             "date": {
               "day": "Saturday",
-              "date": "31",
-              "sup": "st",
-              "month": "July"
+              "date": "14",
+              "sup": "th",
+              "month": "August"
             },
-            "startTime": "10:00",
-            "finishTime": "19:00"
+            "startTime": "8:00",
+            "finishTime": "18:00"
           },
           {
             "date": {
               "day": "Sunday",
-              "date": "1",
-              "sup": "st",
+              "date": "15",
+              "sup": "th",
               "month": "August"
             },
-            "startTime": "10:00",
-            "finishTime": "19:00"
+            "startTime": "8:00",
+            "finishTime": "18:00"
           }
         ]
       }
