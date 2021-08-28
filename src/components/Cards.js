@@ -9,26 +9,13 @@ import { OnlineMeetingCard } from "./OnlineMeetingCard";
 
 const Cards = () => {
   let europeBibleStudyOnZoom = onlineMeetings["europeBibleStudyOnZoom"];
-  let theLordsSupperNorway = conferences["theLordsSupperNorway"];
   let octoberConference2021 = conferences["octoberConference2021"];
-  let augustConferenceGermany2021WithDetails =
-    conferences["augustConferenceGermany2021WithDetails"];
-  let augustConferenceUK2021 = conferences["augustConferenceUK2021"];
-  let placeHolder = {};
 
   return (
     <>
       <div className="card-deck mb-2">
         <OnlineMeetingCard {...europeBibleStudyOnZoom} />
-        <Card {...theLordsSupperNorway} />
-      </div>
-      <div className="card-deck mb-2">
-        <Card {...augustConferenceGermany2021WithDetails} />
-        <Card {...augustConferenceUK2021} />
-      </div>
-      <div className="card-deck mb-2">
         <Card {...octoberConference2021} />
-        <Card {...placeHolder} />
       </div>
     </>
   );
