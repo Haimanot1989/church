@@ -12,9 +12,16 @@ function convertTitleToFileName(title) {
     .join("_");
 }
 
-let title = "The Covid Vaccine  - A Christian Response";
-console.log(
-  `capitalizeTitle: ${capitalizeTitle(
-    title
-  )}\n convertTitleToFileName: ${convertTitleToFileName(title)}`
-);
+let titles = [
+  "MANY GIFTS, ONE CHURCH",
+  "MODESTY IN DRESS",
+  "THE LAST GREAT CATCH OF FISH",
+  "THE MEDIATION OF CHRIST"
+];
+titles.forEach(title => {
+  console.log(
+    `\ncapitalizeTitle: ${capitalizeTitle(
+      title
+    )}\n convertTitleToFileName: ${convertTitleToFileName(title)}`
+  );
+});
