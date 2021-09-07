@@ -151,6 +151,62 @@
     ]
   },
 
+  "novemberConferenceSwitzerland": {
+    "mainLocation": {
+      "map": "https://www.google.com/maps/place/Rosenaustrasse+1,+9100+Herisau,+Sveits/@47.387228,9.2811561,17z/data=!3m1!4b1!4m5!3m4!1s0x479adfd55bf27a11:0xa0c631a9b7a63e02!8m2!3d47.387228!4d9.2833448",
+      "placeName": "Rosenaustrasse 1, 9100 Herisau"
+    },
+    "imageUrl": "./herisau.png",
+    "confType": "November conference",
+    "country": "Switzerland",
+    "city": "Herisau",
+    "confStart": {
+      "date": "27",
+      "sup": "th",
+      "month": "November"
+    },
+    "confEnd": {
+      "date": "28",
+      "sup": "th",
+      "month": "November"
+    },
+    "contactInformation": {
+      "emails": ["m.feyisa@gmx.net"],
+      "phoneNumbers": ["+41 78 771 83 17"]
+    },
+    "confSubtypes": [
+      {
+        "title": "Whole day program",
+        "location": {
+          "address": "Rosenaustrasse 1, 9100 Herisau, Switzerland",
+          "map": "https://www.google.com/maps/place/Siegener+Str.+22,+65936+Frankfurt+am+Main,+Tyskland/@50.1229916,8.5658883,17.85z/data=!4m5!3m4!1s0x47bd09fd6356ea25:0x61e96280ca151304!8m2!3d50.1228794!4d8.5663794"
+        },
+        "time": [
+          {
+            "date": {
+              "day": "Saturday",
+              "date": "27",
+              "sup": "th",
+              "month": "November"
+            },
+            "startTime": "10:00",
+            "finishTime": "19:00"
+          },
+          {
+            "date": {
+              "day": "Sunday",
+              "date": "28",
+              "sup": "th",
+              "month": "November"
+            },
+            "startTime": "10:00",
+            "finishTime": "19:00"
+          }
+        ]
+      }
+    ]
+  },
+
   "octoberConference2021": {
     "imageUrl": "./theHague.png",
     "confType": "October conference",
