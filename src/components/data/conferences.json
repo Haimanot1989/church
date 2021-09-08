@@ -209,6 +209,10 @@
 
   "octoberConference2021": {
     "imageUrl": "./theHague.png",
+    "mainLocation": {
+      "map": "https://www.google.com/maps/place/Fletcher+Hotel-Restaurant+Leidschendam-Den+Haag/@52.0885474,4.3793037,17z/data=!3m1!4b1!4m8!3m7!1s0x47c5b7e9fc9b1d57:0x1fa95717f3aa2d23!5m2!4m1!1i2!8m2!3d52.0885474!4d4.3814924",
+      "placeName": "Fletcher Hotel-Restaurant Leidschendam-Den Haag"
+    },
     "confType": "October conference",
     "country": "Netherlands",
     "city": "The Hague",
@@ -226,7 +230,39 @@
       "emails": ["lhoberink@hotmail.com"],
       "phoneNumbers": ["+31640912152"]
     },
-    "confSubtypes": []
+    "confSubtypes": [
+      {
+        "title": "Whole day program",
+        "location": {
+          "address": "Fletcher Hotel-Restaurant, Weigelia 22, 2262 AB Leidschendam, Netherlands",
+          "map": "https://www.google.com/maps/place/Fletcher+Hotel-Restaurant+Leidschendam-Den+Haag/@52.0885474,4.3793037,17z/data=!3m1!4b1!4m8!3m7!1s0x47c5b7e9fc9b1d57:0x1fa95717f3aa2d23!5m2!4m1!1i2!8m2!3d52.0885474!4d4.3814924"
+        },
+        "time": [
+          {
+            "date": {
+              "day": "Saturday",
+              "date": "16",
+              "sup": "th",
+              "month": "October"
+            },
+            "startTime": "10:00",
+            "finishTime": "18:00",
+            "lunchBreak": "12:00 - 13:30"
+          },
+          {
+            "date": {
+              "day": "Sunday",
+              "date": "17",
+              "sup": "th",
+              "month": "October"
+            },
+            "startTime": "10:00",
+            "finishTime": "18:30",
+            "lunchBreak": "12:00 - 13:30"
+          }
+        ]
+      }
+    ]
   },
   "theLordsSupperNorway": {
     "imageUrl": "https://images.unsplash.com/photo-1433757741270-94a3bcadc2f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80",
