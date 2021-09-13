@@ -582,132 +582,66 @@
       }
     ]
   },
-  "newYearConference2021": {
+  "newYearConference2022": {
+    "mainLocation": {
+      "map": "https://www.google.com/maps/place/Kista+Tr%C3%A4ff/@59.4022556,17.9419327,15z/data=!4m5!3m4!1s0x0:0x66aab4a9f9ddf527!8m2!3d59.4022556!4d17.9419327",
+      "placeName": "Kista träff, Norgesalen"
+    },
     "imageUrl": "./stockholm.png",
     "confType": "New Year Conference",
     "country": "Sweden",
     "city": "Stockholm",
     "confStart": {
-      "date": "30",
-      "sup": "th",
+      "date": "31",
+      "sup": "st",
       "month": "December"
     },
     "confEnd": {
-      "date": "3",
-      "sup": "rd",
+      "date": "1",
+      "sup": "st",
       "month": "January"
+    },
+    "contactInformation": {
+      "emails": ["antenehmoges1978@yahoo.com"],
+      "phoneNumbers": ["+46 73 700 52 26"]
     },
     "confSubtypes": [
       {
-        "title": "Ministers meeting",
+        "title": "New Year Conference",
         "location": {
-          "address": "Borgenvägen 16, 182 38 Danderyd",
-          "map": "https://www.google.com/maps/place/Borgenv%C3%A4gen+16,+182+38+Danderyd,+Sweden/@59.4050446,18.0018831,17z/data=!3m1!4b1!4m5!3m4!1s0x465f9c22477dcc5b:0x43856619d855d1ad!8m2!3d59.4050446!4d18.0040718"
-        },
-        "time": [
-          {
-            "date": {
-              "day": "Wednesday",
-              "date": "30",
-              "sup": "th",
-              "month": "December"
-            }
-          },
-          {
-            "date": {
-              "day": "Thursday",
-              "date": "31",
-              "sup": "st",
-              "month": "December"
-            }
-          }
-        ]
-      },
-      {
-        "title": "Youth program",
-        "location": {
-          "address": "KISTA TORG 7, 164 42 Kista",
-          "map": "https://www.google.com/maps/place/Kista+Tr%C3%A4ff/@59.4022735,17.9397174,17z/data=!3m1!4b1!4m5!3m4!1s0x465f9ef25f64e0cd:0x66aab4a9f9ddf527!8m2!3d59.4022735!4d17.9419061"
+          "address": "Kistavägen 7, 164 42 Kista, Sweden",
+          "map": "https://www.google.com/maps/place/Kista+Tr%C3%A4ff/@59.4022556,17.9419327,15z/data=!4m5!3m4!1s0x0:0x66aab4a9f9ddf527!8m2!3d59.4022556!4d17.9419327"
         },
         "time": [
           {
             "date": {
               "day": "Friday",
-              "date": "1",
-              "sup": "st",
-              "month": "January"
-            },
-            "startTime": "11:00",
-            "finishTime": "13:00"
-          },
-          {
-            "date": {
-              "day": "Saturday",
-              "date": "2",
-              "sup": "nd",
-              "month": "January"
-            },
-            "startTime": "11:00",
-            "finishTime": "13:00"
-          },
-          {
-            "date": {
-              "day": "Sunday",
-              "date": "3",
-              "sup": "rd",
-              "month": "January"
-            },
-            "startTime": "11:00",
-            "finishTime": "13:00"
-          }
-        ]
-      },
-      {
-        "title": "New Year Conference",
-        "location": {
-          "address": "KISTA TORG 7, 164 42 Kista",
-          "map": "https://www.google.com/maps/place/Kista+Tr%C3%A4ff/@59.4022735,17.9397174,17z/data=!3m1!4b1!4m5!3m4!1s0x465f9ef25f64e0cd:0x66aab4a9f9ddf527!8m2!3d59.4022735!4d17.9419061"
-        },
-        "time": [
-          {
-            "date": {
-              "day": "Thursday",
               "date": "31",
               "sup": "st",
               "month": "December"
             },
             "startTime": "18:00",
-            "finishTime": "00:00"
-          },
-          {
-            "date": {
-              "day": "Friday",
-              "date": "1",
-              "sup": "st",
-              "month": "January"
-            },
-            "startTime": "14:00",
             "finishTime": "22:00"
           },
           {
             "date": {
               "day": "Saturday",
-              "date": "2",
-              "sup": "nd",
+              "date": "1",
+              "sup": "st",
               "month": "January"
             },
-            "startTime": "14:00",
-            "finishTime": "22:00"
+            "startTime": "12:00",
+            "finishTime": "20:00"
           },
           {
             "date": {
               "day": "Sunday",
-              "date": "3",
-              "sup": "rd",
+              "date": "2",
+              "sup": "nd",
               "month": "January"
             },
-            "startTime": "14:00",
-            "finishTime": "22:00"
+            "startTime": "12:00",
+            "finishTime": "20:00"
           }
         ]
       }

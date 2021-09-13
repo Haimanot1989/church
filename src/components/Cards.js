@@ -12,7 +12,7 @@ const Cards = () => {
   let octoberConference2021 = conferences["octoberConference2021"];
   let novemberConferenceSwitzerland =
     conferences["novemberConferenceSwitzerland"];
-  let placeholder = {};
+  let newYearConference2022 = conferences["newYearConference2022"];
 
   return (
     <>
@@ -22,7 +22,7 @@ const Cards = () => {
       </div>
       <div className="card-deck mb-2">
         <Card {...novemberConferenceSwitzerland} />
-        <Card {...placeholder} />
+        <Card {...newYearConference2022} />
       </div>
     </>
   );
