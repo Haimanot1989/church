@@ -209,9 +209,6 @@
 
   "octoberConference2021": {
     "imageUrl": "./theHague.png",
-    "importantMessage": {
-      "content": "You can book a room for the agreed rate by calling Fletcher Hotel on 0031703209280 and by giving them the reference code F82-GFC4556"
-    },
     "mainLocation": {
       "map": "https://www.google.com/maps/place/Fletcher+Hotel-Restaurant+Leidschendam-Den+Haag/@52.0885474,4.3793037,17z/data=!3m1!4b1!4m8!3m7!1s0x47c5b7e9fc9b1d57:0x1fa95717f3aa2d23!5m2!4m1!1i2!8m2!3d52.0885474!4d4.3814924",
       "placeName": "Fletcher Hotel-Restaurant Leidschendam-Den Haag"
