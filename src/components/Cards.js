@@ -6,6 +6,7 @@ import { ConfSubTypeTimeItem } from "./ConfSubTypeTimeItem";
 import onlineMeetings from "./data/onlineMeetings.json";
 import conferences from "./data/conferences.json";
 import { OnlineMeetingCard } from "./OnlineMeetingCard";
+import { Overlay } from "./Overlay";
 
 const Cards = () => {
   let europeBibleStudyOnZoom = onlineMeetings["europeBibleStudyOnZoom"];
@@ -17,8 +18,8 @@ const Cards = () => {
   return (
     <>
       <div className="card-deck mb-2">
-        <OnlineMeetingCard {...europeBibleStudyOnZoom} />
         <Card {...octoberConference2021} />
+        <OnlineMeetingCard {...europeBibleStudyOnZoom} />
       </div>
       <div className="card-deck mb-2">
         <Card {...novemberConferenceSwitzerland} />
@@ -40,6 +41,7 @@ const Card = ({
   mainLocation,
   hotelsNearBy,
   isCancelled,
+  cancelledMessage,
   importantMessage
 }) => {
   if (!imageUrl) {
@@ -47,7 +49,9 @@ const Card = ({
   }
   return (
     <div className="card overlay-container card-font-style">
-      {isCancelled && <Overlay />}
+      {isCancelled && cancelledMessage && (
+        <Overlay cancelledMessage={cancelledMessage} />
+      )}
       <img
         className="card-img-top img-height-equalizer "
         src={imageUrl}
@@ -91,14 +95,6 @@ const Card = ({
             return <Hotel {...value} key={key} />;
           })}
       </ul>
-    </div>
-  );
-};
-
-const Overlay = () => {
-  return (
-    <div id="overlay">
-      <span className="o-text">Cancelled due to coronavirus pandemic.</span>
     </div>
   );
 };

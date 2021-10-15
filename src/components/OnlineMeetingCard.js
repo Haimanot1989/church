@@ -2,11 +2,14 @@ import React from "react";
 import { ConfSubTypeTimeItem } from "./ConfSubTypeTimeItem";
 import { ContactInfo } from "./ContactInfo";
 import { MainLocation } from "./MainLocation";
+import { Overlay } from "./Overlay";
 
 export const OnlineMeetingCard = ({
   zoomInfo,
   zoomInfoAmharic,
   imageUrl,
+  isCancelled,
+  cancelledMessage,
   importantMessage,
   title,
   time,
@@ -14,7 +17,8 @@ export const OnlineMeetingCard = ({
   platformName
 }) => {
   return (
-    <div className="card">
+    <div className="card overlay-container card-font-style">
+      {isCancelled && <Overlay cancelledMessage={cancelledMessage} />}
       <img
         className="card-img-top img-height-equalizer "
         src={imageUrl}
