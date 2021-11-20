@@ -217,7 +217,9 @@
     "contactInformation": {
       "emails": ["m.feyisa@gmx.net"],
       "phoneNumbers": ["+41 78 771 83 17"]
-    }
+    },
+    "isCancelled": true,
+    "cancelledMessage": "Cancelled on the 27th November due to conference in Switzerland."
   },
   "decemberConference2020": {
     "platformName": "Zoom",
