@@ -1,6 +1,7 @@
 import React from "react";
 import { GoLocation, GoAlert } from "react-icons/go";
 import { MainLocation } from "./MainLocation";
+import { OnlineLoacation } from "./OnlineLoacation";
 import { ContactInfo } from "./ContactInfo";
 import { ConfSubTypeTimeItem } from "./ConfSubTypeTimeItem";
 import onlineMeetings from "./data/onlineMeetings.json";
@@ -38,6 +39,7 @@ const Card = ({
   confSubtypes,
   contactInformation,
   mainLocation,
+  onlineLocation,
   hotelsNearBy,
   isCancelled,
   cancelledMessage,
@@ -70,6 +72,7 @@ const Card = ({
             <sup>{confEnd && confEnd.sup}</sup> {confEnd && confEnd.month}
           </h6>
           {mainLocation && <MainLocation {...mainLocation} />}
+          {onlineLocation && <OnlineLoacation {...onlineLocation} />}
           {contactInformation && <ContactInfo {...contactInformation} />}
         </li>
         <li className="list-group-item">

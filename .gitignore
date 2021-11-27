@@ -28,3 +28,4 @@ yarn-error.log*
 dist/
 coverage
 .vscode/
+.idea

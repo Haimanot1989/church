@@ -1,7 +1,7 @@
 import React from "react";
 import { ConfSubTypeTimeItem } from "./ConfSubTypeTimeItem";
 import { ContactInfo } from "./ContactInfo";
-import { MainLocation } from "./MainLocation";
+import { MeetingInfo } from "./MeetingInfo";
 import { Overlay } from "./Overlay";
 
 export const OnlineMeetingCard = ({
@@ -53,17 +53,7 @@ const AdditionalMessage = ({ content }) => {
   });
 };
 
-const MeetingInfo = zoomInfo => {
-  return (
-    <>
-      {zoomInfo.meetingId && <MeetingId {...zoomInfo} />}
-      {zoomInfo.meetingPassword && <MeetingPassword {...zoomInfo} />}
-      {zoomInfo.meetingLink && <MainLocation {...zoomInfo.meetingLink} />}
-    </>
-  );
-};
-
-const MeetingId = zoomInfo => {
+export const MeetingId = zoomInfo => {
   return (
     <>
       {" "}
@@ -73,7 +63,7 @@ const MeetingId = zoomInfo => {
     </>
   );
 };
-const MeetingPassword = zoomInfo => {
+export const MeetingPassword = zoomInfo => {
   return (
     <>
       {" "}
