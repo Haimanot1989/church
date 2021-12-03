@@ -18,12 +18,8 @@ const Cards = () => {
   return (
     <>
       <div className="card-deck mb-2">
-        <Card {...novemberConferenceSwitzerland} />
         <OnlineMeetingCard {...europeBibleStudyOnZoom} />
-      </div>
-      <div className="card-deck mb-2">
         <Card {...newYearConference2022} />
-        <Card {...placeHolder} />
       </div>
     </>
   );
