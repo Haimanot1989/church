@@ -151,6 +151,62 @@
     ]
   },
 
+  "januaryGermany2022": {
+    "mainLocation": {
+      "map": "https://www.google.com/maps/place/Helenenstra%C3%9Fe+14,+50667+K%C3%B6ln,+Germany/@50.9401968,6.9435413,17z/data=!3m1!4b1!4m5!3m4!1s0x47bf25a83c36b277:0x474ba0e24c49a842!8m2!3d50.9401934!4d6.94573",
+      "placeName": "Helenenstraße 14, 50667 Köln"
+    },
+    "imageUrl": "./koln_germany.png",
+    "confType": "One God Gospel Preaching Conference",
+    "country": "Germany",
+    "city": "Köln",
+    "confStart": {
+      "date": "29",
+      "sup": "th",
+      "month": "January"
+    },
+    "confEnd": {
+      "date": "30",
+      "sup": "th",
+      "month": "January"
+    },
+    "contactInformation": {
+      "emails": ["abdiyu@gmx.de"],
+      "phoneNumbers": ["+4915737945578"]
+    },
+    "confSubtypes": [
+      {
+        "title": "Whole day program",
+        "location": {
+          "address": "Helenenstraße 14, 50667 Köln",
+          "map": "https://www.google.com/maps/place/Helenenstra%C3%9Fe+14,+50667+K%C3%B6ln,+Germany/@50.9401968,6.9435413,17z/data=!3m1!4b1!4m5!3m4!1s0x47bf25a83c36b277:0x474ba0e24c49a842!8m2!3d50.9401934!4d6.94573"
+        },
+        "time": [
+          {
+            "date": {
+              "day": "Saturday",
+              "date": "29",
+              "sup": "th",
+              "month": "January"
+            },
+            "startTime": "10:00",
+            "finishTime": "19:00"
+          },
+          {
+            "date": {
+              "day": "Sunday",
+              "date": "30",
+              "sup": "th",
+              "month": "January"
+            },
+            "startTime": "10:00",
+            "finishTime": "19:00"
+          }
+        ]
+      }
+    ]
+  },
+
   "novemberConferenceSwitzerland": {
     "mainLocation": {
       "map": "https://www.google.com/maps/place/Rosenaustrasse+1,+9100+Herisau,+Sveits/@47.387228,9.2811561,17z/data=!3m1!4b1!4m5!3m4!1s0x479adfd55bf27a11:0xa0c631a9b7a63e02!8m2!3d47.387228!4d9.2833448",
