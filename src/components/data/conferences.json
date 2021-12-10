@@ -1,5 +1,5 @@
 {
-  "augustConferenceUK2021": {
+  "februaryConferenceUK2022": {
     "mainLocation": {
       "map": "https://www.google.com/maps/dir//High+Leigh+Conference+Centre,+Lord+St,+Hoddesdon+EN11+8SG,+Storbritannia/@51.7614256,-0.0259873,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x487620c96e56d15b:0x8ae2c858dfecd72!2m2!1d-0.0259873!2d51.7614256!3e0",
       "placeName": "High Leigh Conference Centre, Lord St, Hoddesdon EN11 8SG"
@@ -9,14 +9,14 @@
     "country": "UK",
     "city": " Hoddesdon Hertfordshire",
     "confStart": {
-      "date": "20",
+      "date": "11",
       "sup": "th",
-      "month": "August"
+      "month": "February"
     },
     "confEnd": {
-      "date": "22",
-      "sup": "nd",
-      "month": "August"
+      "date": "13",
+      "sup": "th",
+      "month": "February"
     },
     "contactInformation": {
       "emails": ["gefrem60@gmail.com"],
@@ -33,9 +33,9 @@
           {
             "date": {
               "day": "Friday",
-              "date": "20",
+              "date": "11",
               "sup": "th",
-              "month": "August"
+              "month": "February"
             },
             "startTime": "16:00",
             "finishTime": "20:00"
@@ -52,22 +52,22 @@
           {
             "date": {
               "day": "Saturday",
-              "date": "21",
-              "sup": "st",
-              "month": "August"
+              "date": "12",
+              "sup": "th",
+              "month": "February"
             },
-            "startTime": "10:00",
-            "finishTime": "19:00"
+            "startTime": "09:00",
+            "finishTime": "20:00"
           },
           {
             "date": {
               "day": "Sunday",
-              "date": "22",
-              "sup": "nd",
-              "month": "August"
+              "date": "13",
+              "sup": "th",
+              "month": "February"
             },
-            "startTime": "10:00",
-            "finishTime": "19:00"
+            "startTime": "09:00",
+            "finishTime": "17:00"
           }
         ]
       }
@@ -653,16 +653,24 @@
     ]
   },
   "newYearConference2022": {
-    "mainLocation": {
-      "map": "https://www.google.com/maps/place/Kista+Tr%C3%A4ff/@59.4022556,17.9419327,15z/data=!4m5!3m4!1s0x0:0x66aab4a9f9ddf527!8m2!3d59.4022556!4d17.9419327",
-      "placeName": "Kista träff, Norgesalen"
+    "onlineLocation": {
+      "platformName": "Zoom",
+      "zoomInfo": {
+        "meetingId": "664 477 0183",
+        "meetingPassword": "7",
+        "meetingLink": {
+          "map": "https://us02web.zoom.us/j/6644770183?pwd=SHAzL1kwTmcyYm1PdkdzNVNLNUZ6dz09",
+          "placeName": "Join the online meeting by clicking on this link or using the details above in the zoom app"
+        }
+      }
     },
+
     "imageUrl": "./stockholm.png",
     "confType": "New Year Conference",
     "country": "Sweden",
     "city": "Stockholm",
     "confStart": {
-      "date": "31",
+      "date": "25",
       "sup": "st",
       "month": "December"
     },
@@ -676,6 +684,60 @@
       "phoneNumbers": ["+46 73 700 52 26"]
     },
     "confSubtypes": [
+      {
+        "title": "Weekend whole day programs",
+        "location": {
+          "address": "Borgenvägen 16, 182 38 Danderyd",
+          "map": "https://www.google.com/maps/place/Borgenv%C3%A4gen+16,+182+38+Danderyd,+Sweden/@59.4050446,18.0018831,17z/data=!3m1!4b1!4m5!3m4!1s0x465f9c22477dcc5b:0x43856619d855d1ad!8m2!3d59.4050446!4d18.0040718"
+        },
+        "time": [
+          {
+            "date": [
+              {
+                "day": "Saturday",
+                "date": "25",
+                "sup": "th",
+                "month": "December"
+              },
+              {
+                "day": "Sunday",
+                "date": "26",
+                "sup": "th",
+                "month": "December"
+              }
+            ],
+            "startTime": "12:00",
+            "finishTime": "20:00"
+          }
+        ]
+      },
+      {
+        "title": "Weekday evening programs",
+        "location": {
+          "address": "Borgenvägen 16, 182 38 Danderyd",
+          "map": "https://www.google.com/maps/place/Borgenv%C3%A4gen+16,+182+38+Danderyd,+Sweden/@59.4050446,18.0018831,17z/data=!3m1!4b1!4m5!3m4!1s0x465f9c22477dcc5b:0x43856619d855d1ad!8m2!3d59.4050446!4d18.0040718"
+        },
+        "time": [
+          {
+            "date": [
+              {
+                "day": "Monday",
+                "date": "27",
+                "sup": "th",
+                "month": "December"
+              },
+              {
+                "day": "Thursday",
+                "date": "30",
+                "sup": "th",
+                "month": "December"
+              }
+            ],
+            "startTime": "18:00",
+            "finishTime": "22:00"
+          }
+        ]
+      },
       {
         "title": "New Year Conference",
         "location": {
@@ -694,22 +756,20 @@
             "finishTime": "22:00"
           },
           {
-            "date": {
-              "day": "Saturday",
-              "date": "1",
-              "sup": "st",
-              "month": "January"
-            },
-            "startTime": "12:00",
-            "finishTime": "20:00"
-          },
-          {
-            "date": {
-              "day": "Sunday",
-              "date": "2",
-              "sup": "nd",
-              "month": "January"
-            },
+            "date": [
+              {
+                "day": "Saturday",
+                "date": "1",
+                "sup": "st",
+                "month": "January"
+              },
+              {
+                "day": "Sunday",
+                "date": "2",
+                "sup": "nd",
+                "month": "January"
+              }
+            ],
             "startTime": "12:00",
             "finishTime": "20:00"
           }

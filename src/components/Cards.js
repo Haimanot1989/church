@@ -13,7 +13,7 @@ const Cards = () => {
   let europeBibleStudyOnZoom = onlineMeetings["europeBibleStudyOnZoom"];
   let januaryGermany2022 = conferences["januaryGermany2022"];
   let newYearConference2022 = conferences["newYearConference2022"];
-  let placeHolder = {};
+  let februaryConferenceUK2022 = conferences["februaryConferenceUK2022"];
   return (
     <>
       <div className="card-deck mb-2">
@@ -22,7 +22,7 @@ const Cards = () => {
       </div>
       <div className="card-deck mb-2">
         <Card {...januaryGermany2022} />
-        <Card {...placeHolder} />
+        <Card {...februaryConferenceUK2022} />
       </div>
     </>
   );
