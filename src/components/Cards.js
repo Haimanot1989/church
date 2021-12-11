@@ -14,6 +14,8 @@ const Cards = () => {
   let januaryGermany2022 = conferences["januaryGermany2022"];
   let newYearConference2022 = conferences["newYearConference2022"];
   let februaryConferenceUK2022 = conferences["februaryConferenceUK2022"];
+  let youthConferenceBelgium2022 = conferences["youthConferenceBelgium2022"];
+  let placeHolder = {};
   return (
     <>
       <div className="card-deck mb-2">
@@ -23,6 +25,10 @@ const Cards = () => {
       <div className="card-deck mb-2">
         <Card {...januaryGermany2022} />
         <Card {...februaryConferenceUK2022} />
+      </div>
+      <div className="card-deck mb-2">
+        <Card {...youthConferenceBelgium2022} />
+        <Card {...placeHolder} />
       </div>
     </>
   );

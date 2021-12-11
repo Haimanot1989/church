@@ -73,6 +73,27 @@
       }
     ]
   },
+  "youthConferenceBelgium2022": {
+    "imageUrl": "./brussels.jpg",
+    "confType": "Youth conference",
+    "country": "Belgium",
+    "city": "Brussels",
+    "confStart": {
+      "date": "11",
+      "sup": "th",
+      "month": "August"
+    },
+    "confEnd": {
+      "date": "14",
+      "sup": "th",
+      "month": "August"
+    },
+    "contactInformation": {
+      "emails": ["lhoberink@hotmail.com"],
+      "phoneNumbers": ["+31640912152"]
+    },
+    "confSubtypes": []
+  },
   "augustConferenceGermany2021": {
     "imageUrl": "./frankfurt.png",
     "confType": "August conference",
