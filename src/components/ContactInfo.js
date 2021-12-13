@@ -1,19 +1,51 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhoneSquare, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-export const ContactInfo = ({ phoneNumbers, emails }) => {
+import {
+  faPhoneSquare,
+  faEnvelope,
+  faGlobe
+} from "@fortawesome/free-solid-svg-icons";
+export const ContactInfo = ({ phoneNumbers, emails, webistes }) => {
   return (
     <div>
       {phoneNumbers.length > 0 && (
         <p>
-          <FontAwesomeIcon icon={faPhoneSquare} /> {phoneNumbers}
+          <FontAwesomeIcon icon={faPhoneSquare} />{" "}
+          {phoneNumbers.map(phoneNumber => (
+            <Phone key={phoneNumber} phoneNumber={phoneNumber} />
+          ))}
         </p>
       )}
       {emails && emails.length > 0 && (
         <p>
-          <FontAwesomeIcon icon={faEnvelope} /> {emails}
+          <FontAwesomeIcon icon={faEnvelope} />{" "}
+          {emails.map(email => (
+            <Email key={email} email={email} />
+          ))}
+        </p>
+      )}
+      {webistes && webistes.length > 0 && (
+        <p>
+          <FontAwesomeIcon icon={faGlobe} />{" "}
+          {webistes.map(site => (
+            <Site key={site} site={site} />
+          ))}
         </p>
       )}
     </div>
+  );
+};
+
+const Phone = ({ phoneNumber }) => {
+  return <span>{phoneNumber}</span>;
+};
+const Email = ({ email }) => {
+  return <span>{email}</span>;
+};
+const Site = ({ site }) => {
+  return (
+    <a href={site} target="_blank" rel="noopener noreferrer">
+      {site}
+    </a>
   );
 };

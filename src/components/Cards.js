@@ -14,7 +14,7 @@ const Cards = () => {
   let januaryGermany2022 = conferences["januaryGermany2022"];
   let newYearConference2022 = conferences["newYearConference2022"];
   let februaryConferenceUK2022 = conferences["februaryConferenceUK2022"];
-  let youthConferenceBelgium2022 = conferences["youthConferenceBelgium2022"];
+  let youthConferenceBelgium2022 = conferences["youthConference2022"];
   let placeHolder = {};
   return (
     <>

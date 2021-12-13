@@ -73,11 +73,16 @@
       }
     ]
   },
-  "youthConferenceBelgium2022": {
-    "imageUrl": "./brussels.jpg",
+  "youthConference2022": {
+    "mainLocation": {
+      "map": "https://www.google.com/maps/place/Meijersgaardenweg+4,+7481+RM+Haaksbergen,+Netherlands/@52.1469168,6.8030084,15z/data=!4m5!3m4!1s0x47b86d26b120fff5:0x8b47166c7f72924e!8m2!3d52.1495275!4d6.8092858",
+      "placeName": "Meijersgaardenweg 4, 7481 RM Haaksbergen (Buurse)"
+    },
+
+    "imageUrl": "./buurse.jpeg",
     "confType": "Youth conference",
-    "country": "Belgium",
-    "city": "Brussels",
+    "country": "Netherlands",
+    "city": "Buurse",
     "confStart": {
       "date": "11",
       "sup": "th",
@@ -89,8 +94,9 @@
       "month": "August"
     },
     "contactInformation": {
-      "emails": ["lhoberink@hotmail.com"],
-      "phoneNumbers": ["+31640912152"]
+      "emails": ["info@de-pol.nl"],
+      "phoneNumbers": ["+3153-5696802"],
+      "webistes": ["https://www.de-pol.nl"]
     },
     "confSubtypes": []
   },
