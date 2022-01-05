@@ -12,23 +12,17 @@ import { Overlay } from "./Overlay";
 const Cards = () => {
   let europeBibleStudyOnZoom = onlineMeetings["europeBibleStudyOnZoom"];
   let januaryGermany2022 = conferences["januaryGermany2022"];
-  let newYearConference2022 = conferences["newYearConference2022"];
   let februaryConferenceUK2022 = conferences["februaryConferenceUK2022"];
   let youthConferenceBelgium2022 = conferences["youthConference2022"];
-  let placeHolder = {};
   return (
     <>
       <div className="card-deck mb-2">
-        <Card {...newYearConference2022} />
         <OnlineMeetingCard {...europeBibleStudyOnZoom} />
-      </div>
-      <div className="card-deck mb-2">
         <Card {...januaryGermany2022} />
-        <Card {...februaryConferenceUK2022} />
       </div>
       <div className="card-deck mb-2">
+        <Card {...februaryConferenceUK2022} />
         <Card {...youthConferenceBelgium2022} />
-        <Card {...placeHolder} />
       </div>
     </>
   );
