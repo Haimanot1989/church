@@ -216,8 +216,8 @@
               "sup": "th",
               "month": "January"
             },
-            "startTime": "10:00",
-            "finishTime": "19:00"
+            "startTime": "09:00",
+            "finishTime": "18:00"
           },
           {
             "date": {
@@ -226,8 +226,8 @@
               "sup": "th",
               "month": "January"
             },
-            "startTime": "10:00",
-            "finishTime": "19:00"
+            "startTime": "09:00",
+            "finishTime": "18:00"
           }
         ]
       }
