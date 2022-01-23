@@ -8,7 +8,7 @@ const Sermons = () => {
       <div className="container">
         <div className="row">
           {sermons["sermons"] &&
-            sermons["sermons"].map((sermon, index) => {
+            sermons["sermons"].map(sermon => {
               return <SermonCard {...sermon} key={sermon.title} />;
             })}
         </div>

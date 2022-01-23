@@ -192,6 +192,23 @@
       "phoneNumbers": ["+16 13 816 74 41"]
     }
   },
+  "europeTigrinaBibleStudyOnZoom": {
+    "platformName": "Zoom",
+    "zoomInfo": {
+      "meetingId": "885 7933 9295",
+      "meetingPassword": "1",
+      "meetingLink": {
+        "map": "https://us02web.zoom.us/j/88579339295?pwd=SFNmQUIvT0tRaHlDaVYrN3l5bzJVQT09",
+        "placeName": "ነዛ ሊንክ ብምጥቃም: ወይ ድማ ነቲ ኣብ ላዕሊ ዘሎ ዝርዝር ሓበሬታ ኣብ ናይ ዙም ኣፕ ብምእታው: ኣብቲ ናይ ዙም ኣኼባ ሕበሩ።"
+      }
+    },
+    "imageUrl": "./tigrina-bible-study.png",
+    "title": "ትምህርቲ መጽሓፍ ቅዱስ ብትግርኛ ኣብ ሰሰኑይ ሰዓት 19:00 - 21:00 CET",
+    "contactInformation": {
+      "emails": ["gefrem60@gmail.com"],
+      "phoneNumbers": ["+447838870288"]
+    }
+  },
   "europeBibleStudyOnZoom": {
     "platformName": "Zoom",
     "zoomInfo": {
@@ -217,7 +234,9 @@
     "contactInformation": {
       "emails": ["m.feyisa@gmx.net"],
       "phoneNumbers": ["+41 78 771 83 17"]
-    }
+    },
+    "isCancelled": true,
+    "cancelledMessage": "Cancelled on the 29th January due to the conference in Germany."
   },
   "decemberConference2020": {
     "platformName": "Zoom",
