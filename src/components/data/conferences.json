@@ -71,7 +71,15 @@
           }
         ]
       }
-    ]
+    ],
+    "importantMessage": {
+      "content": [
+        "Dear all,",
+        " there is a good news regarding the COVID-19 restrictions. Starting from 11th of February 4:00 AM, if you are fully vaccinated, you DO NOT need to quarantine, show a negative test result or self test. You only need to fill  the passenger locator form. This makes traveling to London a lot easier.",
+        " If you are coming, please inform Brother Efrem by sending him an email. ",
+        "We hope to see you there! God bless!"
+      ]
+    }
   },
   "youthConference2022": {
     "mainLocation": {
