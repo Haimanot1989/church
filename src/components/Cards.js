@@ -10,25 +10,20 @@ import { OnlineMeetingCard } from "./OnlineMeetingCard";
 import { Overlay } from "./Overlay";
 
 const Cards = () => {
-  let europeTigrinaBibleStudyOnZoom =
+  const europeTigrinaBibleStudyOnZoom =
     onlineMeetings["europeTigrinaBibleStudyOnZoom"];
-  let europeBibleStudyOnZoom = onlineMeetings["europeBibleStudyOnZoom"];
-  let januaryGermany2022 = conferences["januaryGermany2022"];
-  let februaryConferenceUK2022 = conferences["februaryConferenceUK2022"];
-  let youthConferenceBelgium2022 = conferences["youthConference2022"];
+  const europeBibleStudyOnZoom = onlineMeetings["europeBibleStudyOnZoom"];
+  const februaryConferenceUK2022 = conferences["februaryConferenceUK2022"];
+  const youthConferenceBelgium2022 = conferences["youthConference2022"];
   return (
     <>
       <div className="card-deck mb-2">
-        <Card {...januaryGermany2022} />
         <OnlineMeetingCard {...europeTigrinaBibleStudyOnZoom} />
-      </div>
-      <div className="card-deck mb-2">
         <OnlineMeetingCard {...europeBibleStudyOnZoom} />
-        <Card {...februaryConferenceUK2022} />
       </div>
       <div className="card-deck mb-2">
+        <Card {...februaryConferenceUK2022} />
         <Card {...youthConferenceBelgium2022} />
-        <Card {...{}} />
       </div>
     </>
   );
