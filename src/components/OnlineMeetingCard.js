@@ -7,6 +7,7 @@ import { Overlay } from "./Overlay";
 export const OnlineMeetingCard = ({
   zoomInfo,
   zoomInfoAmharic,
+  zoomInfoTigrinya,
   imageUrl,
   isCancelled,
   cancelledMessage,
@@ -31,6 +32,7 @@ export const OnlineMeetingCard = ({
           </h5>
           {zoomInfo && <MeetingInfo {...zoomInfo} />}
           {zoomInfoAmharic && <MeetingInfo {...zoomInfoAmharic} />}
+          {zoomInfoTigrinya && <MeetingInfo {...zoomInfoTigrinya} />}
           {contactInformation && <ContactInfo {...contactInformation} />}
         </li>
         <li className="list-group-item">

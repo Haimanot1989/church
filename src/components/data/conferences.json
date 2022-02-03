@@ -386,14 +386,14 @@
     "country": "Norway",
     "city": "Oslo",
     "confStart": {
-      "date": "7",
+      "date": "15",
       "sup": "th",
-      "month": "August"
+      "month": "April"
     },
     "confEnd": {
-      "date": "8",
+      "date": "17",
       "sup": "th",
-      "month": "August"
+      "month": "April"
     },
     "contactInformation": {
       "emails": ["haimif@yahoo.com"],
@@ -409,23 +409,33 @@
         "time": [
           {
             "date": {
-              "day": "Saturday",
-              "date": "7",
+              "day": "Friday",
+              "date": "15",
               "sup": "th",
-              "month": "August"
+              "month": "April"
             },
             "startTime": "10:00",
-            "finishTime": "17:00"
+            "finishTime": "18:00"
+          },
+          {
+            "date": {
+              "day": "Saturday",
+              "date": "16",
+              "sup": "th",
+              "month": "April"
+            },
+            "startTime": "10:00",
+            "finishTime": "18:00"
           },
           {
             "date": {
               "day": "Sunday",
-              "date": "8",
+              "date": "17",
               "sup": "th",
-              "month": "August"
+              "month": "April"
             },
             "startTime": "10:00",
-            "finishTime": "17:00"
+            "finishTime": "18:00"
           }
         ]
       }
