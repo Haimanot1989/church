@@ -31,11 +31,9 @@ function convertTitleToFileName(title) {
 }
 
 let titles = [
-  "SERVING GOD, SAVING THE KING ",
-  "ENCOURAGING MANOAH",
-  "THE PLAGUE STOPPED AT CALVARY",
-  "GOD’S WORD – OUR DAILY BREAD FROM HEAVEN",
-  "SIX REASONS WHY THE MYSTERY OF GODLINESS IS GREAT"
+  "HERE I AM, SEND ME!",
+  "HOLD ON TO THE SCARLET THREAD",
+  "WHAT DO YOU THINK OF JESUS?"
 ];
 titles.forEach(title => {
   console.log(
