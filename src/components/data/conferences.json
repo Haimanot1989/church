@@ -4,6 +4,17 @@
       "map": "https://www.google.com/maps/dir//High+Leigh+Conference+Centre,+Lord+St,+Hoddesdon+EN11+8SG,+Storbritannia/@51.7614256,-0.0259873,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x487620c96e56d15b:0x8ae2c858dfecd72!2m2!1d-0.0259873!2d51.7614256!3e0",
       "placeName": "High Leigh Conference Centre, Lord St, Hoddesdon EN11 8SG"
     },
+    "onlineLocation": {
+      "platformName": "Zoom",
+      "zoomInfo": {
+        "meetingId": "664 477 0183",
+        "meetingPassword": "7",
+        "meetingLink": {
+          "map": "https://us02web.zoom.us/j/6644770183?pwd=SHAzL1kwTmcyYm1PdkdzNVNLNUZ6dz09",
+          "placeName": "Join the online meeting by clicking on this link or using the details above in the zoom app"
+        }
+      }
+    },
     "imageUrl": "./high-leigh-conference.png",
     "confType": "February conference",
     "country": "UK",

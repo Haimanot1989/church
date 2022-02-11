@@ -244,8 +244,8 @@
       "emails": ["m.feyisa@gmx.net"],
       "phoneNumbers": ["+41 78 771 83 17"]
     },
-    "isCancelled": false,
-    "cancelledMessage": "Cancelled on the 29th January due to the conference in Germany."
+    "isCancelled": true,
+    "cancelledMessage": "Cancelled on the 12th February due to the conference in The UK."
   },
   "decemberConference2020": {
     "platformName": "Zoom",
