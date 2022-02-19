@@ -14,6 +14,7 @@ const Cards = () => {
     onlineMeetings["europeTigrinyaBibleStudyOnZoom"];
   const europeBibleStudyOnZoom = onlineMeetings["europeBibleStudyOnZoom"];
   const theLordsSupperNorway = conferences["theLordsSupperNorway"];
+  const annualConference2022 = conferences["annualConference2022"];
   const youthConferenceBelgium2022 = conferences["youthConference2022"];
   return (
     <>
@@ -23,7 +24,11 @@ const Cards = () => {
       </div>
       <div className="card-deck mb-2">
         <Card {...theLordsSupperNorway} />
+        <Card {...annualConference2022} />
+      </div>
+      <div className="card-deck mb-2">
         <Card {...youthConferenceBelgium2022} />
+        <Card {...{}} />
       </div>
     </>
   );

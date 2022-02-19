@@ -507,23 +507,26 @@
       }
     ]
   },
-  "annualConference": {
+  "annualConference2022": {
     "mainLocation": {
       "map": "https://www.google.com/maps/place/La+Maison+des+Associations+de+Solidarit%C3%A9/@48.8242435,2.3703446,17z/data=!4m5!3m4!1s0x47e6722f75279975:0x3c717e5ea9a592b7!8m2!3d48.8242435!4d2.3725333",
       "placeName": "La Maison des Associations de Solidarité"
     },
+    "importantMessage": {
+      "content": "Please see below for more information on the program and the hotels near by."
+    },
     "imageUrl": "./paris.png",
-    "confType": "2020 Annual European Conference",
+    "confType": "2022 Annual European Conference",
     "country": "France",
     "city": "Paris",
     "confStart": {
-      "date": "31",
-      "sup": "st",
-      "month": "July"
+      "date": "5",
+      "sup": "th",
+      "month": "August"
     },
     "confEnd": {
-      "date": "2",
-      "sup": "nd",
+      "date": "7",
+      "sup": "th",
       "month": "August"
     },
     "confSubtypes": [
@@ -537,9 +540,9 @@
           {
             "date": {
               "day": "Friday",
-              "date": "31",
-              "sup": "st",
-              "month": "July"
+              "date": "5",
+              "sup": "th",
+              "month": "August"
             },
             "startTime": "10:00",
             "finishTime": "20:00"
@@ -547,8 +550,8 @@
           {
             "date": {
               "day": "Saturday",
-              "date": "1",
-              "sup": "st",
+              "date": "6",
+              "sup": "th",
               "month": "August"
             },
             "startTime": "10:00",
@@ -566,8 +569,8 @@
           {
             "date": {
               "day": "Sunday",
-              "date": "2",
-              "sup": "nd",
+              "date": "7",
+              "sup": "th",
               "month": "August"
             },
             "startTime": "14:00",
@@ -638,7 +641,7 @@
         "mapLocation": "https://www.google.com/maps/place/B%26B+HOTEL/@48.8168759,2.3665113,15z/data=!4m2!3m1!1s0x0:0xbd13cf92eac1c83a?sa=X&ved=2ahUKEwjY-eqjxuPnAhVHtIsKHejGAEYQ_BIwCHoECAwQCA"
       }
     ],
-    "isCancelled": true
+    "isCancelled": false
   },
   "octoberConference": {
     "mainLocation": {
