@@ -1,5 +1,5 @@
 import React from "react";
-import { GoLocation, GoAlert } from "react-icons/go";
+import { GoLocation, GoAlert, GoInfo } from "react-icons/go";
 import { MainLocation } from "./MainLocation";
 import { OnlineLoacation } from "./OnlineLoacation";
 import { ContactInfo } from "./ContactInfo";
@@ -14,6 +14,7 @@ const Cards = () => {
     onlineMeetings["europeTigrinyaBibleStudyOnZoom"];
   const europeBibleStudyOnZoom = onlineMeetings["europeBibleStudyOnZoom"];
   const theLordsSupperNorway = conferences["theLordsSupperNorway"];
+  const theSevenChurchesTrip2022 = conferences["theSevenChurchesTrip2022"];
   const annualConference2022 = conferences["annualConference2022"];
   const youthConferenceBelgium2022 = conferences["youthConference2022"];
   return (
@@ -24,11 +25,11 @@ const Cards = () => {
       </div>
       <div className="card-deck mb-2">
         <Card {...theLordsSupperNorway} />
-        <Card {...annualConference2022} />
+        <Card {...theSevenChurchesTrip2022} />
       </div>
       <div className="card-deck mb-2">
+        <Card {...annualConference2022} />
         <Card {...youthConferenceBelgium2022} />
-        <Card {...{}} />
       </div>
     </>
   );
@@ -106,10 +107,12 @@ const Card = ({
   );
 };
 
-const AdditionalMessage = ({ content }) => {
+const AdditionalMessage = ({ content, type }) => {
+  const textClass = type && type === "info" ? "text-info" : "text-danger";
+  const Icon = type && type === "info" ? <GoInfo /> : <GoAlert />;
   return (
-    <p className="text-danger">
-      <GoAlert /> {content}
+    <p className={textClass}>
+      {Icon} {content}
     </p>
   );
 };

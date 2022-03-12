@@ -119,6 +119,35 @@
     },
     "confSubtypes": []
   },
+  "theSevenChurchesTrip2022": {
+    "mainLocation": {
+      "map": "https://www.google.com/maps/place/%C4%B0zmir,+Turkey/@38.4173415,26.7995313,10z/data=!3m1!4b1!4m5!3m4!1s0x14bbd862a762cacd:0x628cbba1a59ce8fe!8m2!3d38.423734!4d27.142826",
+      "placeName": "İzmir, Turkey"
+    },
+    "importantMessage": {
+      "content": "For those of you joining the trip, please speak with your local pastors to organize transportation.",
+      "type": "info"
+    },
+    "imageUrl": "./izmir.png",
+    "confType": "Trip to the Seven Churches of Revelation",
+    "country": "Turkey",
+    "city": "Izmir",
+    "confStart": {
+      "date": "1",
+      "sup": "st",
+      "month": "July"
+    },
+    "confEnd": {
+      "date": "12",
+      "sup": "th",
+      "month": "July"
+    },
+    "contactInformation": {
+      "emails": ["haimif@yahoo.com"],
+      "phoneNumbers": ["+47 46377592"]
+    },
+    "confSubtypes": []
+  },
   "augustConferenceGermany2021": {
     "imageUrl": "./frankfurt.png",
     "confType": "August conference",
@@ -334,7 +363,8 @@
   "octoberConference2021": {
     "imageUrl": "./theHague.png",
     "importantMessage": {
-      "content": "You can book a room for the agreed rate by calling Fletcher Hotel on 0031703209280 and by giving them the reference code F82-GFC4556"
+      "content": "You can book a room for the agreed rate by calling Fletcher Hotel on 0031703209280 and by giving them the reference code F82-GFC4556",
+      "type": "info"
     },
     "mainLocation": {
       "map": "https://www.google.com/maps/place/Fletcher+Hotel-Restaurant+Leidschendam-Den+Haag/@52.0885474,4.3793037,17z/data=!3m1!4b1!4m8!3m7!1s0x47c5b7e9fc9b1d57:0x1fa95717f3aa2d23!5m2!4m1!1i2!8m2!3d52.0885474!4d4.3814924",
@@ -414,8 +444,8 @@
       {
         "title": "Whole day program",
         "location": {
-          "address": "Skøyer'n fritidsklubb, Solbergliveien 85, 0683 Oslo",
-          "map": "https://www.google.com/maps/place/Sk%C3%B8yer'n+fritidsklubb/@59.8997986,10.8407608,17z/data=!3m1!4b1!4m5!3m4!1s0x46416f63edefaf97:0x8273d57b2f979b8!8m2!3d59.8997986!4d10.8429495"
+          "address": "Veitvetveien 17, 0596 Oslo",
+          "map": "https://www.google.com/maps/place/Veitvetveien+17,+0596+Oslo/@59.9418245,10.8477527,17z/data=!3m1!4b1!4m5!3m4!1s0x46416fe77856b90b:0xc363d8b86699b9d!8m2!3d59.9418245!4d10.8499414"
         },
         "time": [
           {
@@ -513,7 +543,8 @@
       "placeName": "La Maison des Associations de Solidarité"
     },
     "importantMessage": {
-      "content": "Please see below for more information on the program and the hotels near by."
+      "content": "Please see below for more information on the program and the hotels near by.",
+      "type": "info"
     },
     "imageUrl": "./paris.png",
     "confType": "2022 Annual European Conference",
