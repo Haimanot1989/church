@@ -244,8 +244,8 @@
       "emails": ["m.feyisa@gmx.net"],
       "phoneNumbers": ["+41 78 771 83 17"]
     },
-    "isCancelled": false,
-    "cancelledMessage": "Cancelled on the 12th February due to the conference in The UK."
+    "isCancelled": true,
+    "cancelledMessage": "Closed on the 19th and 26th of March"
   },
   "decemberConference2020": {
     "platformName": "Zoom",
