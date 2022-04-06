@@ -211,22 +211,22 @@
   },
   "europeBibleStudyOnZoom": {
     "platformName": "Zoom",
-    "zoomInfo": {
-      "language": "English",
+    "zoomInfoAmharic": {
+      "language": "Amharic",
       "meetingId": "664 477 0183",
       "meetingPassword": "7",
       "meetingLink": {
         "map": "https://us02web.zoom.us/j/6644770183?pwd=SHAzL1kwTmcyYm1PdkdzNVNLNUZ6dz09",
-        "placeName": "Join the ENGLISH meeting by clicking on this link or using the details above in the zoom app"
+        "placeName": "Join the AMHARIC meeting by clicking on this link or using the details above in the zoom app"
       }
     },
-    "zoomInfoAmharic": {
-      "language": "Amharic",
+    "zoomInfo": {
+      "language": "English",
       "meetingId": "639 807 0890",
       "meetingPassword": "OneGod",
       "meetingLink": {
         "map": "https://us02web.zoom.us/j/6398070890?pwd=MlZxZWcwR3I0d3R1MmhDN0syaUx0Zz09",
-        "placeName": "Join the AMHARIC meeting by clicking on this link or using the details above in the zoom app"
+        "placeName": "Join the ENGLISH meeting by clicking on this link or using the details above in the zoom app"
       }
     },
     "zoomInfoTigrinya": {
