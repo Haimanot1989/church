@@ -10,6 +10,8 @@ function capitalizeTitle(title) {
         "for",
         "from",
         "the",
+        "in",
+        "and",
         "at"
       ].includes(str.toLowerCase())
         ? str.charAt(0).toLowerCase()
@@ -31,8 +33,8 @@ function convertTitleToFileName(title) {
 }
 
 let titles = [
-  "HERE I AM, SEND ME!",
-  "HOLD ON TO THE SCARLET THREAD",
+  "THE INTERNATIONAL CALL OF ABRAHAM",
+  "CHURCH PLANTING AND BUILDING IN EUROPE",
   "WHAT DO YOU THINK OF JESUS?"
 ];
 titles.forEach(title => {
