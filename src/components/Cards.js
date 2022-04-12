@@ -20,11 +20,11 @@ const Cards = () => {
   return (
     <>
       <div className="card-deck mb-2">
+        <Card {...theLordsSupperNorway} />
         <OnlineMeetingCard {...europeBibleStudyOnZoom} />
-        <OnlineMeetingCard {...europeTigrinyaBibleStudyOnZoom} />
       </div>
       <div className="card-deck mb-2">
-        <Card {...theLordsSupperNorway} />
+        <OnlineMeetingCard {...europeTigrinyaBibleStudyOnZoom} />
         <Card {...theSevenChurchesTrip2022} />
       </div>
       <div className="card-deck mb-2">

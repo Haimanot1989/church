@@ -235,8 +235,8 @@
       "emails": ["m.feyisa@gmx.net"],
       "phoneNumbers": ["+41 78 771 83 17"]
     },
-    "isCancelled": false,
-    "cancelledMessage": "Closed on the 19th, 26th of March and 2nd of April"
+    "isCancelled": true,
+    "cancelledMessage": "Closed on the 16th of April due to the conference in Norway."
   },
   "decemberConference2020": {
     "platformName": "Zoom",

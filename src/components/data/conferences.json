@@ -440,6 +440,21 @@
       "emails": ["haimif@yahoo.com"],
       "phoneNumbers": ["+4746377592"]
     },
+    "mainLocation": {
+      "map": "https://www.google.com/maps/place/Veitvetveien+17,+0596+Oslo/@59.9418245,10.8477527,17z/data=!3m1!4b1!4m5!3m4!1s0x46416fe77856b90b:0xc363d8b86699b9d!8m2!3d59.9418245!4d10.8499414",
+      "placeName": "Veitvetveien 17, 0596 Oslo"
+    },
+    "onlineLocation": {
+      "platformName": "Zoom",
+      "zoomInfo": {
+        "meetingId": "639 807 0890",
+        "meetingPassword": "OneGod",
+        "meetingLink": {
+          "map": "https://us02web.zoom.us/j/6398070890?pwd=MlZxZWcwR3I0d3R1MmhDN0syaUx0Zz09",
+          "placeName": "Join the meeting by clicking on this link or using the details above in the zoom app"
+        }
+      }
+    },
     "confSubtypes": [
       {
         "title": "Whole day program",
