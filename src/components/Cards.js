@@ -13,23 +13,22 @@ const Cards = () => {
   const europeTigrinyaBibleStudyOnZoom =
     onlineMeetings["europeTigrinyaBibleStudyOnZoom"];
   const europeBibleStudyOnZoom = onlineMeetings["europeBibleStudyOnZoom"];
-  const theLordsSupperNorway = conferences["theLordsSupperNorway"];
   const theSevenChurchesTrip2022 = conferences["theSevenChurchesTrip2022"];
   const annualConference2022 = conferences["annualConference2022"];
   const youthConferenceBelgium2022 = conferences["youthConference2022"];
   return (
     <>
       <div className="card-deck mb-2">
-        <Card {...theLordsSupperNorway} />
         <OnlineMeetingCard {...europeBibleStudyOnZoom} />
-      </div>
-      <div className="card-deck mb-2">
         <OnlineMeetingCard {...europeTigrinyaBibleStudyOnZoom} />
-        <Card {...theSevenChurchesTrip2022} />
       </div>
       <div className="card-deck mb-2">
+        <Card {...theSevenChurchesTrip2022} />
         <Card {...annualConference2022} />
+      </div>
+      <div className="card-deck mb-2">
         <Card {...youthConferenceBelgium2022} />
+        <Card {...{}} />
       </div>
     </>
   );
