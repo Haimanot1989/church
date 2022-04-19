@@ -231,10 +231,6 @@
     },
     "imageUrl": "./bible-study.png",
     "title": "Bible study every Saturday at 19:00 - 21:00 CET",
-    "contactInformation": {
-      "emails": ["m.feyisa@gmx.net"],
-      "phoneNumbers": ["+41 78 771 83 17"]
-    },
     "isCancelled": false,
     "cancelledMessage": "Closed on the 16th of April due to the conference in Norway."
   },
