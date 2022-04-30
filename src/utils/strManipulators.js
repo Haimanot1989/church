@@ -33,7 +33,7 @@ function convertTitleToFileName(title) {
 }
 
 let titles = [
-  "THE INTERNATIONAL CALL OF ABRAHAM",
+  "THE CHRISTIAN AND SMOKING",
   "CHURCH PLANTING AND BUILDING IN EUROPE",
   "WHAT DO YOU THINK OF JESUS?"
 ];
