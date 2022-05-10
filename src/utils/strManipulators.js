@@ -12,7 +12,8 @@ function capitalizeTitle(title) {
         "the",
         "in",
         "and",
-        "at"
+        "at",
+        "we"
       ].includes(str.toLowerCase())
         ? str.charAt(0).toLowerCase()
         : str.charAt(0).toUpperCase();
