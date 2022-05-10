@@ -16,6 +16,8 @@ const Cards = () => {
   const theSevenChurchesTrip2022 = conferences["theSevenChurchesTrip2022"];
   const annualConference2022 = conferences["annualConference2022"];
   const youthConferenceBelgium2022 = conferences["youthConference2022"];
+  const novemberConference2022 = conferences["novemberConference2022"];
+
   return (
     <>
       <div className="card-deck mb-2">
@@ -28,7 +30,7 @@ const Cards = () => {
       </div>
       <div className="card-deck mb-2">
         <Card {...youthConferenceBelgium2022} />
-        <Card {...{}} />
+        <Card {...novemberConference2022} />
       </div>
     </>
   );
@@ -83,10 +85,10 @@ const Card = ({
         <li className="list-group-item">
           {importantMessage && <AdditionalMessage {...importantMessage} />}
         </li>
-        {confSubtypes.length > 0 && (
+        {confSubtypes && confSubtypes.length > 0 && (
           <CardSectionTitle sectionTitle="Programs" />
         )}
-        {confSubtypes.length > 0 ? (
+        {confSubtypes && confSubtypes.length > 0 ? (
           confSubtypes.map((value, key) => {
             return <ConfSubTypeItem {...value} key={key} />;
           })

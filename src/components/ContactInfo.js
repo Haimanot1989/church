@@ -3,12 +3,21 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPhoneSquare,
   faEnvelope,
-  faGlobe
+  faGlobe,
+  faMale
 } from "@fortawesome/free-solid-svg-icons";
-export const ContactInfo = ({ phoneNumbers, emails, webistes }) => {
+export const ContactInfo = ({ phoneNumbers, emails, webistes, names }) => {
   return (
     <div>
-      {phoneNumbers.length > 0 && (
+      {names && names.length > 0 && (
+        <p>
+          <FontAwesomeIcon icon={faMale} />{" "}
+          {names.map(name => (
+            <Name key={name} name={name} />
+          ))}
+        </p>
+      )}
+      {phoneNumbers && phoneNumbers.length > 0 && (
         <p>
           <FontAwesomeIcon icon={faPhoneSquare} />{" "}
           {phoneNumbers.map(phoneNumber => (
@@ -36,6 +45,9 @@ export const ContactInfo = ({ phoneNumbers, emails, webistes }) => {
   );
 };
 
+const Name = ({ name }) => {
+  return <span>{name}</span>;
+};
 const Phone = ({ phoneNumber }) => {
   return <span>{phoneNumber}</span>;
 };

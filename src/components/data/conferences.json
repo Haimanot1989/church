@@ -892,5 +892,25 @@
         ]
       }
     ]
+  },
+  "novemberConference2022": {
+    "imageUrl": "./genoa.png",
+    "confType": "November conference",
+    "country": "Italy",
+    "city": "Genoa",
+    "confStart": {
+      "date": "4",
+      "sup": "th",
+      "month": "November"
+    },
+    "confEnd": {
+      "date": "6",
+      "sup": "th",
+      "month": "November"
+    },
+    "contactInformation": {
+      "names": ["Michele Mingo"],
+      "phoneNumbers": ["+39 349 4442047"]
+    }
   }
 }
