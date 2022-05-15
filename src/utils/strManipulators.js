@@ -13,7 +13,8 @@ function capitalizeTitle(title) {
         "in",
         "and",
         "at",
-        "we"
+        "we",
+        "on"
       ].includes(str.toLowerCase())
         ? str.charAt(0).toLowerCase()
         : str.charAt(0).toUpperCase();
@@ -34,7 +35,7 @@ function convertTitleToFileName(title) {
 }
 
 let titles = [
-  "THE CHRISTIAN AND SMOKING",
+  "A BIBLE STUDY ON JEWELRY",
   "CHURCH PLANTING AND BUILDING IN EUROPE",
   "WHAT DO YOU THINK OF JESUS?"
 ];
