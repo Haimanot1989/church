@@ -119,6 +119,27 @@
     },
     "confSubtypes": []
   },
+  "septemberConference2022": {
+    "imageUrl": "./leipzig.png",
+    "confType": "September conference",
+    "country": "Germany",
+    "city": "Leipzig",
+    "confStart": {
+      "date": "10",
+      "sup": "th",
+      "month": "September"
+    },
+    "confEnd": {
+      "date": "11",
+      "sup": "th",
+      "month": "September"
+    },
+    "contactInformation": {
+      "emails": ["aman_anjelo@yahoo.de  ::::  abdiyu@gmx.de"],
+      "phoneNumbers": ["+4915154980731   ::::  +4915737945578"]
+    },
+    "confSubtypes": []
+  },
   "theSevenChurchesTrip2022": {
     "mainLocation": {
       "map": "https://www.google.com/maps/place/%C4%B0zmir,+Turkey/@38.4173415,26.7995313,10z/data=!3m1!4b1!4m5!3m4!1s0x14bbd862a762cacd:0x628cbba1a59ce8fe!8m2!3d38.423734!4d27.142826",
