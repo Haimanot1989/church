@@ -1,3 +1,5 @@
+// mv ~/Downloads/***.pdf ~/workspace/private/church/public/sermons/.
+
 function capitalizeTitle(title) {
   let cap = title
     .split(" ")
@@ -17,7 +19,8 @@ function capitalizeTitle(title) {
         "on",
         "a",
         "or",
-        "with"
+        "with",
+        "that"
       ].includes(str.toLowerCase())
         ? str.charAt(0).toLowerCase()
         : str.charAt(0).toUpperCase();
@@ -38,7 +41,7 @@ function convertTitleToFileName(title) {
 }
 
 let titles = [
-  "DID JESUS COME WITH A DIVINE OR HUMAN BODY",
+  "THEY THAT FEARED THE LORD",
   "CHURCH PLANTING AND BUILDING IN EUROPE",
   "WHAT DO YOU THINK OF JESUS?"
 ];
