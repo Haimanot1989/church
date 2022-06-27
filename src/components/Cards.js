@@ -17,6 +17,7 @@ const Cards = () => {
   const annualConference2022 = conferences["annualConference2022"];
   const youthConferenceBelgium2022 = conferences["youthConference2022"];
   const septemberConference2022 = conferences["septemberConference2022"];
+  const octoberConference2022 = conferences["octoberConference2022"];
   const novemberConference2022 = conferences["novemberConference2022"];
 
   return (
@@ -34,8 +35,8 @@ const Cards = () => {
         <Card {...septemberConference2022} />
       </div>
       <div className="card-deck mb-2">
+        <Card {...octoberConference2022} />
         <Card {...novemberConference2022} />
-        <Card {...{}} />
       </div>
     </>
   );

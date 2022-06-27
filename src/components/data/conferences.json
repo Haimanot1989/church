@@ -381,10 +381,10 @@
     ]
   },
 
-  "octoberConference2021": {
+  "octoberConference2022": {
     "imageUrl": "./theHague.png",
     "importantMessage": {
-      "content": "You can book a room for the agreed rate by calling Fletcher Hotel on 0031703209280 and by giving them the reference code F82-GFC4556",
+      "content": "You can book a room for the agreed rate by calling Fletcher Hotel on 0031703209280 and by giving them the reference code F82-GFC4771",
       "type": "info"
     },
     "mainLocation": {
@@ -395,13 +395,13 @@
     "country": "Netherlands",
     "city": "The Hague",
     "confStart": {
-      "date": "16",
-      "sup": "th",
+      "date": "21",
+      "sup": "st",
       "month": "October"
     },
     "confEnd": {
-      "date": "17",
-      "sup": "th",
+      "date": "23",
+      "sup": "rd",
       "month": "October"
     },
     "contactInformation": {
@@ -409,6 +409,25 @@
       "phoneNumbers": ["+31640912152"]
     },
     "confSubtypes": [
+      {
+        "title": "Evening program",
+        "location": {
+          "address": "Fletcher Hotel-Restaurant, Weigelia 22, 2262 AB Leidschendam, Netherlands",
+          "map": "https://www.google.com/maps/place/Fletcher+Hotel-Restaurant+Leidschendam-Den+Haag/@52.0885474,4.3793037,17z/data=!3m1!4b1!4m8!3m7!1s0x47c5b7e9fc9b1d57:0x1fa95717f3aa2d23!5m2!4m1!1i2!8m2!3d52.0885474!4d4.3814924"
+        },
+        "time": [
+          {
+            "date": {
+              "day": "Friday",
+              "date": "21",
+              "sup": "st",
+              "month": "October"
+            },
+            "startTime": "13:00",
+            "finishTime": "18:00"
+          }
+        ]
+      },
       {
         "title": "Whole day program",
         "location": {
@@ -419,8 +438,8 @@
           {
             "date": {
               "day": "Saturday",
-              "date": "16",
-              "sup": "th",
+              "date": "22",
+              "sup": "nd",
               "month": "October"
             },
             "startTime": "10:00",
@@ -430,8 +449,8 @@
           {
             "date": {
               "day": "Sunday",
-              "date": "17",
-              "sup": "th",
+              "date": "23",
+              "sup": "rd",
               "month": "October"
             },
             "startTime": "10:00",
