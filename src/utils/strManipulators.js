@@ -41,8 +41,8 @@ function convertTitleToFileName(title) {
 }
 
 let titles = [
-  "THEY THAT FEARED THE LORD",
-  "CHURCH PLANTING AND BUILDING IN EUROPE",
+  "KEEPERS OF THE ARK vs. KEEPERS OF THE TRUTH",
+  "LOVING LIKE JESUS",
   "WHAT DO YOU THINK OF JESUS?"
 ];
 titles.forEach(title => {
