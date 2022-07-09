@@ -163,7 +163,7 @@
     "confStart": {
       "date": "10",
       "sup": "th",
-      "month": "July at 12 CET"
+      "month": "July at 10 CET"
     },
     "confSubtypes": [
       {
@@ -180,8 +180,8 @@
               "sup": "th",
               "month": "February"
             },
-            "startTime": "12:00 CET",
-            "finishTime": "18:00 CET"
+            "startTime": "10:00 CET",
+            "finishTime": "16:00 CET"
           }
         ]
       }
