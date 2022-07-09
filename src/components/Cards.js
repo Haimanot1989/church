@@ -13,7 +13,7 @@ const Cards = () => {
   const europeTigrinyaBibleStudyOnZoom =
     onlineMeetings["europeTigrinyaBibleStudyOnZoom"];
   const europeBibleStudyOnZoom = onlineMeetings["europeBibleStudyOnZoom"];
-  const theSevenChurchesTrip2022 = conferences["theSevenChurchesTrip2022"];
+  const oneDayConference2022 = conferences["oneDayConference2022"];
   const annualConference2022 = conferences["annualConference2022"];
   const youthConferenceBelgium2022 = conferences["youthConference2022"];
   const septemberConference2022 = conferences["septemberConference2022"];
@@ -23,11 +23,11 @@ const Cards = () => {
   return (
     <>
       <div className="card-deck mb-2">
-        <OnlineMeetingCard {...europeBibleStudyOnZoom} />
+        <Card {...oneDayConference2022} />
         <OnlineMeetingCard {...europeTigrinyaBibleStudyOnZoom} />
       </div>
       <div className="card-deck mb-2">
-        <Card {...theSevenChurchesTrip2022} />
+        <OnlineMeetingCard {...europeBibleStudyOnZoom} />
         <Card {...annualConference2022} />
       </div>
       <div className="card-deck mb-2">
@@ -80,8 +80,8 @@ const Card = ({
           {/* conStart, confEnd */}
           <h6 className="card-subtitle mb-2 text-muted">
             {confStart.date}
-            <sup>{confStart.sup}</sup> {confStart.month} -{" "}
-            {confEnd && confEnd.date}
+            <sup>{confStart.sup}</sup> {confStart.month}
+            {confEnd && confEnd.date && `-  `}
             <sup>{confEnd && confEnd.sup}</sup> {confEnd && confEnd.month}
           </h6>
           {mainLocation && <MainLocation {...mainLocation} />}
