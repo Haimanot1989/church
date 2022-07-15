@@ -13,7 +13,6 @@ const Cards = () => {
   const europeTigrinyaBibleStudyOnZoom =
     onlineMeetings["europeTigrinyaBibleStudyOnZoom"];
   const europeBibleStudyOnZoom = onlineMeetings["europeBibleStudyOnZoom"];
-  const oneDayConference2022 = conferences["oneDayConference2022"];
   const annualConference2022 = conferences["annualConference2022"];
   const youthConferenceBelgium2022 = conferences["youthConference2022"];
   const septemberConference2022 = conferences["septemberConference2022"];
@@ -23,20 +22,20 @@ const Cards = () => {
   return (
     <>
       <div className="card-deck mb-2">
-        <Card {...oneDayConference2022} />
+        <OnlineMeetingCard {...europeBibleStudyOnZoom} />
         <OnlineMeetingCard {...europeTigrinyaBibleStudyOnZoom} />
       </div>
       <div className="card-deck mb-2">
-        <OnlineMeetingCard {...europeBibleStudyOnZoom} />
         <Card {...annualConference2022} />
-      </div>
-      <div className="card-deck mb-2">
         <Card {...youthConferenceBelgium2022} />
-        <Card {...septemberConference2022} />
       </div>
       <div className="card-deck mb-2">
+        <Card {...septemberConference2022} />
         <Card {...octoberConference2022} />
+      </div>
+      <div className="card-deck mb-2">
         <Card {...novemberConference2022} />
+        <Card {...{}} />
       </div>
     </>
   );
@@ -82,6 +81,7 @@ const Card = ({
             {confStart.date}
             <sup>{confStart.sup}</sup> {confStart.month}
             {confEnd && confEnd.date && `-  `}
+            {confEnd && confEnd.date}
             <sup>{confEnd && confEnd.sup}</sup> {confEnd && confEnd.month}
           </h6>
           {mainLocation && <MainLocation {...mainLocation} />}
