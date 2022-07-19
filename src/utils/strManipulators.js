@@ -1,4 +1,6 @@
 // mv ~/Downloads/***.pdf ~/workspace/private/church/public/sermons/.
+// mv ~/Downloads/THE_FIRSTBORNS_OF_THE_FIRSTBORN.pdf ~/workspace/private/church/public/sermons/
+//node src/utils/strManipulators.js
 
 function capitalizeTitle(title) {
   let cap = title
@@ -41,8 +43,8 @@ function convertTitleToFileName(title) {
 }
 
 let titles = [
-  "KEEPERS OF THE ARK vs. KEEPERS OF THE TRUTH",
-  "LOVING LIKE JESUS",
+  "THE FIRSTBORNS OF THE FIRSTBORN",
+  "THE BLOOD RECONCILES HEAVEN AND EARTH",
   "WHAT DO YOU THINK OF JESUS?"
 ];
 titles.forEach(title => {
