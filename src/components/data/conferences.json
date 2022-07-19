@@ -120,6 +120,10 @@
     "confSubtypes": []
   },
   "septemberConference2022": {
+    "mainLocation": {
+      "map": "https://www.google.com/maps/place/Humboldtstra%C3%9Fe+9,+04105+Leipzig,+Germany/@51.3463243,12.3704817,17z/data=!3m1!4b1!4m5!3m4!1s0x47a6f7f559cad487:0x9fbfa1c2dbfc2ee!8m2!3d51.3463243!4d12.3704817",
+      "placeName": "Humboldtstraße 9, 04105 Leipzig"
+    },
     "imageUrl": "./leipzig.png",
     "confType": "September conference",
     "country": "Germany",
@@ -136,9 +140,121 @@
     },
     "contactInformation": {
       "emails": ["aman_anjelo@yahoo.de  ::::  abdiyu@gmx.de"],
-      "phoneNumbers": ["+4915154980731   ::::  +4915737945578"]
+      "phoneNumbers": ["+491 515 4980731   ::::  +491 573 7945578"]
     },
-    "confSubtypes": []
+    "hotelsNearBy": [
+      {
+        "name": "Apartment Central Leipzig",
+        "address": "Pfaffendorfer Str. 4-10, 04105 Leipzig",
+        "distance": "2 min walk",
+        "phoneNumber": "+49 341 2334422",
+        "webSite": "https://www.apartment-central.de/home/?lang=en",
+        "mapLocation": "https://www.google.com/maps/place/Apartment+Central+Leipzig/@51.3454921,12.3695677,17z/data=!4m16!1m7!3m6!1s0x47a6f81ff5fb34a9:0xdc9107fc68165c9a!2sPfaffendorfer+Str.+4-10,+04105+Leipzig,+Germany!3b1!8m2!3d51.3454921!4d12.3717564!3m7!1s0x47a6f81ff5e540eb:0xae9256596192988b!5m2!4m1!1i2!8m2!3d51.345492!4d12.371756"
+      },
+      {
+        "name": "Kokon Apartments",
+        "address": "Pfaffendorfer Str. 1, 04105 Leipzig",
+        "distance": "2 min walk",
+        "phoneNumber": "+49 178 3121172",
+        "webSite": "https://via.eviivo.com/kokonapartments04105",
+        "mapLocation": "https://www.google.com/maps/place/Kokon+Apartments/@51.3452844,12.3691367,17z/data=!4m16!1m7!3m6!1s0x47a6f8201cc0cb1b:0x769b8f1c2d2211e9!2sPfaffendorfer+Str.+1,+04105+Leipzig,+Germany!3b1!8m2!3d51.3452844!4d12.3713254!3m7!1s0x47a6f8201b85b5dd:0x3fa4b5d923a421c4!5m2!4m1!1i2!8m2!3d51.3452844!4d12.3713254"
+      },
+      {
+        "name": "Fairschlafen Hotel",
+        "address": "Humboldtstraße 16, 04105 Leipzig",
+        "distance": "2 min walk",
+        "phoneNumber": "+49 341 22322633",
+        "webSite": "https://www.fairschlafen.com/",
+        "mapLocation": "https://www.google.com/maps/place/Fairschlafen+%7C+Monteurzimmer+Leipzig+Zoo/@51.3462393,12.3705128,17z/data=!4m16!1m7!3m6!1s0x47a6f81f930d1dfd:0xba0f95cde3f2f05b!2sHumboldtstra%C3%9Fe+16,+04105+Leipzig,+Germany!3b1!8m2!3d51.3462393!4d12.3727015!3m7!1s0x47a6f81f9475877d:0xddae40087248b47b!5m2!4m1!1i2!8m2!3d51.3463109!4d12.3726809"
+      },
+      {
+        "name": "Travel24 Hotel",
+        "address": "Tröndlinring 9, D-04105 Leipzig",
+        "distance": "4 min walk",
+        "phoneNumber": "+49 341 33173850",
+        "webSite": "https://www.hotel-travel24.com/en",
+        "mapLocation": "https://www.google.com/maps/place/Travel24+Hotel/@51.3449793,12.3700462,17z/data=!4m16!1m7!3m6!1s0x47a6f82023c2fa7f:0xce1ad42908762fba!2sTr%C3%B6ndlinring+9,+04105+Leipzig,+Germany!3b1!8m2!3d51.3449793!4d12.3722349!3m7!1s0x47a6f82168b22a71:0xc9328aa600ea2e06!5m2!4m1!1i2!8m2!3d51.3449569!4d12.3722745"
+      },
+      {
+        "name": "Hotel Fürstenhof Leipzig",
+        "address": "Tröndlinring 8, 04105 Leipzig",
+        "distance": "4 min walk",
+        "phoneNumber": "+49 341 1400",
+        "webSite": "https://www.hotelfuerstenhof-leipzig.com/",
+        "mapLocation": "https://www.google.com/maps/place/Hotel+F%C3%BCrstenhof+Leipzig/@51.3447558,12.3704955,17z/data=!4m16!1m7!3m6!1s0x47a6f8202e38f1e5:0x5aba5e5c8a26bc5b!2sTr%C3%B6ndlinring+8,+04105+Leipzig,+Germany!3b1!8m2!3d51.3447558!4d12.3726842!3m7!1s0x47a6f8202e38f1e5:0x536ad5342bcf82aa!5m2!4m1!1i2!8m2!3d51.3446663!4d12.3726976"
+      },
+      {
+        "name": "Sleepy Lion Hostel",
+        "address": "Jacobstraße 1, 04105 Leipzig",
+        "distance": "4 min walk",
+        "phoneNumber": "+49 341 9939480",
+        "webSite": "https://www.hostel-leipzig.de/",
+        "mapLocation": "https://www.google.com/maps/place/Sleepy+Lion+Hostel/@51.3443614,12.3666851,17z/data=!4m16!1m7!3m6!1s0x47a6f78a97f63f9b:0x881855faa5068300!2sJacobstra%C3%9Fe+1,+04105+Leipzig,+Germany!3b1!8m2!3d51.3443614!4d12.3688738!3m7!1s0x47a6f78a9836482b:0x6670ae833983b35d!5m2!4m1!1i2!8m2!3d51.3444215!4d12.3688569"
+      },
+      {
+        "name": "The Westin Leipzig",
+        "address": "Gerberstraße 15, 04105 Leipzig",
+        "distance": "5 min walk",
+        "phoneNumber": "+49 341 9880",
+        "webSite": "https://www.marriott.com/en-us/hotels/lejwi-the-westin-leipzig/overview/",
+        "mapLocation": "https://www.google.com/maps/place/The+Westin+Leipzig/@51.3463939,12.3735372,17z/data=!4m16!1m7!3m6!1s0x47a6f81f1350253d:0x3bcde8e5a0b8d651!2sGerberstra%C3%9Fe+15,+04105+Leipzig,+Germany!3b1!8m2!3d51.3463939!4d12.3757259!3m7!1s0x47a6f81f1688f6af:0xf20965c26ddba211!5m2!4m1!1i2!8m2!3d51.3468997!4d12.3757096"
+      },
+      {
+        "name": "IntercityHotel Leipzig",
+        "address": "Tröndlinring 2, 04105 Leipzig",
+        "distance": "7 min walk",
+        "phoneNumber": "+49 341 3086610",
+        "webSite": "https://www.intercityhotel.com/hotels/alle-hotels/deutschland/leipzig/intercityhotel-leipzig",
+        "mapLocation": "https://www.google.com/maps/place/IntercityHotel+Leipzig/@51.3447351,12.3738811,17z/data=!4m16!1m7!3m6!1s0x47a6f821e395cd0f:0x93845c5a870c6c84!2sTr%C3%B6ndlinring+2,+04105+Leipzig,+Germany!3b1!8m2!3d51.3447351!4d12.3760698!3m7!1s0x47a6f821e0639c0d:0x442f317f43556374!5m2!4m1!1i2!8m2!3d51.3447351!4d12.3760698"
+      },
+      {
+        "name": "ibis budget Leipzig City",
+        "address": "Reichsstraße 19, 04109 Leipzig",
+        "distance": "9 min walk",
+        "phoneNumber": "+49 341 3086610",
+        "webSite": "https://all.accor.com/lien_externe.svlt",
+        "mapLocation": "https://www.google.com/maps/place/ibis+budget+Leipzig+City/@51.3428604,12.3741391,17z/data=!4m16!1m7!3m6!1s0x47a6f821875bde37:0x735926e29ad6bc5!2sReichsstra%C3%9Fe+19,+04109+Leipzig,+Germany!3b1!8m2!3d51.3428604!4d12.3763278!3m7!1s0x47a6f823d0633543:0x780807d0028069d7!5m2!4m1!1i2!8m2!3d51.3428616!4d12.3764187"
+      },
+      {
+        "name": "Best Western Hotel Leipzig City",
+        "address": "Kurt-Schumacher-Straße 3, 04105 Leipzig",
+        "distance": "9 min walk",
+        "phoneNumber": "+49 341 12510",
+        "webSite": "http://www.bestwestern-leipzig.de/",
+        "mapLocation": "https://www.google.com/maps/place/Best+Western+Hotel+Leipzig+City/@51.3457718,12.3762411,17z/data=!4m16!1m7!3m6!1s0x47a6f818b1289d7b:0x78aad12fb013613f!2sKurt-Schumacher-Stra%C3%9Fe+3,+04105+Leipzig,+Germany!3b1!8m2!3d51.3457718!4d12.3784298!3m7!1s0x47a6f818b0eacf7b:0x49b5c0e421207dc0!5m2!4m1!1i2!8m2!3d51.3456888!4d12.3784254"
+      }
+    ],
+    "confSubtypes": [
+      {
+        "title": "Whole day program",
+        "location": {
+          "address": "Humboldtstraße 9, 04105 Leipzig",
+          "map": "https://www.google.com/maps/place/Humboldtstra%C3%9Fe+9,+04105+Leipzig,+Germany/@51.3463243,12.3704817,17z/data=!3m1!4b1!4m5!3m4!1s0x47a6f7f559cad487:0x9fbfa1c2dbfc2ee!8m2!3d51.3463243!4d12.3704817"
+        },
+        "time": [
+          {
+            "date": {
+              "day": "Saturday",
+              "date": "10",
+              "sup": "th",
+              "month": "September"
+            },
+            "startTime": "10:00 CET",
+            "finishTime": "18:00 CET"
+          },
+          {
+            "date": {
+              "day": "Sunday",
+              "date": "11",
+              "sup": "th",
+              "month": "September"
+            },
+            "startTime": "10:00 CET",
+            "finishTime": "18:00 CET"
+          }
+        ]
+      }
+    ]
   },
   "oneDayConference2022": {
     "mainLocation": {
