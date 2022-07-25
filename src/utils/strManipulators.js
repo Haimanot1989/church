@@ -43,7 +43,7 @@ function convertTitleToFileName(title) {
 }
 
 let titles = [
-  "THE FIRSTBORNS OF THE FIRSTBORN",
+  "IS THE BIBLE RELIABLE?",
   "THE BLOOD RECONCILES HEAVEN AND EARTH",
   "WHAT DO YOU THINK OF JESUS?"
 ];
