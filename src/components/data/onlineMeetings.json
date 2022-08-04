@@ -231,8 +231,8 @@
     },
     "imageUrl": "./bible-study.png",
     "title": "Bible study every Saturday at 19:00 - 21:00 CET",
-    "isCancelled": false,
-    "cancelledMessage": "Closed on the 16th of April due to the conference in Norway."
+    "isCancelled": true,
+    "cancelledMessage": "Closed on the 6th of August due to the conference in France."
   },
   "decemberConference2020": {
     "platformName": "Zoom",
