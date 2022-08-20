@@ -13,7 +13,6 @@ const Cards = () => {
   const europeTigrinyaBibleStudyOnZoom =
     onlineMeetings["europeTigrinyaBibleStudyOnZoom"];
   const europeBibleStudyOnZoom = onlineMeetings["europeBibleStudyOnZoom"];
-  const youthConferenceBelgium2022 = conferences["youthConference2022"];
   const septemberConference2022 = conferences["septemberConference2022"];
   const octoberConference2022 = conferences["octoberConference2022"];
   const novemberConference2022 = conferences["novemberConference2022"];
@@ -22,15 +21,15 @@ const Cards = () => {
     <>
       <div className="card-deck mb-2">
         <OnlineMeetingCard {...europeBibleStudyOnZoom} />
-        <Card {...youthConferenceBelgium2022} />
-      </div>
-      <div className="card-deck mb-2">
         <OnlineMeetingCard {...europeTigrinyaBibleStudyOnZoom} />
-        <Card {...septemberConference2022} />
       </div>
       <div className="card-deck mb-2">
+        <Card {...septemberConference2022} />
         <Card {...octoberConference2022} />
+      </div>
+      <div className="card-deck mb-2">
         <Card {...novemberConference2022} />
+        <Card {...{}} />
       </div>
     </>
   );
