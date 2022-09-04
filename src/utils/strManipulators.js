@@ -23,7 +23,9 @@ function capitalizeTitle(title) {
         "or",
         "with",
         "that",
-        "to"
+        "to",
+        "us",
+        "who"
       ].includes(str.toLowerCase())
         ? str.charAt(0).toLowerCase()
         : str.charAt(0).toUpperCase();
@@ -46,7 +48,7 @@ function convertTitleToFileName(title) {
 let titles = [
   "I SAW THEE UNDER THE FIG TREE",
   "GOD COMMANDS THE POOR TO GIVE",
-  "SHOES ON HOLY GROUND"
+  "THE GOD WHO KEEPS US EVERYDAY"
 ];
 titles.forEach(title => {
   console.log(
