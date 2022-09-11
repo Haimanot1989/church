@@ -671,6 +671,83 @@
       }
     ]
   },
+  "newYearConferenceNorway": {
+    "imageUrl": "./oslo.png",
+    "confType": "New Year Conference",
+    "country": "Norway",
+    "city": "Oslo",
+    "confStart": {
+      "date": "30",
+      "sup": "th",
+      "month": "December"
+    },
+    "confEnd": {
+      "date": "1",
+      "sup": "st",
+      "month": "January"
+    },
+    "contactInformation": {
+      "emails": ["haimif@yahoo.com"],
+      "phoneNumbers": ["+4746377592"]
+    },
+    "mainLocation": {
+      "map": "https://www.google.com/maps/place/Sk%C3%B8yer'n+fritidsklubb/@59.8997986,10.8407608,17z/data=!3m1!4b1!4m5!3m4!1s0x46416f63edefaf97:0x8273d57b2f979b8!8m2!3d59.8997986!4d10.8429495",
+      "placeName": "Skøyer'n fritidsklubb, Solbergliveien 85, 0683 Oslo"
+    },
+    "onlineLocation": {
+      "platformName": "Zoom",
+      "zoomInfo": {
+        "meetingId": "639 807 0890",
+        "meetingPassword": "OneGod",
+        "meetingLink": {
+          "map": "https://us02web.zoom.us/j/6398070890?pwd=MlZxZWcwR3I0d3R1MmhDN0syaUx0Zz09",
+          "placeName": "Join the meeting by clicking on this link or using the details above in the zoom app"
+        }
+      }
+    },
+    "confSubtypes": [],
+    "confSubtypesTmp": [
+      {
+        "title": "Whole day program",
+        "location": {
+          "address": "Veitvetveien 17, 0596 Oslo",
+          "map": "https://www.google.com/maps/place/Veitvetveien+17,+0596+Oslo/@59.9418245,10.8477527,17z/data=!3m1!4b1!4m5!3m4!1s0x46416fe77856b90b:0xc363d8b86699b9d!8m2!3d59.9418245!4d10.8499414"
+        },
+        "time": [
+          {
+            "date": {
+              "day": "Friday",
+              "date": "30",
+              "sup": "th",
+              "month": "December"
+            },
+            "startTime": "10:00",
+            "finishTime": "18:00"
+          },
+          {
+            "date": {
+              "day": "Saturday",
+              "date": "31",
+              "sup": "st",
+              "month": "December"
+            },
+            "startTime": "10:00",
+            "finishTime": "18:00"
+          },
+          {
+            "date": {
+              "day": "Sunday",
+              "date": "1",
+              "sup": "st",
+              "month": "December"
+            },
+            "startTime": "10:00",
+            "finishTime": "18:00"
+          }
+        ]
+      }
+    ]
+  },
   "augustConferenceGermany": {
     "mainLocation": {
       "map": "https://www.google.com/maps/place/Mainzer+Landstra%C3%9Fe+226-230,+60327+Frankfurt+am+Main,+Germany/@50.1038376,8.643439,17z/data=!4m5!3m4!1s0x47bd0be3ff963e07:0x4aedcad7be4a40e4!8m2!3d50.1038376!4d8.6456277",
