@@ -1,8 +1,15 @@
 import React from "react";
 
-const SermonCard = ({ title, subTitle, summary, pdfLink, image, pages }) => {
+const AnnouncementCard = ({
+  title,
+  subTitle,
+  summary,
+  pdfLink,
+  image,
+  pages
+}) => {
   return (
-    <div className="col-md-4">
+    <div className="card overlay-container card-font-style">
       <div className="card mb-4 box-shadow">
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
@@ -19,7 +26,7 @@ const SermonCard = ({ title, subTitle, summary, pdfLink, image, pages }) => {
           <p className="card-text">{summary}</p>
           <div className="action-box">
             <a href={pdfLink} className="btn btn-lg btn-secondary action-btn">
-              {`Open the sermon - ${pages} pages`}
+              {`Open the letter - ${pages} pages`}
             </a>
           </div>
         </div>
@@ -28,4 +35,4 @@ const SermonCard = ({ title, subTitle, summary, pdfLink, image, pages }) => {
   );
 };
 
-export default SermonCard;
+export default AnnouncementCard;

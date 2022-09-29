@@ -145,3 +145,13 @@ footer p {
   font-family: "Lato";
   letter-spacing: 0.05em;
 }
+
+.action-box {
+  display: flex;
+  align-items: center;
+}
+
+.action-btn {
+  background-color: #343a40;
+  flex-grow: 2;
+}

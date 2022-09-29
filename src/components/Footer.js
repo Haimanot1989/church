@@ -13,7 +13,7 @@ const Footer = function() {
             {/* <!-- Grid column --> */}
             <div className="col-md-6 col-lg-3 col-xl-5 mx-auto mt-3">
               <h6 className="text-uppercase mb-4 font-weight-bold">
-                Apostolic Church International Fellowship
+                Apostolic Church of Europe
               </h6>
               <p>
                 In case of any question, get in touch with us using the contact

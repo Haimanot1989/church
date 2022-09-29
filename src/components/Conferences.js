@@ -4,9 +4,9 @@ import { PageDescriber } from "./PageDescription";
 
 const Conferences = function() {
   let pageDescription = {
-    title: "Apostolic Church International Fellowship",
+    title: "Apostolic Church of Europe",
     bodyText:
-      "We have several conferences in different parts of Europe and worldwide. You are very welcome to join us!"
+      "We have several conferences in different parts of Europe. You are very welcome to join us!"
   };
   return (
     <>
