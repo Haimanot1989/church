@@ -7,6 +7,9 @@ function capitalizeTitle(title) {
     .split(" ")
     .map(str => {
       let capitalizedFirstLetter = [
+        "an",
+        "yet",
+        "into",
         "why",
         "is",
         "of",
@@ -49,9 +52,10 @@ function convertTitleToFileName(title) {
 }
 
 let titles = [
-  "open letter from Jesus english",
-  "HOW FAR WILL YOU GO",
-  "SINGING IN THE VALLEY OF BERACHAH"
+  "PROPHESY AN ARMY INTO EXISTENCE",
+  "THE DOCTRINE OF THE NATIONAL OWNERSHIP OF SOULS",
+  "CRIPPLED YET EATING AT THE KING’S TABLE",
+  "WOMEN BRINGING INCREDIBLE NEWS FROM HEAVEN"
 ];
 titles.forEach(title => {
   console.log(
