@@ -31,7 +31,10 @@ function capitalizeTitle(title) {
         "who",
         "far",
         "go",
-        "you"
+        "you",
+        "see",
+        "up",
+        "are"
       ].includes(str.toLowerCase())
         ? str.charAt(0).toLowerCase()
         : str.charAt(0).toUpperCase();
@@ -52,10 +55,10 @@ function convertTitleToFileName(title) {
 }
 
 let titles = [
-  "PROPHESY AN ARMY INTO EXISTENCE",
-  "THE DOCTRINE OF THE NATIONAL OWNERSHIP OF SOULS",
-  "CRIPPLED YET EATING AT THE KING’S TABLE",
-  "WOMEN BRINGING INCREDIBLE NEWS FROM HEAVEN"
+  "BY HIS STRIPES WE ARE HEALED",
+  "SPRING UP",
+  "THE PRAYER THAT JESUS REFUSED TO PRAY",
+  "We see Jesus"
 ];
 titles.forEach(title => {
   console.log(
