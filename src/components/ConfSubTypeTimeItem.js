@@ -37,7 +37,7 @@ export const ConfSubTypeTimeItem = ({
         <ConfSubTypeDate key={date} date={date} />
       )}
       <p>
-        {startTime && finishTime && (
+        {startTime && (
           <ConfSubTypeStartAndFinishTime
             startTime={startTime}
             finishTime={finishTime}
@@ -57,7 +57,7 @@ export const ConfSubTypeTimeItem = ({
 const ConfSubTypeStartAndFinishTime = ({ startTime, finishTime }) => {
   return (
     <>
-      <IoMdTime /> {startTime} - {finishTime}{" "}
+      <IoMdTime /> {startTime} {finishTime && ` - ${finishTime}`}{" "}
     </>
   );
 };

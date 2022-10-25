@@ -1171,8 +1171,46 @@
       "month": "November"
     },
     "contactInformation": {
-      "names": ["Michele Mingo"],
+      "names": ["Pastor Michele Mingo"],
       "phoneNumbers": ["+39 349 4442047"]
-    }
+    },
+    "onlineLocation": {
+      "platformName": "Facebook",
+      "zoomInfo": {
+        "meetingLink": {
+          "map": "https://www.facebook.com/UPCIGE",
+          "placeName": "Join the online meeting on facebook by clicking on this link"
+        }
+      }
+    },
+    "confSubtypes": [
+      {
+        "title": "Special program",
+        "location": {
+          "address": "Via S. Tomaso d'Aquino, 12, 16154 Genova GE, Italy",
+          "map": "https://www.google.com/maps/place/Via+S.+Tomaso+d'Aquino,+12,+16154+Genova+GE,+Italy/@44.4276819,8.8404141,18z/data=!4m5!3m4!1s0x12d340aebbc952b7:0x3a11fa457f13c968!8m2!3d44.4272289!4d8.8420461"
+        },
+        "time": [
+          {
+            "date": {
+              "day": "Saturday",
+              "date": "5",
+              "sup": "th",
+              "month": "November"
+            },
+            "startTime": "15:30"
+          },
+          {
+            "date": {
+              "day": "Sunday",
+              "date": "6",
+              "sup": "th",
+              "month": "November"
+            },
+            "startTime": "10:30"
+          }
+        ]
+      }
+    ]
   }
 }
