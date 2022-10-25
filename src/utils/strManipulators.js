@@ -34,7 +34,9 @@ function capitalizeTitle(title) {
         "you",
         "see",
         "up",
-        "are"
+        "are",
+        "saw",
+        "our"
       ].includes(str.toLowerCase())
         ? str.charAt(0).toLowerCase()
         : str.charAt(0).toUpperCase();
@@ -55,10 +57,10 @@ function convertTitleToFileName(title) {
 }
 
 let titles = [
-  "BY HIS STRIPES WE ARE HEALED",
-  "SPRING UP",
-  "THE PRAYER THAT JESUS REFUSED TO PRAY",
-  "We see Jesus"
+  "ACCOUNTING FOR THE LITTLE THAT GOD GAVE US",
+  "COME AND DINE, SAYS JESUS",
+  "GOD OUR HABITATION",
+  "JESUS SAW MATTHEW"
 ];
 titles.forEach(title => {
   console.log(
