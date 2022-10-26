@@ -1156,6 +1156,10 @@
     ]
   },
   "novemberConference2022": {
+    "mainLocation": {
+      "map": "https://www.google.com/maps/place/Via+S.+Tomaso+d'Aquino,+12,+16154+Genova+GE,+Italy/@44.4276819,8.8404141,18z/data=!4m5!3m4!1s0x12d340aebbc952b7:0x3a11fa457f13c968!8m2!3d44.4272289!4d8.8420461",
+      "placeName": "Via S. Tomaso d'Aquino, 12, 16154 Genova GE"
+    },
     "imageUrl": "./genoa.png",
     "confType": "November conference",
     "country": "Italy",
