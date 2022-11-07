@@ -1,6 +1,7 @@
 // mv ~/Downloads/***.pdf ~/workspace/private/church/public/sermons/.
 // mv ~/Downloads/THE_FIRSTBORNS_OF_THE_FIRSTBORN.pdf ~/workspace/private/church/public/sermons/
 //node src/utils/strManipulators.js
+// check cap: https://capitalizemytitle.com/style/Chicago/
 
 function capitalizeTitle(title) {
   let cap = title
@@ -20,7 +21,6 @@ function capitalizeTitle(title) {
         "in",
         "and",
         "at",
-        "we",
         "on",
         "a",
         "or",
@@ -35,8 +35,7 @@ function capitalizeTitle(title) {
         "see",
         "up",
         "are",
-        "saw",
-        "our"
+        "saw"
       ].includes(str.toLowerCase())
         ? str.charAt(0).toLowerCase()
         : str.charAt(0).toUpperCase();
@@ -57,10 +56,8 @@ function convertTitleToFileName(title) {
 }
 
 let titles = [
-  "ACCOUNTING FOR THE LITTLE THAT GOD GAVE US",
-  "COME AND DINE, SAYS JESUS",
-  "GOD OUR HABITATION",
-  "JESUS SAW MATTHEW"
+  "WHAT SHALL WE DO WITH THE KING OF THE JEWS?",
+  "THE POWER OF CREATION AND NAMING"
 ];
 titles.forEach(title => {
   console.log(

@@ -211,15 +211,6 @@
   },
   "europeBibleStudyOnZoom": {
     "platformName": "Zoom",
-    "zoomInfoAmharic": {
-      "language": "Amharic/Tigrinya",
-      "meetingId": "835 8357 0308",
-      "meetingPassword": "1",
-      "meetingLink": {
-        "map": " https://us02web.zoom.us/j/83583570308?pwd=V0lmWFRRL0R6Tm56QTdRUHNoMWI3QT09",
-        "placeName": "Join the AMHARIC/TIGRINYA meeting by clicking on this link or using the details above in the zoom app"
-      }
-    },
     "zoomInfo": {
       "language": "English",
       "meetingId": "639 807 0890",

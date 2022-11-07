@@ -27,7 +27,7 @@ const Footer = function() {
             <div className="col-md-4 col-lg-3 col-xl-4 mx-auto mt-3">
               <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
               <p>
-                <FontAwesomeIcon icon={faEnvelope} /> haimif@yahoo.com
+                <FontAwesomeIcon icon={faEnvelope} /> hpaulsilas@hotmail.com
               </p>
             </div>
           </div>

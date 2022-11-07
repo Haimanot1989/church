@@ -8,17 +8,12 @@ const Cards = () => {
   const europeTigrinyaBibleStudyOnZoom =
     onlineMeetings["europeTigrinyaBibleStudyOnZoom"];
   const europeBibleStudyOnZoom = onlineMeetings["europeBibleStudyOnZoom"];
-  const novemberConference2022 = conferences["novemberConference2022"];
   const newYearConferenceNorway = conferences["newYearConferenceNorway"];
 
   return (
     <>
       <div className="card-deck mb-2">
         <OnlineMeetingCard {...europeBibleStudyOnZoom} />
-        <OnlineMeetingCard {...europeTigrinyaBibleStudyOnZoom} />
-      </div>
-      <div className="card-deck mb-2">
-        <Card {...novemberConference2022} />
         <Card {...newYearConferenceNorway} />
       </div>
     </>
