@@ -2,7 +2,7 @@
 // mv ~/Downloads/THE_FIRSTBORNS_OF_THE_FIRSTBORN.pdf ~/workspace/private/church/public/sermons/
 //node src/utils/strManipulators.js
 // check cap: https://capitalizemytitle.com/style/Chicago/
-
+//mv "public/sermons/Who Touched Me.pdf" public/sermons/WHO_TOUCHED_ME.pdf
 function capitalizeTitle(title) {
   let cap = title
     .split(" ")
@@ -55,10 +55,7 @@ function convertTitleToFileName(title) {
     .join("_");
 }
 
-let titles = [
-  "WHAT SHALL WE DO WITH THE KING OF THE JEWS?",
-  "THE POWER OF CREATION AND NAMING"
-];
+let titles = ["DAVID'S PLACE WAS EMPTY", "Who touched me"];
 titles.forEach(title => {
   console.log(
     `\ncapitalizeTitle: ${capitalizeTitle(
