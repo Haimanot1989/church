@@ -715,13 +715,13 @@
         }
       }
     },
-    "confSubtypes": [],
-    "confSubtypesTmp": [
+    "confSubtypesTmp": [],
+    "confSubtypes": [
       {
-        "title": "Whole day program",
+        "title": "New year program",
         "location": {
-          "address": "Veitvetveien 17, 0596 Oslo",
-          "map": "https://www.google.com/maps/place/Veitvetveien+17,+0596+Oslo/@59.9418245,10.8477527,17z/data=!3m1!4b1!4m5!3m4!1s0x46416fe77856b90b:0xc363d8b86699b9d!8m2!3d59.9418245!4d10.8499414"
+          "address": "Skøyer'n fritidsklubb, Solbergliveien 85, 0683 Oslo",
+          "map": "https://www.google.com/maps/place/Sk%C3%B8yer'n+fritidsklubb/@59.8997986,10.8407608,17z/data=!3m1!4b1!4m5!3m4!1s0x46416f63edefaf97:0x8273d57b2f979b8!8m2!3d59.8997986!4d10.8429495"
         },
         "time": [
           {
@@ -731,8 +731,8 @@
               "sup": "th",
               "month": "December"
             },
-            "startTime": "10:00",
-            "finishTime": "18:00"
+            "startTime": "17:00",
+            "finishTime": "20:00"
           },
           {
             "date": {
@@ -741,8 +741,8 @@
               "sup": "st",
               "month": "December"
             },
-            "startTime": "10:00",
-            "finishTime": "18:00"
+            "startTime": "13:00",
+            "finishTime": "00:00"
           },
           {
             "date": {
@@ -751,8 +751,8 @@
               "sup": "st",
               "month": "December"
             },
-            "startTime": "10:00",
-            "finishTime": "18:00"
+            "startTime": "13:00",
+            "finishTime": "20:00"
           }
         ]
       }
