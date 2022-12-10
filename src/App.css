@@ -79,6 +79,10 @@ footer p {
   height: 100%;
 }
 @media (min-width: 768px) {
+  .img-height-equalizer-article {
+    height: 600px;
+    object-fit: cover;
+  }
   .img-height-equalizer {
     height: 400px;
     object-fit: cover;
