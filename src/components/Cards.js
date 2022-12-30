@@ -5,16 +5,14 @@ import { OnlineMeetingCard } from "./OnlineMeetingCard";
 import Card from "./Card";
 
 const Cards = () => {
-  const europeTigrinyaBibleStudyOnZoom =
-    onlineMeetings["europeTigrinyaBibleStudyOnZoom"];
   const europeBibleStudyOnZoom = onlineMeetings["europeBibleStudyOnZoom"];
   const newYearConferenceNorway = conferences["newYearConferenceNorway"];
 
   return (
     <>
       <div className="card-deck mb-2">
-        <OnlineMeetingCard {...europeBibleStudyOnZoom} />
         <Card {...newYearConferenceNorway} />
+        <OnlineMeetingCard {...europeBibleStudyOnZoom} />
       </div>
     </>
   );
