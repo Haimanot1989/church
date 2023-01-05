@@ -6,12 +6,12 @@ import Card from "./Card";
 
 const Cards = () => {
   const europeBibleStudyOnZoom = onlineMeetings["europeBibleStudyOnZoom"];
-  const newYearConferenceNorway = conferences["newYearConferenceNorway"];
+  const februaryConferenceUK2023 = conferences["februaryConferenceUK2023"];
 
   return (
     <>
       <div className="card-deck mb-2">
-        <Card {...newYearConferenceNorway} />
+        <Card {...februaryConferenceUK2023} />
         <OnlineMeetingCard {...europeBibleStudyOnZoom} />
       </div>
     </>

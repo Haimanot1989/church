@@ -92,6 +92,73 @@
       ]
     }
   },
+  "februaryConferenceUK2023": {
+    "mainLocation": {
+      "map": "https://www.google.com/maps/dir//St+Philip's+Church,+Earls+Ct+Rd,+London+W8+6QH,+United+Kingdom/@51.4958788,-0.2312531,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x48760ff319a47857:0xd5ca01bfae74dc33!2m2!1d-0.19634!2d51.4957893!3e0",
+      "placeName": "St Philip's Church, Earls Ct Rd, London W8 6QH, United Kingdom"
+    },
+    "onlineLocation": {
+      "platformName": "Zoom",
+      "zoomInfo": {
+        "meetingId": "664 477 0183",
+        "meetingPassword": "7",
+        "meetingLink": {
+          "map": "https://us02web.zoom.us/j/6644770183?pwd=SHAzL1kwTmcyYm1PdkdzNVNLNUZ6dz09",
+          "placeName": "Join the online meeting by clicking on this link or using the details above in the zoom app"
+        }
+      }
+    },
+    "imageUrl": "./london.png",
+    "confType": "February conference",
+    "country": "UK",
+    "city": "London",
+    "confStart": {
+      "date": "18",
+      "sup": "th",
+      "month": "February"
+    },
+    "confEnd": {
+      "date": "19",
+      "sup": "th",
+      "month": "February"
+    },
+    "contactInformation": {
+      "emails": ["gefrem60@gmail.com"],
+      "phoneNumbers": ["+447838870288"]
+    },
+    "confSubtypes": [
+      {
+        "title": "Whole day program",
+        "location": {
+          "address": "St Philip's Church, Earls Ct Rd, London W8 6QH, United Kingdom",
+          "map": "https://www.google.com/maps/dir//St+Philip's+Church,+Earls+Ct+Rd,+London+W8+6QH,+United+Kingdom/@51.4958788,-0.2312531,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x48760ff319a47857:0xd5ca01bfae74dc33!2m2!1d-0.19634!2d51.4957893!3e0"
+        },
+        "time": [
+          {
+            "date": {
+              "day": "Saturday",
+              "date": "18",
+              "sup": "th",
+              "month": "February"
+            },
+            "startTime": "09:30",
+            "finishTime": "20:00"
+          },
+          {
+            "date": {
+              "day": "Sunday",
+              "date": "19",
+              "sup": "th",
+              "month": "February"
+            },
+            "startTime": "14:00",
+            "finishTime": "20:00"
+          }
+        ]
+      }
+    ]
+  },
+
   "youthConference2022": {
     "mainLocation": {
       "map": "https://www.google.com/maps/place/Meijersgaardenweg+4,+7481+RM+Haaksbergen,+Netherlands/@52.1469168,6.8030084,15z/data=!4m5!3m4!1s0x47b86d26b120fff5:0x8b47166c7f72924e!8m2!3d52.1495275!4d6.8092858",
