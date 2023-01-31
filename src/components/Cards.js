@@ -6,6 +6,7 @@ import Card from "./Card";
 
 const Cards = () => {
   const europeBibleStudyOnZoom = onlineMeetings["europeBibleStudyOnZoom"];
+  const abidjanConference2023 = conferences["abidjanConference2023"];
   const februaryConferenceUK2023 = conferences["februaryConferenceUK2023"];
 
   return (
@@ -13,6 +14,10 @@ const Cards = () => {
       <div className="card-deck mb-2">
         <OnlineMeetingCard {...europeBibleStudyOnZoom} />
         <Card {...februaryConferenceUK2023} />
+      </div>
+      <div className="card-deck mb-2">
+        <Card {...abidjanConference2023} />
+        <Card {...{}} />
       </div>
     </>
   );
