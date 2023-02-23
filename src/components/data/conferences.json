@@ -1,8 +1,8 @@
 {
   "abidjanConference2023": {
     "mainLocation": {
-      "map": "https://www.google.com/maps/place/Abidjan,+C%C3%B4te+d'Ivoire/@5.3484342,-4.1197518,11z/data=!3m1!4b1!4m6!3m5!1s0xfc1ea5311959121:0x3fe70ddce19221a6!8m2!3d5.3599517!4d-4.0082563!16zL20vMGZteWQ",
-      "placeName": "Abidjan, Ivory Coast"
+      "map": "https://www.google.com/maps/place/CARREFOUR+SODECI/@5.3240352,-4.0948108,17z/data=!3m1!4b1!4m6!3m5!1s0xfc1c14e0fd7a86b:0x6bbaa841c2e5b67a!8m2!3d5.3240299!4d-4.0926221!16s%2Fg%2F11qpj9_91y",
+      "placeName": "CARREFOUR SODECI, Yopougon, Abidjan, Ivory Coast"
     },
     "imageUrl": "./abidjan.jpeg",
     "confType": "First international conference",
