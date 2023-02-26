@@ -764,6 +764,27 @@
       }
     ]
   },
+  "annualConferenceNorway": {
+    "imageUrl": "./oslo.jpg",
+    "confType": "2023 Annual European Conference",
+    "country": "Norway",
+    "city": "Oslo",
+    "confStart": {
+      "date": "4",
+      "sup": "th",
+      "month": "August"
+    },
+    "confEnd": {
+      "date": "6",
+      "sup": "th",
+      "month": "August"
+    },
+    "contactInformation": {
+      "emails": ["hpaulsilas@hotmail.com"]
+    },
+    "confSubtypesTmp": [],
+    "confSubtypes": []
+  },
   "augustConferenceGermany": {
     "mainLocation": {
       "map": "https://www.google.com/maps/place/Mainzer+Landstra%C3%9Fe+226-230,+60327+Frankfurt+am+Main,+Germany/@50.1038376,8.643439,17z/data=!4m5!3m4!1s0x47bd0be3ff963e07:0x4aedcad7be4a40e4!8m2!3d50.1038376!4d8.6456277",
