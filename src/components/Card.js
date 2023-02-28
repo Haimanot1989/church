@@ -19,7 +19,8 @@ const Card = ({
   hotelsNearBy,
   isCancelled,
   cancelledMessage,
-  importantMessage
+  importantMessage,
+  invitation
 }) => {
   if (!imageUrl) {
     return <div className="card" style={{ border: "none" }}></div>;
@@ -52,6 +53,11 @@ const Card = ({
           {onlineLocation && <OnlineLoacation {...onlineLocation} />}
           {contactInformation && <ContactInfo {...contactInformation} />}
         </li>
+        {invitation &&
+          invitation.length > 0 &&
+          invitation.map((value, key) => (
+            <InvitationLetter {...value} key={key} />
+          ))}
         <li className="list-group-item">
           {importantMessage && <AdditionalMessage {...importantMessage} />}
         </li>
@@ -65,6 +71,7 @@ const Card = ({
         ) : (
           <ConfSubTypeItemDetailComingSoon />
         )}
+
         {hotelsNearBy && hotelsNearBy.length > 0 && (
           <CardSectionTitle sectionTitle="Hotels nearby" />
         )}
@@ -128,6 +135,15 @@ const ConfSubTypeItemLocation = location => {
         <GoLocation /> {location.address}
       </a>
     </>
+  );
+};
+const InvitationLetter = ({ id, type, uri }) => {
+  return (
+    <ul className="list-group">
+      <li className="custom-li-style list-group-item" key={id}>
+        <a href={uri}>{type}</a>
+      </li>
+    </ul>
   );
 };
 

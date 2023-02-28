@@ -24,12 +24,22 @@
       "content": [
         "Dear all, ",
         "our first international conference this year will be held in Abidjan, Ivory coast. ",
-        "Bishop Jean Baptiste is the host. ",
+        "Bishop Jean Baptiste is the host and has sent out the invitation letters above👆. ",
         "Bishops Paul, Lars and Efrem among others will be attending. ",
         "All others who wish to join are welcome! "
       ],
       "type": "info"
-    }
+    },
+    "invitation": [
+      {
+        "type": "Click here to open the invitation letter in French",
+        "uri": "/announcements/Invitation_letter_in_French.pdf"
+      },
+      {
+        "type": "Click here to open the invitation letter in English",
+        "uri": "/announcements/Invitation_letter_in_English.pdf"
+      }
+    ]
   },
   "februaryConferenceUK2023": {
     "mainLocation": {
