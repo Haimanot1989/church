@@ -159,3 +159,10 @@ footer p {
   background-color: #343a40;
   flex-grow: 2;
 }
+button {
+  transition: all 0.2s ease-in-out;
+}
+
+button:not(:disabled):active {
+  transform: translateY(1px);
+}
