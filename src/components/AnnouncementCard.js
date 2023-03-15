@@ -6,7 +6,8 @@ const AnnouncementCard = ({
   summary,
   pdfLink,
   image,
-  pages
+  pages,
+  type
 }) => {
   return (
     <div className="card overlay-container card-font-style">
@@ -26,7 +27,7 @@ const AnnouncementCard = ({
           <p className="card-text">{summary}</p>
           <div className="action-box">
             <a href={pdfLink} className="btn btn-lg btn-secondary action-btn">
-              {`Open the letter - ${pages} pages`}
+              {`Open the ${type} - ${pages} pages`}
             </a>
           </div>
         </div>

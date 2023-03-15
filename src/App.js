@@ -7,6 +7,7 @@ import Conferences from "./components/Conferences";
 import StatementOfBeliefs from "./components/StatementOfBeliefs";
 import Books from "./components/Books";
 import Sermons from "./components/Sermons";
+import Announcements from "./components/Announcements";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <PlaceOfWorship path="/place-of-worship" />
         <Books path="books" />
         <Sermons path="sermons" />
+        <Announcements path="announcements" />
       </Router>
       <Footer />
     </>

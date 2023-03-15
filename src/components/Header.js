@@ -22,7 +22,8 @@ const NAV_LINKS = [
   { title: "Statement of beliefs", url: "/statement-of-beliefs" },
   { title: "Place of worship", url: "/place-of-worship" },
   { title: "Books", url: "/books" },
-  { title: "Sermons", url: "/sermons" }
+  { title: "Sermons", url: "/sermons" },
+  { title: "Global reports", url: "/announcements" }
 ];
 
 const NavLink = props => (
