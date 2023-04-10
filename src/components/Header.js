@@ -19,6 +19,7 @@ function Header() {
 
 const NAV_LINKS = [
   { title: "Conferences", url: "/conferences" },
+  { title: "Doctrine of salvation", url: "/doctrine-of-salvation" },
   { title: "Statement of beliefs", url: "/statement-of-beliefs" },
   { title: "Place of worship", url: "/place-of-worship" },
   { title: "Books", url: "/books" },

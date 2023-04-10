@@ -166,3 +166,61 @@ button {
 button:not(:disabled):active {
   transform: translateY(1px);
 }
+.distribution__links_grid {
+  width: 100%;
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.distribution__links[data-v-bb7d009c] {
+  display: flex;
+  list-style: none;
+}
+
+.distribution__links-el:first-child {
+  display: block;
+}
+.link {
+  height: 43px;
+  outline: none;
+  display: flex;
+  padding: 7px 7px;
+  padding-left: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+  background-color: #000;
+  border: 1px solid #a6a6a6;
+}
+.link__icon {
+  width: 26px;
+  height: 26px;
+  margin-right: 10px;
+}
+.link__content {
+  display: flex;
+  flex-direction: column;
+}
+.link__content > span {
+  color: #fff;
+  line-height: 1;
+  font-size: 10px;
+  font-weight: 600;
+  margin-bottom: 1px;
+}
+
+.link__content > strong {
+  color: #fff;
+  line-height: 1;
+  font-size: 14px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+@media screen and (max-width: 480px) {
+  .distribution__links_grid {
+    grid-template-columns: 1fr;
+  }
+}
