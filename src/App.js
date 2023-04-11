@@ -17,7 +17,10 @@ function App() {
       <Router>
         <Conferences path="/" />
         <Conferences path="/conferences" />
-        <DoctrineOfSalvation path="/doctrine-of-salvation" />
+        <DoctrineOfSalvation
+          path="/doctrine-of-salvation"
+          additionalStyle="position-main"
+        />
         <StatementOfBeliefs path="/statement-of-beliefs" />
         <PlaceOfWorship path="/place-of-worship" />
         <Books path="books" />
