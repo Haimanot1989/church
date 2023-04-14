@@ -1,19 +1,5 @@
 import React from "react";
-const DoctrineOfSalvationCard = () => {
-  const sermons = [
-    {
-      episodeUrl: "https://player.rss.com/onlyjesus/901955?theme=dark",
-      sermonUrl: "/sermons/DOCTRINE_OF_THE_ONE_GOD.pdf"
-    },
-    {
-      episodeUrl: "https://player.rss.com/onlyjesus/901965?theme=dark",
-      sermonUrl: "/sermons/DOCTRINE_OF_BAPTISM_IN_JESUS_NAME.pdf"
-    },
-    {
-      episodeUrl: "https://player.rss.com/onlyjesus/900258?theme=dark",
-      sermonUrl: "/sermons/DOCTRINE_OF_BAPTISM_IN_JESUS_NAME.pdf"
-    }
-  ];
+const DoctrineOfSalvationIntroCard = () => {
   return (
     <>
       <div className="card overlay-container card-font-style">
@@ -144,34 +130,35 @@ const DoctrineOfSalvationCard = () => {
             </li>
           </ul>
         </div>
-        {sermons.map(s => (
-          <Player key={s.episodeUrl} {...s} />
-        ))}
+        <div className="card-body">
+          <iframe
+            src="https://player.rss.com/onlyjesus/901955?theme=dark"
+            style={{ width: "100%" }}
+            title="Jesus Alone is God"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          ></iframe>
+          <div className="action-box">
+            <a
+              href="/sermons/DOCTRINE_OF_THE_ONE_GOD.pdf"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="btn btn-lg btn-secondary action-btn"
+            >
+              {`Open the accompanying pdf`}
+            </a>
+          </div>
+          <div className="action-box pt8">
+            <a
+              href="/doctrine-of-salvation"
+              className="btn btn-lg btn-secondary action-btn"
+            >
+              {`Open all the teachings with their accompanying pdf`}
+            </a>
+          </div>
+        </div>
       </div>
     </>
   );
 };
 
-function Player({ episodeUrl, sermonUrl }) {
-  return (
-    <div className="card-body">
-      <iframe
-        src={episodeUrl}
-        style={{ width: "100%" }}
-        title="Jesus Alone is God"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      ></iframe>
-      <div className="action-box">
-        <a
-          href={sermonUrl}
-          className="btn btn-lg btn-secondary action-btn"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          {`Open the accompanying pdf`}
-        </a>
-      </div>
-    </div>
-  );
-}
-export default DoctrineOfSalvationCard;
+export default DoctrineOfSalvationIntroCard;

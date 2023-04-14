@@ -55,7 +55,13 @@ function convertTitleToFileName(title) {
     .join("_");
 }
 
-let titles = ["REPORT FROM CAIRO, EGYPT "];
+let titles = [
+  "WATCH AND PRAY",
+  "WASHING EACH OTHER",
+  "GOD CHOSE PROPHETESSES",
+  "Doctrine of the One God",
+  "Doctrine of Baptism in Jesus Name"
+];
 titles.forEach(title => {
   console.log(
     `\ncapitalizeTitle: ${capitalizeTitle(

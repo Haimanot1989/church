@@ -154,6 +154,9 @@ footer p {
   display: flex;
   align-items: center;
 }
+.pt8 {
+  padding-top: 8px;
+}
 
 .action-btn {
   background-color: #343a40;
