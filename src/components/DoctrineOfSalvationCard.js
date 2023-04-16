@@ -12,6 +12,11 @@ const DoctrineOfSalvationCard = () => {
     {
       episodeUrl: "https://player.rss.com/onlyjesus/900258?theme=dark",
       sermonUrl: "/sermons/DOCTRINE_OF_BAPTISM_IN_JESUS_NAME.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/910445?theme=dark",
+      sermonUrl:
+        "/sermons/DOCTRINE_OF_THE_ORIGIN_OF_THE_BODY_OF_THE_LORD_JESUS.pdf"
     }
   ];
   return (
