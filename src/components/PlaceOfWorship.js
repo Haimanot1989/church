@@ -17,7 +17,7 @@ const PlaceOfWorship = () => {
   let pageDescription = {
     title: "Apostolic church of Norway",
     bodyTexts: [
-      "We meet every Sunday, apart from the Sunday after the last Saturday in the month. You are most welcome to join us."
+      "We have physical meeting every Sunday and zoom meetings on Saturdays(19:00 CET). You are most welcome to join us."
     ]
   };
   let digitalLocation = {
