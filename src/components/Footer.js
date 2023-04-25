@@ -5,7 +5,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 const Footer = function() {
   return (
     <>
-      <footer className="page-footer font-small mdb-color pt-4 bg-dark text-white">
+      <footer className="page-footer font-small mdb-color pt-4 bg-dark text-white position-main">
         {/* <!-- Footer Links -->*/}
         <div className="container text-center text-md-left">
           {/* <!-- Footer links --> */}
@@ -13,7 +13,7 @@ const Footer = function() {
             {/* <!-- Grid column --> */}
             <div className="col-md-6 col-lg-3 col-xl-5 mx-auto mt-3">
               <h6 className="text-uppercase mb-4 font-weight-bold">
-                Apostolic Church of Europe
+                Jesus Alone is God Church of Europe
               </h6>
               <p>
                 In case of any question, get in touch with us using the contact

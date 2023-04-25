@@ -9,16 +9,22 @@ import Books from "./components/Books";
 import Sermons from "./components/Sermons";
 import Announcements from "./components/Announcements";
 import DoctrineOfSalvation from "./components/DoctrineOfSalvation";
+import AboutUs from "./components/AboutUs";
+import Home from "./components/Home";
 
 function App() {
   return (
     <>
       <Header />
       <Router>
-        <Conferences path="/" />
+        <Home path="/" />
         <Conferences path="/conferences" />
         <DoctrineOfSalvation
           path="/doctrine-of-salvation"
+          additionalStyle="position-main"
+        />
+        <DoctrineOfSalvation
+          path="/podcast"
           additionalStyle="position-main"
         />
         <StatementOfBeliefs path="/statement-of-beliefs" />
@@ -26,6 +32,7 @@ function App() {
         <Books path="books" />
         <Sermons path="sermons" />
         <Announcements path="announcements" />
+        <AboutUs path="about-us" />
       </Router>
       <Footer />
     </>

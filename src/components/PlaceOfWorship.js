@@ -15,7 +15,7 @@ const PlaceOfWorship = () => {
     placeName: "Skøyer'n fritidsklubb, Solbergliveien 85, 0683 Oslo"
   };
   let pageDescription = {
-    title: "Apostolic church of Norway",
+    title: "Jesus Alone is God Church of Norway",
     bodyTexts: [
       "We have physical meeting every Sunday and zoom meetings on Saturdays(19:00 CET). You are most welcome to join us."
     ]

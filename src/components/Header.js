@@ -18,13 +18,16 @@ function Header() {
 }
 
 const NAV_LINKS = [
+  { title: "Home", url: "/" },
+  { title: "Podcast", url: "/podcast" },
   { title: "Conferences", url: "/conferences" },
   { title: "Doctrine of salvation", url: "/doctrine-of-salvation" },
   { title: "Statement of beliefs", url: "/statement-of-beliefs" },
   { title: "Place of worship", url: "/place-of-worship" },
   { title: "Books", url: "/books" },
   { title: "Sermons", url: "/sermons" },
-  { title: "Global reports", url: "/announcements" }
+  { title: "Global reports", url: "/announcements" },
+  { title: "About us", url: "/about-us" }
 ];
 
 const NavLink = props => (
