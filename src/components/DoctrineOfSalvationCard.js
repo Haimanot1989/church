@@ -26,6 +26,10 @@ const DoctrineOfSalvationCard = () => {
     {
       episodeUrl: "https://player.rss.com/onlyjesus/935742?theme=dark",
       sermonUrl: "/sermons/DOCTRINE_OF_HOLINESS.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/941452?theme=dark",
+      sermonUrl: "/sermons/DOCTRINE_OF_THE_CHURCH.pdf"
     }
   ];
   return (
