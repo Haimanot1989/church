@@ -34,6 +34,10 @@ const DoctrineOfSalvationCard = () => {
     {
       episodeUrl: "https://player.rss.com/onlyjesus/950151?theme=dark",
       sermonUrl: "/sermons/DAVID_AT_ZIKLAG__THE_END_OF_FEAR.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/961047?theme=dark",
+      sermonUrl: "/sermons/GOOD_FRIENDS_WILL_CARRY_YOU_TO_JESUS.pdf"
     }
   ];
   return (
