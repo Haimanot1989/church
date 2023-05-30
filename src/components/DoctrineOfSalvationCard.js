@@ -38,6 +38,10 @@ const DoctrineOfSalvationCard = () => {
     {
       episodeUrl: "https://player.rss.com/onlyjesus/961047?theme=dark",
       sermonUrl: "/sermons/GOOD_FRIENDS_WILL_CARRY_YOU_TO_JESUS.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/973077?theme=dark",
+      sermonUrl: "/sermons/JESUS_OUR_REFUGE.pdf"
     }
   ];
   return (
