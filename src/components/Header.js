@@ -24,9 +24,9 @@ const NAV_LINKS = [
   { title: "Doctrine of salvation", url: "/doctrine-of-salvation" },
   { title: "Statement of beliefs", url: "/statement-of-beliefs" },
   { title: "Place of worship", url: "/place-of-worship" },
-  { title: "Books", url: "/books" },
-  { title: "Sermons", url: "/sermons" },
-  { title: "Global reports", url: "/announcements" },
+  { title: "Books", url: "/books-section" },
+  { title: "Sermons", url: "/sermons-section" },
+  { title: "Global reports", url: "/announcements-section" },
   { title: "About us", url: "/about-us" }
 ];
 
