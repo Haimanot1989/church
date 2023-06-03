@@ -29,9 +29,9 @@ function App() {
         />
         <StatementOfBeliefs path="/statement-of-beliefs" />
         <PlaceOfWorship path="/place-of-worship" />
-        <Books path="books" />
-        <Sermons path="sermons" />
-        <Announcements path="announcements" />
+        <Books path="books-section" />
+        <Sermons path="sermons-section" />
+        <Announcements path="announcements-section" />
         <AboutUs path="about-us" />
       </Router>
       <Footer />
