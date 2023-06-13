@@ -46,6 +46,10 @@ const DoctrineOfSalvationCard = () => {
     {
       episodeUrl: "https://player.rss.com/onlyjesus/979803?theme=dark",
       sermonUrl: "/sermons/IF_JESUS_IS_THE_ONLY_GOD_TO_WHOM_DID_HE_PRAY.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/995661?theme=dark",
+      sermonUrl: "/sermons/SEEKING_THE_LORD_LIKE_MARY_MAGDALENE.pdf"
     }
   ];
   return (
