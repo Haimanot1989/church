@@ -50,6 +50,10 @@ const DoctrineOfSalvationCard = () => {
     {
       episodeUrl: "https://player.rss.com/onlyjesus/995661?theme=dark",
       sermonUrl: "/sermons/SEEKING_THE_LORD_LIKE_MARY_MAGDALENE.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/1004182?theme=dark",
+      sermonUrl: "/sermons/LESSONS_FROM_THE_OLIVE_TREE.pdf"
     }
   ];
   return (
