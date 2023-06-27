@@ -776,6 +776,21 @@
   },
   "annualConferenceNorway": {
     "imageUrl": "./oslo.jpg",
+    "mainLocation": {
+      "map": "https://www.google.com/maps/place/Torshov+Church/@59.9384634,10.7709087,17z/data=!4m15!1m8!3m7!1s0x46416e3e0fc14ca3:0x662d140333c84a4d!2sTorshov+Church!8m2!3d59.9384634!4d10.7730974!10e5!16s%2Fg%2F12326bj3!3m5!1s0x46416e3e0fc14ca3:0x662d140333c84a4d!8m2!3d59.9384634!4d10.7730974!16s%2Fg%2F12326bj3?entry=ttu",
+      "placeName": "Åsengata 25, 0480 Oslo"
+    },
+    "onlineLocation": {
+      "platformName": "Zoom",
+      "zoomInfo": {
+        "meetingId": "639 807 0890",
+        "meetingPassword": "OneGod",
+        "meetingLink": {
+          "map": "https://us02web.zoom.us/j/6398070890?pwd=MlZxZWcwR3I0d3R1MmhDN0syaUx0Zz09",
+          "placeName": "Join the online meeting by clicking on this link or using the details above in the zoom app"
+        }
+      }
+    },
     "confType": "2023 Annual European Conference",
     "country": "Norway",
     "city": "Oslo",
@@ -793,7 +808,46 @@
       "emails": ["hpaulsilas@hotmail.com"]
     },
     "confSubtypesTmp": [],
-    "confSubtypes": []
+    "confSubtypes": [],
+    "hotelsNearBy": [
+      {
+        "name": "Thon Hotel Storo",
+        "address": "Vitaminveien 23, 0485 Oslo",
+        "distance": "15 min walk",
+        "phoneNumber": "+47 23400200",
+        "webSite": "https://www.thonhotels.com/our-hotels/norway/oslo/thon-hotel-storo/",
+        "mapLocation": "https://www.google.com/maps/dir/Torshov+Church,+%C3%85sengata,+Oslo/Thon+Hotel+Storo,+Vitaminveien+23,+0485+Oslo/@59.9428566,10.7672027,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x46416e3e0fc14ca3:0x662d140333c84a4d!2m2!1d10.7730641!2d59.9384751!1m5!1m1!1s0x46416f2a0e0335db:0x43b76d44f0c3ef01!2m2!1d10.7719639!2d59.9472141!3e2?authuser=0&hl=en&entry=ttu"
+      },
+      {
+        "name": "Anker Apartment",
+        "address": "Københavngata 10, 0566 Oslo",
+        "distance": "19 min walk",
+        "phoneNumber": "+47 22993000",
+        "webSite": "https://book.ankerapartment.no/reserve",
+        "mapLocation": "https://www.google.com/maps/dir/Torshov+Church,+%C3%85sengata,+Oslo/Anker+Apartment,+K%C3%B8benhavngata+10,+0566+Oslo/@59.9330622,10.7589785,15z/data=!4m14!4m13!1m5!1m1!1s0x46416e3e0fc14ca3:0x662d140333c84a4d!2m2!1d10.7730641!2d59.9384751!1m5!1m1!1s0x46416e69e29d3c27:0xfe2ff2628593a9a5!2m2!1d10.7667817!2d59.9272308!3e2?authuser=0&hl=en&entry=ttu"
+      },
+      {
+        "name": "Radisson Blu Hotel Nydalen, Oslo",
+        "address": "Nydalsveien 33, 0484 Oslo",
+        "distance": "20 min walk",
+        "phoneNumber": "+47 23263000",
+        "webSite": "https://www.radissonhotels.com/en-us/hotels/radisson-blu-oslo-nydalen",
+        "mapLocation": "https://www.google.com/maps/dir/Torshov+Church,+%C3%85sengata,+Oslo/Radisson+Blu+Hotel+Nydalen,+Oslo,+Nydalsveien+33,+0484+Oslo/@59.9438637,10.7592451,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x46416e3e0fc14ca3:0x662d140333c84a4d!2m2!1d10.7730641!2d59.9384751!1m5!1m1!1s0x46416e1bd13fd953:0x788f927fa76ad3b4!2m2!1d10.7659994!2d59.9490208!3e2?authuser=0&hl=en&entry=ttu"
+      },
+      {
+        "name": "Anker Hostel",
+        "address": "Storgata 53H, 0182 Oslo",
+        "distance": "35 min walk",
+        "phoneNumber": "+47 22997200",
+        "webSite": "https://book.ankerhostel.no/reserve/en/home",
+        "mapLocation": "https://www.google.com/maps/dir/Torshov+Church,+%C3%85sengata,+Oslo/Anker+Hostel,+Storgata+53H,+0182+Oslo/@59.9280653,10.7448896,14z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x46416e3e0fc14ca3:0x662d140333c84a4d!2m2!1d10.7730641!2d59.9384751!1m5!1m1!1s0x46416f62acc658a7:0xceae1a4402dec41d!2m2!1d10.7575972!2d59.9170383!3e2?entry=ttu"
+      }
+    ],
+    "restaurantsNearBy": [
+      {
+        "": ""
+      }
+    ]
   },
   "augustConferenceGermany": {
     "mainLocation": {
