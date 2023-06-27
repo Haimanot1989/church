@@ -54,6 +54,10 @@ const DoctrineOfSalvationCard = () => {
     {
       episodeUrl: "https://player.rss.com/onlyjesus/1004182?theme=dark",
       sermonUrl: "/sermons/LESSONS_FROM_THE_OLIVE_TREE.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/1015255?theme=dark",
+      sermonUrl: "/sermons/CLEAVING_TO_NAOMI.pdf"
     }
   ];
   return (
