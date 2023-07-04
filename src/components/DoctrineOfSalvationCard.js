@@ -58,6 +58,10 @@ const DoctrineOfSalvationCard = () => {
     {
       episodeUrl: "https://player.rss.com/onlyjesus/1015255?theme=dark",
       sermonUrl: "/sermons/CLEAVING_TO_NAOMI.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/1024820?theme=dark",
+      sermonUrl: "/sermons/THE_DIVIDED_GARMENTS_OF_JESUS.pdf"
     }
   ];
   return (
