@@ -62,6 +62,10 @@ const DoctrineOfSalvationCard = () => {
     {
       episodeUrl: "https://player.rss.com/onlyjesus/1024820?theme=dark",
       sermonUrl: "/sermons/THE_DIVIDED_GARMENTS_OF_JESUS.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/1033689?theme=dark",
+      sermonUrl: "/sermons/THE_MOUNTAINS_AND_VALLEYS_OF_LIFE.pdf"
     }
   ];
   return (
