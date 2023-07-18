@@ -72,8 +72,12 @@
       "month": "February"
     },
     "contactInformation": {
-      "emails": ["gefrem60@gmail.com"],
-      "phoneNumbers": ["+447838870288"]
+      "emails": [
+        "gefrem60@gmail.com"
+      ],
+      "phoneNumbers": [
+        "+447838870288"
+      ]
     },
     "confSubtypes": [
       {
@@ -107,13 +111,11 @@
       }
     ]
   },
-
   "youthConference2022": {
     "mainLocation": {
       "map": "https://www.google.com/maps/place/Meijersgaardenweg+4,+7481+RM+Haaksbergen,+Netherlands/@52.1469168,6.8030084,15z/data=!4m5!3m4!1s0x47b86d26b120fff5:0x8b47166c7f72924e!8m2!3d52.1495275!4d6.8092858",
       "placeName": "Meijersgaardenweg 4, 7481 RM Haaksbergen (Buurse)"
     },
-
     "imageUrl": "./buurse.jpeg",
     "confType": "Youth conference",
     "country": "Netherlands",
@@ -129,9 +131,15 @@
       "month": "August"
     },
     "contactInformation": {
-      "emails": ["info@de-pol.nl"],
-      "phoneNumbers": ["+31640912152"],
-      "webistes": ["https://www.de-pol.nl"]
+      "emails": [
+        "info@de-pol.nl"
+      ],
+      "phoneNumbers": [
+        "+31640912152"
+      ],
+      "webistes": [
+        "https://www.de-pol.nl"
+      ]
     },
     "confSubtypes": []
   },
@@ -155,8 +163,12 @@
       "month": "September"
     },
     "contactInformation": {
-      "emails": ["aman_anjelo@yahoo.de  ::::  abdiyu@gmx.de"],
-      "phoneNumbers": ["+491 515 4980731   ::::  +491 573 7945578"]
+      "emails": [
+        "aman_anjelo@yahoo.de  ::::  abdiyu@gmx.de"
+      ],
+      "phoneNumbers": [
+        "+491 515 4980731   ::::  +491 573 7945578"
+      ]
     },
     "hotelsNearBy": [
       {
@@ -335,12 +347,15 @@
       "month": "August"
     },
     "contactInformation": {
-      "emails": ["gefrem60@gmail.com"],
-      "phoneNumbers": ["+447838870288"]
+      "emails": [
+        "gefrem60@gmail.com"
+      ],
+      "phoneNumbers": [
+        "+447838870288"
+      ]
     },
     "confSubtypes": []
   },
-
   "augustConferenceGermany2021WithDetails": {
     "mainLocation": {
       "map": "https://www.google.com/maps/place/Siegener+Str.+22,+65936+Frankfurt+am+Main,+Tyskland/@50.1229916,8.5658883,17.85z/data=!4m5!3m4!1s0x47bd09fd6356ea25:0x61e96280ca151304!8m2!3d50.1228794!4d8.5663794",
@@ -361,8 +376,12 @@
       "month": "August"
     },
     "contactInformation": {
-      "emails": ["gefrem60@gmail.com"],
-      "phoneNumbers": ["+447838870288"]
+      "emails": [
+        "gefrem60@gmail.com"
+      ],
+      "phoneNumbers": [
+        "+447838870288"
+      ]
     },
     "confSubtypes": [
       {
@@ -396,7 +415,6 @@
       }
     ]
   },
-
   "januaryGermany2022": {
     "mainLocation": {
       "map": "https://www.google.com/maps/place/Helenenstra%C3%9Fe+14,+50667+K%C3%B6ln,+Germany/@50.9401968,6.9435413,17z/data=!3m1!4b1!4m5!3m4!1s0x47bf25a83c36b277:0x474ba0e24c49a842!8m2!3d50.9401934!4d6.94573",
@@ -428,8 +446,12 @@
       "month": "January"
     },
     "contactInformation": {
-      "emails": ["abdiyu@gmx.de"],
-      "phoneNumbers": ["+4915737945578"]
+      "emails": [
+        "abdiyu@gmx.de"
+      ],
+      "phoneNumbers": [
+        "+4915737945578"
+      ]
     },
     "confSubtypes": [
       {
@@ -463,7 +485,6 @@
       }
     ]
   },
-
   "novemberConferenceSwitzerland": {
     "mainLocation": {
       "map": "https://www.google.com/maps/place/Rosenaustrasse+1,+9100+Herisau,+Sveits/@47.387228,9.2811561,17z/data=!3m1!4b1!4m5!3m4!1s0x479adfd55bf27a11:0xa0c631a9b7a63e02!8m2!3d47.387228!4d9.2833448",
@@ -495,8 +516,12 @@
       "month": "November"
     },
     "contactInformation": {
-      "emails": ["m.feyisa@gmx.net"],
-      "phoneNumbers": ["+41 78 771 83 17"]
+      "emails": [
+        "m.feyisa@gmx.net"
+      ],
+      "phoneNumbers": [
+        "+41 78 771 83 17"
+      ]
     },
     "confSubtypes": [
       {
@@ -530,7 +555,6 @@
       }
     ]
   },
-
   "octoberConference2022": {
     "imageUrl": "./theHague.png",
     "importantMessage": {
@@ -566,8 +590,12 @@
       "month": "October"
     },
     "contactInformation": {
-      "emails": ["lhoberink@hotmail.com"],
-      "phoneNumbers": ["+31640912152"]
+      "emails": [
+        "lhoberink@hotmail.com"
+      ],
+      "phoneNumbers": [
+        "+31640912152"
+      ]
     },
     "confSubtypes": [
       {
@@ -638,8 +666,12 @@
       "month": "April"
     },
     "contactInformation": {
-      "emails": ["haimif@yahoo.com"],
-      "phoneNumbers": ["+4746377592"]
+      "emails": [
+        "haimif@yahoo.com"
+      ],
+      "phoneNumbers": [
+        "+4746377592"
+      ]
     },
     "mainLocation": {
       "map": "https://www.google.com/maps/place/Veitvetveien+17,+0596+Oslo/@59.9418245,10.8477527,17z/data=!3m1!4b1!4m5!3m4!1s0x46416fe77856b90b:0xc363d8b86699b9d!8m2!3d59.9418245!4d10.8499414",
@@ -714,7 +746,9 @@
       "month": "January"
     },
     "contactInformation": {
-      "emails": ["hpaulsilas@hotmail.com"]
+      "emails": [
+        "hpaulsilas@hotmail.com"
+      ]
     },
     "mainLocation": {
       "map": "https://www.google.com/maps/place/Sk%C3%B8yer'n+fritidsklubb/@59.8997986,10.8407608,17z/data=!3m1!4b1!4m5!3m4!1s0x46416f63edefaf97:0x8273d57b2f979b8!8m2!3d59.8997986!4d10.8429495",
@@ -805,10 +839,52 @@
       "month": "August"
     },
     "contactInformation": {
-      "emails": ["hpaulsilas@hotmail.com"]
+      "emails": [
+        "hpaulsilas@hotmail.com"
+      ]
     },
     "confSubtypesTmp": [],
-    "confSubtypes": [],
+    "confSubtypes": [
+      {
+        "title": "Whole day program",
+        "location": {
+          "address": "Åsengata 25, 0480 Oslo",
+          "map": "https://www.google.com/maps/place/Torshov+Church/@59.9384634,10.7709087,17z/data=!4m15!1m8!3m7!1s0x46416e3e0fc14ca3:0x662d140333c84a4d!2sTorshov+Church!8m2!3d59.9384634!4d10.7730974!10e5!16s%2Fg%2F12326bj3!3m5!1s0x46416e3e0fc14ca3:0x662d140333c84a4d!8m2!3d59.9384634!4d10.7730974!16s%2Fg%2F12326bj3?entry=ttu"
+        },
+        "time": [
+          {
+            "date": {
+              "day": "Friday",
+              "date": "4",
+              "sup": "th",
+              "month": "August"
+            },
+            "startTime": "11:00",
+            "finishTime": "18:00"
+          },
+          {
+            "date": {
+              "day": "Saturday",
+              "date": "5",
+              "sup": "th",
+              "month": "August"
+            },
+            "startTime": "11:00",
+            "finishTime": "18:00"
+          },
+          {
+            "date": {
+              "day": "Sunday",
+              "date": "6",
+              "sup": "th",
+              "month": "August"
+            },
+            "startTime": "11:00",
+            "finishTime": "18:00"
+          }
+        ]
+      }
+    ],
     "hotelsNearBy": [
       {
         "name": "Thon Hotel Storo",
@@ -869,8 +945,12 @@
       "month": "August"
     },
     "contactInformation": {
-      "emails": ["gefrem60@gmail.com"],
-      "phoneNumbers": ["+447838870288"]
+      "emails": [
+        "gefrem60@gmail.com"
+      ],
+      "phoneNumbers": [
+        "+447838870288"
+      ]
     },
     "confSubtypes": [
       {
@@ -978,8 +1058,12 @@
       }
     ],
     "contactInformation": {
-      "emails": ["gefrem60@gmail.com"],
-      "phoneNumbers": ["+447838870288, +33625149110, +33618802830"]
+      "emails": [
+        "gefrem60@gmail.com"
+      ],
+      "phoneNumbers": [
+        "+447838870288, +33625149110, +33618802830"
+      ]
     },
     "hotelsNearBy": [
       {
@@ -1064,8 +1148,12 @@
       "month": "October"
     },
     "contactInformation": {
-      "emails": ["lhoberink@hotmail.com"],
-      "phoneNumbers": ["+31640912152"]
+      "emails": [
+        "lhoberink@hotmail.com"
+      ],
+      "phoneNumbers": [
+        "+31640912152"
+      ]
     },
     "confSubtypes": [
       {
@@ -1132,7 +1220,6 @@
         }
       }
     },
-
     "imageUrl": "./stockholm.png",
     "confType": "New Year Conference",
     "country": "Sweden",
@@ -1148,8 +1235,12 @@
       "month": "January"
     },
     "contactInformation": {
-      "emails": ["antenehmoges1978@yahoo.com"],
-      "phoneNumbers": ["+46 73 700 52 26"]
+      "emails": [
+        "antenehmoges1978@yahoo.com"
+      ],
+      "phoneNumbers": [
+        "+46 73 700 52 26"
+      ]
     },
     "confSubtypes": [
       {
@@ -1265,8 +1356,12 @@
       "month": "November"
     },
     "contactInformation": {
-      "names": ["Pastor Michele Mingo"],
-      "phoneNumbers": ["+39 349 4442047"]
+      "names": [
+        "Pastor Michele Mingo"
+      ],
+      "phoneNumbers": [
+        "+39 349 4442047"
+      ]
     },
     "onlineLocation": {
       "platformName": "Facebook",
