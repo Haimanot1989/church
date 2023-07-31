@@ -56,11 +56,7 @@ function convertTitleToFileName(title) {
 }
 
 let titles = [
-  "WATCH AND PRAY",
-  "WASHING EACH OTHER",
-  "GOD CHOSE PROPHETESSES",
-  "Doctrine of the One God",
-  "Doctrine of Baptism in Jesus Name"
+  "WHAT DID JESUS DO FOR YOU"
 ];
 titles.forEach(title => {
   console.log(

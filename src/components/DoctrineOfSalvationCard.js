@@ -74,6 +74,10 @@ const DoctrineOfSalvationCard = () => {
     {
       episodeUrl: "https://player.rss.com/onlyjesus/1050320?theme=dark",
       sermonUrl: "/sermons/RIDING_WITH_CHRIST_THE_CONQUEROR.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/1059224?theme=dark",
+      sermonUrl: "/sermons/WHAT_DID_JESUS_DO_FOR_YOU.pdf"
     }
   ];
   return (
