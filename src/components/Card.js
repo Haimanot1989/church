@@ -76,7 +76,7 @@ const Card = ({
         )}
 
         {transportationInfo && transportationInfo.length > 0 && (
-          <CardSectionTitle sectionTitle="Transporat information" />
+          <CardSectionTitle sectionTitle="Transport information" />
         )}
         {transportationInfo &&
           transportationInfo.length > 0 &&
