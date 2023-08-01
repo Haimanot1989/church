@@ -193,7 +193,7 @@ const Hotel = ({
             <span className="li-label">Phone:</span> {phoneNumber}
           </li>
           <li className="custom-li-style list-group-item" key={id}>
-            <span className="li-label">Website:</span> <a href={{ webSite }}>click here to visit their website</a>
+            <span className="li-label">Website:</span> <a href={ webSite }>click here to visit their website</a>
           </li>
         </ul>
       </div>
