@@ -228,7 +228,7 @@ const Transportation = ({
     <li key={id} className="list-group-item">
       <div className="card-body">
         <h5 className="card-subtitle mb-2 text-dark">
-          {title}
+          From {title}
           <span className="text-muted small-text">{distance}</span>
         </h5>
         <ul className="list-group">
