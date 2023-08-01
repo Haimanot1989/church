@@ -814,6 +814,10 @@
       "map": "https://www.google.com/maps/place/Torshov+Church/@59.9384634,10.7709087,17z/data=!4m15!1m8!3m7!1s0x46416e3e0fc14ca3:0x662d140333c84a4d!2sTorshov+Church!8m2!3d59.9384634!4d10.7730974!10e5!16s%2Fg%2F12326bj3!3m5!1s0x46416e3e0fc14ca3:0x662d140333c84a4d!8m2!3d59.9384634!4d10.7730974!16s%2Fg%2F12326bj3?entry=ttu",
       "placeName": "Åsengata 25, 0480 Oslo"
     },
+    "importantMessage": {
+      "content": "Scroll down for more information about the transport, restaurants near by and hotels near by",
+      "type": "info"
+    },
     "onlineLocation": {
       "platformName": "Zoom",
       "zoomInfo": {
@@ -921,7 +925,53 @@
     ],
     "restaurantsNearBy": [
       {
-        "": ""
+        "name": "Pizza Pancetta",
+        "address": "Grefsenveien 6, 0482 Oslo",
+        "distance": "6 min walk",
+        "phoneNumber": "+47 22222770",
+        "webSite": "https://pancetta.no/",
+        "mapLocation": "https://www.google.com/maps/place/Pizza+Pancetta/@59.9417028,10.7687563,17z/data=!3m1!4b1!4m6!3m5!1s0x46416e1637f6ef4f:0xeab4b44dcaab9fcc!8m2!3d59.9417028!4d10.770945!16s%2Fg%2F12hkjqd2s?entry=ttu"
+      },
+      {
+        "name": "Mega sushi ANS",
+        "address": "Grefsenveien 6A, 0482 Oslo",
+        "distance": "6 min walk",
+        "phoneNumber": "+47 22220555",
+        "webSite": "http://www.megasushi.no/",
+        "mapLocation": "https://www.google.com/maps/place/Pizza+Pancetta/@59.9417028,10.7687563,17z/data=!3m1!4b1!4m6!3m5!1s0x46416e1637f6ef4f:0xeab4b44dcaab9fcc!8m2!3d59.9417028!4d10.770945!16s%2Fg%2F12hkjqd2s?entry=ttu"
+      },
+      {
+        "name": "Bislett Kebab House Sandaker",
+        "address": "Sandakerveien 72C, 0484 Oslo",
+        "distance": "7 min walk",
+        "phoneNumber": "+47 22468044",
+        "webSite": "https://www.bislettkebabhouse.no/",
+        "mapLocation": "https://www.google.com/maps/place/Bislett+Kebab+House+Sandaker/@59.942292,10.7678874,17z/data=!4m6!3m5!1s0x46416e164d8ea775:0xfac201c3188691f2!8m2!3d59.942292!4d10.7700761!16s%2Fg%2F11cm_n3k0z?entry=ttu"
+      },
+      {
+        "name": "Storo Storsenter (Big shopping mall with many restaurants)",
+        "address": "Vitaminveien 7, 9, 0485 Oslo",
+        "distance": "15 min walk",
+        "phoneNumber": "+47 22468044",
+        "webSite": "https://storostorsenter.no/mat-og-drikke/restaurant/",
+        "mapLocation": "https://www.google.com/maps/place/Storo+Storsenter/@59.9471458,10.7720716,17z/data=!4m6!3m5!1s0x46416e18689debb1:0x965ef268464b74cf!8m2!3d59.9471431!4d10.7746465!16s%2Fm%2F02781t8?entry=ttu"
+      }
+    ],
+    "transportationInfo": [
+      {
+        "title": "Buy the ticket on the Ruter app",
+        "description": "https://ruter.no/en/journey/the-ruter-app/",
+        "type": "info"
+      },
+      {
+        "title": "Oslo Airport",
+        "description": "https://www.google.com/maps/dir/Gardermoen,+Norway,+Gardermoen/Torshov+Church,+%C3%85sengata,+Oslo/@60.0499424,10.7799354,11z/data=!3m1!4b1!4m19!4m18!1m5!1m1!1s0x4641837ce1cc31f9:0x87a68eb45be19dac!2m2!1d11.0893517!2d60.1853739!1m5!1m1!1s0x46416e3e0fc14ca3:0x662d140333c84a4d!2m2!1d10.7730641!2d59.9384751!2m3!6e1!7e2!8j1691233200!3e3!5i1?entry=ttu",
+        "type": "route"
+      },
+      {
+        "title": "Oslo Central Station",
+        "description": "https://www.google.com/maps/dir/Oslo+S,+Jernbanetorget,+Oslo/Torshov+Church,+%C3%85sengata,+Oslo/@59.9236524,10.7449731,14z/data=!3m1!4b1!4m18!4m17!1m5!1m1!1s0x46416e8a1c253d39:0xe77bcdda7048ef3b!2m2!1d10.7506017!2d59.9108989!1m5!1m1!1s0x46416e3e0fc14ca3:0x662d140333c84a4d!2m2!1d10.7730641!2d59.9384751!2m3!6e1!7e2!8j1691233200!3e3?entry=ttu",
+        "type": "route"
       }
     ]
   },

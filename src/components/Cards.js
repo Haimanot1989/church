@@ -9,7 +9,6 @@ const Cards = () => {
     <>
       <div className="card-deck mb-2">
         <Card {...annualConferenceNorway} />
-        <Card {...{}} />
       </div>
     </>
   );

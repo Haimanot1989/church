@@ -5,23 +5,26 @@ import { OnlineLoacation } from "./OnlineLoacation";
 import { ContactInfo } from "./ContactInfo";
 import { ConfSubTypeTimeItem } from "./ConfSubTypeTimeItem";
 import { Overlay } from "./Overlay";
+
 const Card = ({
-  imageUrl,
-  confType,
-  city,
-  country,
-  confStart,
-  confEnd,
-  confSubtypes,
-  contactInformation,
-  mainLocation,
-  onlineLocation,
-  hotelsNearBy,
-  isCancelled,
-  cancelledMessage,
-  importantMessage,
-  invitation
-}) => {
+                imageUrl,
+                confType,
+                city,
+                country,
+                confStart,
+                confEnd,
+                confSubtypes,
+                contactInformation,
+                mainLocation,
+                onlineLocation,
+                hotelsNearBy,
+                restaurantsNearBy,
+                transportationInfo,
+                isCancelled,
+                cancelledMessage,
+                importantMessage,
+                invitation
+              }) => {
   if (!imageUrl) {
     return <div className="card" style={{ border: "none" }}></div>;
   }
@@ -72,6 +75,22 @@ const Card = ({
           <ConfSubTypeItemDetailComingSoon />
         )}
 
+        {transportationInfo && transportationInfo.length > 0 && (
+          <CardSectionTitle sectionTitle="Transporat information" />
+        )}
+        {transportationInfo &&
+          transportationInfo.length > 0 &&
+          transportationInfo.map((value, key) => {
+            return <Transportation {...value} key={key} />;
+          })}
+        {restaurantsNearBy && restaurantsNearBy.length > 0 && (
+          <CardSectionTitle sectionTitle="Restaurants nearby" />
+        )}
+        {restaurantsNearBy &&
+          restaurantsNearBy.length > 0 &&
+          restaurantsNearBy.map((value, key) => {
+            return <Hotel {...value} key={key} />;
+          })}
         {hotelsNearBy && hotelsNearBy.length > 0 && (
           <CardSectionTitle sectionTitle="Hotels nearby" />
         )}
@@ -148,13 +167,13 @@ const InvitationLetter = ({ id, type, uri }) => {
 };
 
 const Hotel = ({
-  name,
-  address,
-  distance,
-  webSite,
-  phoneNumber,
-  mapLocation
-}) => {
+                 name,
+                 address,
+                 distance,
+                 webSite,
+                 phoneNumber,
+                 mapLocation
+               }) => {
   let id = name.replace(/\s/g, "");
   return (
     <li key={id} className="list-group-item">
@@ -173,10 +192,55 @@ const Hotel = ({
           <li className="custom-li-style list-group-item" key={id}>
             <span className="li-label">Phone:</span> {phoneNumber}
           </li>
+          <li className="custom-li-style list-group-item" key={id}>
+            <span className="li-label">Website:</span> <a href={{ webSite }}>click here to visit their website</a>
+          </li>
         </ul>
       </div>
     </li>
   );
+};
+
+const Transportation = ({
+                          title,
+                          description,
+                          type,
+                          distance
+                        }) => {
+  let id = title.replace(/\s/g, "");
+  if (type === "info") {
+    return (
+      <li key={id} className="list-group-item">
+        <div className="card-body">
+          <h5 className="card-subtitle mb-2 text-dark">
+            {title}
+          </h5>
+          <ul className="list-group">
+            <li className="custom-li-style list-group-item" key={id}>
+              <a href={description}>click here for more information</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+    );
+  }
+  return (
+    <li key={id} className="list-group-item">
+      <div className="card-body">
+        <h5 className="card-subtitle mb-2 text-dark">
+          {title}
+          <span className="text-muted small-text">{distance}</span>
+        </h5>
+        <ul className="list-group">
+          <li className="custom-li-style list-group-item" key={id}>
+            <span className="li-label">Route:</span>{" "}
+            <a href={description}>click here for the route</a>
+          </li>
+        </ul>
+      </div>
+    </li>
+  );
+
 };
 
 export default Card;
