@@ -3,6 +3,7 @@ import { ConfSubTypeTimeItem } from "./ConfSubTypeTimeItem";
 import { ContactInfo } from "./ContactInfo";
 import { MeetingInfo } from "./MeetingInfo";
 import { Overlay } from "./Overlay";
+import { GoAlert, GoInfo } from "react-icons/go";
 
 export const OnlineMeetingCard = ({
   zoomInfo,
@@ -49,10 +50,14 @@ export const OnlineMeetingCard = ({
   );
 };
 
-const AdditionalMessage = ({ content }) => {
-  return content.map((item, key) => {
-    return <p key={key}>{item}</p>;
-  });
+const AdditionalMessage = ({ content, type }) => {
+  const textClass = type && type === "info" ? "text-info" : "text-danger";
+  const Icon = type && type === "info" ? <GoInfo /> : <GoAlert />;
+  return (
+    <p className={textClass}>
+      {Icon} {content}
+    </p>
+  );
 };
 
 export const MeetingId = zoomInfo => {

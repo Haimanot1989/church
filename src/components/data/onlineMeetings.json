@@ -212,18 +212,21 @@
   "europeBibleStudyOnZoom": {
     "platformName": "Zoom",
     "zoomInfo": {
-      "language": "English",
       "meetingId": "639 807 0890",
       "meetingPassword": "OneGod",
       "meetingLink": {
         "map": "https://us02web.zoom.us/j/6398070890?pwd=MlZxZWcwR3I0d3R1MmhDN0syaUx0Zz09",
-        "placeName": "Join the ENGLISH meeting by clicking on this link or using the details above in the zoom app"
+        "placeName": "Join the meeting by clicking on this link or using the details above in the zoom app"
       }
     },
     "imageUrl": "./bible-study.png",
-    "title": "Bible study every Saturday at 19:00 - 21:00 CET",
+    "title": "Bible study every Saturday at 11:00 - 18:00 CEST",
     "isCancelled": false,
-    "cancelledMessage": "Closed on the 6th of August due to the conference in France."
+    "cancelledMessage": "Closed on the 6th of August due to the conference in France.",
+    "importantMessage": {
+      "content": "This Saturday's bible study will take place together with the annual conference in Oslo Norway. We will broadcast the meeting live on zoom on the same link as usual between 11:00 - 18:00 CEST. As usual, the message will later be uploaded to our podcast.",
+      "type": "warn"
+    }
   },
   "decemberConference2020": {
     "platformName": "Zoom",
