@@ -1258,6 +1258,22 @@
       }
     ]
   },
+  "octoberConference2023": {
+    "imageUrl": "./theHague.png",
+    "confType": "October conference",
+    "country": "Netherlands",
+    "city": "The Hague",
+    "confStart": {
+      "date": "21",
+      "sup": "st",
+      "month": "October"
+    },
+    "confEnd": {
+      "date": "22",
+      "sup": "nd",
+      "month": "October"
+    }
+  },
   "newYearConference2022": {
     "onlineLocation": {
       "platformName": "Zoom",

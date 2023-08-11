@@ -222,11 +222,7 @@
     "imageUrl": "./bible-study.png",
     "title": "Bible study every Saturday at 11:00 - 18:00 CEST",
     "isCancelled": false,
-    "cancelledMessage": "Closed on the 6th of August due to the conference in France.",
-    "importantMessage": {
-      "content": "This Saturday's bible study will take place together with the annual conference in Oslo Norway. We will broadcast the meeting live on zoom on the same link as usual between 11:00 - 18:00 CEST. As usual, the message will later be uploaded to our podcast.",
-      "type": "warn"
-    }
+    "cancelledMessage": "Closed on the 6th of August due to the conference in France."
   },
   "decemberConference2020": {
     "platformName": "Zoom",
