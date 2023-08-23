@@ -82,6 +82,10 @@ const DoctrineOfSalvationCard = () => {
     {
       episodeUrl: "https://player.rss.com/onlyjesus/1074865?theme=dark",
       sermonUrl: "/sermons/THE_TITHE_OF_THE_LORD.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/1087597?theme=dark",
+      sermonUrl: "/sermons/I_WILL_BE_TO_THEM_A_LITTLE_SANCTUARY.pdf"
     }
   ];
   return (
