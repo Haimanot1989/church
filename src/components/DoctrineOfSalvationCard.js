@@ -86,6 +86,10 @@ const DoctrineOfSalvationCard = () => {
     {
       episodeUrl: "https://player.rss.com/onlyjesus/1087597?theme=dark",
       sermonUrl: "/sermons/I_WILL_BE_TO_THEM_A_LITTLE_SANCTUARY.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/1090984?theme=dark",
+      sermonUrl: "/sermons/THE_CHURCH_IN_BABYLON_REFUSING_TO_BOW.pdf"
     }
   ];
   return (

@@ -1244,17 +1244,6 @@
             },
             "startTime": "15:00",
             "finishTime": "19:00"
-          },
-          {
-            "date": {
-              "day": "Sunday",
-              "date": "22",
-              "sup": "nd",
-              "month": "October"
-            },
-            "startTime": "10:00",
-            "finishTime": "18:00",
-            "lunchBreak": "14:00 - 16:00"
           }
         ]
       },
