@@ -72,12 +72,8 @@
       "month": "February"
     },
     "contactInformation": {
-      "emails": [
-        "gefrem60@gmail.com"
-      ],
-      "phoneNumbers": [
-        "+447838870288"
-      ]
+      "emails": ["gefrem60@gmail.com"],
+      "phoneNumbers": ["+447838870288"]
     },
     "confSubtypes": [
       {
@@ -131,15 +127,9 @@
       "month": "August"
     },
     "contactInformation": {
-      "emails": [
-        "info@de-pol.nl"
-      ],
-      "phoneNumbers": [
-        "+31640912152"
-      ],
-      "webistes": [
-        "https://www.de-pol.nl"
-      ]
+      "emails": ["info@de-pol.nl"],
+      "phoneNumbers": ["+31640912152"],
+      "webistes": ["https://www.de-pol.nl"]
     },
     "confSubtypes": []
   },
@@ -163,12 +153,8 @@
       "month": "September"
     },
     "contactInformation": {
-      "emails": [
-        "aman_anjelo@yahoo.de  ::::  abdiyu@gmx.de"
-      ],
-      "phoneNumbers": [
-        "+491 515 4980731   ::::  +491 573 7945578"
-      ]
+      "emails": ["aman_anjelo@yahoo.de  ::::  abdiyu@gmx.de"],
+      "phoneNumbers": ["+491 515 4980731   ::::  +491 573 7945578"]
     },
     "hotelsNearBy": [
       {
@@ -347,12 +333,8 @@
       "month": "August"
     },
     "contactInformation": {
-      "emails": [
-        "gefrem60@gmail.com"
-      ],
-      "phoneNumbers": [
-        "+447838870288"
-      ]
+      "emails": ["gefrem60@gmail.com"],
+      "phoneNumbers": ["+447838870288"]
     },
     "confSubtypes": []
   },
@@ -376,12 +358,8 @@
       "month": "August"
     },
     "contactInformation": {
-      "emails": [
-        "gefrem60@gmail.com"
-      ],
-      "phoneNumbers": [
-        "+447838870288"
-      ]
+      "emails": ["gefrem60@gmail.com"],
+      "phoneNumbers": ["+447838870288"]
     },
     "confSubtypes": [
       {
@@ -446,12 +424,8 @@
       "month": "January"
     },
     "contactInformation": {
-      "emails": [
-        "abdiyu@gmx.de"
-      ],
-      "phoneNumbers": [
-        "+4915737945578"
-      ]
+      "emails": ["abdiyu@gmx.de"],
+      "phoneNumbers": ["+4915737945578"]
     },
     "confSubtypes": [
       {
@@ -516,12 +490,8 @@
       "month": "November"
     },
     "contactInformation": {
-      "emails": [
-        "m.feyisa@gmx.net"
-      ],
-      "phoneNumbers": [
-        "+41 78 771 83 17"
-      ]
+      "emails": ["m.feyisa@gmx.net"],
+      "phoneNumbers": ["+41 78 771 83 17"]
     },
     "confSubtypes": [
       {
@@ -590,12 +560,8 @@
       "month": "October"
     },
     "contactInformation": {
-      "emails": [
-        "lhoberink@hotmail.com"
-      ],
-      "phoneNumbers": [
-        "+31640912152"
-      ]
+      "emails": ["lhoberink@hotmail.com"],
+      "phoneNumbers": ["+31640912152"]
     },
     "confSubtypes": [
       {
@@ -666,12 +632,8 @@
       "month": "April"
     },
     "contactInformation": {
-      "emails": [
-        "haimif@yahoo.com"
-      ],
-      "phoneNumbers": [
-        "+4746377592"
-      ]
+      "emails": ["haimif@yahoo.com"],
+      "phoneNumbers": ["+4746377592"]
     },
     "mainLocation": {
       "map": "https://www.google.com/maps/place/Veitvetveien+17,+0596+Oslo/@59.9418245,10.8477527,17z/data=!3m1!4b1!4m5!3m4!1s0x46416fe77856b90b:0xc363d8b86699b9d!8m2!3d59.9418245!4d10.8499414",
@@ -746,9 +708,7 @@
       "month": "January"
     },
     "contactInformation": {
-      "emails": [
-        "hpaulsilas@hotmail.com"
-      ]
+      "emails": ["hpaulsilas@hotmail.com"]
     },
     "mainLocation": {
       "map": "https://www.google.com/maps/place/Sk%C3%B8yer'n+fritidsklubb/@59.8997986,10.8407608,17z/data=!3m1!4b1!4m5!3m4!1s0x46416f63edefaf97:0x8273d57b2f979b8!8m2!3d59.8997986!4d10.8429495",
@@ -843,9 +803,7 @@
       "month": "August"
     },
     "contactInformation": {
-      "emails": [
-        "hpaulsilas@hotmail.com"
-      ]
+      "emails": ["hpaulsilas@hotmail.com"]
     },
     "confSubtypesTmp": [],
     "confSubtypes": [
@@ -995,12 +953,8 @@
       "month": "August"
     },
     "contactInformation": {
-      "emails": [
-        "gefrem60@gmail.com"
-      ],
-      "phoneNumbers": [
-        "+447838870288"
-      ]
+      "emails": ["gefrem60@gmail.com"],
+      "phoneNumbers": ["+447838870288"]
     },
     "confSubtypes": [
       {
@@ -1108,12 +1062,8 @@
       }
     ],
     "contactInformation": {
-      "emails": [
-        "gefrem60@gmail.com"
-      ],
-      "phoneNumbers": [
-        "+447838870288, +33625149110, +33618802830"
-      ]
+      "emails": ["gefrem60@gmail.com"],
+      "phoneNumbers": ["+447838870288, +33625149110, +33618802830"]
     },
     "hotelsNearBy": [
       {
@@ -1198,12 +1148,8 @@
       "month": "October"
     },
     "contactInformation": {
-      "emails": [
-        "lhoberink@hotmail.com"
-      ],
-      "phoneNumbers": [
-        "+31640912152"
-      ]
+      "emails": ["lhoberink@hotmail.com"],
+      "phoneNumbers": ["+31640912152"]
     },
     "confSubtypes": [
       {
@@ -1259,7 +1205,15 @@
     ]
   },
   "octoberConference2023": {
-    "imageUrl": "./theHague.png",
+    "mainLocation": {
+      "map": "https://www.google.com/maps/place/Kruisheuvelkerk/@52.091835,4.3846333,17z/data=!3m1!4b1!4m6!3m5!1s0x47c5b7e89b5402af:0x2d7ceb58caf2e420!8m2!3d52.0918317!4d4.3872082!16s%2Fg%2F11_r3ksw8?entry=ttu",
+      "placeName": "Kruisheuvelkerk -Leidschendam - Den Haag"
+    },
+    "importantMessage": {
+      "content": "Scroll down for more information about the program timings, restaurants near by and hotels near by",
+      "type": "info"
+    },
+    "imageUrl": "./Kruisheuvelkerk.jpeg",
     "confType": "October conference",
     "country": "Netherlands",
     "city": "The Hague",
@@ -1272,7 +1226,90 @@
       "date": "22",
       "sup": "nd",
       "month": "October"
-    }
+    },
+    "confSubtypes": [
+      {
+        "title": "Friday program",
+        "location": {
+          "address": "Kruisheuvelkerk,Burgemeester Roeringlaan 6, 2262 EC Leidschendam, Netherlands",
+          "map": "https://www.google.com/maps/place/Kruisheuvelkerk/@52.091835,4.3846333,17z/data=!3m1!4b1!4m6!3m5!1s0x47c5b7e89b5402af:0x2d7ceb58caf2e420!8m2!3d52.0918317!4d4.3872082!16s%2Fg%2F11_r3ksw8?entry=ttu"
+        },
+        "time": [
+          {
+            "date": {
+              "day": "Friday",
+              "date": "20",
+              "sup": "th",
+              "month": "October"
+            },
+            "startTime": "15:00",
+            "finishTime": "19:00"
+          },
+          {
+            "date": {
+              "day": "Sunday",
+              "date": "22",
+              "sup": "nd",
+              "month": "October"
+            },
+            "startTime": "10:00",
+            "finishTime": "18:00",
+            "lunchBreak": "14:00 - 16:00"
+          }
+        ]
+      },
+      {
+        "title": "Whole day program",
+        "location": {
+          "address": "Kruisheuvelkerk,Burgemeester Roeringlaan 6, 2262 EC Leidschendam, Netherlands",
+          "map": "https://www.google.com/maps/place/Kruisheuvelkerk/@52.091835,4.3846333,17z/data=!3m1!4b1!4m6!3m5!1s0x47c5b7e89b5402af:0x2d7ceb58caf2e420!8m2!3d52.0918317!4d4.3872082!16s%2Fg%2F11_r3ksw8?entry=ttu"
+        },
+        "time": [
+          {
+            "date": {
+              "day": "Saturday",
+              "date": "21",
+              "sup": "st",
+              "month": "October"
+            },
+            "startTime": "10:00",
+            "finishTime": "18:00",
+            "lunchBreak": "14:00 - 16:00"
+          },
+          {
+            "date": {
+              "day": "Sunday",
+              "date": "22",
+              "sup": "nd",
+              "month": "October"
+            },
+            "startTime": "10:00",
+            "finishTime": "18:00",
+            "lunchBreak": "14:00 - 16:00"
+          }
+        ]
+      }
+    ],
+    "hotelsNearBy": [
+      {
+        "name": "Fletcher Hotel-Restaurant Leidschendam-Den Haag",
+        "address": "Weigelia 22, 2262 AB Leidschendam, Netherlands",
+        "distance": "11 min walk",
+        "phoneNumber": "+31 70 320 9280",
+        "webSite": "https://www.fletcherhoteldenhaag.nl/en/",
+        "mapLocation": "https://www.google.com/maps/dir/Fletcher+Hotel-Restaurant+Leidschendam-Den+Haag,+Weigelia+22,+2262+AB+Leidschendam,+Netherlands/Kruisheuvelkerk,+Burgemeester+Roeringlaan,+Leidschendam,+Netherlands/@52.090798,4.3817847,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x47c5b7e9fc9b1d57:0x1fa95717f3aa2d23!2m2!1d4.3813945!2d52.0885764!1m5!1m1!1s0x47c5b7e89b5402af:0x2d7ceb58caf2e420!2m2!1d4.3872032!2d52.0918291!3e2?entry=ttu"
+      }
+    ],
+    "restaurantsNearBy": [
+      {
+        "name": "Westfield Mall of the Netherlands",
+        "address": "Liguster 202, 2262 AC Leidschendam, Netherlands",
+        "distance": "4 min walk",
+        "phoneNumber": "+31 70 763 0530",
+        "webSite": "https://www.westfield.com/en/netherlands/mallofthenetherlands/stores/hypermarket-_o_-food",
+        "mapLocation": "https://www.google.com/maps/dir/Westfield+Mall+of+the+Netherlands,+Liguster,+Leidschendam,+Netherlands/Kruisheuvelkerk,+Burgemeester+Roeringlaan,+Leidschendam,+Netherlands/@52.0910473,4.3833251,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x47c5b7f16854c5e3:0x2cd6f53c2908e31d!2m2!1d4.3840396!2d52.089119!1m5!1m1!1s0x47c5b7e89b5402af:0x2d7ceb58caf2e420!2m2!1d4.3872032!2d52.0918291!3e2?entry=ttu"
+      }
+    ]
   },
   "newYearConference2022": {
     "onlineLocation": {
@@ -1301,12 +1338,8 @@
       "month": "January"
     },
     "contactInformation": {
-      "emails": [
-        "antenehmoges1978@yahoo.com"
-      ],
-      "phoneNumbers": [
-        "+46 73 700 52 26"
-      ]
+      "emails": ["antenehmoges1978@yahoo.com"],
+      "phoneNumbers": ["+46 73 700 52 26"]
     },
     "confSubtypes": [
       {
@@ -1422,12 +1455,8 @@
       "month": "November"
     },
     "contactInformation": {
-      "names": [
-        "Pastor Michele Mingo"
-      ],
-      "phoneNumbers": [
-        "+39 349 4442047"
-      ]
+      "names": ["Pastor Michele Mingo"],
+      "phoneNumbers": ["+39 349 4442047"]
     },
     "onlineLocation": {
       "platformName": "Facebook",
