@@ -93,7 +93,8 @@ const DoctrineOfSalvationCard = () => {
     },
     {
       episodeUrl: "https://player.rss.com/onlyjesus/1104193?theme=dark",
-      sermonUrl: "/sermons/THE_CHURCH_IN_BABYLON_REFUSING_TO_BOW.pdf"
+      sermonUrl:
+        "/sermons/GIVE_THE_EMPTY_ROOM_TO_JESUS_A_LESSON_IN_HOSPITALITY_AND_FAITH.pdf"
     }
   ];
   return (
