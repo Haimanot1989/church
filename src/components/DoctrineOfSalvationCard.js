@@ -95,6 +95,10 @@ const DoctrineOfSalvationCard = () => {
       episodeUrl: "https://player.rss.com/onlyjesus/1104193?theme=dark",
       sermonUrl:
         "/sermons/GIVE_THE_EMPTY_ROOM_TO_JESUS_A_LESSON_IN_HOSPITALITY_AND_FAITH.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/1119612?theme=dark",
+      sermonUrl: "/sermons/WHY_GO_TO_CHURCH.pdf"
     }
   ];
   return (
