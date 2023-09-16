@@ -99,6 +99,10 @@ const DoctrineOfSalvationCard = () => {
     {
       episodeUrl: "https://player.rss.com/onlyjesus/1119612?theme=dark",
       sermonUrl: "/sermons/WHY_GO_TO_CHURCH.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/1125424?theme=dark",
+      sermonUrl: "/sermons/STAND_STILL_AND_SEE_THE_SALVATION_OF_THE_LORD.pdf"
     }
   ];
   return (
