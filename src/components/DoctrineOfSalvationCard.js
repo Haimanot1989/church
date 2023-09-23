@@ -103,6 +103,15 @@ const DoctrineOfSalvationCard = () => {
     {
       episodeUrl: "https://player.rss.com/onlyjesus/1125424?theme=dark",
       sermonUrl: "/sermons/STAND_STILL_AND_SEE_THE_SALVATION_OF_THE_LORD.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/1139112?theme=dark",
+      sermonUrl:
+        "/sermons/JONAH__A_REMINDER_OF_OUR_RESPONSIBILITY_TO_THE_UNSAVED_WORLD.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/1139120?theme=dark",
+      sermonUrl: "/books/THE_ONE_GOD_DOCTRINE.pdf"
     }
   ];
   return (
