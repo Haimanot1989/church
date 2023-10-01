@@ -115,7 +115,7 @@ const DoctrineOfSalvationCard = () => {
     },
     {
       episodeUrl: "https://player.rss.com/onlyjesus/1149727?theme=dark",
-      sermonUrl: "/books/THE_MOUNT_OF_OLIVES.pdf"
+      sermonUrl: "/sermons/THE_MOUNT_OF_OLIVES.pdf"
     }
   ];
   return (
