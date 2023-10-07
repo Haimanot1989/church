@@ -116,6 +116,10 @@ const DoctrineOfSalvationCard = () => {
     {
       episodeUrl: "https://player.rss.com/onlyjesus/1149727?theme=dark",
       sermonUrl: "/sermons/THE_MOUNT_OF_OLIVES.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/1160963?theme=dark",
+      sermonUrl: "/sermons/A_WAY_OF_ESCAPE.pdf"
     }
   ];
   return (
