@@ -120,6 +120,11 @@ const DoctrineOfSalvationCard = () => {
     {
       episodeUrl: "https://player.rss.com/onlyjesus/1160963?theme=dark",
       sermonUrl: "/sermons/A_WAY_OF_ESCAPE.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/1196923?theme=dark",
+      sermonUrl:
+        "/sermons/THE_GLORY_OF_THE_FATHER_IS_THE_SAME_AS_THE_GLORY_OF_THE_SON.pdf"
     }
   ];
   return (

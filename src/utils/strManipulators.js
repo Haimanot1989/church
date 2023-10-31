@@ -23,6 +23,7 @@ function capitalizeTitle(title) {
         "at",
         "on",
         "a",
+        "as",
         "or",
         "with",
         "that",
@@ -55,9 +56,7 @@ function convertTitleToFileName(title) {
     .join("_");
 }
 
-let titles = [
-  "WHAT DID JESUS DO FOR YOU"
-];
+let titles = ["The glory of the Father is the same as the glory of the Son"];
 titles.forEach(title => {
   console.log(
     `\ncapitalizeTitle: ${capitalizeTitle(
