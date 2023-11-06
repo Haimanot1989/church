@@ -125,6 +125,11 @@ const DoctrineOfSalvationCard = () => {
       episodeUrl: "https://player.rss.com/onlyjesus/1196923?theme=dark",
       sermonUrl:
         "/sermons/THE_GLORY_OF_THE_FATHER_IS_THE_SAME_AS_THE_GLORY_OF_THE_SON.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/1204059?theme=dark",
+      sermonUrl:
+        "/sermons/ISAAC__PERFECT_TRUST_IN_THE_WILL_OF_GOD.pdf"
     }
   ];
   return (
