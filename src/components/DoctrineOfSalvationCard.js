@@ -128,8 +128,11 @@ const DoctrineOfSalvationCard = () => {
     },
     {
       episodeUrl: "https://player.rss.com/onlyjesus/1204059?theme=dark",
-      sermonUrl:
-        "/sermons/ISAAC__PERFECT_TRUST_IN_THE_WILL_OF_GOD.pdf"
+      sermonUrl: "/sermons/ISAAC__PERFECT_TRUST_IN_THE_WILL_OF_GOD.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/1219259?theme=dark",
+      sermonUrl: "/sermons/YOU_ARE_THE_TEMPLE_OF_GOD.pdf"
     }
   ];
   return (
