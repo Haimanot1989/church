@@ -133,6 +133,10 @@ const DoctrineOfSalvationCard = () => {
     {
       episodeUrl: "https://player.rss.com/onlyjesus/1219259?theme=dark",
       sermonUrl: "/sermons/YOU_ARE_THE_TEMPLE_OF_GOD.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/1233344?theme=dark",
+      sermonUrl: "/sermons/THY_FAITH_HAS_MADE_THEE_WHOLE.pdf"
     }
   ];
   return (

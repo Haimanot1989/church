@@ -36,7 +36,8 @@ function capitalizeTitle(title) {
         "see",
         "up",
         "are",
-        "saw"
+        "saw",
+        "has"
       ].includes(str.toLowerCase())
         ? str.charAt(0).toLowerCase()
         : str.charAt(0).toUpperCase();
@@ -56,7 +57,7 @@ function convertTitleToFileName(title) {
     .join("_");
 }
 
-let titles = ["The glory of the Father is the same as the glory of the Son"];
+let titles = ["THY FAITH HAS MADE THEE WHOLE"];
 titles.forEach(title => {
   console.log(
     `\ncapitalizeTitle: ${capitalizeTitle(
