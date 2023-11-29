@@ -137,6 +137,10 @@ const DoctrineOfSalvationCard = () => {
     {
       episodeUrl: "https://player.rss.com/onlyjesus/1233344?theme=dark",
       sermonUrl: "/sermons/THY_FAITH_HAS_MADE_THEE_WHOLE.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/1244393?theme=dark",
+      sermonUrl: "/sermons/THE_CROWNS_OF_VICTORY_A_CHRISTIANS_ETERNAL_REWARD.pdf"
     }
   ];
   return (
