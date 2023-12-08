@@ -140,7 +140,13 @@ const DoctrineOfSalvationCard = () => {
     },
     {
       episodeUrl: "https://player.rss.com/onlyjesus/1244393?theme=dark",
-      sermonUrl: "/sermons/THE_CROWNS_OF_VICTORY_A_CHRISTIANS_ETERNAL_REWARD.pdf"
+      sermonUrl:
+        "/sermons/THE_CROWNS_OF_VICTORY_A_CHRISTIANS_ETERNAL_REWARD.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/1256345?theme=dark",
+      sermonUrl:
+        "/sermons/GIVE_ME_ALSO_SPRINGS_OF_WATER_THE_REQUEST_OF_ACHSAH.pdf"
     }
   ];
   return (
