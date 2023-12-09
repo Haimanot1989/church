@@ -147,6 +147,10 @@ const DoctrineOfSalvationCard = () => {
       episodeUrl: "https://player.rss.com/onlyjesus/1256345?theme=dark",
       sermonUrl:
         "/sermons/GIVE_ME_ALSO_SPRINGS_OF_WATER_THE_REQUEST_OF_ACHSAH.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/1259504?theme=dark",
+      sermonUrl: "/sermons/THE_POWER_OF_THE_WORD_OF_GOD.pdf"
     }
   ];
   return (
