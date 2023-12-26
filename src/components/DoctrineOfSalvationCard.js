@@ -151,6 +151,14 @@ const DoctrineOfSalvationCard = () => {
     {
       episodeUrl: "https://player.rss.com/onlyjesus/1259504?theme=dark",
       sermonUrl: "/sermons/THE_POWER_OF_THE_WORD_OF_GOD.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/1278094?theme=dark",
+      sermonUrl: "/sermons/FROM_DEACON_TO_PREACHER_TO_MARTYR_THE_STORY_OF_STEPHEN.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/1278100?theme=dark",
+      sermonUrl: "/sermons/JESUS_THE_PRINCE_OF_PEACE.pdf"
     }
   ];
   return (
