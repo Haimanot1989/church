@@ -9,7 +9,6 @@ import Card from "./Card";
 const europeBibleStudyOnZoom = onlineMeetings["europeBibleStudyOnZoom"];
 
 const Home = function() {
-  const newYearConference20232024 = conferences["newYearConference20232024"];
   const februaryConferenceUK2024 = conferences["februaryConferenceUK2024"];
 
   let pageDescription = {
@@ -19,12 +18,9 @@ const Home = function() {
     <>
       <main role="main" className="container mb-2 position-main">
         <PageDescriber {...pageDescription} />
-        <div className="card-deck mb-2">
-          <Card {...newYearConference20232024} />
-          <Card {...februaryConferenceUK2024} />
-        </div>
         <DoctrineOfSalvationIntroCard />
         <div className="card-deck mb-2">
+          <Card {...februaryConferenceUK2024} />
           <OnlineMeetingCard {...europeBibleStudyOnZoom} />
         </div>
       </main>
