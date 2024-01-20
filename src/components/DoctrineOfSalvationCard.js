@@ -164,6 +164,10 @@ const DoctrineOfSalvationCard = () => {
     {
       episodeUrl: "https://player.rss.com/onlyjesus/1292905?theme=dark",
       sermonUrl: "/sermons/THE_PURPOSE_OF_UNITY.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/1308405?theme=dark",
+      sermonUrl: "/sermons/THE_JUDGEMENT_OF_THE_QUEEN_OF_SHEBA.pdf"
     }
   ];
   return (
