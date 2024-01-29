@@ -172,6 +172,10 @@ const DoctrineOfSalvationCard = () => {
     {
       episodeUrl: "https://player.rss.com/onlyjesus/1317808?theme=dark",
       sermonUrl: "/sermons/YOUNG_MAN_I_SAY_UNTO_THEE_ARISE.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/1321969?theme=dark",
+      sermonUrl: "/sermons/WHAT_DOTH_THE_LORD_REQUIRE_OF_THEE.pdf"
     }
   ];
   return (
