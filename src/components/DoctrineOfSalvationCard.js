@@ -176,6 +176,10 @@ const DoctrineOfSalvationCard = () => {
     {
       episodeUrl: "https://player.rss.com/onlyjesus/1321969?theme=dark",
       sermonUrl: "/sermons/WHAT_DOTH_THE_LORD_REQUIRE_OF_THEE.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/1339729?theme=dark",
+      sermonUrl: "/sermons/CALL_FOR_SIMON.pdf"
     }
   ];
   return (
