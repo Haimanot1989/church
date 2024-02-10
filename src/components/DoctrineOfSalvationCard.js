@@ -180,6 +180,10 @@ const DoctrineOfSalvationCard = () => {
     {
       episodeUrl: "https://player.rss.com/onlyjesus/1339729?theme=dark",
       sermonUrl: "/sermons/CALL_FOR_SIMON.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/1340292?theme=dark",
+      sermonUrl: "/sermons/JESUS_THE_DESIRE_OF_ALL_NATIONS.pdf"
     }
   ];
   return (
