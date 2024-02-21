@@ -9,7 +9,7 @@ import Card from "./Card";
 const europeBibleStudyOnZoom = onlineMeetings["europeBibleStudyOnZoom"];
 
 const Home = function() {
-  const februaryConferenceUK2024 = conferences["februaryConferenceUK2024"];
+  const augustConferenceUK2024 = conferences["augustConferenceUK2024"];
 
   let pageDescription = {
     title: "Jesus Alone is God Church of Europe"
@@ -20,7 +20,7 @@ const Home = function() {
         <PageDescriber {...pageDescription} />
         <DoctrineOfSalvationIntroCard />
         <div className="card-deck mb-2">
-          <Card {...februaryConferenceUK2024} />
+          <Card {...augustConferenceUK2024} />
           <OnlineMeetingCard {...europeBibleStudyOnZoom} />
         </div>
       </main>
