@@ -184,6 +184,10 @@ const DoctrineOfSalvationCard = () => {
     {
       episodeUrl: "https://player.rss.com/onlyjesus/1340292?theme=dark",
       sermonUrl: "/sermons/JESUS_THE_DESIRE_OF_ALL_NATIONS.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/1365736?theme=dark",
+      sermonUrl: "/sermons/THE_GOSPEL_IN_THE_COURT_OF_LAW.pdf"
     }
   ];
   return (
