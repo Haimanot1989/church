@@ -432,6 +432,38 @@
     },
     "confSubtypes": []
   },
+  "juneConferenceHungary2024": {
+    "imageUrl": "./gyor.jpg",
+    "mainLocation": {
+      "map": "https://www.google.com/maps/dir//Gy%C5%91r,+Hungary/@47.6875073,17.6091981,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x476bbf87407ea035:0x400c4290c1e11e0!2m2!1d17.6503974!2d47.6874569!3e0?entry=ttu",
+      "placeName": "Győr, Hungary"
+    },
+    "onlineLocation": {
+      "platformName": "Zoom",
+      "zoomInfo": {
+        "meetingId": "639 807 0890",
+        "meetingPassword": "OneGod",
+        "meetingLink": {
+          "map": "https://us02web.zoom.us/j/6398070890?pwd=MlZxZWcwR3I0d3R1MmhDN0syaUx0Zz09",
+          "placeName": "Join the meeting by click on this link or use the id and password above in the zoom app"
+        }
+      }
+    },
+    "confType": "2024 June conference",
+    "country": "Hungary",
+    "city": "Győr",
+    "confStart": {
+      "date": "29",
+      "sup": "th",
+      "month": "June"
+    },
+    "confEnd": {
+      "date": "30",
+      "sup": "th",
+      "month": "June"
+    },
+    "confSubtypes": []
+  },
   "augustConferenceGermany2021WithDetails": {
     "mainLocation": {
       "map": "https://www.google.com/maps/place/Siegener+Str.+22,+65936+Frankfurt+am+Main,+Tyskland/@50.1229916,8.5658883,17.85z/data=!4m5!3m4!1s0x47bd09fd6356ea25:0x61e96280ca151304!8m2!3d50.1228794!4d8.5663794",
