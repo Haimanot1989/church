@@ -192,6 +192,10 @@ const DoctrineOfSalvationCard = () => {
     {
       episodeUrl: "https://player.rss.com/onlyjesus/1377535?theme=dark",
       sermonUrl: "/sermons/THE_GOSPEL_NOT_AFTER_MAN.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/1381868?theme=dark",
+      sermonUrl: "/sermons/GOD_ALSO_HATH_HIGHLY_EXALTED_HIM.pdf"
     }
   ];
   return (
