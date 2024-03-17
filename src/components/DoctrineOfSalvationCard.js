@@ -196,6 +196,11 @@ const DoctrineOfSalvationCard = () => {
     {
       episodeUrl: "https://player.rss.com/onlyjesus/1381868?theme=dark",
       sermonUrl: "/sermons/GOD_ALSO_HATH_HIGHLY_EXALTED_HIM.pdf"
+    },
+    {
+      episodeUrl: "https://player.rss.com/onlyjesus/1393449?theme=dark",
+      sermonUrl:
+        "/sermons/WHAT_IS_THE_RELATION_OF_THE_SPIRIT_OF_GOD_TO_HIS_FLESH_AND_BLOOD.pdf"
     }
   ];
   return (
