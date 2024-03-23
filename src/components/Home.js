@@ -10,7 +10,6 @@ const europeBibleStudyOnZoom = onlineMeetings["europeBibleStudyOnZoom"];
 
 const Home = function() {
   const juneConferenceHungary2024 = conferences["juneConferenceHungary2024"];
-  const augustConferenceUK2024 = conferences["augustConferenceUK2024"];
 
   let pageDescription = {
     title: "Jesus Alone is God Church of Europe"
@@ -25,7 +24,6 @@ const Home = function() {
         </div>
         <div className="card-deck mb-2">
           <Card {...juneConferenceHungary2024} />
-          <Card {...augustConferenceUK2024} />
         </div>
       </main>
     </>
