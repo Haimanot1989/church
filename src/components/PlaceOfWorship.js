@@ -11,7 +11,7 @@ const PlaceOfWorship = () => {
   let finishTime = "17:30";
   let mainLocation = {
     map:
-      "https://www.google.com/maps/place/Sk%C3%B8yer'n+fritidsklubb/@59.8997986,10.8407608,17z/data=!3m1!4b1!4m5!3m4!1s0x46416f63edefaf97:0x8273d57b2f979b8!8m2!3d59.8997986!4d10.8429495",
+      "https://www.google.com/maps/place/Sk%C3%B8yer'n+Juniorklubb/@59.8994456,10.8408631,17z/data=!3m1!4b1!4m6!3m5!1s0x46416ffdba8423b7:0x2feb9124178f8590!8m2!3d59.8994456!4d10.843438!16s%2Fg%2F11kq6rtn7p?entry=ttu",
     placeName: "Skøyer'n fritidsklubb, Solbergliveien 85, 0683 Oslo"
   };
   let pageDescription = {

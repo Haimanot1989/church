@@ -435,19 +435,8 @@
   "juneConferenceHungary2024": {
     "imageUrl": "./gyor.jpg",
     "mainLocation": {
-      "map": "https://www.google.com/maps/dir//Gy%C5%91r,+Hungary/@47.6875073,17.6091981,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x476bbf87407ea035:0x400c4290c1e11e0!2m2!1d17.6503974!2d47.6874569!3e0?entry=ttu",
-      "placeName": "Győr, Hungary"
-    },
-    "onlineLocation": {
-      "platformName": "Zoom",
-      "zoomInfo": {
-        "meetingId": "639 807 0890",
-        "meetingPassword": "OneGod",
-        "meetingLink": {
-          "map": "https://us02web.zoom.us/j/6398070890?pwd=MlZxZWcwR3I0d3R1MmhDN0syaUx0Zz09",
-          "placeName": "Join the meeting by click on this link or use the id and password above in the zoom app"
-        }
-      }
+      "map": "https://www.google.com/maps/place/Hotel+Garzon+Plaza/@47.6694301,17.6460698,17z/data=!4m9!3m8!1s0x476bc07628944fc5:0x7258a285e5bdc954!5m2!4m1!1i2!8m2!3d47.6694301!4d17.6486447!16s%2Fg%2F11bx1hzmcz?entry=ttu",
+      "placeName": "Hotel Garzon Plaza, Győr, Vasvári Pál u. 1/b, 9024 Hungary"
     },
     "confType": "2024 June conference",
     "country": "Hungary",
@@ -462,7 +451,37 @@
       "sup": "th",
       "month": "June"
     },
-    "confSubtypes": []
+    "confSubtypes": [
+      {
+        "title": "Whole day program",
+        "location": {
+          "address": "Hotel Garzon Plaza, Győr, Vasvári Pál u. 1/b, 9024 Hungary",
+          "map": "https://www.google.com/maps/place/Hotel+Garzon+Plaza/@47.6694301,17.6460698,17z/data=!4m9!3m8!1s0x476bc07628944fc5:0x7258a285e5bdc954!5m2!4m1!1i2!8m2!3d47.6694301!4d17.6486447!16s%2Fg%2F11bx1hzmcz?entry=ttu"
+        },
+        "time": [
+          {
+            "date": {
+              "day": "Saturday",
+              "date": "29",
+              "sup": "th",
+              "month": "June"
+            },
+            "startTime": "10:00",
+            "finishTime": "18:00"
+          },
+          {
+            "date": {
+              "day": "Sunday",
+              "date": "30",
+              "sup": "th",
+              "month": "June"
+            },
+            "startTime": "10:00",
+            "finishTime": "18:00"
+          }
+        ]
+      }
+    ]
   },
   "augustConferenceGermany2021WithDetails": {
     "mainLocation": {
