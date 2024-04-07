@@ -17,11 +17,10 @@ const BookCard = ({ title, subTitle, summary, pdfLink, image, pages }) => {
         </div>
         <div className="card-body books-description-box">
           <p className="card-text">{summary}</p>
-          <div className="d-flex justify-content-between align-items-center">
-            <a href={pdfLink} className="btn btn-sm btn-outline-secondary">
-              Open the book
+          <div className="action-box">
+            <a href={pdfLink} className="btn btn-lg btn-secondary action-btn">
+              {`Open the book - ${pages} pages`}
             </a>
-            <small className="text-muted">{pages} pages</small>
           </div>
         </div>
       </div>
