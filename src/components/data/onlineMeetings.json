@@ -222,7 +222,7 @@
     "imageUrl": "./bible-study.png",
     "title": "Bible study every Saturday at 19:00 - 21:00 CEST",
     "isCancelled": true,
-    "cancelledMessage": "Closed on the 29th of June, 2024 due to the conference in Hungary."
+    "cancelledMessage": "Closed due to the conference in Hungary."
   },
   "decemberConference2020": {
     "platformName": "Zoom",
