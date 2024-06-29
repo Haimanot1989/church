@@ -438,6 +438,15 @@
       "map": "https://www.google.com/maps/place/Hotel+Garzon+Plaza/@47.6694301,17.6460698,17z/data=!4m9!3m8!1s0x476bc07628944fc5:0x7258a285e5bdc954!5m2!4m1!1i2!8m2!3d47.6694301!4d17.6486447!16s%2Fg%2F11bx1hzmcz?entry=ttu",
       "placeName": "Hotel Garzon Plaza, Győr, Vasvári Pál u. 1/b, 9024 Hungary"
     },
+    "onlineLocation": {
+      "platformName": "Microsoft Teams",
+      "zoomInfo": {
+        "meetingLink": {
+          "map": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZTAyNzBhMzYtNzRhMi00YjdhLTk0N2MtODdiMDNkMjY5YTVm%40thread.v2/0?context=%7b%22Tid%22%3a%22949777ff-1672-4524-999a-d9e55465738d%22%2c%22Oid%22%3a%22f8251435-47f8-4f0d-9999-8fcccb6bac68%22%7d",
+          "placeName": "Install the free Microsoft Teams app on your phone or laptop and join the meeting by clicking on this link."
+        }
+      }
+    },
     "confType": "2024 June conference",
     "country": "Hungary",
     "city": "Győr",
