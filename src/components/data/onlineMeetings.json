@@ -221,7 +221,7 @@
     },
     "imageUrl": "./bible-study.png",
     "title": "Bible study every Saturday at 19:00 - 21:00 CEST",
-    "isCancelled": true,
+    "isCancelled": false,
     "cancelledMessage": "Closed due to the conference in Hungary."
   },
   "decemberConference2020": {
