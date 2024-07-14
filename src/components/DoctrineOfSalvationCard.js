@@ -39,16 +39,18 @@ function Player({ episodeUrl, sermonUrl }) {
         title="Jesus Alone is God"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       ></iframe>
-      <div className="action-box">
-        <a
-          href={sermonUrl}
-          className="btn btn-lg btn-secondary action-btn"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          {`Open the accompanying pdf`}
-        </a>
-      </div>
+      {sermonUrl && (
+        <div className="action-box">
+          <a
+            href={sermonUrl}
+            className="btn btn-lg btn-secondary action-btn"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            {`Open the accompanying pdf`}
+          </a>
+        </div>
+      )}
     </div>
   );
 }
