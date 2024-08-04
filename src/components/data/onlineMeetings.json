@@ -221,7 +221,7 @@
     },
     "imageUrl": "./bible-study.png",
     "title": "Bible study every Saturday at 19:00 - 21:00 CEST",
-    "isCancelled": true,
+    "isCancelled": false,
     "cancelledMessage": "Today's Bible study has been cancelled. We'll be back next week."
   },
   "decemberConference2020": {
