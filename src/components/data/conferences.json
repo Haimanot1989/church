@@ -1358,7 +1358,7 @@
       }
     ]
   },
-  "octoberConference2023": {
+  "octoberConference2024": {
     "mainLocation": {
       "map": "https://www.google.com/maps/place/Kruisheuvelkerk/@52.091835,4.3846333,17z/data=!3m1!4b1!4m6!3m5!1s0x47c5b7e89b5402af:0x2d7ceb58caf2e420!8m2!3d52.0918317!4d4.3872082!16s%2Fg%2F11_r3ksw8?entry=ttu",
       "placeName": "Kruisheuvelkerk -Leidschendam - Den Haag"
@@ -1372,16 +1372,35 @@
     "country": "Netherlands",
     "city": "The Hague",
     "confStart": {
-      "date": "20",
+      "date": "17",
       "sup": "th",
       "month": "October"
     },
     "confEnd": {
-      "date": "22",
-      "sup": "nd",
+      "date": "20",
+      "sup": "th",
       "month": "October"
     },
     "confSubtypes": [
+      {
+        "title": "Thursday's program",
+        "location": {
+          "address": "Kruisheuvelkerk,Burgemeester Roeringlaan 6, 2262 EC Leidschendam, Netherlands",
+          "map": "https://www.google.com/maps/place/Kruisheuvelkerk/@52.091835,4.3846333,17z/data=!3m1!4b1!4m6!3m5!1s0x47c5b7e89b5402af:0x2d7ceb58caf2e420!8m2!3d52.0918317!4d4.3872082!16s%2Fg%2F11_r3ksw8?entry=ttu"
+        },
+        "time": [
+          {
+            "date": {
+              "day": "Thursday",
+              "date": "17",
+              "sup": "th",
+              "month": "October"
+            },
+            "startTime": "11:00",
+            "finishTime": "18:00"
+          }
+        ]
+      },
       {
         "title": "Friday program",
         "location": {
@@ -1392,12 +1411,12 @@
           {
             "date": {
               "day": "Friday",
-              "date": "20",
+              "date": "18",
               "sup": "th",
               "month": "October"
             },
-            "startTime": "15:00",
-            "finishTime": "19:00"
+            "startTime": "13:00",
+            "finishTime": "20:00"
           }
         ]
       },
@@ -1411,23 +1430,23 @@
           {
             "date": {
               "day": "Saturday",
-              "date": "21",
-              "sup": "st",
+              "date": "19",
+              "sup": "th",
               "month": "October"
             },
             "startTime": "10:00",
-            "finishTime": "18:00",
+            "finishTime": "20:00",
             "lunchBreak": "14:00 - 16:00"
           },
           {
             "date": {
               "day": "Sunday",
-              "date": "22",
-              "sup": "nd",
+              "date": "20",
+              "sup": "th",
               "month": "October"
             },
             "startTime": "10:00",
-            "finishTime": "18:00",
+            "finishTime": "20:00",
             "lunchBreak": "14:00 - 16:00"
           }
         ]
