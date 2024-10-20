@@ -1367,6 +1367,16 @@
     "confType": "October conference",
     "country": "Netherlands",
     "city": "The Hague",
+    "onlineLocation": {
+      "platformName": "Microsoft Teams",
+      "zoomInfo": {
+        "meetingLink": {
+          "map": "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZTAyNzBhMzYtNzRhMi00YjdhLTk0N2MtODdiMDNkMjY5YTVm%40thread.v2/0?context=%7b%22Tid%22%3a%22949777ff-1672-4524-999a-d9e55465738d%22%2c%22Oid%22%3a%22f8251435-47f8-4f0d-9999-8fcccb6bac68%22%7d",
+          "placeName": "Install the free Microsoft Teams app on your phone or laptop and join the meeting by clicking on this link."
+        }
+      }
+    },
+
     "confStart": {
       "date": "18",
       "sup": "th",
