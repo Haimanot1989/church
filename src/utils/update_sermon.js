@@ -15,20 +15,15 @@ const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
 // Array of new sermon objects
 const newSermons = [
   {
-    rawTitle: "Found by Him: The Unseen Seekers of Christ",
-    summary: `This sermon explores the theme of God’s initiative in reaching individuals, often those who aren't actively seeking Him. Isaiah 65:1 and Romans 10:20 highlight the mystery of divine grace, where God reveals Himself even to those who aren't looking for Him. Through four biblical narratives, the sermon emphasizes how God’s compassion and sovereignty extend to the most unexpected people.
+    rawTitle: "Lift Up Your Heads",
+    summary: `This sermon, titled "Lift Up Your Heads," calls on believers to stay vigilant and faithful as signs of Jesus' return become increasingly evident. Luke 21:28 encourages Christians to “look up” and be aware of the prophecies signaling redemption. The sermon begins by reflecting on the first coming of Jesus, highlighting how prophecies, like Micah's foretelling of Jesus' birth in Bethlehem, were ignored by many Israelites. Despite clear signs, it was the humble wise men—non-Jews—who followed a star to find Jesus, underscoring that God can use anyone, even non-believers, to fulfill His plans when His people are unresponsive.
 
-First, the story of Saul, son of Kish (1 Samuel 9) illustrates how God uses ordinary events for divine purposes. Saul’s search for his father’s lost donkeys leads him to be anointed as Israel’s first king, showing that God can redirect mundane pursuits into encounters with destiny.
+The sermon then draws a parallel between the Israelites’ neglect of prophetic signs and today’s society, warning that many are similarly inattentive to prophecies about Christ’s second coming. Today’s advancements in technology are cited as a potential fulfillment of Daniel’s prophecy about knowledge increasing in the end times (Daniel 12:4). While technology itself is neutral, it can be used for evil, especially in worship of the Antichrist, as suggested in Revelation’s prophecy of a mark required for commerce (Revelation 13:16-17). The sermon urges believers to use technology to glorify God rather than being consumed by worldly distractions.
 
-Second, in Luke 7, Jesus encounters a funeral procession in Nain, where He raises a widow’s only son from the dead. This act of compassion occurs without the widow seeking Him, demonstrating prevenient grace—God’s mercy and intervention before humans even recognize their need.
-
-The third story, Zacchaeus the tax collector (Luke 19), shows a man seeking Jesus out of curiosity rather than faith. Jesus calls Zacchaeus down from a sycamore tree, enters his home, and offers salvation, symbolizing divine hospitality and acceptance. This story underscores that even our smallest steps toward God can lead to profound transformation.
-
-Lastly, Saul of Tarsus (Acts 9) actively persecutes Christians, yet encounters Jesus on the road to Damascus. This dramatic conversion highlights God’s irresistible grace, capable of transforming even the most resistant heart. Saul’s transformation into Paul, a devoted apostle, reflects the boundless reach of God’s mission.
-
-In these stories, we see a unifying theme of God’s grace reaching the unexpected. Hebrews 11:6 encourages those who diligently seek Him, assuring that they will encounter His rewards. The sermon concludes by urging believers to seek God wholeheartedly, trusting in His unfailing presence and promises.`,
-    imgRef: "https://unsplash.com/photos/another-new-image-link",
-    pages: 3
+Further signs include the restoration of Israel, the anticipated Battle of Gog and Magog, the potential rebuilding of the Third Temple, and the rise in demonic interest and UFO phenomena. Rather than seeking new signs, believers are encouraged to have faith in the prophets and apostles, who have already given sufficient warning. The message concludes with a call to “lift up your heads” and stay spiritually alert, embracing the coming redemption with faith and preparation.`,
+    imgRef:
+      "https://unsplash.com/photos/clear-glass-hour-glass-on-black-table--NOt0m6zXJU",
+    pages: 2
   }
 ];
 
@@ -36,7 +31,7 @@ In these stories, we see a unifying theme of God’s grace reaching the unexpect
 newSermons.forEach(sermon => {
   const formattedTitle = capitalizeTitle(sermon.rawTitle);
   const fileName = convertTitleToFileName(sermon.rawTitle);
-  const formattedSummary = sermon.summary.replace(/\n/g, "\\n");
+  const formattedSummary = sermon.summary.replace(/\n/g, "\n");
 
   const newSermon = {
     title: formattedTitle,
