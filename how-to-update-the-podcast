@@ -1,0 +1,55 @@
+# How to Update the Church Podcast
+
+## Steps to Update the Podcast with a New Sermon
+
+### 1. Download the Audio File
+- Download the audio file from Zoom.
+- Trim the beginning or end of the audio file if necessary.
+- Save the audio file with the same name as the sermon title.
+
+### 2. Update the Show Notes
+- Update the following show notes structure with the correct summary, sermon link, and title:
+  ```html
+  <ul>
+    <li>Email: hpaulsilas@hotmail.com</li>
+    <li>https://apostolicinternational.com/</li>
+    <li>Statement of beliefs: https://apostolicinternational.com/statement-of-beliefs</li>
+    <li>The sermon: https://apostolicinternational.com/sermons/sermon_file_name.pdf</li>
+    <li>
+      In this sermon, the Land of Canaan is not portrayed as a metaphor for heaven but rather as a symbol of the Christian’s spiritual journey within the Church of Jesus Christ. The challenges the Israelites faced upon entering Canaan—such as giants, harlots, and enemies—are paralleled to the struggles Christians encounter in their daily walk with God. The message emphasizes that, like the Israelites, Christians must engage in spiritual warfare, fighting not against physical enemies, but against internal battles of the flesh. The "giants" Christians face are the sins and temptations that reside within them, which Apostle Paul names in Galatians 5:19-21—such as idolatry, hatred, and fornication.
+      The ten spies who brought back a negative report about Canaan illustrate the failure to trust in God’s promises. Despite the abundance of blessings in the Church, some Christians hesitate to confront their spiritual battles, wanting only the benefits without the struggles. The story of David and Goliath serves as an encouragement, showing that with faith, every seemingly insurmountable obstacle can be overcome.
+      Furthermore, the Israelites' failure to eliminate the Canaanites—resulting in compromises and adopting their practices—teaches the dangers of spiritual complacency and disobedience. These compromises, rather than the literal giants, posed the real threat to Israel's faithfulness to God.
+      In conclusion, the Land of Canaan represents the trials, temptations, and spiritual warfare Christians face, reminding believers to fight the good fight of faith, trust in God’s guidance, and remain vigilant against both overt and subtle spiritual threats.
+    </li>
+  </ul>
+  ```
+
+  ### 3. Upload the Trimmed File
+- Upload the trimmed file to the podcast host (`https://dashboard.rss.com/podcasts/onlyjesus/`).
+  - Add it as a new episode.
+  - Put the title with the correct number.
+  - Add the summary with the updated links.
+  - Set the correct season number and episode number.
+  - Publish the episode.
+
+### 4. Add to `podcasts.json`
+- Add an object to the end of `podcasts.json` with the incremented title, formatted sermon title, and the ID of the uploaded podcast.
+
+### 5. Example of Updated `podcasts.json`
+```json
+{
+  "episodeUrl": "https://player.rss.com/onlyjesus/1731593?theme=dark",
+  "sermonUrl": "/sermons/THE_LAND_OF_CANAAN_AND_THE_CHURCH.pdf",
+  "title": "#71: The Land of Canaan and the Church"
+},
+{
+  "episodeUrl": "https://player.rss.com/onlyjesus/1731593?theme=dark",
+  "sermonUrl": "/sermons/JESUS_THE_MEANING_OF_LIFE.pdf",
+  "title": "#72: Jesus: the Meaning of Life"
+},
+{
+  "episodeUrl": "https://player.rss.com/onlyjesus/1731597?theme=dark",
+  "sermonUrl": "/sermons/FOUND_BY_HIM_THE_UNSEEN_SEEKERS_OF_CHRIST.pdf",
+  "title": "#73: Found By Him: the Unseen Seekers of Christ"
+}
+```
