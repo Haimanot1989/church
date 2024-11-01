@@ -1,8 +1,4 @@
-// mv ~/Downloads/***.pdf ~/workspace/private/church/public/sermons/.
-// mv ~/Downloads/THE_FIRSTBORNS_OF_THE_FIRSTBORN.pdf ~/workspace/private/church/public/sermons/
-//node src/utils/strManipulators.js
-// check cap: https://capitalizemytitle.com/style/Chicago/
-//mv "public/sermons/Who Touched Me.pdf" public/sermons/WHO_TOUCHED_ME.pdf
+// Function to capitalize the title according to specific rules
 function capitalizeTitle(title) {
   let cap = title
     .split(" ")
@@ -48,6 +44,7 @@ function capitalizeTitle(title) {
   return `${cap.charAt(0).toUpperCase()}${cap.slice(1)}`;
 }
 
+// Function to convert the title to a file name
 function convertTitleToFileName(title) {
   return title
     .trim()
@@ -57,11 +54,5 @@ function convertTitleToFileName(title) {
     .join("_");
 }
 
-let titles = ["THY FAITH HAS MADE THEE WHOLE"];
-titles.forEach(title => {
-  console.log(
-    `\ncapitalizeTitle: ${capitalizeTitle(
-      title
-    )}\n convertTitleToFileName: ${convertTitleToFileName(title)}`
-  );
-});
+// Export the functions
+module.exports = { capitalizeTitle, convertTitleToFileName };
