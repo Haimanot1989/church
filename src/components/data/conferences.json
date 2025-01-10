@@ -73,6 +73,53 @@
     },
     "confSubtypes": []
   },
+  "februaryConferenceUK2025": {
+    "imageUrl": "./london.png",
+    "confType": "February conference",
+    "country": "UK",
+    "city": "London",
+    "confStart": {
+      "date": "15",
+      "sup": "th",
+      "month": "February"
+    },
+    "confEnd": {
+      "date": "16",
+      "sup": "th",
+      "month": "February"
+    },
+    "confSubtypes": [
+      {
+        "title": "Whole day program",
+        "location": {
+          "address": "St Philip's Church, Earls Ct Rd, London W8 6QH, United Kingdom",
+          "map": "https://www.google.com/maps/dir//St+Philip's+Church,+Earls+Ct+Rd,+London+W8+6QH,+United+Kingdom/@51.4958788,-0.2312531,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x48760ff319a47857:0xd5ca01bfae74dc33!2m2!1d-0.19634!2d51.4957893!3e0"
+        },
+        "time": [
+          {
+            "date": {
+              "day": "Saturday",
+              "date": "15",
+              "sup": "th",
+              "month": "February"
+            },
+            "startTime": "10:00",
+            "finishTime": "19:00"
+          },
+          {
+            "date": {
+              "day": "Sunday",
+              "date": "16",
+              "sup": "th",
+              "month": "February"
+            },
+            "startTime": "14:00",
+            "finishTime": "20:00"
+          }
+        ]
+      }
+    ]
+  },
   "februaryConferenceUK2024": {
     "mainLocation": {
       "map": "https://www.google.com/maps/dir//St+Philip's+Church,+Earls+Ct+Rd,+London+W8+6QH,+United+Kingdom/@51.4958788,-0.2312531,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x48760ff319a47857:0xd5ca01bfae74dc33!2m2!1d-0.19634!2d51.4957893!3e0",
