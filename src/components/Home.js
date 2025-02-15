@@ -17,12 +17,12 @@ const Home = function() {
     <>
       <main role="main" className="container mb-2 position-main">
         <PageDescriber {...pageDescription} />
+        <div className="card-deck mb-2">
+          <Card {...februaryConferenceUK2025} />
+        </div>
         <DoctrineOfSalvationIntroCard />
         <div className="card-deck mb-2">
           <OnlineMeetingCard {...europeBibleStudyOnZoom} />
-        </div>
-        <div className="card-deck mb-2">
-          <Card {...februaryConferenceUK2025} />
         </div>
       </main>
     </>
