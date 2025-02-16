@@ -154,6 +154,17 @@
       "sup": "th",
       "month": "February"
     },
+    "onlineLocation": {
+      "platformName": "Zoom",
+      "zoomInfo": {
+        "meetingId": "639 807 0890",
+        "meetingPassword": "OneGod",
+        "meetingLink": {
+          "map": "https://us02web.zoom.us/j/6398070890?pwd=MlZxZWcwR3I0d3R1MmhDN0syaUx0Zz09",
+          "placeName": "Join the meeting by click on this link or use the id and password above in the zoom app"
+        }
+      }
+    },
     "confSubtypes": [
       {
         "title": "Whole day program",
@@ -179,7 +190,7 @@
               "sup": "th",
               "month": "February"
             },
-            "startTime": "14:00",
+            "startTime": "15:00",
             "finishTime": "20:00"
           }
         ]
