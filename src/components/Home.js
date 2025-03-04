@@ -7,7 +7,8 @@ import conferences from "./data/conferences.json";
 import Card from "./Card";
 
 const europeBibleStudyOnZoom = onlineMeetings["europeBibleStudyOnZoom"];
-const annualConference2025 = conferences["annualConference2025"];
+const theLordSupperConferenceNorway2025 =
+  conferences["theLordSupperConferenceNorway2025"];
 
 const Home = function() {
   let pageDescription = {
@@ -22,7 +23,7 @@ const Home = function() {
           <OnlineMeetingCard {...europeBibleStudyOnZoom} />
         </div>
         <div className="card-deck mb-2">
-          <Card {...annualConference2025} />
+          <Card {...theLordSupperConferenceNorway2025} />
         </div>
       </main>
     </>

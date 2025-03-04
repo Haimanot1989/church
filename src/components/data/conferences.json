@@ -1046,6 +1046,68 @@
       }
     ]
   },
+  "theLordSupperConferenceNorway2025": {
+    "imageUrl": "./oslo.png",
+    "confType": "2025 The Lord's Supper Conference",
+    "country": "Norway",
+    "city": "Oslo",
+    "confStart": {
+      "date": "19",
+      "sup": "th",
+      "month": "April"
+    },
+    "confEnd": {
+      "date": "20",
+      "sup": "th",
+      "month": "April"
+    },
+    "mainLocation": {
+      "map": "https://www.google.com/maps/place/Sk%C3%B8yer'n+fritidsklubb/@59.8997986,10.8407608,17z/data=!3m1!4b1!4m5!3m4!1s0x46416f63edefaf97:0x8273d57b2f979b8!8m2!3d59.8997986!4d10.8429495",
+      "placeName": "Skøyer'n fritidsklubb, Solbergliveien 85, 0683 Oslo"
+    },
+    "onlineLocation": {
+      "platformName": "Zoom",
+      "zoomInfo": {
+        "meetingId": "639 807 0890",
+        "meetingPassword": "OneGod",
+        "meetingLink": {
+          "map": "https://us02web.zoom.us/j/6398070890?pwd=MlZxZWcwR3I0d3R1MmhDN0syaUx0Zz09",
+          "placeName": "Join the meeting by clicking on this link or using the details above in the zoom app"
+        }
+      }
+    },
+    "confSubtypes": [
+      {
+        "title": "New year program",
+        "location": {
+          "address": "Skøyer'n fritidsklubb, Solbergliveien 85, 0683 Oslo",
+          "map": "https://www.google.com/maps/place/Sk%C3%B8yer'n+fritidsklubb/@59.8997986,10.8407608,17z/data=!3m1!4b1!4m5!3m4!1s0x46416f63edefaf97:0x8273d57b2f979b8!8m2!3d59.8997986!4d10.8429495"
+        },
+        "time": [
+          {
+            "date": {
+              "day": "Saturday",
+              "date": "19",
+              "sup": "th",
+              "month": "April"
+            },
+            "startTime": "11:00",
+            "finishTime": "20:00"
+          },
+          {
+            "date": {
+              "day": "Sunday",
+              "date": "20",
+              "sup": "th",
+              "month": "April"
+            },
+            "startTime": "11:00",
+            "finishTime": "20:00"
+          }
+        ]
+      }
+    ]
+  },
   "annualConferenceNorway": {
     "imageUrl": "./oslo.jpg",
     "mainLocation": {
