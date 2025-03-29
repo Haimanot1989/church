@@ -1,4 +1,28 @@
 {
+  "churchTripToGermany2025": {
+    "mainLocation": {
+      "map": "https://www.google.com/maps/place/Berlin,+Germany/@52.5067296,13.2599316,11z/data=!3m1!4b1!4m6!3m5!1s0x47a84e373f035901:0x42120465b5e3b70!8m2!3d52.5200066!4d13.404954!16zL20vMDE1NnE?entry=ttu&g_ep=EgoyMDI1MDMyNS4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D",
+      "placeName": "Berlin"
+    },
+    "importantMessage": {
+      "content": "This is a four days church trip to Germany. More information on the program will be coming soon. You're most welcome to join us!",
+      "type": "info"
+    },
+    "imageUrl": "./berlin.png",
+    "confType": "2025 - Church Trip to Germany",
+    "country": "Germany",
+    "city": "Berlin",
+    "confStart": {
+      "date": "27",
+      "sup": "th",
+      "month": "July"
+    },
+    "confEnd": {
+      "date": "30",
+      "sup": "th",
+      "month": "July"
+    }
+  },
   "annualConference2025": {
     "mainLocation": {
       "map": "https://www.google.com/maps/place/HEG+-+Himmerlands+Erhvervs-+og+Gymnasieuddannelser/@56.8044826,9.5325833,17z/data=!3m1!4b1!4m6!3m5!1s0x46494447f335e4b7:0x72fe3f9e18fbc7e9!8m2!3d56.8044826!4d9.5325833!16s%2Fg%2F1hc0gv7z5?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D",
