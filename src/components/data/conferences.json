@@ -1071,7 +1071,7 @@
     ]
   },
   "theLordSupperConferenceNorway2025": {
-    "imageUrl": "./oslo.png",
+    "imageUrl": "./oslo.jpeg",
     "confType": "2025 The Lord's Supper Conference",
     "country": "Norway",
     "city": "Oslo",
@@ -1115,7 +1115,7 @@
               "sup": "th",
               "month": "April"
             },
-            "startTime": "11:00",
+            "startTime": "13:00",
             "finishTime": "20:00"
           },
           {
@@ -1125,7 +1125,7 @@
               "sup": "th",
               "month": "April"
             },
-            "startTime": "11:00",
+            "startTime": "13:00",
             "finishTime": "20:00"
           }
         ]
