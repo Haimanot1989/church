@@ -54,9 +54,14 @@ const AdditionalMessage = ({ content, type }) => {
   const textClass = type && type === "info" ? "text-info" : "text-danger";
   const Icon = type && type === "info" ? <GoInfo /> : <GoAlert />;
   return (
-    <p className={textClass}>
-      {Icon} {content}
-    </p>
+    content &&
+    Array.from(content).map((item, key) => (
+      <div key={key}>
+        <p className={textClass}>
+          {Icon} {item}
+        </p>
+      </div>
+    ))
   );
 };
 

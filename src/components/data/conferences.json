@@ -5,7 +5,15 @@
       "placeName": "Berlin"
     },
     "importantMessage": {
-      "content": "This is a four days church trip to Germany. More information on the program will be coming soon. You're most welcome to join us!",
+      "content": [
+        "Dear brothers and sisters",
+
+        "We are excited to announce the church trip to Berlin, Germany, in July 2025. The trip will take place from the 27th to the 30th of July. Since the program starts on the morning of the 27th and finishes on the evening of the 30th, it is preferable to check in on 26th July and check out on 31st July.",
+
+        "For those of you booking accommodations, some of us are staying in the area of 13509 Berlin-Reinickendorf, Germany. We recommend securing your stay in this area if possible, but feel free to make arrangements anywhere in Berlin.",
+
+        "Looking forward to a wonderful time together!"
+      ],
       "type": "info"
     },
     "imageUrl": "./berlin.png",
@@ -29,7 +37,9 @@
       "placeName": "HEG - Himmerlands Erhvervs- og Gymnasieuddannelser, Østre Blvd. 10, 9600 Aars"
     },
     "importantMessage": {
-      "content": "More information on hotels and restaurants near by will be coming soon.",
+      "content": [
+        "More information on hotels and restaurants near by will be coming soon."
+      ],
       "type": "info"
     },
     "imageUrl": "./aars.jpg",

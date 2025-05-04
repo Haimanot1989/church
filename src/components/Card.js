@@ -7,24 +7,24 @@ import { ConfSubTypeTimeItem } from "./ConfSubTypeTimeItem";
 import { Overlay } from "./Overlay";
 
 const Card = ({
-                imageUrl,
-                confType,
-                city,
-                country,
-                confStart,
-                confEnd,
-                confSubtypes,
-                contactInformation,
-                mainLocation,
-                onlineLocation,
-                hotelsNearBy,
-                restaurantsNearBy,
-                transportationInfo,
-                isCancelled,
-                cancelledMessage,
-                importantMessage,
-                invitation
-              }) => {
+  imageUrl,
+  confType,
+  city,
+  country,
+  confStart,
+  confEnd,
+  confSubtypes,
+  contactInformation,
+  mainLocation,
+  onlineLocation,
+  hotelsNearBy,
+  restaurantsNearBy,
+  transportationInfo,
+  isCancelled,
+  cancelledMessage,
+  importantMessage,
+  invitation
+}) => {
   if (!imageUrl) {
     return <div className="card" style={{ border: "none" }}></div>;
   }
@@ -107,12 +107,19 @@ const Card = ({
 const AdditionalMessage = ({ content, type }) => {
   const textClass = type && type === "info" ? "text-info" : "text-danger";
   const Icon = type && type === "info" ? <GoInfo /> : <GoAlert />;
+
   return (
-    <p className={textClass}>
-      {Icon} {content}
-    </p>
+    content &&
+    Array.from(content).map((item, key) => (
+      <div key={key}>
+        <p className={textClass}>
+          {Icon} {item}
+        </p>
+      </div>
+    ))
   );
 };
+
 const CardSectionTitle = ({ sectionTitle }) => {
   return (
     <li className="list-group-item new-card-section">
@@ -167,13 +174,13 @@ const InvitationLetter = ({ id, type, uri }) => {
 };
 
 const Hotel = ({
-                 name,
-                 address,
-                 distance,
-                 webSite,
-                 phoneNumber,
-                 mapLocation
-               }) => {
+  name,
+  address,
+  distance,
+  webSite,
+  phoneNumber,
+  mapLocation
+}) => {
   let id = name.replace(/\s/g, "");
   return (
     <li key={id} className="list-group-item">
@@ -193,7 +200,8 @@ const Hotel = ({
             <span className="li-label">Phone:</span> {phoneNumber}
           </li>
           <li className="custom-li-style list-group-item" key={id}>
-            <span className="li-label">Website:</span> <a href={ webSite }>click here to visit their website</a>
+            <span className="li-label">Website:</span>{" "}
+            <a href={webSite}>click here to visit their website</a>
           </li>
         </ul>
       </div>
@@ -201,20 +209,13 @@ const Hotel = ({
   );
 };
 
-const Transportation = ({
-                          title,
-                          description,
-                          type,
-                          distance
-                        }) => {
+const Transportation = ({ title, description, type, distance }) => {
   let id = title.replace(/\s/g, "");
   if (type === "info") {
     return (
       <li key={id} className="list-group-item">
         <div className="card-body">
-          <h5 className="card-subtitle mb-2 text-dark">
-            {title}
-          </h5>
+          <h5 className="card-subtitle mb-2 text-dark">{title}</h5>
           <ul className="list-group">
             <li className="custom-li-style list-group-item" key={id}>
               <a href={description}>click here for more information</a>
@@ -240,7 +241,6 @@ const Transportation = ({
       </div>
     </li>
   );
-
 };
 
 export default Card;
