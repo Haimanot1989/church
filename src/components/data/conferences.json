@@ -38,7 +38,7 @@
     },
     "importantMessage": {
       "content": [
-        "More information on hotels and restaurants near by will be coming soon."
+        "The main entrance is through HGE Energien. The place is a basketball hall. Scroll down to see the restaurants nearby."
       ],
       "type": "info"
     },
@@ -95,6 +95,16 @@
             "finishTime": "18:00"
           }
         ]
+      }
+    ],
+    "restaurantsNearBy": [
+      {
+        "name": "Link to various restaurants near by",
+        "address": "Himmerlandsgade, 9600 Aars",
+        "distance": "around 16 min walk",
+        "phoneNumber": "-",
+        "webSite": "https://www.google.com/maps/@/data=!3m1!4b1!4m3!11m2!2ss-En4vBHTbWwVG6jx16CNw!4sH_dQgjkndt8?g_ep=CAISEjI1LjMwLjAuNzg1NjQ2NTQ3MBgAILOgDCpjLDk0MjgyMzMzLDk0MjI0ODI1LDk0MjI3MjQ3LDk0MjI3MjQ4LDk0MjMxMTg4LDQ3MDcxNzA0LDQ3MDY5NTA4LDk0MjE4NjQxLDk0MjgyMTM0LDk0MjAzMDE5LDQ3MDg0MzA0QgJOTw%3D%3D",
+        "mapLocation": "https://www.google.com/maps/@/data=!3m1!4b1!4m3!11m2!2ss-En4vBHTbWwVG6jx16CNw!4sH_dQgjkndt8?g_ep=CAISEjI1LjMwLjAuNzg1NjQ2NTQ3MBgAILOgDCpjLDk0MjgyMzMzLDk0MjI0ODI1LDk0MjI3MjQ3LDk0MjI3MjQ4LDk0MjMxMTg4LDQ3MDcxNzA0LDQ3MDY5NTA4LDk0MjE4NjQxLDk0MjgyMTM0LDk0MjAzMDE5LDQ3MDg0MzA0QgJOTw%3D%3D"
       }
     ]
   },
