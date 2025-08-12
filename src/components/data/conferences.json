@@ -1599,7 +1599,7 @@
       }
     ]
   },
-  "octoberConference2024": {
+  "octoberConference2025": {
     "mainLocation": {
       "map": "https://www.google.com/maps/place/Kruisheuvelkerk/@52.091835,4.3846333,17z/data=!3m1!4b1!4m6!3m5!1s0x47c5b7e89b5402af:0x2d7ceb58caf2e420!8m2!3d52.0918317!4d4.3872082!16s%2Fg%2F11_r3ksw8?entry=ttu",
       "placeName": "Kruisheuvelkerk -Leidschendam - Den Haag"
@@ -1624,30 +1624,11 @@
       "month": "October"
     },
     "confEnd": {
-      "date": "20",
+      "date": "19",
       "sup": "th",
       "month": "October"
     },
     "confSubtypes": [
-      {
-        "title": "Friday program",
-        "location": {
-          "address": "Kruisheuvelkerk,Burgemeester Roeringlaan 6, 2262 EC Leidschendam, Netherlands",
-          "map": "https://www.google.com/maps/place/Kruisheuvelkerk/@52.091835,4.3846333,17z/data=!3m1!4b1!4m6!3m5!1s0x47c5b7e89b5402af:0x2d7ceb58caf2e420!8m2!3d52.0918317!4d4.3872082!16s%2Fg%2F11_r3ksw8?entry=ttu"
-        },
-        "time": [
-          {
-            "date": {
-              "day": "Friday",
-              "date": "18",
-              "sup": "th",
-              "month": "October"
-            },
-            "startTime": "13:00",
-            "finishTime": "20:00"
-          }
-        ]
-      },
       {
         "title": "Whole day program",
         "location": {
@@ -1658,7 +1639,7 @@
           {
             "date": {
               "day": "Saturday",
-              "date": "19",
+              "date": "18",
               "sup": "th",
               "month": "October"
             },
@@ -1669,7 +1650,7 @@
           {
             "date": {
               "day": "Sunday",
-              "date": "20",
+              "date": "19",
               "sup": "th",
               "month": "October"
             },
