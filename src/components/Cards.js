@@ -3,12 +3,12 @@ import Card from "./Card";
 import conferences from "./data/conferences.json";
 
 const Cards = () => {
-  const octoberConference2025 = conferences["octoberConference2025"];
+  const newYearConference20252026 = conferences["newYearConference20252026"];
 
   return (
     <>
       <div className="card-deck mb-2">
-        <Card {...octoberConference2025} />
+        <Card {...newYearConference20252026} />
       </div>
     </>
   );
