@@ -7,7 +7,6 @@ import conferences from "./data/conferences.json";
 import Card from "./Card";
 
 const europeBibleStudyOnZoom = onlineMeetings["europeBibleStudyOnZoom"];
-const newYearConference20252026 = conferences["newYearConference20252026"];
 const februaryConferenceUK2026 = conferences["februaryConferenceUK2026"];
 
 const Home = function() {
@@ -21,9 +20,6 @@ const Home = function() {
         <DoctrineOfSalvationIntroCard />
         <div className="card-deck mb-2">
           <OnlineMeetingCard {...europeBibleStudyOnZoom} />
-        </div>
-        <div className="card-deck mb-2">
-          <Card {...newYearConference20252026} />
         </div>
         <div className="card-deck mb-2">
           <Card {...februaryConferenceUK2026} />
