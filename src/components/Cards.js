@@ -4,11 +4,13 @@ import conferences from "./data/conferences.json";
 
 const Cards = () => {
   const februaryConferenceUK2026 = conferences["februaryConferenceUK2026"];
+  const annualConferenceNorway = conferences["annualConferenceNorway"];
 
   return (
     <>
       <div className="card-deck mb-2">
         <Card {...februaryConferenceUK2026} />
+        <Card {...annualConferenceNorway} />
       </div>
     </>
   );

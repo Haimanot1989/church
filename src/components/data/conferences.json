@@ -1222,13 +1222,15 @@
     ]
   },
   "annualConferenceNorway": {
-    "imageUrl": "./oslo.jpg",
+    "imageUrl": "./oslo.jpeg",
     "mainLocation": {
       "map": "https://www.google.com/maps/place/Torshov+Church/@59.9384634,10.7709087,17z/data=!4m15!1m8!3m7!1s0x46416e3e0fc14ca3:0x662d140333c84a4d!2sTorshov+Church!8m2!3d59.9384634!4d10.7730974!10e5!16s%2Fg%2F12326bj3!3m5!1s0x46416e3e0fc14ca3:0x662d140333c84a4d!8m2!3d59.9384634!4d10.7730974!16s%2Fg%2F12326bj3?entry=ttu",
       "placeName": "Åsengata 25, 0480 Oslo"
     },
     "importantMessage": {
-      "content": "Scroll down for more information about the transport, restaurants near by and hotels near by",
+      "content": [
+        "Scroll down for more information about the transport, restaurants near by and hotels near by"
+      ],
       "type": "info"
     },
     "onlineLocation": {
@@ -1242,21 +1244,18 @@
         }
       }
     },
-    "confType": "2023 Annual European Conference",
+    "confType": "2026 Annual European Conference",
     "country": "Norway",
     "city": "Oslo",
     "confStart": {
-      "date": "4",
-      "sup": "th",
-      "month": "August"
+      "date": "31",
+      "sup": "st",
+      "month": "July"
     },
     "confEnd": {
-      "date": "6",
-      "sup": "th",
+      "date": "2",
+      "sup": "nd",
       "month": "August"
-    },
-    "contactInformation": {
-      "emails": ["hpaulsilas@hotmail.com"]
     },
     "confSubtypesTmp": [],
     "confSubtypes": [
@@ -1270,9 +1269,9 @@
           {
             "date": {
               "day": "Friday",
-              "date": "4",
-              "sup": "th",
-              "month": "August"
+              "date": "31",
+              "sup": "st",
+              "month": "July"
             },
             "startTime": "11:00",
             "finishTime": "18:00"
@@ -1280,8 +1279,8 @@
           {
             "date": {
               "day": "Saturday",
-              "date": "5",
-              "sup": "th",
+              "date": "1",
+              "sup": "st",
               "month": "August"
             },
             "startTime": "11:00",
@@ -1290,8 +1289,8 @@
           {
             "date": {
               "day": "Sunday",
-              "date": "6",
-              "sup": "th",
+              "date": "2",
+              "sup": "nd",
               "month": "August"
             },
             "startTime": "11:00",
@@ -1371,7 +1370,7 @@
     "transportationInfo": [
       {
         "title": "Buy the ticket on the Ruter app",
-        "description": "https://ruter.no/en/journey/the-ruter-app/",
+        "description": "https://ruter.no/en/plan-journey/the-ruter-app",
         "type": "info"
       },
       {
