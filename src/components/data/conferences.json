@@ -1159,18 +1159,18 @@
       }
     ]
   },
-  "theLordSupperConferenceNorway2025": {
+  "theLordSupperConferenceNorway2026": {
     "imageUrl": "./oslo.jpeg",
     "confType": "2025 The Lord's Supper Conference",
     "country": "Norway",
     "city": "Oslo",
     "confStart": {
-      "date": "19",
+      "date": "4",
       "sup": "th",
       "month": "April"
     },
     "confEnd": {
-      "date": "20",
+      "date": "5",
       "sup": "th",
       "month": "April"
     },
