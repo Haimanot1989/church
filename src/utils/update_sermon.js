@@ -15,15 +15,16 @@ const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
 // Array of new sermon objects
 const newSermons = [
   {
-    rawTitle: "Lift Up Your Heads",
-    summary: `This sermon, titled "Lift Up Your Heads," calls on believers to stay vigilant and faithful as signs of Jesus' return become increasingly evident. Luke 21:28 encourages Christians to “look up” and be aware of the prophecies signaling redemption. The sermon begins by reflecting on the first coming of Jesus, highlighting how prophecies, like Micah's foretelling of Jesus' birth in Bethlehem, were ignored by many Israelites. Despite clear signs, it was the humble wise men—non-Jews—who followed a star to find Jesus, underscoring that God can use anyone, even non-believers, to fulfill His plans when His people are unresponsive.
-
-The sermon then draws a parallel between the Israelites’ neglect of prophetic signs and today’s society, warning that many are similarly inattentive to prophecies about Christ’s second coming. Today’s advancements in technology are cited as a potential fulfillment of Daniel’s prophecy about knowledge increasing in the end times (Daniel 12:4). While technology itself is neutral, it can be used for evil, especially in worship of the Antichrist, as suggested in Revelation’s prophecy of a mark required for commerce (Revelation 13:16-17). The sermon urges believers to use technology to glorify God rather than being consumed by worldly distractions.
-
-Further signs include the restoration of Israel, the anticipated Battle of Gog and Magog, the potential rebuilding of the Third Temple, and the rise in demonic interest and UFO phenomena. Rather than seeking new signs, believers are encouraged to have faith in the prophets and apostles, who have already given sufficient warning. The message concludes with a call to “lift up your heads” and stay spiritually alert, embracing the coming redemption with faith and preparation.`,
+    rawTitle: "Run, Cushi, Run and Tell The Whole Truth",
+    summary: `This sermon draws from 2 Samuel 18 and contrasts two messengers—Ahimaaz and Cushi—to illustrate the difference between partial truth and faithful proclamation. After Absalom’s death, both men run to inform King David. Ahimaaz, though fast and eager, delivers an incomplete message, avoiding the painful truth. Cushi, though slower and less prominent, faithfully communicates the full reality.
+This contrast becomes a powerful metaphor for modern preaching. Ahimaaz represents those who prioritize speed, popularity, and acceptance over truth. They proclaim comforting messages like “all is well” but fail to address essential spiritual realities. The sermon identifies two such groups: Trinitarian preachers who complicate the identity of God rather than clearly declaring Jesus as God manifested in the flesh, and prosperity preachers who emphasize comfort, success, and blessing while neglecting suffering, sacrifice, and repentance. Both avoid the difficult but necessary parts of the gospel.
+In contrast, Cushi represents the faithful preacher of the One God who stands on the rock of scripture and declares that the LORD our God is one LORD. (Deuteronomy 6:4, KJV) He declares that Jesus Christ is that One LORD manifested in flesh. For in him dwelleth all the fulness of the Godhead bodily. (Colossians 2:9, KJV) He does not need three persons to explain the mystery. He simply preaches what the scripture says: God was in Christ, reconciling the world unto himself. (2 Corinthians 5:19, KJV) The faithful Cushi preacher also preaches the whole counsel of God concerning the new birth. He does not skip Acts 2:38. He proclaims it boldly: Repent, and be baptized every one of you in the name of Jesus Christ for the remission of sins, and ye shall receive the gift of the Holy Ghost. He tells people that baptism is not a symbol but an answer of a good conscience toward God, by the resurrection of Jesus Christ. (1 Peter 3:21, KJV) He tells them 4 that except a man be born of water and of the Spirit, he cannot enter into the kingdom of God. (John 3:5, KJV) He tells them that the promise of the Holy Ghost is for them and for their children and for all that are afar off, even as many as the Lord our God shall call. (Acts 2:39, KJV). 
+The sermon also highlights historical and contemporary examples of “Cushi-like” ministers—often humble, overlooked individuals—who faithfully spread the full gospel without seeking recognition. The message calls believers to value faithfulness over fame. God is not concerned with who arrives first or gains the largest audience, but with who tells the truth. The challenge is clear: choose to be like Cushi—obedient, truthful, and committed to carrying the full message of the gospel.
+`,
     imgRef:
-      "https://unsplash.com/photos/clear-glass-hour-glass-on-black-table--NOt0m6zXJU",
-    pages: 2
+      "httpshttps://unsplash.com/photos/a-runner-is-captured-in-motion-with-a-blurred-background-TVTwrKyM0ik",
+    pages: 6,
+    recordedDate: "2026-04-18"
   }
 ];
 
@@ -39,7 +40,8 @@ newSermons.forEach(sermon => {
     pdfLink: `/sermons/${fileName}.pdf`,
     image: `/sermons/${fileName}.png`,
     imgRef: sermon.imgRef,
-    pages: sermon.pages
+    pages: sermon.pages,
+    recordedDate: sermon.recordedDate
   };
 
   data.sermons.unshift(newSermon);
