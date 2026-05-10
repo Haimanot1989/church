@@ -1,0 +1,92 @@
+{
+  "key": "annualConference2025",
+  "slug": "annualconference2025",
+  "order": 2,
+  "date": null,
+  "mainLocation": {
+    "map": "https://www.google.com/maps/place/HEG+-+Himmerlands+Erhvervs-+og+Gymnasieuddannelser/@56.8044826,9.5325833,17z/data=!3m1!4b1!4m6!3m5!1s0x46494447f335e4b7:0x72fe3f9e18fbc7e9!8m2!3d56.8044826!4d9.5325833!16s%2Fg%2F1hc0gv7z5?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D",
+    "placeName": "HEG - Himmerlands Erhvervs- og Gymnasieuddannelser, Østre Blvd. 10, 9600 Aars"
+  },
+  "importantMessage": {
+    "content": [
+      "The main entrance is through HGE Energien. The place is a basketball hall. Scroll down to see the restaurants nearby."
+    ],
+    "type": "info"
+  },
+  "imageUrl": "./aars.jpg",
+  "confType": "2025 Annual European Conference",
+  "country": "Denmark",
+  "city": "Aars",
+  "confStart": {
+    "date": "1",
+    "sup": "st",
+    "month": "August"
+  },
+  "confEnd": {
+    "date": "3",
+    "sup": "rd",
+    "month": "August"
+  },
+  "onlineLocation": {
+    "platformName": "Zoom",
+    "zoomInfo": {
+      "meetingId": "639 807 0890",
+      "meetingPassword": "OneGod",
+      "meetingLink": {
+        "map": "https://us02web.zoom.us/j/6398070890?pwd=MlZxZWcwR3I0d3R1MmhDN0syaUx0Zz09",
+        "placeName": "Join the meeting by click on this link or use the id and password above in the zoom app"
+      }
+    }
+  },
+  "confSubtypes": [
+    {
+      "title": "Whole Day Program",
+      "location": {
+        "address": "Østre Blvd. 10, 9600 Aars, Denmark",
+        "map": "https://www.google.com/maps/place/HEG+-+Himmerlands+Erhvervs-+og+Gymnasieuddannelser/@56.8044826,9.5325833,17z/data=!3m1!4b1!4m6!3m5!1s0x46494447f335e4b7:0x72fe3f9e18fbc7e9!8m2!3d56.8044826!4d9.5325833!16s%2Fg%2F1hc0gv7z5?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D"
+      },
+      "time": [
+        {
+          "date": {
+            "day": "Friday",
+            "date": "1",
+            "sup": "st",
+            "month": "August"
+          },
+          "startTime": "12:00",
+          "finishTime": "18:00"
+        },
+        {
+          "date": {
+            "day": "Saturday",
+            "date": "2",
+            "sup": "nd",
+            "month": "August"
+          },
+          "startTime": "12:00",
+          "finishTime": "18:00"
+        },
+        {
+          "date": {
+            "day": "Sunday",
+            "date": "3",
+            "sup": "rd",
+            "month": "August"
+          },
+          "startTime": "12:00",
+          "finishTime": "18:00"
+        }
+      ]
+    }
+  ],
+  "restaurantsNearBy": [
+    {
+      "name": "Link to various restaurants near by",
+      "address": "Himmerlandsgade, 9600 Aars",
+      "distance": "around 16 min walk",
+      "phoneNumber": "-",
+      "webSite": "https://www.google.com/maps/@/data=!3m1!4b1!4m3!11m2!2ss-En4vBHTbWwVG6jx16CNw!4sH_dQgjkndt8?g_ep=CAISEjI1LjMwLjAuNzg1NjQ2NTQ3MBgAILOgDCpjLDk0MjgyMzMzLDk0MjI0ODI1LDk0MjI3MjQ3LDk0MjI3MjQ4LDk0MjMxMTg4LDQ3MDcxNzA0LDQ3MDY5NTA4LDk0MjE4NjQxLDk0MjgyMTM0LDk0MjAzMDE5LDQ3MDg0MzA0QgJOTw%3D%3D",
+      "mapLocation": "https://www.google.com/maps/@/data=!3m1!4b1!4m3!11m2!2ss-En4vBHTbWwVG6jx16CNw!4sH_dQgjkndt8?g_ep=CAISEjI1LjMwLjAuNzg1NjQ2NTQ3MBgAILOgDCpjLDk0MjgyMzMzLDk0MjI0ODI1LDk0MjI3MjQ3LDk0MjI3MjQ4LDk0MjMxMTg4LDQ3MDcxNzA0LDQ3MDY5NTA4LDk0MjE4NjQxLDk0MjgyMTM0LDk0MjAzMDE5LDQ3MDg0MzA0QgJOTw%3D%3D"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["key", "slug", "order", "title"],
+  "properties": {
+    "key": {
+      "type": "string",
+      "description": "Original object key for backward compatibility"
+    },
+    "slug": {
+      "type": "string",
+      "description": "URL-friendly identifier"
+    },
+    "order": {
+      "type": "number",
+      "description": "Sort order"
+    },
+    "date": {
+      "type": ["string", "null"],
+      "description": "Meeting date (YYYY-MM-DD format)"
+    },
+    "title": {
+      "type": "string",
+      "description": "Meeting title"
+    },
+    "platformName": {
+      "type": "string",
+      "description": "Platform name (Zoom, Microsoft Teams, etc.)"
+    },
+    "imageUrl": {
+      "type": "string",
+      "description": "Meeting image or banner"
+    },
+    "zoomInfo": {
+      "type": "object",
+      "description": "Meeting platform details"
+    },
+    "importantMessage": {
+      "type": "object",
+      "description": "Important message or announcement"
+    },
+    "time": {
+      "type": "array",
+      "description": "Meeting schedule"
+    },
+    "contactInformation": {
+      "type": "object",
+      "description": "Contact details"
+    }
+  }
+}

@@ -1,0 +1,172 @@
+collections_config:
+  sermons:
+    path: src/content/sermons
+    parser: json
+    output: false
+    icon: book
+    singular_name: Sermon
+    singular_key: sermon
+    _enabled_editors:
+      - data
+      - visual
+    add_options:
+      - name: Add Sermon
+        icon: add
+        schema: sermon
+    sort_key: order
+    sort_options:
+      order: desc
+
+  announcements:
+    path: src/content/announcements
+    parser: json
+    output: false
+    icon: megaphone
+    singular_name: Announcement
+    singular_key: announcement
+    _enabled_editors:
+      - data
+      - visual
+    add_options:
+      - name: Add Announcement
+        icon: add
+        schema: announcement
+    sort_key: order
+    sort_options:
+      order: desc
+
+  books:
+    path: src/content/books
+    parser: json
+    output: false
+    icon: library_books
+    singular_name: Book
+    singular_key: book
+    _enabled_editors:
+      - data
+      - visual
+    add_options:
+      - name: Add Book
+        icon: add
+        schema: book
+    sort_key: order
+    sort_options:
+      order: desc
+
+  podcasts:
+    path: src/content/podcasts
+    parser: json
+    output: false
+    icon: podcast
+    singular_name: Podcast Episode
+    singular_key: podcast
+    _enabled_editors:
+      - data
+      - visual
+    add_options:
+      - name: Add Podcast Episode
+        icon: add
+        schema: podcast
+    sort_key: order
+    sort_options:
+      order: desc
+
+  conferences:
+    path: src/content/conferences
+    parser: json
+    output: false
+    icon: event
+    singular_name: Conference
+    singular_key: conference
+    _enabled_editors:
+      - data
+      - visual
+    add_options:
+      - name: Add Conference
+        icon: add
+        schema: conference
+    sort_key: order
+    sort_options:
+      order: asc
+
+  online_meetings:
+    path: src/content/online-meetings
+    parser: json
+    output: false
+    icon: video_call
+    singular_name: Online Meeting
+    singular_key: online_meeting
+    _enabled_editors:
+      - data
+      - visual
+    add_options:
+      - name: Add Online Meeting
+        icon: add
+        schema: online_meeting
+    sort_key: order
+    sort_options:
+      order: asc
+
+paths:
+  uploads: public
+  dam_uploads: public
+  dam_static: /
+  uploads_use_relative_paths: false
+
+  collection_groups:
+    - heading: Content
+      collections:
+        - sermons
+        - announcements
+        - books
+        - podcasts
+    - heading: Events
+      collections:
+        - conferences
+        - online_meetings
+
+data_config:
+  sermons:
+    path: src/content/sermons
+  announcements:
+    path: src/content/announcements
+  books:
+    path: src/content/books
+  podcasts:
+    path: src/content/podcasts
+  conferences:
+    path: src/content/conferences
+  online_meetings:
+    path: src/content/online-meetings
+
+source: src
+base_url: https://apostolicinternational.com
+
+editor:
+  default_path: /sermons-section
+
+_inputs:
+  title:
+    type: text
+    comment: The title of the content
+  summary:
+    type: textarea
+    comment: A brief description or summary
+  pdfLink:
+    type: file
+    comment: Path to the PDF file
+  image:
+    type: image
+    comment: Path to the thumbnail image
+  order:
+    type: number
+    comment: Order for sorting (higher numbers appear first)
+  slug:
+    type: text
+    comment: URL-friendly identifier
+  date:
+    type: date
+    comment: Publication or recording date (optional)
+  pages:
+    type: number
+    comment: Number of pages in the document

@@ -1,0 +1,25 @@
+{
+  "key": "europeTigrinyaBibleStudyOnZoom",
+  "slug": "europetigrinyabiblestudyonzoom",
+  "order": 6,
+  "date": null,
+  "platformName": "Zoom",
+  "zoomInfo": {
+    "meetingId": "885 7933 9295",
+    "meetingPassword": "1",
+    "meetingLink": {
+      "map": "https://us02web.zoom.us/j/88579339295?pwd=SFNmQUIvT0tRaHlDaVYrN3l5bzJVQT09",
+      "placeName": "ነዛ ሊንክ ብምጥቃም: ወይ ድማ ነቲ ኣብ ላዕሊ ዘሎ ዝርዝር ሓበሬታ ኣብ ናይ ዙም ኣፕ ብምእታው: ኣብቲ ናይ ዙም ኣኼባ ሕበሩ።"
+    }
+  },
+  "imageUrl": "./tigrinya-bible-study.png",
+  "title": "ትምህርቲ መጽሓፍ ቅዱስ ብትግርኛ ኣብ ሰሰኑይ - Bible study in Tigrinya every Monday - 19:00 - 21:00 CET",
+  "contactInformation": {
+    "emails": [
+      "gefrem60@gmail.com"
+    ],
+    "phoneNumbers": [
+      "+447838870288"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["key", "slug", "order", "confType", "country", "city"],
+  "properties": {
+    "key": {
+      "type": "string",
+      "description": "Original object key for backward compatibility"
+    },
+    "slug": {
+      "type": "string",
+      "description": "URL-friendly identifier"
+    },
+    "order": {
+      "type": "number",
+      "description": "Sort order"
+    },
+    "date": {
+      "type": ["string", "null"],
+      "description": "Conference date (YYYY-MM-DD format)"
+    },
+    "confType": {
+      "type": "string",
+      "description": "Conference type/name"
+    },
+    "country": {
+      "type": "string",
+      "description": "Country where conference is held"
+    },
+    "city": {
+      "type": "string",
+      "description": "City where conference is held"
+    },
+    "imageUrl": {
+      "type": "string",
+      "description": "Conference image or banner"
+    },
+    "mainLocation": {
+      "type": "object",
+      "description": "Main venue information"
+    },
+    "onlineLocation": {
+      "type": "object",
+      "description": "Online meeting details"
+    },
+    "importantMessage": {
+      "type": "object",
+      "description": "Important message or announcement"
+    },
+    "confStart": {
+      "type": "object",
+      "description": "Conference start date details"
+    },
+    "confEnd": {
+      "type": "object",
+      "description": "Conference end date details"
+    },
+    "contactInformation": {
+      "type": "object",
+      "description": "Contact details"
+    },
+    "hotelsNearBy": {
+      "type": "array",
+      "description": "List of nearby hotels"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["order", "slug", "title", "summary", "pdfLink", "image", "type"],
+  "properties": {
+    "order": {
+      "type": "number",
+      "description": "Sort order (higher numbers appear first)"
+    },
+    "slug": {
+      "type": "string",
+      "description": "URL-friendly identifier"
+    },
+    "title": {
+      "type": "string",
+      "description": "Announcement title"
+    },
+    "summary": {
+      "type": "string",
+      "description": "Full announcement text"
+    },
+    "pdfLink": {
+      "type": "string",
+      "description": "Path to announcement PDF"
+    },
+    "image": {
+      "type": "string",
+      "description": "Path to announcement thumbnail image"
+    },
+    "pages": {
+      "type": ["number", "string"],
+      "description": "Number of pages"
+    },
+    "type": {
+      "type": "string",
+      "description": "Announcement type (e.g., report, news)"
+    },
+    "date": {
+      "type": ["string", "null"],
+      "description": "Publication date (YYYY-MM-DD format)"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "key": "saturdayBibleStudyOnZoom",
+  "slug": "saturdaybiblestudyonzoom",
+  "order": 5,
+  "date": null,
+  "zoomInfo": {
+    "meetingId": "639 807 0890",
+    "meetingPassword": "OneGod",
+    "meetingLink": {
+      "map": "https://us02web.zoom.us/j/6398070890?pwd=MlZxZWcwR3I0d3R1MmhDN0syaUx0Zz09",
+      "placeName": "Join the meeting by click on this link or use the id and password above in the zoom app"
+    }
+  },
+  "imageUrl": "./bible-study.png",
+  "title": "Online Bible study on holiness",
+  "time": [
+    {
+      "id": 1,
+      "date": {
+        "day": "Saturday",
+        "date": "23",
+        "sup": "rd",
+        "month": "May"
+      },
+      "startTime": "16:00 CEST",
+      "finishTime": "19:00 CEST"
+    }
+  ],
+  "contactInformation": {
+    "emails": [
+      "frezer26@gmail.com"
+    ],
+    "phoneNumbers": [
+      "+16 13 816 74 41"
+    ]
+  }
+}

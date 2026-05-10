@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["order", "slug", "title", "summary", "pdfLink", "image", "pages"],
+  "properties": {
+    "order": {
+      "type": "number",
+      "description": "Sort order (higher numbers appear first)"
+    },
+    "slug": {
+      "type": "string",
+      "description": "URL-friendly identifier (typically extracted from PDF filename)"
+    },
+    "title": {
+      "type": "string",
+      "description": "Sermon title"
+    },
+    "summary": {
+      "type": "string",
+      "description": "Full sermon summary or description"
+    },
+    "pdfLink": {
+      "type": "string",
+      "description": "Path to sermon PDF (e.g., /sermons/SERMON_TITLE.pdf)"
+    },
+    "image": {
+      "type": "string",
+      "description": "Path to sermon thumbnail image"
+    },
+    "imgRef": {
+      "type": "string",
+      "description": "Image reference URL or credit"
+    },
+    "pages": {
+      "type": ["number", "string"],
+      "description": "Number of pages in the sermon"
+    },
+    "date": {
+      "type": ["string", "null"],
+      "description": "Recording or publication date (YYYY-MM-DD format)"
+    }
+  }
+}

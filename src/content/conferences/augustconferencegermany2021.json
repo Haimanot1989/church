@@ -1,0 +1,29 @@
+{
+  "key": "augustConferenceGermany2021",
+  "slug": "augustconferencegermany2021",
+  "order": 12,
+  "date": null,
+  "imageUrl": "./frankfurt.png",
+  "confType": "August conference",
+  "country": "Germany",
+  "city": "Frankfurt",
+  "confStart": {
+    "date": "14",
+    "sup": "th",
+    "month": "August"
+  },
+  "confEnd": {
+    "date": "15",
+    "sup": "th",
+    "month": "August"
+  },
+  "contactInformation": {
+    "emails": [
+      "gefrem60@gmail.com"
+    ],
+    "phoneNumbers": [
+      "+447838870288"
+    ]
+  },
+  "confSubtypes": []
+}

@@ -1,0 +1,46 @@
+{
+  "key": "abidjanConference2023",
+  "slug": "abidjanconference2023",
+  "order": 3,
+  "date": null,
+  "mainLocation": {
+    "map": "https://www.google.com/maps/place/CARREFOUR+SODECI/@5.3240352,-4.0948108,17z/data=!3m1!4b1!4m6!3m5!1s0xfc1c14e0fd7a86b:0x6bbaa841c2e5b67a!8m2!3d5.3240299!4d-4.0926221!16s%2Fg%2F11qpj9_91y",
+    "placeName": "CARREFOUR SODECI, Yopougon, Abidjan, Ivory Coast"
+  },
+  "imageUrl": "./abidjan.jpeg",
+  "confType": "First international conference",
+  "country": "Ivory Coast",
+  "city": "Abidjan",
+  "confStart": {
+    "date": "28",
+    "sup": "th",
+    "month": "June"
+  },
+  "confEnd": {
+    "date": "6",
+    "sup": "th",
+    "month": "July"
+  },
+  "contactInformation": {},
+  "confSubtypes": [],
+  "importantMessage": {
+    "content": [
+      "Dear all, ",
+      "our first international conference this year will be held in Abidjan, Ivory coast. ",
+      "Bishop Jean Baptiste is the host and has sent out the invitation letters above👆. ",
+      "Bishops Paul, Lars and Efrem among others will be attending. ",
+      "All others who wish to join are welcome! "
+    ],
+    "type": "info"
+  },
+  "invitation": [
+    {
+      "type": "Click here to open the invitation letter in French",
+      "uri": "/announcements/Invitation_letter_in_French.pdf"
+    },
+    {
+      "type": "Click here to open the invitation letter in English",
+      "uri": "/announcements/Invitation_letter_in_English.pdf"
+    }
+  ]
+}

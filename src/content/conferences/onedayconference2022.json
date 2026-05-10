@@ -1,0 +1,51 @@
+{
+  "key": "oneDayConference2022",
+  "slug": "onedayconference2022",
+  "order": 11,
+  "date": null,
+  "mainLocation": {
+    "map": "https://www.google.com/maps/place/Marlight+Boutique+Hotel/@38.4229024,27.1390635,17z/data=!3m1!4b1!4m8!3m7!1s0x14b9627ec0acf1c3:0x8edf6cac2e562cf1!5m2!4m1!1i2!8m2!3d38.4229024!4d27.1412522",
+    "placeName": "Marlight Boutique Hotel"
+  },
+  "onlineLocation": {
+    "platformName": "Zoom",
+    "zoomInfo": {
+      "meetingId": "639 807 0890",
+      "meetingPassword": "OneGod",
+      "meetingLink": {
+        "map": "https://us02web.zoom.us/j/6398070890?pwd=MlZxZWcwR3I0d3R1MmhDN0syaUx0Zz09",
+        "placeName": "Join the meeting by clicking on this link or using the details above in the zoom app"
+      }
+    }
+  },
+  "imageUrl": "./izmir_2.png",
+  "confType": "One day conference",
+  "country": "Turkey",
+  "city": "Izmir",
+  "confStart": {
+    "date": "10",
+    "sup": "th",
+    "month": "July at 10 CET"
+  },
+  "confSubtypes": [
+    {
+      "title": "Whole day program",
+      "location": {
+        "address": "Marlight Boutique Hotel, Çankaya, Konak İsmet Kaptan mahallesi Fevzi Paşa Bulvarı, 1367. Sk. no:7, 35210 Konak/İzmir",
+        "map": "https://www.google.com/maps/place/Marlight+Boutique+Hotel/@38.4229024,27.1390635,17z/data=!3m1!4b1!4m8!3m7!1s0x14b9627ec0acf1c3:0x8edf6cac2e562cf1!5m2!4m1!1i2!8m2!3d38.4229024!4d27.1412522"
+      },
+      "time": [
+        {
+          "date": {
+            "day": "Sunday",
+            "date": "10",
+            "sup": "th",
+            "month": "February"
+          },
+          "startTime": "10:00 CET",
+          "finishTime": "16:00 CET"
+        }
+      ]
+    }
+  ]
+}

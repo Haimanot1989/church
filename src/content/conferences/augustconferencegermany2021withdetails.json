@@ -1,0 +1,63 @@
+{
+  "key": "augustConferenceGermany2021WithDetails",
+  "slug": "augustconferencegermany2021withdetails",
+  "order": 14,
+  "date": null,
+  "mainLocation": {
+    "map": "https://www.google.com/maps/place/Siegener+Str.+22,+65936+Frankfurt+am+Main,+Tyskland/@50.1229916,8.5658883,17.85z/data=!4m5!3m4!1s0x47bd09fd6356ea25:0x61e96280ca151304!8m2!3d50.1228794!4d8.5663794",
+    "placeName": "Siegener Str. 22"
+  },
+  "imageUrl": "./frankfurt.png",
+  "confType": "August conference",
+  "country": "Germany",
+  "city": "Frankfurt",
+  "confStart": {
+    "date": "14",
+    "sup": "th",
+    "month": "August"
+  },
+  "confEnd": {
+    "date": "15",
+    "sup": "th",
+    "month": "August"
+  },
+  "contactInformation": {
+    "emails": [
+      "gefrem60@gmail.com"
+    ],
+    "phoneNumbers": [
+      "+447838870288"
+    ]
+  },
+  "confSubtypes": [
+    {
+      "title": "Whole day program",
+      "location": {
+        "address": "Siegener Str. 22, 65936 Frankfurt am Main",
+        "map": "https://www.google.com/maps/place/Siegener+Str.+22,+65936+Frankfurt+am+Main,+Tyskland/@50.1229916,8.5658883,17.85z/data=!4m5!3m4!1s0x47bd09fd6356ea25:0x61e96280ca151304!8m2!3d50.1228794!4d8.5663794"
+      },
+      "time": [
+        {
+          "date": {
+            "day": "Saturday",
+            "date": "14",
+            "sup": "th",
+            "month": "August"
+          },
+          "startTime": "8:00",
+          "finishTime": "18:00"
+        },
+        {
+          "date": {
+            "day": "Sunday",
+            "date": "15",
+            "sup": "th",
+            "month": "August"
+          },
+          "startTime": "8:00",
+          "finishTime": "18:00"
+        }
+      ]
+    }
+  ]
+}

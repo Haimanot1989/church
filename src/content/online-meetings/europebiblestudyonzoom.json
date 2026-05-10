@@ -1,0 +1,19 @@
+{
+  "key": "europeBibleStudyOnZoom",
+  "slug": "europebiblestudyonzoom",
+  "order": 7,
+  "date": null,
+  "platformName": "Zoom",
+  "zoomInfo": {
+    "meetingId": "639 807 0890",
+    "meetingPassword": "OneGod",
+    "meetingLink": {
+      "map": "https://us02web.zoom.us/j/6398070890?pwd=MlZxZWcwR3I0d3R1MmhDN0syaUx0Zz09",
+      "placeName": "Join the meeting by clicking on this link or using the details above in the zoom app"
+    }
+  },
+  "imageUrl": "./bible-study.png",
+  "title": "Bible study every Saturday at 19:00 - 21:00 CEST",
+  "isCancelled": false,
+  "cancelledMessage": "This Saturday's Bible study has been cancelled due to conference in Denmark. We'll be back next week."
+}

@@ -1,0 +1,145 @@
+{
+  "key": "annualConference2022",
+  "slug": "annualconference2022",
+  "order": 23,
+  "date": null,
+  "mainLocation": {
+    "map": "https://www.google.com/maps/place/La+Maison+des+Associations+de+Solidarit%C3%A9/@48.8242435,2.3703446,17z/data=!4m5!3m4!1s0x47e6722f75279975:0x3c717e5ea9a592b7!8m2!3d48.8242435!4d2.3725333",
+    "placeName": "La Maison des Associations de Solidarité"
+  },
+  "importantMessage": {
+    "content": "Please see below for more information on the program and the hotels near by.",
+    "type": "info"
+  },
+  "imageUrl": "./paris.png",
+  "confType": "2022 Annual European Conference",
+  "country": "France",
+  "city": "Paris",
+  "confStart": {
+    "date": "5",
+    "sup": "th",
+    "month": "August"
+  },
+  "confEnd": {
+    "date": "7",
+    "sup": "th",
+    "month": "August"
+  },
+  "confSubtypes": [
+    {
+      "title": "Whole Day Program",
+      "location": {
+        "address": "18 Rue des Terres au Curé, 75013 Paris, France",
+        "map": "https://www.google.com/maps/place/La+Maison+des+Associations+de+Solidarit%C3%A9/@48.8242435,2.3703446,17z/data=!4m5!3m4!1s0x47e6722f75279975:0x3c717e5ea9a592b7!8m2!3d48.8242435!4d2.3725333"
+      },
+      "time": [
+        {
+          "date": {
+            "day": "Friday",
+            "date": "5",
+            "sup": "th",
+            "month": "August"
+          },
+          "startTime": "10:00",
+          "finishTime": "20:00"
+        },
+        {
+          "date": {
+            "day": "Saturday",
+            "date": "6",
+            "sup": "th",
+            "month": "August"
+          },
+          "startTime": "10:00",
+          "finishTime": "20:00"
+        }
+      ]
+    },
+    {
+      "title": "Afternoon Program",
+      "location": {
+        "address": "18 Rue des Terres au Curé, 75013 Paris, France",
+        "map": "https://www.google.com/maps/place/La+Maison+des+Associations+de+Solidarit%C3%A9/@48.8242435,2.3703446,17z/data=!4m5!3m4!1s0x47e6722f75279975:0x3c717e5ea9a592b7!8m2!3d48.8242435!4d2.3725333"
+      },
+      "time": [
+        {
+          "date": {
+            "day": "Sunday",
+            "date": "7",
+            "sup": "th",
+            "month": "August"
+          },
+          "startTime": "14:00",
+          "finishTime": "22:00"
+        }
+      ]
+    }
+  ],
+  "contactInformation": {
+    "emails": [
+      "gefrem60@gmail.com"
+    ],
+    "phoneNumbers": [
+      "+447838870288, +33625149110, +33618802830"
+    ]
+  },
+  "hotelsNearBy": [
+    {
+      "name": "Hotel ibis Styles Paris Massena Olympiades",
+      "address": "82-84 Rue Regnault, 75013 Paris, France",
+      "distance": "2 min walk",
+      "phoneNumber": "+33 1 45 85 70 70",
+      "webSite": "https://all.accor.com/hotel/9525/index.en.shtml",
+      "mapLocation": "https://www.google.com/maps/place/82+Rue+Regnault,+75013+Paris,+France/@48.8235332,2.3693572,17z/data=!3m1!4b1!4m5!3m4!1s0x47e6722f19ee188b:0x7041b15c97dbd699!8m2!3d48.8235332!4d2.3715459"
+    },
+    {
+      "name": "Green Hotels Paris 13",
+      "address": "90 Rue de Patay, 75013 Paris, France",
+      "distance": "6 min walk",
+      "phoneNumber": "+33 1 53 82 84 84",
+      "webSite": "http://www.greenhotels.fr/paris-13/",
+      "mapLocation": "https://www.google.com/maps/place/Green+Hotels+Paris+13/@48.8273875,2.372056,15z/data=!4m8!3m7!1s0x0:0x4d64e95e70e4584f!5m2!4m1!1i2!8m2!3d48.8273875!4d2.372056"
+    },
+    {
+      "name": "Quality Hôtel & Suites Bercy Bibliothèque by HappyCulture™",
+      "address": "15 Rue de Tolbiac, 75013 Paris, France",
+      "distance": "9 min walk",
+      "phoneNumber": "+33 1 53 61 62 00",
+      "webSite": "https://hotel-paris-bercy.com/",
+      "mapLocation": "https://www.google.com/maps/place/Quality+H%C3%B4tel+%26+Suites+Bercy+Biblioth%C3%A8que+by+HappyCulture%E2%84%A2/@48.8293597,2.3749227,15z/data=!4m8!3m7!1s0x0:0x2a529eec2f73600!5m2!4m1!1i2!8m2!3d48.8293597!4d2.3749227"
+    },
+    {
+      "name": "Lodge In mis",
+      "address": "2 -16 Rue Théroigne de Méricourt, 75013 Paris, France",
+      "distance": "11 min walk",
+      "phoneNumber": "+33 1 53 61 62 00",
+      "webSite": "https://www.lodgein.travel/",
+      "mapLocation": "https://www.google.com/maps/place/Lodge+In+mis/@48.821239,2.376514,15z/data=!4m2!3m1!1s0x0:0xd958b39e6d0fc74?sa=X&ved=2ahUKEwjS6MPdxOPnAhUkxaYKHXxhANQQ_BIwCXoECBoQCA"
+    },
+    {
+      "name": "Comfort Hotel Paris Porte D'Ivry",
+      "address": "1-11 Rue René Villars, 94200 Ivry-sur-Seine, France",
+      "distance": "13 min walk",
+      "phoneNumber": "+33 1 46 71 00 17",
+      "webSite": "https://www.choicehotels.com/fr-fr/france/ivry-sur-seine/comfort-inn-hotels/fr532",
+      "mapLocation": "https://www.google.com/maps/place/Comfort+Hotel+Paris+Porte+D'Ivry/@48.8198254,2.3760188,15z/data=!4m8!3m7!1s0x0:0xfa037e3e5c0508cb!5m2!4m1!1i2!8m2!3d48.8198254!4d2.3760188"
+    },
+    {
+      "name": "Hotel Tolbiac Paris ",
+      "address": "122 Rue de Tolbiac, 75013 Paris, France",
+      "distance": "14 min walk",
+      "phoneNumber": "+33 1 44 24 25 54",
+      "webSite": "http://www.hotel-tolbiac.com/",
+      "mapLocation": "https://www.google.com/maps/place/H%C3%B4tel+Tolbiac/@48.8263262,2.3603133,15z/data=!4m8!3m7!1s0x0:0xbd0e78981bb32478!5m2!4m1!1i2!8m2!3d48.8263262!4d2.3603133"
+    },
+    {
+      "name": "B&B Hotel Paris Italie Porte de Choisy",
+      "address": "3 à 15 Rue Charles Leroy, 94200 Ivry-sur-Seine, France",
+      "distance": "16 min walk",
+      "phoneNumber": "+33 892 68 24 80",
+      "webSite": "https://www.hotel-bb.com/fr/hotel/paris-italie-porte-de-choisy",
+      "mapLocation": "https://www.google.com/maps/place/B%26B+HOTEL/@48.8168759,2.3665113,15z/data=!4m2!3m1!1s0x0:0xbd13cf92eac1c83a?sa=X&ved=2ahUKEwjY-eqjxuPnAhVHtIsKHejGAEYQ_BIwCHoECAwQCA"
+    }
+  ],
+  "isCancelled": false
+}
