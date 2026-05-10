@@ -123,29 +123,95 @@ The static site will be generated in the `dist/` directory.
 
 ## 🚢 Deployment
 
-The site is deployed through CloudCannon which handles:
-- Git-based content management
-- Automatic builds on content changes
-- Static site hosting
-- Custom domain and SSL
+The site is deployed to **GitHub Pages** with automatic deployments via GitHub Actions.
 
-### CloudCannon Configuration
+### GitHub Pages Setup (One-Time)
 
-- **Build command**: `npm run build`
-- **Output directory**: `dist/`
-- **Source directory**: `src/`
+1. Push your code to GitHub:
+   ```bash
+   git push origin master
+   ```
 
-### Manual Deployment
+2. In your GitHub repository, go to **Settings** → **Pages**
 
-You can also deploy the `dist/` folder to any static hosting service:
-- Netlify
-- Vercel
-- GitHub Pages
-- AWS S3 + CloudFront
-- Any static file server
+3. Under "Build and deployment":
+   - **Source**: Select "GitHub Actions"
+   - The workflow is already configured in `.github/workflows/deploy.yml`
+
+4. After the first deployment, your site will be available at:
+   - Default: `https://haimanot1989.github.io/church/`
+   - Custom domain: `https://apostolicinternational.com` (after DNS setup)
+
+### Custom Domain Setup (Optional)
+
+1. In GitHub repo **Settings** → **Pages** → **Custom domain**:
+   - Enter: `apostolicinternational.com`
+   - Check "Enforce HTTPS"
+
+2. Add DNS records at your domain registrar:
+   ```
+   Type: A
+   Host: @
+   Value: 185.199.108.153
+   
+   Type: A
+   Host: @
+   Value: 185.199.109.153
+   
+   Type: A
+   Host: @
+   Value: 185.199.110.153
+   
+   Type: A
+   Host: @
+   Value: 185.199.111.153
+   
+   Type: CNAME
+   Host: www
+   Value: haimanot1989.github.io
+   ```
+
+3. Wait for DNS propagation (can take up to 24-48 hours)
+
+### Automatic Deployments
+
+Every push to the `master` branch triggers:
+1. Automatic build via GitHub Actions
+2. Deployment to GitHub Pages
+3. Site updates within 1-2 minutes
+
+### Alternative Hosting Options
+
+You can also deploy to:
+- **Netlify**: Drop-in replacement, generous free tier
+- **Vercel**: Similar to Netlify, great for static sites
+- **Cloudflare Pages**: Fast global CDN, free tier available
+
+## � Managing Content Without a CMS
+
+Since you're not using a CMS, here are ways to manage content:
+
+### Option 1: Direct File Editing (Current Setup)
+1. Edit JSON files in `src/content/` directories
+2. Commit and push to GitHub
+3. GitHub Actions automatically rebuilds and deploys
+
+### Option 2: GitHub Web Interface
+1. Go to your repo on GitHub.com
+2. Navigate to `src/content/sermons/`
+3. Click on any file → Edit (pencil icon)
+4. Make changes → Commit directly to master
+5. Automatic deployment triggers
+
+### Option 3: Add Decap CMS (Free)
+If you want a user-friendly admin interface, I can help you add Decap CMS:
+- Free and open-source
+- Access at `yoursite.com/admin`
+- No backend needed
+- Works with GitHub Pages
 
 ## 📚 Learn More
 
 - [Astro Documentation](https://docs.astro.build)
-- [CloudCannon Documentation](https://cloudcannon.com/documentation/)
+- [GitHub Pages Documentation](https://docs.github.com/en/pages)
 - [Bootstrap 4 Documentation](https://getbootstrap.com/docs/4.3/)
