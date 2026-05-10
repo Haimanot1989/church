@@ -1,5 +1,8 @@
 ---
 const currentPath = Astro.url.pathname;
+const base = import.meta.env.BASE_URL;
+// Remove base from path for comparison (e.g., /church/conferences -> /conferences)
+const pathWithoutBase = currentPath.replace(base, '') || '/';
 
 const NAV_LINKS = [
   { title: "Home", url: "/" },
@@ -21,7 +24,7 @@ const NAV_LINKS = [
       <a
         href={navlink.url}
         class="nav-link"
-        style={`color: ${currentPath === navlink.url ? 'white' : '#ffffff80'}`}
+        style={`color: ${pathWithoutBase === navlink.url ? 'white' : '#ffffff80'}`}
       >
         {navlink.title}
       </a>
