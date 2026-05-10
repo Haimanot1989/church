@@ -1,0 +1,30 @@
+---
+const currentPath = Astro.url.pathname;
+
+const NAV_LINKS = [
+  { title: "Home", url: "/" },
+  { title: "Podcast", url: "/podcast" },
+  { title: "Conferences", url: "/conferences" },
+  { title: "Doctrine of salvation", url: "/doctrine-of-salvation" },
+  { title: "Statement of beliefs", url: "/statement-of-beliefs" },
+  { title: "Place of worship", url: "/place-of-worship" },
+  { title: "Books", url: "/books-section" },
+  { title: "Sermons", url: "/sermons-section" },
+  { title: "Global reports", url: "/announcements-section" },
+  { title: "About us", url: "/about-us" }
+];
+---
+
+<header class="fixed-header">
+  <nav class="nav justify-content-center py-1 mb-2 text-white bg-dark">
+    {NAV_LINKS.map(navlink => (
+      <a
+        href={navlink.url}
+        class="nav-link"
+        style={`color: ${currentPath === navlink.url ? 'white' : '#ffffff80'}`}
+      >
+        {navlink.title}
+      </a>
+    ))}
+  </nav>
+</header>

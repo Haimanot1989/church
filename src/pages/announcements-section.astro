@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AnnouncementCard from '../components/AnnouncementCard.astro';
+
+const announcementModules = import.meta.glob('../content/announcements/*.json', { eager: true });
+const announcements = Object.values(announcementModules)
+  .map((mod: any) => mod.default)
+  .sort((a, b) => b.order - a.order);
+---
+
+<BaseLayout title="Global Reports - JESUS ALONE IS GOD CHURCH OF EUROPE">
+  <div class="album py-5 bg-light position-main">
+    <div class="container">
+      <div class="row">
+        {announcements.map((announcement) => (
+          <AnnouncementCard
+            title={announcement.title}
+            subTitle={announcement.subTitle}
+            summary={announcement.summary}
+            pdfLink={announcement.pdfLink}
+            image={announcement.image}
+            pages={announcement.pages}
+            type={announcement.type}
+          />
+        ))}
+      </div>
+    </div>
+  </div>
+</BaseLayout>

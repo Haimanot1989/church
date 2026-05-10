@@ -5,39 +5,24 @@
   "homepage": "https://apostolicinternational.com",
   "dependencies": {
     "@astrojs/check": "^0.9.9",
-    "@fortawesome/fontawesome-free": "^5.12.0",
-    "@fortawesome/fontawesome-svg-core": "^1.2.26",
-    "@fortawesome/free-solid-svg-icons": "^5.12.0",
-    "@fortawesome/react-fontawesome": "^0.1.8",
     "@iconify-json/fa": "^1.2.2",
     "@iconify-json/fa-solid": "^1.2.2",
-    "@reach/router": "^1.3.1",
     "astro": "^6.3.1",
     "astro-icon": "^1.1.5",
     "bootstrap": "^4.3.1",
-    "express": "^4.17.1",
-    "jquery": "^3.4.1",
-    "moment": "^2.27.0",
-    "popper.js": "^1.16.0",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-icons": "^3.11.0",
-    "react-scripts": "3.2.0",
-    "reactstrap": "^8.1.1",
     "typescript": "^6.0.3"
   },
   "scripts": {
-    "dev": "parcel src/index.js",
-    "prod": "pm2 start ./server.js --name church",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "migrate": "node scripts/migrate-content-to-individual-files.js",
+    "format": "prettier --write \"src/**/*.{js,jsx,astro}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "eslint:recommended"
   },
   "browserslist": {
     "production": [

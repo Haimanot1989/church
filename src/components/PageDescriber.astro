@@ -1,0 +1,15 @@
+---
+export interface Props {
+  title: string;
+  bodyTexts?: string[];
+}
+
+const { title, bodyTexts } = Astro.props;
+---
+
+<section class="jumbotron text-center">
+  <h1 class="jumbotron-heading">{title}</h1>
+  {bodyTexts && bodyTexts.map((text) => (
+    <p class="lead text-muted">{text}</p>
+  ))}
+</section>

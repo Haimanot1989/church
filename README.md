@@ -1,68 +1,151 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Jesus Alone is God Church of Europe
 
-## Available Scripts
+A static website built with [Astro](https://astro.build) and managed through [CloudCannon CMS](https://cloudcannon.com).
 
-In the project directory, you can run:
+## 🚀 Quick Start
 
-### `yarn start`
+### Prerequisites
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Node.js 18+ 
+- npm or pnpm
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Installation
 
-### `yarn test`
+```bash
+npm install
+```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📜 Available Scripts
 
-### `yarn build`
+### `npm run dev` or `npm start`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Starts the Astro development server at [http://localhost:4321](http://localhost:4321).
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+The page will automatically reload when you make changes to files in `src/`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `npm run build`
 
-### `yarn eject`
+Builds the site for production to the `dist/` folder. The build is optimized and includes all static pages.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### `npm run preview`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Previews the production build locally. Run `npm run build` first.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### `npm run migrate`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Runs the content migration script to convert aggregated JSON files to individual content files. This is typically a one-time operation.
 
-## Learn More
+### `npm run format`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Formats code using Prettier (includes `.astro`, `.js`, `.jsx` files).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `npm run lint`
 
-### Code Splitting
+Runs ESLint to check for code quality issues.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## 📁 Project Structure
 
-### Analyzing the Bundle Size
+```
+/
+├── public/              # Static assets (PDFs, images, favicons)
+│   ├── sermons/        # Sermon PDFs and thumbnails
+│   ├── books/          # Book PDFs and covers
+│   └── announcements/  # Announcement PDFs and images
+├── src/
+│   ├── pages/          # Astro pages (file-based routing)
+│   ├── layouts/        # Layout components (BaseLayout.astro)
+│   ├── components/     # Reusable Astro components
+│   ├── content/        # Content collections (individual JSON files)
+│   │   ├── sermons/
+│   │   ├── books/
+│   │   ├── announcements/
+│   │   ├── conferences/
+│   │   ├── online-meetings/
+│   │   └── podcasts/
+│   ├── index.css       # Global styles
+│   └── App.css         # Additional styles
+├── schemas/            # JSON schemas for CloudCannon
+├── scripts/            # Utility scripts (migration, etc.)
+├── astro.config.mjs    # Astro configuration
+└── cloudcannon.config.yml  # CloudCannon CMS configuration
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## 📝 Content Management
 
-### Making a Progressive Web App
+Content is managed through CloudCannon CMS and stored as individual JSON files in `src/content/`:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+- **Sermons**: 275 sermon files with order, slug, title, summary, PDF link, and image
+- **Books**: 12 books with descriptions and PDF downloads
+- **Announcements**: Global reports and updates
+- **Podcasts**: Episode listings with embedded players
+- **Conferences**: Event details with location and schedule information
+- **Online Meetings**: Virtual meeting information
 
-### Advanced Configuration
+Each content type has:
+- An `order` field for sorting (higher = newer)
+- A `slug` field for identification
+- A `date` field (optional, for manual entry)
+- A `key` field (conferences/meetings only, for backward compatibility)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+### Adding New Content
 
-### Deployment
+Through CloudCannon:
+1. Log in to CloudCannon
+2. Navigate to the appropriate collection (Sermons, Books, etc.)
+3. Click "Add" to create new content
+4. Fill in the form fields
+5. Upload PDFs and images through the DAM
+6. Save and publish
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+Manually:
+1. Create a new JSON file in the appropriate `src/content/` subdirectory
+2. Follow the schema defined in `schemas/` directory
+3. Ensure `order` field is set correctly
+4. Commit and push changes
 
-### `yarn build` fails to minify
+## 🛠️ Development
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Local Development
+
+```bash
+npm run dev
+```
+
+Visit [http://localhost:4321](http://localhost:4321) to see your changes.
+
+### Building for Production
+
+```bash
+npm run build
+```
+
+The static site will be generated in the `dist/` directory.
+
+## 🚢 Deployment
+
+The site is deployed through CloudCannon which handles:
+- Git-based content management
+- Automatic builds on content changes
+- Static site hosting
+- Custom domain and SSL
+
+### CloudCannon Configuration
+
+- **Build command**: `npm run build`
+- **Output directory**: `dist/`
+- **Source directory**: `src/`
+
+### Manual Deployment
+
+You can also deploy the `dist/` folder to any static hosting service:
+- Netlify
+- Vercel
+- GitHub Pages
+- AWS S3 + CloudFront
+- Any static file server
+
+## 📚 Learn More
+
+- [Astro Documentation](https://docs.astro.build)
+- [CloudCannon Documentation](https://cloudcannon.com/documentation/)
+- [Bootstrap 4 Documentation](https://getbootstrap.com/docs/4.3/)

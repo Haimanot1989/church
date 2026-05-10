@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import BookCard from '../components/BookCard.astro';
+
+const bookModules = import.meta.glob('../content/books/*.json', { eager: true });
+const books = Object.values(bookModules)
+  .map((mod: any) => mod.default)
+  .sort((a, b) => b.order - a.order);
+---
+
+<BaseLayout title="Books - JESUS ALONE IS GOD CHURCH OF EUROPE">
+  <div class="album py-5 bg-light position-main">
+    <div class="container">
+      <div class="row">
+        {books.map((book) => (
+          <BookCard
+            title={book.title}
+            subTitle={book.subTitle}
+            summary={book.summary}
+            pdfLink={book.pdfLink}
+            image={book.image}
+            pages={book.pages}
+          />
+        ))}
+      </div>
+    </div>
+  </div>
+</BaseLayout>

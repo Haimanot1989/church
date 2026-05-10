@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageDescriber from '../components/PageDescriber.astro';
+
+const bodyTexts = [
+  'We are a community of believers who confess that Jesus Christ is the one true God manifest in the flesh.',
+  'Our mission is to preach the gospel of salvation through baptism in the name of Jesus Christ.',
+  'Join us in worship and fellowship.'
+];
+---
+
+<BaseLayout title="About Us - JESUS ALONE IS GOD CHURCH OF EUROPE">
+  <main role="main" class="container position-main">
+    <PageDescriber title="About Us" bodyTexts={bodyTexts} />
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Our Mission</h5>
+        <p class="card-text">
+          We are dedicated to spreading the gospel of Jesus Christ and teaching the doctrine of salvation
+          through baptism in His name. We believe in the oneness of God and that Jesus Christ is the
+          manifestation of the Father in the flesh.
+        </p>
+      </div>
+    </div>
+  </main>
+</BaseLayout>

@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SermonCard from '../components/SermonCard.astro';
+
+const sermonModules = import.meta.glob('../content/sermons/*.json', { eager: true });
+const sermons = Object.values(sermonModules)
+  .map((mod: any) => mod.default)
+  .sort((a, b) => b.order - a.order);
+---
+
+<BaseLayout title="Sermons - JESUS ALONE IS GOD CHURCH OF EUROPE">
+  <div class="album py-5 bg-light position-main">
+    <div class="container">
+      <div class="row">
+        {sermons.map((sermon) => (
+          <SermonCard
+            title={sermon.title}
+            subTitle={sermon.subTitle}
+            summary={sermon.summary}
+            pdfLink={sermon.pdfLink}
+            image={sermon.image}
+            pages={sermon.pages}
+          />
+        ))}
+      </div>
+    </div>
+  </div>
+</BaseLayout>

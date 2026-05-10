@@ -1,0 +1,38 @@
+---
+export interface Props {
+  title: string;
+  subTitle?: string;
+  summary: string;
+  pdfLink: string;
+  image: string;
+  pages: number | string;
+  type: string;
+}
+
+const { title, subTitle, summary, pdfLink, image, pages, type } = Astro.props;
+---
+
+<div class="card overlay-container card-font-style">
+  <div class="card mb-4 box-shadow">
+    <div class="card-body">
+      <h5 class="card-title" data-cms-bind="#title">{title}</h5>
+      {subTitle && <h6 class="card-sub-title">{subTitle}</h6>}
+    </div>
+    <div class="card-body">
+      <img
+        class="card-img-top img-height-equalizer"
+        alt={title}
+        src={image}
+        data-cms-bind="#image"
+      />
+    </div>
+    <div class="card-body books-description-box">
+      <p class="card-text" data-cms-bind="#summary">{summary}</p>
+      <div class="action-box">
+        <a href={pdfLink} class="btn btn-lg btn-secondary action-btn">
+          {`Open the ${type} - ${pages} pages`}
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

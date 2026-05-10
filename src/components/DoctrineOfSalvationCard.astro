@@ -1,0 +1,49 @@
+---
+import PodcastApps from './PodcastApps.astro';
+
+export interface Props {
+  episodes: any[];
+}
+
+const { episodes } = Astro.props;
+---
+
+<div class="card overlay-container card-font-style">
+  <div class="card mb-4 box-shadow">
+    <div class="card-body">
+      <h5 class="card-title">Doctrine of Salvation</h5>
+    </div>
+    <div class="card-body books-description-box">
+      <p class="card-text">
+        Our podcast <strong>Jesus Alone is God</strong> contains the core
+        teachings on how to be saved in a sound biblical way. New episodes
+        are added weekly.
+      </p>
+    </div>
+  </div>
+  <div class="card-body">
+    <PodcastApps />
+  </div>
+  {episodes.map((episode) => (
+    <div class="card-body">
+      <iframe
+        src={episode.episodeUrl}
+        style="width: 100%"
+        title="Jesus Alone is God"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      ></iframe>
+      {episode.sermonUrl && (
+        <div class="action-box">
+          <a
+            href={episode.sermonUrl}
+            class="btn btn-lg btn-secondary action-btn"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Open the accompanying pdf
+          </a>
+        </div>
+      )}
+    </div>
+  ))}
+</div>

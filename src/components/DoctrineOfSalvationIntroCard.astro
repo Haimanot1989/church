@@ -1,0 +1,48 @@
+---
+import PodcastApps from './PodcastApps.astro';
+
+export interface Props {
+  lastEpisodeTitle: string;
+}
+
+const { lastEpisodeTitle } = Astro.props;
+---
+
+<div class="card overlay-container card-font-style">
+  <div class="card mb-4 box-shadow">
+    <div class="card-body">
+      <h5 class="card-title">Doctrine of Salvation</h5>
+    </div>
+    <div class="card-body books-description-box">
+      <p class="card-text">
+        Our podcast <strong>Jesus Alone is God</strong> contains the core
+        teachings on how to be saved in a sound biblical way. New episodes
+        are added weekly.
+      </p>
+    </div>
+  </div>
+  <div class="card-body">
+    <iframe
+      src="https://player.rss.com/onlyjesus?theme=dark"
+      style="width: 100%; height: 400px"
+      title={lastEpisodeTitle}
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    >
+      <a href="https://rss.com/podcasts/onlyjesus">
+        {lastEpisodeTitle} | RSS.com
+      </a>
+    </iframe>
+    <div class="action-box pt8">
+      <a
+        href="/doctrine-of-salvation"
+        class="btn btn-lg btn-secondary action-btn"
+      >
+        Open all the teachings with their accompanying pdf
+      </a>
+    </div>
+  </div>
+  <div class="card-body">
+    <PodcastApps />
+  </div>
+</div>

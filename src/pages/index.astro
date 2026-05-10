@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageDescriber from '../components/PageDescriber.astro';
+import DoctrineOfSalvationIntroCard from '../components/DoctrineOfSalvationIntroCard.astro';
+
+const podcastModules = import.meta.glob('../content/podcasts/*.json', { eager: true });
+const episodes = Object.values(podcastModules).map((mod: any) => mod.default);
+const lastEpisode = episodes[episodes.length - 1];
+---
+
+<BaseLayout title="JESUS ALONE IS GOD CHURCH OF EUROPE">
+  <main role="main" class="container mb-2 position-main">
+    <PageDescriber title="Jesus Alone is God Church of Europe" />
+    <DoctrineOfSalvationIntroCard lastEpisodeTitle={lastEpisode?.title || 'Latest Episode'} />
+    <div class="alert alert-info mt-4">
+      <p>This is a simplified version of the home page. Conference and online meeting cards will be added in the next iteration.</p>
+    </div>
+  </main>
+</BaseLayout>
