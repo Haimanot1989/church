@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ master ]
+    branches: [ feat/migrate-to-astro ]
   workflow_dispatch:
 
 permissions:
