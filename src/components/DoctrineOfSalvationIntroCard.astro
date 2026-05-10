@@ -6,6 +6,7 @@ export interface Props {
 }
 
 const { lastEpisodeTitle } = Astro.props;
+const base = import.meta.env.BASE_URL;
 ---
 
 <div class="card overlay-container card-font-style">
@@ -35,7 +36,7 @@ const { lastEpisodeTitle } = Astro.props;
     </iframe>
     <div class="action-box pt8">
       <a
-        href="/doctrine-of-salvation"
+        href={base + "/doctrine-of-salvation"}
         class="btn btn-lg btn-secondary action-btn"
       >
         Open all the teachings with their accompanying pdf
