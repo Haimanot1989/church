@@ -1739,6 +1739,22 @@
       }
     ]
   },
+  "harvestConference2026": {
+    "imageUrl": "./harvest.png",
+    "confType": "Harvest conference",
+    "country": "Netherlands",
+    "city": "The Hague",
+    "confStart": {
+      "date": "26",
+      "sup": "th",
+      "month": "September"
+    },
+    "confEnd": {
+      "date": "27",
+      "sup": "th",
+      "month": "September"
+    }
+  },
   "newYearConference2022": {
     "onlineLocation": {
       "platformName": "Zoom",
