@@ -11,8 +11,8 @@ const PlaceOfWorship = () => {
   let finishTime = "17:30";
   let mainLocation = {
     map:
-      "https://www.google.com/maps/place/Sk%C3%B8yer'n+Juniorklubb/@59.8994456,10.8408631,17z/data=!3m1!4b1!4m6!3m5!1s0x46416ffdba8423b7:0x2feb9124178f8590!8m2!3d59.8994456!4d10.843438!16s%2Fg%2F11kq6rtn7p?entry=ttu",
-    placeName: "Skøyer'n fritidsklubb, Solbergliveien 85, 0683 Oslo"
+      "https://www.google.com/maps/place/Uranienborgveien+28,+0258+Oslo/@59.9232368,10.7168608,595m/data=!3m2!1e3!4b1!4m6!3m5!1s0x46416dd6d871aaa9:0x437a0ed934cc4866!8m2!3d59.9232368!4d10.7194357!16s%2Fg%2F11pw3gqx8x?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+    placeName: "Uranienborgveien 28, 0259 Oslo"
   };
   let pageDescription = {
     title: "Jesus Alone is God Church of Norway",
