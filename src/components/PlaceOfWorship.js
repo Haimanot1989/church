@@ -7,8 +7,8 @@ import { PageDescriber } from "./PageDescription";
 const PlaceOfWorship = () => {
   let imageUrl = "./place_of_worship.png";
   let meetingType = "Sunday Service";
-  let startTime = "14:00";
-  let finishTime = "17:30";
+  let startTime = "15:30";
+  let finishTime = "19:00";
   let mainLocation = {
     map:
       "https://www.google.com/maps/place/Uranienborgveien+28,+0258+Oslo/@59.9232368,10.7168608,595m/data=!3m2!1e3!4b1!4m6!3m5!1s0x46416dd6d871aaa9:0x437a0ed934cc4866!8m2!3d59.9232368!4d10.7194357!16s%2Fg%2F11pw3gqx8x?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
@@ -17,7 +17,7 @@ const PlaceOfWorship = () => {
   let pageDescription = {
     title: "Jesus Alone is God Church of Norway",
     bodyTexts: [
-      "We have physical meeting every Sunday and zoom meetings on Saturdays(19:00 CET). You are most welcome to join us."
+      "We have physical meeting every Sunday(15:30 CET) and zoom meetings on Saturdays(19:00 CET). You are most welcome to join us."
     ]
   };
   let digitalLocation = {
