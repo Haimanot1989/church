@@ -8,22 +8,25 @@ const {
 
 // Path to the sermons.json file
 const filePath = path.join(__dirname, "../components/data/sermons.json");
+const podFilePath = path.join(__dirname, "../components/data/podcasts.json");
 
 // Load the JSON file
 const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
+const podData = JSON.parse(fs.readFileSync(podFilePath, "utf8"));
 
 // Array of new sermon objects
 const newSermons = [
   {
-    rawTitle: "The Stranger Who Saved the Savior",
-    summary: `This sermon centers on the surprising story of Zipporah in Exodus 4:24–26, arguing that God often chooses the most unexpected people to accomplish His greatest acts of salvation. When God sought to kill Moses because he had neglected the covenant of circumcision, it was Zipporah—a Midianite, a foreigner, and an outsider to Israel's covenant line—who acted decisively. By circumcising her son with a sharp flint stone and shedding covenant blood, she restored Moses' standing before God and preserved the life of the very man chosen to deliver Israel.
-The sermon presents this event as a foreshadowing of Jesus Christ. Just as the sharp stone removed the barrier preventing Moses from fulfilling his calling, Christ's death accomplishes the "circumcision made without hands," removing humanity's sinful nature through His sacrifice. Zipporah's bloody act points forward to Christ, the Bridegroom who purchases His people through His own blood rather than the blood of another.
-A major theme is God's consistent pattern of using outsiders. The sermon highlights the Good Samaritan, Rahab, the Samaritan woman, and ultimately Jesus Himself—rejected by His own people—to demonstrate that God repeatedly brings salvation through those whom society overlooks or despises. This overturns human prejudice and reveals that God's wisdom often contradicts human expectations.
-The sermon concludes by challenging believers to reconsider whom they regard as outsiders or enemies. Just as Zipporah unexpectedly became the instrument that saved Moses, God may use unlikely people to accomplish His purposes today. Ultimately, every unexpected deliverer in Scripture points to Jesus Christ, whose rejection, sacrifice, and shed blood secured salvation for all who believe.
+    rawTitle: "The Hand That Writes in Heaven",
+    summary: `This sermon centers on the sobering reality that God sees, remembers, and records every human life. Scripture repeatedly speaks of heavenly books: a book of remembrance, a book of life, and records by which humanity will ultimately be judged. Nothing—deeds, words, motives, or hidden sins—is concealed from God.
+Daniel 5 illustrates this through King Belshazzar. During a feast, Belshazzar profaned the sacred vessels taken from Jerusalem and praised idols rather than the God who held his very breath. Suddenly, a mysterious hand appeared and wrote upon the palace wall. The sermon emphasizes that the hand was not beginning to record Belshazzar’s life that night; rather, the visible writing revealed a judgment that heaven had already been recording for years. God had patiently given Belshazzar life, prosperity, and opportunities to humble himself, yet he continued in pride.
+This becomes a warning for everyone: God’s silence should never be mistaken for His absence. Every secret thing remains visible before Him, and one day the heavenly books will be opened. Belshazzar’s tragedy was especially serious because he already knew how God had humbled his grandfather Nebuchadnezzar, yet refused to learn from it. 
+Yet the sermon’s message is not merely judgment—it is also redemption. The hand that writes is also the hand that saves. The sermon connects the divine hand that wrote Belshazzar’s judgment with Christ’s hands nailed to the cross. Jesus bore the record of sin and offers forgiveness to those who repent.
+The sermon therefore ends with an urgent question: What is being written in heaven concerning your life? The writing continues, but while there is still time, God calls people to turn to Him and receive mercy and abundant pardon.
 `,
-    imgRef: "https://x.com/mihael_stein/photo",
-    pages: 5,
-    recordedDate: "2026-07-04"
+    imgRef: "https://chatgpt.com/s/m_6ab83c71c6948191ba84764514c7c408",
+    pages: 6,
+    recordedDate: "2026-09-19"
   }
 ];
 
@@ -43,7 +46,14 @@ newSermons.forEach(sermon => {
     recordedDate: sermon.recordedDate
   };
 
+  const newPodEpisodeMetaData = {
+    episodeUrl: "https://player.rss.com/onlyjesus/3106336?theme=dark",
+    sermonUrl: `/sermons/${fileName}.pdf`,
+    title: `#165: ${formattedTitle}`
+  };
+
   data.sermons.unshift(newSermon);
+  podData.episodes.push(newPodEpisodeMetaData);
 
   const tmpDir = path.join(process.env.HOME, "Downloads/tmp_sermons");
   const sermonsDir = path.join(__dirname, "../../public/sermons");
@@ -71,6 +81,7 @@ newSermons.forEach(sermon => {
 
 // Save the updated JSON file
 fs.writeFileSync(filePath, JSON.stringify(data, null, 2), "utf8");
+fs.writeFileSync(podFilePath, JSON.stringify(podData, null, 2), "utf8");
 
 // Run Prettier on the updated JSON file
 exec(`npx prettier --write ${filePath}`, (error, stdout, stderr) => {
