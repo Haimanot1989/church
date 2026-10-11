@@ -7,7 +7,7 @@ import conferences from "./data/conferences.json";
 import Card from "./Card";
 
 const europeBibleStudyOnZoom = onlineMeetings["europeBibleStudyOnZoom"];
-const harvestConference2026 = conferences["harvestConference2026"];
+const newYearConference20262027 = conferences["newYearConference20262027"];
 const Home = function() {
   let pageDescription = {
     title: "Jesus Alone is God Church of Europe"
@@ -21,7 +21,7 @@ const Home = function() {
           <OnlineMeetingCard {...europeBibleStudyOnZoom} />
         </div>
         <div className="card-deck mb-2">
-          <Card {...harvestConference2026} />
+          <Card {...newYearConference20262027} />
         </div>
       </main>
     </>
