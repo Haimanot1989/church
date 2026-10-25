@@ -17,16 +17,17 @@ const podData = JSON.parse(fs.readFileSync(podFilePath, "utf8"));
 // Array of new sermon objects
 const newSermons = [
   {
-    rawTitle: "The Hand That Writes in Heaven",
-    summary: `This sermon centers on the sobering reality that God sees, remembers, and records every human life. Scripture repeatedly speaks of heavenly books: a book of remembrance, a book of life, and records by which humanity will ultimately be judged. Nothing—deeds, words, motives, or hidden sins—is concealed from God.
-Daniel 5 illustrates this through King Belshazzar. During a feast, Belshazzar profaned the sacred vessels taken from Jerusalem and praised idols rather than the God who held his very breath. Suddenly, a mysterious hand appeared and wrote upon the palace wall. The sermon emphasizes that the hand was not beginning to record Belshazzar’s life that night; rather, the visible writing revealed a judgment that heaven had already been recording for years. God had patiently given Belshazzar life, prosperity, and opportunities to humble himself, yet he continued in pride.
-This becomes a warning for everyone: God’s silence should never be mistaken for His absence. Every secret thing remains visible before Him, and one day the heavenly books will be opened. Belshazzar’s tragedy was especially serious because he already knew how God had humbled his grandfather Nebuchadnezzar, yet refused to learn from it. 
-Yet the sermon’s message is not merely judgment—it is also redemption. The hand that writes is also the hand that saves. The sermon connects the divine hand that wrote Belshazzar’s judgment with Christ’s hands nailed to the cross. Jesus bore the record of sin and offers forgiveness to those who repent.
-The sermon therefore ends with an urgent question: What is being written in heaven concerning your life? The writing continues, but while there is still time, God calls people to turn to Him and receive mercy and abundant pardon.
+    rawTitle: "The Learned Secret: Contentment as Holy Defiance",
+    summary: `In Philippians 4:11, Paul declares, “I have learned, in whatsoever state I am, therewith to be content.” Contentment is not something we inherit or achieve through comfortable circumstances; it is a spiritual discipline learned through trusting God. Humanity naturally grasps for more—approval, security, recognition, and possessions—but abundance cannot satisfy a heart consumed by envy and comparison. As Ecclesiastes 5:10 teaches, loving silver never brings lasting satisfaction.
+Paul learned contentment in both abundance and need, hunger and fullness, imprisonment and plenty. The secret is not a formula for controlling circumstances but a Person: Jesus Christ, who strengthens us (Philippians 4:12–13). True contentment comes from His presence, not from possessing everything we desire. As Psalm 23:1 declares, “The LORD is my shepherd; I shall not want.” Our sufficiency rests in our relationship with God, not in our material resources.
+Covetousness challenges God’s wisdom, treating another person’s blessings as evidence of our own lack. Scripture calls it idolatry (Colossians 3:5) and warns that envy produces confusion and evil (James 3:16). Contentment instead cultivates gratitude, trust, and peace. From Adam and Eve’s disobedience to Israel’s wilderness complaints, Scripture reveals the danger of believing God is withholding something good. Jesus reminds us that life is more than possessions and calls us to trust the Father’s provision (Matthew 6:25; Luke 12:15).
+Contentment does not mean abandoning ambition or becoming passive. It means serving God faithfully where He has placed us without envying another’s calling. Godliness with contentment is great gain (1 Timothy 6:6–8), because God promises never to leave nor forsake us (Hebrews 13:5).
+Ultimately, contentment is holy defiance against comparison, worry, and covetousness. It is receiving life as a gift and declaring God our portion. Through daily trust, we learn to unclench our hands, treasure Christ above lesser desires, and worship faithfully in every season.
 `,
-    imgRef: "https://chatgpt.com/s/m_6ab83c71c6948191ba84764514c7c408",
-    pages: 6,
-    recordedDate: "2026-09-19"
+    imgRef:
+      "https://unsplash.com/photos/man-raising-arms-in-a-vibrant-sunflower-field-A20Epqrw-A0",
+    pages: 3,
+    recordedDate: "2026-10-24"
   }
 ];
 
@@ -49,7 +50,7 @@ newSermons.forEach(sermon => {
   const newPodEpisodeMetaData = {
     episodeUrl: "https://player.rss.com/onlyjesus/3106336?theme=dark",
     sermonUrl: `/sermons/${fileName}.pdf`,
-    title: `#165: ${formattedTitle}`
+    title: `#170: ${formattedTitle}`
   };
 
   data.sermons.unshift(newSermon);
